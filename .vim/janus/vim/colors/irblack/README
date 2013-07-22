@@ -1,0 +1,12 @@
+This is the original IR_Black color scheme for Vim that I created long ago. It's been in my dotfiles repo, but it should really be in its own repo.
+
+For more info, see: http://blog.toddwerth.com/entries/8
+
+I've also included my IR_Dark and IR_Blue. I use all 3 depending on the situation.
+
+I also made an IR_Black for OSX Terminal here: http://blog.toddwerth.com/entries/6
+and one for Textmate here (wow, in 2007, crazy): http://blog.toddwerth.com/entries/2
+
+There are many other ports of IR_Black for everything from XCode to Java IDEs etc. Google has tons of them.
+
+Happy coding.

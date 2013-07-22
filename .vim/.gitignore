@@ -1,0 +1,11 @@
+# ViM files
+_backup
+_temp
+.netrwhist
+
+# Vimius file
+.vimius
+
+# Plugins without git-mirror
+watchtower.vim
+mustache.vim

@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=625
+
+This package is simply to help people who want to try out a lot of color schemes.  It is the top 100(ish) rated color schemes on vim.sf.net as of Oct 28th, 2012 that are are not "evil" (binding keys, changing fonts, hiding the damned cursor (!?) ) --  zipped up in a single package.  Every single theme was updated to its newest revision, and converted to unix formatted line endings. 
+
+The menu has been simplified based on feedback to simply three categories.  Dark / Light / Other. 
+
+This package was put together simply to save others time in downloading the color schemes.  If you are a scheme author and for some reason do not want your scheme included, please simply drop me a note.  robert -at- robertmelton.com
+
+Now, the pack comes with an organized GUI menu, but no tool for console users.  I recommend you pick up http://www.vim.org/scripts/script.php?script_id=1488 which is a colorscheme scroller / chooser and browser.  
+
+Now includes the very cool Mimic schemes and menu: http://www.vim.org/scripts/script.php?script_id=2831
+
+Many of these schemes are Gvim only, and do not support consoles well... but there is a plugin to allow Gvim only themes to work in 88/256 color terminals -> http://www.vim.org/scripts/script.php?script_id=2390.
+
+Love it or Hate it -- Rate it.  :)

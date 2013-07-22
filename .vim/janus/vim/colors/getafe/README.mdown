@@ -1,0 +1,20 @@
+Vim Getafe theme
+====================
+
+Description
+-----------
+This colorscheme was inspired by the Molokai color scheme. This is a dark theme for Vim.
+
+Preview
+-------
+
+![Preview](http://i.imgur.com/egLXj.png)
+
+Install details
+---------------
+Copy the colorscheme (getafe.vim) into to the directory: ~/.vim/colors/
+
+
+Credits
+-------
+2012 Lars Smit <larssmit@me.com>

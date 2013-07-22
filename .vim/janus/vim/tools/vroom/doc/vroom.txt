@@ -1,0 +1,192 @@
+*vroom.txt*    Helps you run your Ruby tests
+Author: Mike Skalnik <http://mikeskalnik.com>
+Version: 1.0.2
+
+===============================================================================
+CONTENTS                                                       *vroom-contents*
+
+    Intro ..................................... |vroom-introduction|
+    Interface ................................. |vroom-interface|
+      Commands ................................ |vroom-commands|
+      Key Mappings ............................ |vroom-key-mappings|
+    Customization ............................. |vroom-customization|
+    License ................................... |vroom-license|
+    Changelog ................................. |vroom-changelog|
+
+
+===============================================================================
+INTRO                                                      *vroom-introduction*
+
+Vroom is a plugin for running your Ruby tests, specs, and features. It allows
+you to speed up your development since you don't have to jump around to
+different windows or tabs.
+
+If you're hacking away on your awesome Ruby app, and you open your spec, you
+can easily run the whole file by hitting <Leader>r, or nearest test with
+<Leader>R. This is then remembered, so if you switch back to your code, you
+can then hit <Leader>r again and that last test will be run.
+
+===============================================================================
+INTERFACE                                                     *vroom-interface*
+
+-------------------------------------------------------------------------------
+COMMANDS                                                       *vroom-commands*
+
+:VroomRunTestFile                                            *VroomRunTestFile*
+                        Runs the current file if it is a test. Otherwise, run
+                        the last test file that was run.
+
+:VroomRunNearestTest                                      *VroomRunNearestTest*
+                        Runs the nearest test in the current file if it's a
+                        test. Otherwise, runs the last test that was run.
+
+                        NOTICE:
+                        Both of these commands can take pass a dictionary of
+                        arguments to this function.  The two recognized keys
+                        are 'runner' and 'options'.  Use 'runner' to specify the
+                        full command for an alternate runner.  Use 'options' for
+                        any command line switches you want to add.
+                        Examples:
+                        :call vroom#RunTestFile({'runner':'spin serve'})
+                        " calls `spin serve file-to-be-tested`
+                        :call vroom#RunTestFile({'options':'--drb'}) "
+                        " if called with rspec, calls
+                        " `bundle exec rspec --drb file-to-be-tested`
+                        " (for if you are using Spork)
+
+-------------------------------------------------------------------------------
+KEY MAPPINGS                                               *vroom-key-mappings*
+
+By default vroom maps <Leader>r to |VroomRunTestFile| and <Leader>R to
+|VroomRunNearestTest|. This can be turned off by simply putting `let
+g:vroom_map_keys = 0` in your vimrc.
+
+===============================================================================
+CUSTOMIZATION                                             *vroom-customization*
+
+g:vroom_use_colors                                           *vroom_use_colors*
+                        Run tests with or without colors
+                        Default: 0 if GUI is running, 1 otherwise
+
+g:vroom_map_keys                                               *vroom_map_keys*
+                        Map default keys to run tests
+                        Default: 1
+
+g:vroom_clear_screen                                       *vroom_clear_screen*
+                        Clear the screen before running tests
+                        Default: 1
+
+g:vroom_write_all                                             *vroom_write_all*
+                        Write all file before running tests
+                        Default: 0 (write the current file)
+
+g:vroom_cucumber_path                                     *vroom_cucumber_path*
+                        If set, the path for the executable
+                        used for *.feature files.
+                        Default: './script/cucumber '
+
+g:vroom_detect_spec_helper                           *vroom_detect_spec_helper*
+                        Only run `bundle exec` if first line of the spec file
+                        requires 'spec_helper'
+                        Default: 0
+
+g:vroom_use_vimux                                             *vroom_use_vimux*
+                        Run tests using the vimux plugin
+
+g:vroom_use_spring                                           *vroom_use_spring*
+                        This lets you specify to use spring.
+                        Default: 0
+
+g:vroom_use_dispatch                                       *vroom_use_dispatch*
+                        Run tests using the dispatch plugin
+                        Default: 0
+
+g:vroom_use_bundle_exec                                 *vroom_use_bundle_exec*
+                        When appropriate (see |vroom_detect_spec_helper|) use
+                        `bundle exec` before test runner command.  If set to
+                        0, `bundle exec` is never used.
+                        Default: 1
+
+g:vroom_use_binstubs                                       *vroom_use_binstubs*
+                        If set to 1, lets Vroom know you are using binstubs.
+                        This means (a) the call to your test runner will be
+                        prefixed with your binstubs directory (see
+                        |vroom_binstubs_path|), and (b) `bundle exec` will
+                        never be called (see |vroom_use_bundle_exec|).
+                        Default: 0
+
+g:vroom_binstubs_path                                     *vroom_binstubs_path*
+                        If using binstubs, the directory where your binstubs
+                        are installed.  The forward slash gets added
+                        automatically and should not be included.
+                        Default: './bin'
+
+g:vroom_spec_command                                       *vroom_spec_command*
+                        This lets you specify the command that runs your
+                        specs, e.g. for rspec 1.x, you can use 'spec '.
+                        Default: 'rspec '
+
+g:vroom_test_unit_command                             *vroom_test_unit_command*
+                        This lets you specify the command that runs your
+                        tests, e.g. you can use 'm ' or 'testrbl '.
+                        Default: 'ruby -Itest '
+
+g:vroom_rspec_version                                     *vroom_rspec_version*
+                        This lets you specify the rspec version. It's used
+                        to choose rspec version-specific command line args
+                        (e.g. color). Use "1.x" or "2.x".
+                        Default: '2.x'
+
+g:vroom_use_zeus                                      *vroom_use_zeus*
+                        This lets you specify to use zeus instead of bundler,
+                        if zeus is not running, it will fallback to using
+                        bundler.
+                        Default: 1
+
+===============================================================================
+LICENSE                                                         *vroom-license*
+
+Copyright (c) 2012 Mike Skalnik
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+CHANGELOG                                                     *vroom-changelog*
+
+1.0.3                                                    *vroom-changelog-1.0.3*
+      * Support for vimux (run tests in tmux shell)
+
+1.0.2                                                    *vroom-changelog-1.0.2*
+      * Support configuration of cucumber runner
+      * Can skip `bundle exec` if not requiring 'spec_helper'
+
+1.0.1                                                    *vroom-changelog-1.0.1*
+      * Support for writing all files before running tests (off by default)
+      * Clears screen before running tests (on by default)
+      * Scopes test remembered to the current tab, instead of that instance of
+        Vim
+      * Colors now default to on in terminal, off in gvim
+      * Suppress error if existing maps exist
+      * Fix test unit bug with colors
+
+1.0.0                                                    *vroom-changelog-1.0.0*
+      * Initial Release
+
+==============================================================================
+vim:tw=79:ft=help:norl:fen:fdl=0:fdm=marker:
