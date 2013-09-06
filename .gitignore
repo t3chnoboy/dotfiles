@@ -1,0 +1,4 @@
+.config/ranger/history
+.vim/backups
+.vim/bundle
+.config/fish/fish_history
