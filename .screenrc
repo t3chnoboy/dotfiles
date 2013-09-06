@@ -8,5 +8,15 @@ autodetach on
 shell -$SHELL
 
 #status line
-hardstatus alwayslastline
-hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W}%c %{g}]'
+#hardstatus alwayslastline "%{= d}%{r}screen%{k}%H %{r}>> %{k}${USER}%{k}@%{k}%H: %L>%1`%? %?%{.g}%u%? %-18=%?%{m} %{k}%-=%{k}%-w%{r}%n %t%{k}%+w %{k}|%C"
+#utf8 on
+term screen-256color
+terminfo rxvt-256color 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defscrollback 1000
+#
+#
+defutf8 on
+utf8 on on
+#term "screen-256color"
+#caption always "%{kY} %n%f* %t %?%{YR}⮀%{kR} %u %{Rb}%:%{Yb}%?%?%F%{.b}⮀%:%{.w}⮀%?%="
+#hardstatus alwayslastline "%{bk} %S %{kb}⮀ $LOGNAME %{bk}⮀ %H %?%{kb}⮀%{kY} %-Lw%{Yk}⮀%:%{Yb}⮀%{Yk}%?%{Yk} %n%f* %t %{kY}⮀%+Lw %-="
