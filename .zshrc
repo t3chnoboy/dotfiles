@@ -40,15 +40,22 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rails4 battery brew colored-man colorize github heroku ruby rvm sublime emoji-clock gem node osx python web-search zsh-syntax-highlighting git-extras npm screen tmux)
+plugins=(git rails3 battery brew colored-man colorize github heroku ruby sublime emoji-clock gem node rvm osx python web-search git-extras npm screen tmux pip autojump )
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/mysql/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Users/macuser/.rvm/bin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/heroku/bin:/usr/local/mysql/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Users/macuser/.rvm/bin
+
+#RVM
+source ~/.rvm/scripts/rvm
 
 #powerline
 . /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 #zsh-syntax-highlighting
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets root cursor)
+
+#zsh completions
+fpath=(/usr/local/share/zsh-completions $fpath)
