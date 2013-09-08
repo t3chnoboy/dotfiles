@@ -60,7 +60,7 @@ Bundle "scrooloose/nerdcommenter"
 "Bundle "vim-scripts/camelcasemotion.git"
 "Bundle "vim-scripts/matchit.zip.git"
 Bundle "ervandew/supertab"
-Bundle "align"
+" Bundle "align"
 
 " General vim improvements
 Bundle "MarcWeber/vim-addon-mw-utils.git"
@@ -89,7 +89,7 @@ Bundle "vim-scripts/AutoTag.git"
 "Bundle "vim-scripts/argtextobj.vim"
 
 " Cosmetics, color scheme, Powerline...
-"Bundle "bling/vim-airline.git"
+Bundle "bling/vim-airline.git"
 "Bundle "vim-scripts/TagHighlight.git"
 Bundle "altercation/vim-colors-solarized"
 Bundle "ScrollColors"
