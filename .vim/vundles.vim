@@ -47,7 +47,7 @@ Bundle "tpope/vim-git"
 
 " General text editing improvements...
 Bundle "Raimondi/delimitMate"
-"Bundle "Shougo/neocomplcache.git"
+" Bundle "Shougo/neocomplcache.git"
 Bundle "garbas/vim-snipmate.git"
 Bundle "godlygeek/tabular"
 Bundle "honza/vim-snippets"
