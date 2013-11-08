@@ -59,3 +59,6 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets root cursor)
 
 #zsh completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+#Z
+. `brew --prefix`/etc/profile.d/z.sh

@@ -2,3 +2,4 @@
 .vim/backups
 .vim/bundle
 .config/fish/fish_history
+.DS_Store
