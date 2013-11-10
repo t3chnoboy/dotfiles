@@ -1,2 +1,0 @@
-"use strict";(function(){var a=devhd.pkg("pages");a.WelcomePage=function(){};var b=a.WelcomePage.prototype=new a.BasePage();b.allowsSideArea=function(){return false};b.allowsPageHeader=function(){return false};b.service=function(d,c){this.pageInfo=d;this.width=c.width;this.initBase(c);this.startRenderHTML()};b.destroy=function(){this.destroyBase()};
-b.startRenderHTML=function(){this.feedly.setPageTitle("welcome to feedly");this.pageElem.innerHTML=templates.page.welcome.layout(this.home.getUserId()!=null)}})();

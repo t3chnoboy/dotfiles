@@ -3,3 +3,6 @@
 .vim/bundle
 .config/fish/fish_history
 .DS_Store
+.config/chromium/
+.config/chrome/
+.config/google-chrome/

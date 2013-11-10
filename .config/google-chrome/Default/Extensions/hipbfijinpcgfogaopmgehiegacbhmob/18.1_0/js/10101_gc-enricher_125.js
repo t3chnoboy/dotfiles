@@ -1,2 +1,0 @@
-"use strict";function $feedly(a){window.console.log(a)}document.body.setAttribute("data-enricher","yes");document.body.addEventListener("feedlyEnrichmentRequest",askEnrich,false);function createCustomEvent(b,c){var a=document.createEvent("CustomEvent");a.initCustomEvent(b,false,false,c);return a}function askEnrich(a){chrome.runtime.sendMessage(a.detail,function(b){var c=createCustomEvent("feedlyEnrichmentResponse",b);
-document.body.dispatchEvent(c)})};

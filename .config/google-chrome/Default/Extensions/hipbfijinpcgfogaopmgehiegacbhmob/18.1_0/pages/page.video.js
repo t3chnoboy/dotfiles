@@ -1,3 +1,0 @@
-"use strict";(function(){var a=devhd.pkg("pages");var c=devhd.i18n.L;var b=devhd.log.get("page.video");a.VideoPage=function(e){this.guid=e};var d=a.VideoPage.prototype=new a.BasePage();d.service=function(f,e){this.pageInfo=f;this.width=e.width;this.title="Video";this.initBase(e);this.startRenderHTML()};d.destroy=function(){this.destroyBase()};d.allowsSideArea=function(){return false
-};d.allowsPageHeader=function(){return true};d.startRenderHTML=function(){try{this.feedly.setNbrPages(1);this.feedly.pushContext({uri:this.pageInfo.uri,pageNumber:0,title:this.title,level:0});this.feedly.setPageTitle("Video")}catch(f){b.error(79,"render cover page ",f);var g=devhd.utils.ExceptionUtils.formatError("render cover page",f);this.pageElem.innerHTML=g
-}}})();

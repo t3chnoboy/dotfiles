@@ -1,1 +1,0 @@
-"use strict";var feedlyMajorVersion="17.0";var feedlyApplicationVersion="17.0.607";var feedlyBuildNumber="125";var feedlyEnjoyed="enjoyed.10.x";

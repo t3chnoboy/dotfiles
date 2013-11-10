@@ -1,1 +1,0 @@
-jQuery(document).ready(function(){setPageCooserEvents()});function setPageCooserEvents(){$(".chooser").click(function(){var a=$(this).attr("id");if($(this).hasClass("selected")){return}ls.set("option_panel",a);location.href="/options_pages/"+$(this).attr("id")+".html"})};

@@ -1,2 +1,0 @@
-"use strict";(function(){var a=devhd.pkg("pages");var c=devhd.i18n.L;var b=devhd.log.get("page.empty");a.EmptyPage=function(){};var d=a.EmptyPage.prototype=new a.BasePage();d.service=function(f,e){this.pageInfo=f;this.startRenderHTML()};d.destroy=function(){this.destroyBase()};d.allowsSideArea=function(e){return false};d.isLayoutAware=function(){return false
-};d.startRenderHTML=function(){if(this.pageInfo.counts.latest==0){this.pageElem.innerHTML=templates.page.empty.layout(this.home)}else{this.feedly.loadDefaultPage()}}})();
