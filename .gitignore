@@ -6,3 +6,4 @@
 .config/chromium/
 .config/chrome/
 .config/google-chrome/
+.config/dconf/
