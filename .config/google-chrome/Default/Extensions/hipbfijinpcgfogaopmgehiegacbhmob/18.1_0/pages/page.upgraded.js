@@ -1,0 +1,2 @@
+"use strict";(function(){var a=devhd.pkg("pages");a.UpgradedPage=function(){};var b=a.UpgradedPage.prototype=new a.BasePage();b.allowsSideArea=function(){return false};b.allowsPageHeader=function(){return false};b.service=function(d,c){this.pageInfo=d;this.width=c.width;this.initBase(c);if(this.home.isProPlan()==false){this.feedly.redirect("pro");return
+}this.startRenderHTML()};b.destroy=function(){this.destroyBase()};b.startRenderHTML=function(){this.feedly.setPageTitle("feedly Pro");this.pageElem.innerHTML=templates.page.upgraded.layout(this.home.getUserId())}})();

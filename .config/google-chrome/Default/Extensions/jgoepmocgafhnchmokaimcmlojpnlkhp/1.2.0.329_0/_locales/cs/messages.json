@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EDali\u003C/a\u003E jste +1 t\u00E9to str\u00E1nce."
+   },
+   "add_plusone_tooltip": {
+      "message": "D\u00E1t t\u00E9to str\u00E1nce +1 jako {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Z\u00E1klady"
+   },
+   "browser_usage_warning": {
+      "message": "Pokud tuto mo\u017Enost zapnete, budete sd\u00EDlet informace o pou\u017E\u00EDv\u00E1n\u00ED prohl\u00ED\u017Ee\u010De se spole\u010Dnost\u00ED Google."
+   },
+   "cannot_plusone_message": {
+      "message": "T\u00E9to str\u00E1nce nelze d\u00E1t +1."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "T\u00E9to str\u00E1nce nelze d\u00E1t +1"
+   },
+   "counts_group_name": {
+      "message": "Po\u010Dty"
+   },
+   "error_message": {
+      "message": "Do\u0161lo k chyb\u011B."
+   },
+   "error_tooltip": {
+      "message": "Do\u0161lo k chyb\u011B"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. V\u0161echna pr\u00E1va vyhrazena."
+   },
+   "extension_description": {
+      "message": "D\u00E1vejte webov\u00FDm str\u00E1nk\u00E1m +1, a\u0165 jste kdekoliv na webu."
+   },
+   "extension_name": {
+      "message": "Tla\u010D\u00EDtko Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "Tla\u010D\u00EDtko +1"
+   },
+   "loading": {
+      "message": "Na\u010D\u00EDt\u00E1n\u00ED..."
+   },
+   "options_header": {
+      "message": "Mo\u017Enosti"
+   },
+   "options_title": {
+      "message": "Mo\u017Enosti"
+   },
+   "privacy_and_terms": {
+      "message": "Ochrana soukrom\u00ED a smluvn\u00ED podm\u00EDnky"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EVa\u0161e\u003C/a\u003E +1 bylo odebr\u00E1no."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Odebrat t\u00E9to str\u00E1nce +1"
+   },
+   "send_usage_statistics": {
+      "message": "Automaticky Googlu odes\u00EDlat anonymn\u00ED statistiky vyu\u017Eit\u00ED"
+   },
+   "show_plusone_counts": {
+      "message": "Zobrazit po\u010Dty +1"
+   },
+   "sign_in_message": {
+      "message": "Po p\u0159ihl\u00E1\u0161en\u00ED m\u016F\u017Eete t\u00E9to str\u00E1nce d\u00E1t +1."
+   },
+   "sign_in_tooltip": {
+      "message": "Chcete-li pou\u017E\u00EDvat slu\u017Ebu Google +1, p\u0159ihlaste se."
+   },
+   "sign_up_message": {
+      "message": "Chcete-li pou\u017E\u00EDvat slu\u017Ebu Google +1, zaregistrujte se."
+   },
+   "sign_up_tooltip": {
+      "message": "Zaregistrujte se do slu\u017Eby Google +1"
+   }
+}

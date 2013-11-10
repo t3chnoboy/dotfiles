@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.evernote.com/Home.action"
+      },
+      "urls": [ "http://www.evernote.com/", "https://www.evernote.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "icons": {
+      "128": "images/en_app_icon-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqC8qyVauc5aLhtq2HTBCS0QZmYm11pqxGuSiW0TZXCI45sDDeLd/2uZxkb8fHrx3HNtFdWJut0kWENEV9CciLByb70tX59jLd5JYz6LQeMuG3wrMQa1a/iO/tp9za2Vzzsl2ek4P6kRy4ZXPo2RWRVBnVn6Bt0pB+Flt8z9wHnwIDAQAB",
+   "name": "__MSG_extensionName__",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.7"
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/popup.css" />
+   <style type="text/css">
+   html, body { margin: 0; padding: 0; width: 100%; overflow: hidden; min-height: 120px; }
+   .border, .rounded { border: 0; }
+   .indicator { border-radius: 0; border: none; }
+   .address {
+      background-image: -webkit-gradient(linear,
+          left bottom,
+          left top,
+          color-stop(0.1, #79B),
+          color-stop(0.8, #7090B0)
+      );
+   }
+   .address div {
+      width: 100%;
+      text-align: center;
+   }
+   .address div a {
+      color: White;
+      font-weight: bold;
+      font-size: 100%;
+   }
+   .hiddenSummaryActions {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      float: right;
+   }
+   .summary {
+      opacity: 1;
+   }
+
+   a { cursor: pointer; }
+</style>
+   <script type="text/javascript" src="/lib/vendor/au.min.js"></script>
+   <script type="text/javascript" src="/lib/vendor/jquery-1.8.1.min.js"></script>
+   <script type="text/javascript" src="/lib/vendor/date.js"></script>
+   <script type="text/javascript" src="/lib/locale/i18n.js"></script>
+   <script type="text/javascript" src="/lib/mailaccount.js"></script>
+   <script type="text/javascript" src="/lib/notify.js"></script>
+   <script type="text/javascript" src="/lib/templates/notify.js"></script>
+</head>
+<body id="body"></body>
+</html>

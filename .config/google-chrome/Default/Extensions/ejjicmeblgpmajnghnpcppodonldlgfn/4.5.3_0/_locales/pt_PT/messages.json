@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Com o calend\u00E1rio on-line gratuito da Google, \u00E9 f\u00E1cil estar a par dos eventos importantes da vida, tudo num \u00FAnico lugar."
+   },
+   "app_name": {
+      "message": "Calend\u00E1rio Google"
+   },
+   "description_extended": {
+      "message": "Organizar a sua agenda n\u00E3o deveria ser um sacrif\u00EDcio. Com o Calend\u00E1rio Google, \u00E9 f\u00E1cil manter-se a par de todos os eventos importantes da vida, tudo num \u00FAnico lugar."
+   },
+   "description_reason_1": {
+      "message": "1. Partilhe a sua agenda"
+   },
+   "description_reason_2": {
+      "message": "2. Aceda ao seu calend\u00E1rio em viagem"
+   },
+   "description_reason_3": {
+      "message": "3. Nunca mais se esque\u00E7a de eventos"
+   },
+   "description_reason_4": {
+      "message": "4. Envie convites e monitorize RSVP"
+   },
+   "description_reason_5": {
+      "message": "5. Sincronize com aplica\u00E7\u00F5es do seu computador"
+   },
+   "description_reason_6": {
+      "message": "6. Trabalhe off-line"
+   },
+   "description_reason_7": {
+      "message": "7. \u00C9 tudo gratuito?"
+   },
+   "description_reason_content_1": {
+      "message": "Permita que os seus colegas de trabalho, fam\u00EDlia e amigos vejam a sua agenda e veja as agendas que outras pessoas partilharam consigo. Quando sabemos a disponibilidade das pessoas, \u00E9 muito mais f\u00E1cil agendar eventos."
+   },
+   "description_reason_content_2": {
+      "message": "Com a sincroniza\u00E7\u00E3o bilateral para o calend\u00E1rio incorporado do seu telefone ou com a vers\u00E3o para telem\u00F3vel do Calend\u00E1rio Google concebida para ecr\u00E3s pequenos, poder\u00E1 aceder ao seu calend\u00E1rio quando n\u00E3o est\u00E1 \u00E0 secret\u00E1ria."
+   },
+   "description_reason_content_3": {
+      "message": "Os lembretes personaliz\u00E1veis ajudam-no a cumprir o que tem agendado. Pode escolher ser notificado por e-mail ou por uma mensagem de texto enviada para o seu telem\u00F3vel."
+   },
+   "description_reason_content_4": {
+      "message": "Convide pessoas para eventos no seu calend\u00E1rio. Os convidados poder\u00E3o responder por e-mail ou atrav\u00E9s do Calend\u00E1rio Google."
+   },
+   "description_reason_content_5": {
+      "message": "Aceda ao seu calend\u00E1rio sempre e onde quiser ao sincronizar eventos com outras aplica\u00E7\u00F5es, como o Microsoft Outlook, o Apple iCal e o Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Saiba onde deveria estar mesmo se n\u00E3o tiver acesso \u00E0 internet. Com o acesso off-line, pode ver uma vers\u00E3o s\u00F3 de leitura do seu calend\u00E1rio independentemente de onde estiver "
+   },
+   "description_reason_content_7": {
+      "message": "Sim!"
+   },
+   "description_reasons": {
+      "message": "Sete motivos para utilizar o Calend\u00E1rio Google..."
+   }
+}

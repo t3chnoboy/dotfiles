@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "Tapahtui virhe."
+   },
+   "error_tooltip": {
+      "message": "Tapahtui virhe"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Kaikki oikeudet pid\u00E4tet\u00E4\u00E4n."
+   },
+   "extension_description": {
+      "message": "Kun olet kirjautuneena sis\u00E4\u00E4n, n\u00E4et ilmoituksia Google+ -tapahtumista mill\u00E4 tahansa verkkosivulla."
+   },
+   "extension_name": {
+      "message": "Google+ -ilmoitukset"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "$1+ -ilmoitukset",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "Ota k\u00E4ytt\u00F6\u00F6n Google+ -sivun ilmoitukset"
+   },
+   "follow_promo_feature_1": {
+      "message": "Kun k\u00E4yt Google+ -sivuun yhdistetyss\u00E4 sivustossa, n\u00E4et selainikkunan reunassa liukus\u00E4\u00E4timen. Viem\u00E4ll\u00E4 hiiren liukus\u00E4\u00E4timen p\u00E4\u00E4lle voit laajentaa sen ja lis\u00E4t\u00E4 sivun piireihisi."
+   },
+   "follow_promo_feature_2": {
+      "message": "Selaimen ilmoituspainikkeessa n\u00E4kyy +, joka osoittaa, ett\u00E4 tarkastelet Google+ -sivuun yhdistetty\u00E4 sivustoa. Jos klikkaat painiketta, n\u00E4et ilmoitukset tavalliseen tapaan, mutta n\u00E4et my\u00F6s sivustoon yhdistetyn Google+ -sivun tiedot ja voit lis\u00E4t\u00E4 sivun piireihisi."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "Paranna Google+ -streamiasi lis\u00E4\u00E4m\u00E4ll\u00E4 piireihisi sinua kiinnostavia Google+ -sivuja:"
+   },
+   "follow_promo_following_description": {
+      "message": "Kun lis\u00E4\u00E4t Google+ -sivun piireihisi, kaikki kyseisen sivun viestit n\u00E4kyv\u00E4t streamissasi."
+   },
+   "follow_promo_header": {
+      "message": "L\u00F6yd\u00E4 Google+ -sivuja verkkoa selatessasi"
+   },
+   "join_google_plus_message": {
+      "message": "Liity Google+:aan, niin n\u00E4et ilmoitukset."
+   },
+   "join_google_plus_tooltip": {
+      "message": "Liity Google+:aan, niin n\u00E4et ilmoitukset"
+   },
+   "loading": {
+      "message": "Ladataan..."
+   },
+   "many_new_notifications": {
+      "message": "Sinulle on $1 uutta ilmoitusta",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "Uutta!"
+   },
+   "no_new_notifications": {
+      "message": "Sinulle ei ole uusia ilmoituksia"
+   },
+   "not_now": {
+      "message": "Ei nyt"
+   },
+   "one_new_notification": {
+      "message": "Sinulle on 1 uusi ilmoitus"
+   },
+   "options_header": {
+      "message": "Asetukset"
+   },
+   "options_title": {
+      "message": "Asetukset"
+   },
+   "privacy_and_terms": {
+      "message": "Tietosuoja ja k\u00E4ytt\u00F6ehdot"
+   },
+   "promo_link": {
+      "message": "Lis\u00E4tietoja &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003EUutta!\u003C/span\u003E L\u00F6yd\u00E4 Google+ -sivuja verkkoa selatessasi"
+   },
+   "retry_now": {
+      "message": "Yrit\u00E4 uudelleen nyt."
+   },
+   "retrying_in": {
+      "message": "Yritet\u00E4\u00E4n uudelleen $1 sekunnin kuluttua.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "L\u00E4het\u00E4 Googlelle anonyymej\u00E4 k\u00E4ytt\u00F6tilastoja automaattisesti."
+   },
+   "sign_in_message": {
+      "message": "Kirjaudu sis\u00E4\u00E4n, niin n\u00E4et ilmoitukset."
+   },
+   "sign_in_tooltip": {
+      "message": "Kirjaudu sis\u00E4\u00E4n, niin n\u00E4et ilmoitukset"
+   },
+   "use_plus_follow_header": {
+      "message": "Ilmoita vierailemiini sivustoihin liittyvist\u00E4 Google+ -k\u00E4ytt\u00E4jist\u00E4 ja -sivuista (vaatii lis\u00E4\u00E4 k\u00E4ytt\u00F6lupia)"
+   },
+   "use_plus_follow_note": {
+      "message": "Vierailemiesi sivustojen URL-osoitteet l\u00E4hetet\u00E4\u00E4n Googlelle, ja niiden avulla tunnistetaan kyseisiin URL-osoitteisiin yhdistetyt Google+ -profiilit ja -sivut."
+   },
+   "yada_yada": {
+      "message": "T\u00E4m\u00E4 ei ole mit\u00E4\u00E4n tavallista liipalaapaa:"
+   }
+}

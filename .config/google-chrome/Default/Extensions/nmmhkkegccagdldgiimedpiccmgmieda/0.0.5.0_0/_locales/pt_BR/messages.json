@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Carteira virtual do Google para bens digitais"
+   },
+   "app_name": {
+      "message": "Google Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "Aplicativo indispon\u00EDvel no momento."
+   },
+   "craw_connect_to_network": {
+      "message": "Conecte-se a uma rede."
+   },
+   "iap_unavailable": {
+      "message": "No momento, os Pagamentos no aplicativo n\u00E3o est\u00E3o dispon\u00EDveis."
+   },
+   "please_sign_in": {
+      "message": "Fa\u00E7a login no Google Chrome."
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "Hi\u1EC3n th\u1ECB s\u1ED1 th\u01B0 ch\u01B0a \u0111\u1ECDc trong h\u1ED9p th\u01B0 \u0111\u1EBFn Gmail c\u1EE7a b\u1EA1n. B\u1EA1n c\u0169ng c\u00F3 th\u1EC3 nh\u1EA5p v\u00E0o n\u00FAt \u0111\u1EC3 m\u1EDF h\u1ED9p th\u01B0 \u0111\u1EBFn c\u1EE7a m\u00ECnh."
+   },
+   "gmailcheck_exception": {
+      "message": "ngo\u1EA1i l\u1EC7: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Tr\u00ECnh Ki\u1EC3m tra Th\u01B0 c\u1EE7a Google"
+   },
+   "gmailcheck_node_error": {
+      "message": "L\u1ED7i: ngu\u1ED3n c\u1EA5p d\u1EEF li\u1EC7u \u0111\u00E3 \u0111\u01B0\u1EE3c truy xu\u1EA5t nh\u01B0ng kh\u00F4ng t\u00ECm th\u1EA5y n\u00FAt &lt;fullcount&gt; n\u00E0o"
+   }
+}

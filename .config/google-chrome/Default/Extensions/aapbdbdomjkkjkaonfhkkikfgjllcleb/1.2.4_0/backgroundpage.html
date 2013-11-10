@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="injection.js"></script>
+    <!-- source for debugging will not be in released package -->
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+    <!-- compiled files -->
+    <script src="main_compiled.js"></script>
+    <script>
+      chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+        if (changeInfo.status == 'complete') {
+          translate.getTranslateManager().attach(tabId, tab, 'page_load');
+        }
+      });
+
+      chrome.tabs.onRemoved.addListener(function(tabId) {
+        translate.getTranslateManager().detach(tabId);
+      });
+
+      chrome.browserAction.onClicked.addListener(function(tab) {
+        translate.getTranslateManager().attach(tab.id, tab, 'user_click');
+      });
+
+      chrome.extension.onRequest.addListener(function(request) {
+        if (request.disabledLang) {
+          translate.getUserOptions().disabledLangs().add(request.disabledLang);
+        }
+      });
+    </script>
+  </head>
+  <body></body>
+</html>

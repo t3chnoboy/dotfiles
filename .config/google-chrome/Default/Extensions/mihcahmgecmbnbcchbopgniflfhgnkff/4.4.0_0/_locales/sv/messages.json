@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "Visar hur m\u00E5nga ol\u00E4sta meddelanden du har i inkorgen i Google Mail. Du kan ocks\u00E5 klicka p\u00E5 knappen om du vill \u00F6ppna inkorgen."
+   },
+   "gmailcheck_exception": {
+      "message": "undantag: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Google Mail Checker"
+   },
+   "gmailcheck_node_error": {
+      "message": "Fel: feeden h\u00E4mtades, men ingen &lt;fullcount&gt;-nod hittades"
+   }
+}

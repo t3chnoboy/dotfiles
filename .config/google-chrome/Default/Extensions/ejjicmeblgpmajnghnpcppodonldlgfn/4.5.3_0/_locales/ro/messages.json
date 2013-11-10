@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Utiliz\u00E2nd calendarul online gratuit oferit de Google, este u\u015For s\u0103 \u0163ine\u0163i pasul cu evenimentele importante din via\u0163a dvs., p\u0103str\u00E2ndu-le pe toate \u00EEntr-un singur loc."
+   },
+   "app_name": {
+      "message": "Google Calendar"
+   },
+   "description_extended": {
+      "message": "Organizarea programului dvs. nu trebuie s\u0103 fie o povar\u0103. Utiliz\u00E2nd Google Calendar este u\u015For s\u0103 \u0163ine\u0163i pasul cu evenimentele importante din via\u0163a dvs., p\u0103str\u00E2ndu-le pe toate \u00EEntr-un singur loc."
+   },
+   "description_reason_1": {
+      "message": "1. Permite\u0163i celorlal\u0163i accesul la programul dvs."
+   },
+   "description_reason_2": {
+      "message": "2. Ob\u0163ine\u0163i din mers informa\u0163iile din calendar"
+   },
+   "description_reason_3": {
+      "message": "3. Nu mai uita\u0163i niciodat\u0103 vreun eveniment"
+   },
+   "description_reason_4": {
+      "message": "4. Trimite\u0163i invita\u0163ii \u015Fi urm\u0103ri\u0163i r\u0103spunsurile primite"
+   },
+   "description_reason_5": {
+      "message": "5. Sincroniza\u0163i aplica\u0163iile pentru desktop"
+   },
+   "description_reason_6": {
+      "message": "6. Lucra\u0163i offline"
+   },
+   "description_reason_7": {
+      "message": "7. \u015Ei toate acestea sunt gratuite?"
+   },
+   "description_reason_content_1": {
+      "message": "Permite\u0163i colegilor de serviciu, membrilor familiei \u015Fi prietenilor s\u0103 vad\u0103 evenimentele din calendar \u015Fi afi\u015Fa\u0163i program\u0103rile la care ceilal\u0163i v-au permis accesul. Atunci c\u00E2nd cunoa\u015Fte\u0163i momentele \u00EEn care ceilal\u0163i sunt liberi sau ocupa\u0163i, pute\u0163i efectua rapid \u015Fi u\u015For programarea propriilor evenimente."
+   },
+   "description_reason_content_2": {
+      "message": "Utiliz\u00E2nd sincronizarea \u00EEn ambele sensuri pe calendarul \u00EEncorporat al telefonului mobil sau \u00EEn versiunea mobil\u0103 a Google Calendar, realizat\u0103 pentru ecrane mici, pute\u0163i accesa calendarul propriu \u015Fi atunci c\u00E2nd nu sunte\u0163i la birou."
+   },
+   "description_reason_content_3": {
+      "message": "Mementourile personalizabile v\u0103 ajut\u0103 s\u0103 r\u0103m\u00E2ne\u0163i la curent cu planificarea. Pute\u0163i alege s\u0103 primi\u0163i notific\u0103ri pe e-mail sau prin mesaje text trimise direct pe telefonul mobil."
+   },
+   "description_reason_content_4": {
+      "message": "Invita\u0163i alte persoane s\u0103 participe la evenimentele din propriul dvs. calendar. Invita\u0163ii \u00EE\u015Fi pot confirma prezen\u0163a la evenimente prin e-mail sau direct \u00EEn Google Calendar."
+   },
+   "description_reason_content_5": {
+      "message": "Accesa\u0163i calendarul oricum \u015Fi oric\u00E2nd dori\u0163i, sincroniz\u00E2nd evenimentele programate cu alte aplica\u0163ii, cum ar fi Microsoft Outlook, Apple iCal \u015Fi Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "R\u0103m\u00E2ne\u0163i la curent cu evenimentele la care trebuie s\u0103 participa\u0163i, chiar dac\u0103 nu ave\u0163i acces la internet. Beneficiind de acces offline, pute\u0163i vedea o versiune numai citire a calendarului dvs. din orice loc v-a\u0163i afla."
+   },
+   "description_reason_content_7": {
+      "message": "Exact."
+   },
+   "description_reasons": {
+      "message": "7 motive pentru a utiliza Google Calendar..."
+   }
+}

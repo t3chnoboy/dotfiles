@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "\u5728 Google Mail \u6536\u4EF6\u5323\u4E2D\u986F\u793A\u672A\u8B80\u90F5\u4EF6\u7684\u6578\u76EE\u3002\u6309\u4E00\u4E0B\u6309\u9215\u4E5F\u53EF\u4EE5\u958B\u555F\u6536\u4EF6\u5323\u3002"
+   },
+   "gmailcheck_exception": {
+      "message": "\u4F8B\u5916\u72C0\u6CC1\uFF1A$1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Google Mail Checker"
+   },
+   "gmailcheck_node_error": {
+      "message": "\u932F\u8AA4\uFF1A\u64F7\u53D6\u5230\u8CC7\u8A0A\u63D0\u4F9B\uFF0C\u4F46\u627E\u4E0D\u5230 &lt;fullcount&gt; \u7BC0\u9EDE"
+   }
+}

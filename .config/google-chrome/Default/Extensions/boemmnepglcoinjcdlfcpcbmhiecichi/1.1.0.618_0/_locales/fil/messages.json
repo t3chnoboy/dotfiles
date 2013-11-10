@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "May naganap na error."
+   },
+   "error_tooltip": {
+      "message": "May naganap na error"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Nakalaan ang Lahat ng Karapatan."
+   },
+   "extension_description": {
+      "message": "Tingnan ang mga notification ng aktibidad sa Google+ kapag naka-sign in, saan ka man pumunta sa web."
+   },
+   "extension_name": {
+      "message": "Mga Notification ng Google+"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "Mga Notification sa $1+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "I-activate ang mga notification ng pahina sa Google+"
+   },
+   "follow_promo_feature_1": {
+      "message": "Kapag binisita mo ang isang site na nakakonekta sa isang pahina sa Google+, may lilitaw na slider sa gilid ng browser window. Mag-hover sa slider upang palawakin ito at madaliang idagdag ang pahina sa iyong mga lupon."
+   },
+   "follow_promo_feature_2": {
+      "message": "Malalagyan ng badge na \"+\" ang button ng mga notification sa iyong browser upang isaad kapag tinitingnan mo ang isang site na nakakonekta sa isang pahina sa Google+. Ang pag-click sa button ay magpapakita sa iyong mga notification tulad lang ng ginawa nito dati ngunit ipapakita na rin nito ngayon ang kaugnay na impormasyon ng pahina sa Google+ at magbibigay ng mabilis na paraan kung paano simulang subaybayan ito."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "Pahusayin ang iyong stream ng Google+ sa pamamagitan ng pagsubaybay sa mga pahina sa Google+ na kawili-wili para sa iyo:"
+   },
+   "follow_promo_following_description": {
+      "message": "Sa tuwing may pahina sa Google+ na nasa iyong mga lupon, ang lahat ng post mula sa pahinang iyon ay magsisimulang lumitaw sa iyong stream."
+   },
+   "follow_promo_header": {
+      "message": "Tumuklas ng mga pahina sa Google+ habang bina-browse mo ang web"
+   },
+   "join_google_plus_message": {
+      "message": "Sumali sa Google+ upang makita ang mga notification."
+   },
+   "join_google_plus_tooltip": {
+      "message": "Sumali sa Google+ upang makita ang mga notification"
+   },
+   "loading": {
+      "message": "Naglo-load..."
+   },
+   "many_new_notifications": {
+      "message": "Mayroon kang $1 (na) bagong notification",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "Bago!"
+   },
+   "no_new_notifications": {
+      "message": "Wala kang mga bagong notification"
+   },
+   "not_now": {
+      "message": "Hindi ngayon"
+   },
+   "one_new_notification": {
+      "message": "Mayroon kang 1 bagong notification"
+   },
+   "options_header": {
+      "message": "Mga Pagpipilian"
+   },
+   "options_title": {
+      "message": "Mga Pagpipilian"
+   },
+   "privacy_and_terms": {
+      "message": "Privacy at Mga Tuntunin"
+   },
+   "promo_link": {
+      "message": "Matuto nang higit pa &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003EBago!\u003C/span\u003E Tuklasin ang mga pahina sa Google+ habang bina-browse mo ang web"
+   },
+   "retry_now": {
+      "message": "Subukang muli ngayon."
+   },
+   "retrying_in": {
+      "message": "Muling susubukan sa loob ng $1 (na) seg.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "Awtomatikong magpadala ng mga statistics ng anonymous na paggamit sa Google"
+   },
+   "sign_in_message": {
+      "message": "Mag-sign in upang makita ang mga notification."
+   },
+   "sign_in_tooltip": {
+      "message": "Mag-sign in upang makita ang mga notification"
+   },
+   "use_plus_follow_header": {
+      "message": "I-notify ako tungkol sa mga tao at mga pahina sa Google+ na nauugnay sa mga site na binibisita ko (Nangangailangan ng mga karagdagang pahintulot)"
+   },
+   "use_plus_follow_note": {
+      "message": "Ipapadala ang mga URL ng mga site na binibisita mo sa Google upang matukoy ang mga profile at pahina sa Google+ na naka-link sa mga URL na iyon."
+   },
+   "yada_yada": {
+      "message": "Hindi ito basta-basta:"
+   }
+}

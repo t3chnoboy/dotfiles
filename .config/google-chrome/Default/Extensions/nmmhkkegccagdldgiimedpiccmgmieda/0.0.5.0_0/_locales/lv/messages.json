@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google maks digit\u0101laj\u0101m prec\u0113m"
+   },
+   "app_name": {
+      "message": "Google maks"
+   },
+   "craw_app_unavailable": {
+      "message": "Lietotne pagaid\u0101m nav pieejama."
+   },
+   "craw_connect_to_network": {
+      "message": "L\u016Bdzu, izveidojiet savienojumu ar t\u012Bklu."
+   },
+   "iap_unavailable": {
+      "message": "Maks\u0101jumi lietotn\u0113s pa\u0161laik nav pieejami."
+   },
+   "please_sign_in": {
+      "message": "L\u016Bdzu, pierakstieties p\u0101rl\u016Bk\u0101 Chrome."
+   }
+}

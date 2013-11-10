@@ -1,0 +1,30 @@
+/*Settings*/
+.add-on {
+    margin-bottom: 10px;
+
+    a {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+/* Notifications */
+#notification {
+    background: #fff;
+    display: none;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #afafaf;
+
+    img {
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+}

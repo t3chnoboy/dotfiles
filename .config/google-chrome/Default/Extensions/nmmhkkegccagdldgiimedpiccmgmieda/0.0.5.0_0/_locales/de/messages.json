@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google Wallet f\u00FCr digitale Produkte"
+   },
+   "app_name": {
+      "message": "Google Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "Die App ist momentan nicht verf\u00FCgbar."
+   },
+   "craw_connect_to_network": {
+      "message": "Bitte stellen Sie eine Verbindung zu einem Netzwerk her."
+   },
+   "iap_unavailable": {
+      "message": "In-App-Zahlungen sind momentan nicht m\u00F6glich."
+   },
+   "please_sign_in": {
+      "message": "Bitte melden Sie sich in Chrome an."
+   }
+}

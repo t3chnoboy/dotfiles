@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "p\u0159idat"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "Roz\u0161\u00ED\u0159en\u00E9 mo\u017Enosti"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "Z\u00E1klady"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "dole"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "Zm\u011Bny ve verz\u00EDch"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "Smazat"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "Show the add button from this YouTube video."
+   },
+   "desalllightsoff": {
+      "description": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled.",
+      "message": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "Zobrazit ambilight efekt kolem pr\u00E1v\u011B p\u0159ehr\u00E1van\u00E9ho videa."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 vybran\u00E9 barvy okolo videa:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "Pln\u00E1 barevn\u00E1 v\u00FDpl\u0148:"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "Jestli\u017Ee je nastaveno na ni\u017E\u0161\u00ED hodnoty, st\u00EDn bude ostr\u00FD. \u010C\u00EDm vy\u0161\u0161\u00ED hodnota, t\u00EDm v\u00EDce rozost\u0159en\u00FD bude st\u00EDn."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Kladn\u00E9 hodnoty zv\u011Bt\u0161\u00ED intenzitu st\u00EDnu, z\u00E1porn\u00E9 ji sn\u00ED\u017E\u00ED."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "Vz\u00EDt barvu z videa."
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Use the atmosphere lighting feature only the following video site:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "Automaticky ztmavit pozad\u00ED po kliknut\u00ED na tla\u010D\u00EDtko play a opa\u010Dn\u011B."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site(s):",
+      "message": "Dim only the following video site(s):"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "Potvrdit heslo"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "Potvr\u010Fte \u010Das."
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Potvr\u010Fte \u010Das spo\u0159i\u010De obrazovky"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "Zobrazit kontextov\u00E9 menu k zam\u011B\u0159en\u00ED polo\u017Eky."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "Cel\u00E1 str\u00E1nka se zahal\u00ED do \u010Dern\u00E9ho a vy tak m\u016F\u017Eete sledovat video, jako byste byli v kin\u011B."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Blocks"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Pohybliv\u00E9 obl\u00E1\u010Dky"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Akv\u00E1rium "
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "d\u00E9\u0161\u0165"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Space Universe"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "Bonus v tomto roz\u0161\u00ED\u0159en\u00ED."
+   },
+   "desenterpassword": {
+      "description": "Enter your password in the box below:",
+      "message": "Enter your password in the box below:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "Automaticky ztmavit pozad\u00ED p\u0159i otev\u0159en\u00ED str\u00E1nky."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when opening the following page(s):",
+      "message": "Automatically dim the background when opening the following page(s):"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "B\u011B\u017En\u00E9 pou\u017E\u00EDv\u00E1n\u00ED (sv\u011Btla zhasnou, kdy\u017E kliknete na ikonu lampy)."
+   },
+   "deseyetimesaver": {
+      "description": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark.",
+      "message": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "Zobrazit efekt zesvetlen\u00ED."
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "Zobrazit efekt ztmaven\u00ED."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "Zobrazit v\u0161echny Flash objekty."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads.",
+      "message": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "Zobrazit YouTube Channel bar nebo jm\u00E9no."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "Zobrazit info popis o videu."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar under YouTube videos.",
+      "message": "Show the like/dislike bar under YouTube videos."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "Zobrazit YouTube tla\u010D\u00EDtka l\u00EDb\u00ED a nel\u00EDb\u00ED se mi pro tohle video."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "Jestli\u017Ee jsou sv\u011Btla vypnuta, uka\u017E kolem kurzoru kruh sv\u011Btla"
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "If the light is off, you can select an area to focus a item."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disables the mouse settings below)",
+      "message": "Normal use (disables the mouse settings below)"
+   },
+   "desmousespotlightt": {
+      "description": "Allows you to click through the darkened screen when the lights are off.",
+      "message": "Allows you to click through the darkened screen when the lights are off."
+   },
+   "desnoflash": {
+      "description": "Don't use this feature.",
+      "message": "Don't use this feature."
+   },
+   "despassword": {
+      "description": "Require a password to be entered before turning the lights back on.",
+      "message": "Require a password to be entered before turning the lights back on."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "Zobrazit YouTube playlist na webu YouTube."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "V\u017Edy zobrazit level bar zatmaven\u00ED, kdy\u017E sv\u011Btla zhas\u00EDnaj\u00ED."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "Nikdy nezobrazovat ukazatel hodnoty zatmaven\u00ED."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "If this option is enabled, it will show you not the remember page."
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Spo\u0159i\u010D obrazovky"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "Zobrazit YouTube tla\u010D\u00EDtka sd\u00EDlen\u00ED pro tohle video."
+   },
+   "desshortcutlight": {
+      "description": "Enable the keyboard shortcuts below.",
+      "message": "Enable the keyboard shortcuts below."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "is the diameter of the search lamp."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "Zobrazit n\u00E1vrhy webov\u00E9 str\u00E1nky YouTube."
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "Lights off between the following times:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "dokud"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "Zobrazit a invertovat barvy n\u00E1zvu videa."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "Zobrazit po\u010Det zobrazen\u00ED tohoto videa."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "Pokud poskytnete dar v podob\u011B libovoln\u00E9 \u010D\u00E1stky, budu si toho nesm\u00EDrn\u011B v\u00E1\u017Eit!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "M\u00E1te r\u00E1di skute\u010Dn\u00E9 kino?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Enjoy this extension and share it with others who you think will appreciate it."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "VYP"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "ZAP"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Friendly Remember..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "TOtL Uv\u00EDtac\u00ED pr\u016Fvodce"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "\"Ochrana o\u010D\u00ED\" je aktivn\u00ED.  Pro pou\u017Eit\u00ED funkc\u00ED n\u00ED\u017Ee vypn\u011Bte \"Ochranu o\u010D\u00ED\"."
+   },
+   "helpeyeprotection": {
+      "description": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature.",
+      "message": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "pou\u017E\u00EDt"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "with flying"
+   },
+   "installadblocker": {
+      "description": "Use with an Adblocker extension.",
+      "message": "Use with an Adblocker extension."
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "Posledn\u00ED vyhledan\u00E1 verze"
+   },
+   "left": {
+      "description": "left",
+      "message": "vlevo"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Pros\u00EDm vlo\u017Ete sv\u00E9 heslo"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Nespr\u00E1vn\u00E9 heslo, zkuste to pros\u00EDm znovu."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Vte\u0159iny byly ulo\u017Eeny!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - Mo\u017Enosti"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "Ulo\u017Een\u00ED hesla bylo \u00FAsp\u011B\u0161n\u00E9."
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Ulo\u017Een\u00ED \u010Dasu bylo \u00FAsp\u011B\u0161n\u00E9!"
+   },
+   "optionwrongimg": {
+      "description": "Invalid image file!",
+      "message": "Invalid image file!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "pomoc"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "Str\u00E1nka st\u00E1le na\u010D\u00EDt\u00E1?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "Ztmavit tuto str\u00E1nku"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Sd\u00EDlet"
+   },
+   "recflash": {
+      "description": "Recommended",
+      "message": "Recommended"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Ohodno\u010Fte"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "N\u00E1hlasit chybu."
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(viz seznam)"
+   },
+   "right": {
+      "description": "right",
+      "message": "vpravo"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "Nastaven\u00ED"
+   },
+   "shortcutalllights": {
+      "description": "to toggle the lights on/off for all open tabs.",
+      "message": "to toggle the lights on/off for all open tabs."
+   },
+   "shortcutbright": {
+      "description": "to brighten the screen (decrease opacity).",
+      "message": "to brighten the screen (decrease opacity)."
+   },
+   "shortcutdark": {
+      "description": "to darken the screen (increase opacity).",
+      "message": "to darken the screen (increase opacity)."
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "to enable/disable the eye protection feature."
+   },
+   "shortcutopacity": {
+      "description": "to restore to the set darkness (opacity) setting.",
+      "message": "to restore to the set darkness (opacity) setting."
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "to save this opacity value"
+   },
+   "shortcuttotl": {
+      "description": "to toggle the lights on/off.",
+      "message": "to toggle the lights on/off."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "doesn't show this remember page again when I open the option page."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Skip this, and open now the option page"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "Tento software je licencov\u00E1n pod CC-GNU GPL. Pro zobrazen\u00ED kopie t\u00E9to licence p\u0159ejd\u011Bte na"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "Add Button"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "All open tabs"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Ambilight."
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "Automatick\u00E9 p\u0159ehr\u00E1v\u00E1n\u00ED"
+   },
+   "titelautowidthyoutube": {
+      "description": "Automatically set the YouTube player to the larger size.",
+      "message": "Automatically set the YouTube player to the larger size."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Blur the rest"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "R\u00E1dius rozost\u0159en\u00ED."
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Movie theater mode: it show the 'lights off' layer only on the top of the window."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "Barva"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "Kontextov\u00E9 menu"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "St\u00E1hnout aktualizaci"
+   },
+   "titeldownloadupgrade": {
+      "description": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site.",
+      "message": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Dynamick\u00E9 pozad\u00ED"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "Easter Eggy"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "Ochrana o\u010D\u00ED"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Zesv\u011Btlit"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "Ztmavit"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "Detekce Flashe"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "Kan\u00E1l"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "Obr\u00E1zek na pozad\u00ED"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "Infobar"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "\u017D\u00E1rovka"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "Zobrazit m\u00E9n\u011B "
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Tla\u010D\u00EDtka L\u00EDb\u00ED se"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "Tla\u010D\u00EDtka Lib\u00ED a Nel\u00EDb\u00ED se mi"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Automatically set to this resolution:",
+      "message": "Automatically set to this resolution:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "My\u0161"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "Vypnout"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "Zapnout"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "Pr\u016Fhlednost"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "Skr\u00FDt ikonu lampy"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "Ochrana heslem"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "Playlist"
+   },
+   "titelqualityyoutube": {
+      "description": "Automatically set the quality of YouTube videos.",
+      "message": "Automatically set the quality of YouTube videos."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "Level Bar zatmaven\u00ED"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Remember page"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Obrazovka"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "Tla\u010D\u00EDtka sd\u00EDlen\u00ED"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "Kl\u00E1vesov\u00E1 zkratka"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "Uk\u00E1zat v\u00EDce"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "R\u00E1dius rozsahu."
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "N\u00E1vrhy"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Synchronizovat"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Sync the extension settings with your other browser."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "Aktualizace"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "N\u00E1zev videa"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "Po\u010Det zobrazen\u00ED"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Podpo\u0159it v\u00FDvoj"
+   },
+   "top": {
+      "description": "top",
+      "message": "naho\u0159e"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "Pomoc s p\u0159ekladem"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "Verze"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Zam\u011B\u0159it toto video"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "Vizu\u00E1ln\u00ED efekty"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "Pozor!"
+   },
+   "warningtextambilight": {
+      "description": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead.",
+      "message": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead."
+   }
+}

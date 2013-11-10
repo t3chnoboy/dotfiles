@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "Exibe o n\u00FAmero de mensagens n\u00E3o lidas na sua Caixa de entrada do Gmail. Voc\u00EA tamb\u00E9m pode clicar no bot\u00E3o para abrir a sua caixa de entrada."
+   },
+   "gmailcheck_exception": {
+      "message": "exce\u00E7\u00E3o: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Verificador de mensagens do Google"
+   },
+   "gmailcheck_node_error": {
+      "message": "Erro: feed recuperado, mas nenhum n\u00F3 &lt;fullcount&gt; encontrado"
+   }
+}

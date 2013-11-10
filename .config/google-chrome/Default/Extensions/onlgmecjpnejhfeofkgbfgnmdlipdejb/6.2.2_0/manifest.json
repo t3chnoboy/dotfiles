@@ -1,0 +1,23 @@
+{
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "http://picasaweb.google.com/"
+      },
+      "web_content": {
+         "origin": "http://picasaweb.google.com"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png",
+      "24": "24.png",
+      "48": "48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrwGVES7Je/YIft7rQKnq3dbZbMP/uf0hZHb3XBhucez1pRptUI4nAvYZAQfUKjzr2qZaun7ydFTqeO8CFdqxmaoau++IKtj3SQBBuQ4IZZxqFiMn3T1aLdFFBOpZxIdkofGjsTojQDGd3hBtfcWzFwwnzFWzXIIrZ+kfaDDgcrQIDAQAB",
+   "name": "__MSG_appName__",
+   "options_page": "http://picasaweb.google.com/lh/settings#",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "6.2.2"
+}

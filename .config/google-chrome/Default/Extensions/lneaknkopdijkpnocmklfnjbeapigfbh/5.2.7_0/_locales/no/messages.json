@@ -1,0 +1,10 @@
+﻿{
+  "appName": {
+    "message": "Google Maps",
+    "description": "App name."
+  },
+  "appDesc": {
+    "message": "Finn informasjon om lokale virksomheter, veibeskrivelser og bilder på gatenivå fra hele verden med Google Maps.", 
+    "description":"App description."
+  }
+}

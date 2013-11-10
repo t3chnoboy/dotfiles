@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Znajduj informacje o lokalnych firmach, wyznaczaj trasy dojazdu oraz wy\u015Bwietlaj zdj\u0119cia ulic na ca\u0142ym \u015Bwiecie, korzystaj\u0105c z Map Google."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Mapy Google"
+   }
+}

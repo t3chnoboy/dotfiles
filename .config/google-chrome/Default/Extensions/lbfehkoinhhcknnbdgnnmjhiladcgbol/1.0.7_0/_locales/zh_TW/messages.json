@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "A description of the application.",
+      "message": "\u5C07\u60A8\u6240\u6709\u7684\u60F3\u6CD5\u8207\u7D93\u9A57\u5132\u5B58\u5230 Evernote \u4E2D\uFF0C\u7136\u5F8C\u53EF\u5F9E\u60A8\u6240\u4F7F\u7528\u7684\u6240\u6709\u96FB\u8166\u8207\u624B\u6A5F\u4F86\u5B58\u60A8\u7684\u53D6\u60F3\u6CD5\u8207\u7D93\u9A57\u3002"
+   },
+   "extensionName": {
+      "description": "The name of the application.",
+      "message": "Evernote \u7DB2\u9801"
+   }
+}

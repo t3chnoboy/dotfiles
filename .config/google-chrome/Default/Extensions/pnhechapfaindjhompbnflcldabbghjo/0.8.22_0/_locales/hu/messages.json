@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "A hely ($1) elemz\u00E9se nem lehets\u00E9ges.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "M\u00E9gse"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "Ez a parancs ismert gazdag\u00E9pek egy list\u00E1j\u00E1t jelen\u00EDti meg, \u00E9s megk\u00E9rdezi, hogy melyiket felejtse el."
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "Egy megjegyzett ssh-gazdag\u00E9p adatainak az elfelejt\u00E9se."
+   },
+   "cmd_ssh_help": {
+      "message": "A |felhasznalonev| \u00E9s |tarhelyszolgaltato| param\u00E9tereket k\u00F6telez\u0151, a |port| \u00E9rt\u00E9k\u00E9t nem k\u00F6telez\u0151 megadni. Ha a port nincs meghat\u00E1rozva, akkor alapbe\u00E1ll\u00EDt\u00E1s szerint 22 lesz az \u00E9rt\u00E9ke."
+   },
+   "cmd_ssh_title": {
+      "message": "\u00DAj SSH-munkamenet megnyit\u00E1sa."
+   },
+   "command_complete": {
+      "message": "A(z) $1 parancs a k\u00F6vetkez\u0151 kimeneti k\u00F3ddal \u00E9rt v\u00E9get: $2. K\u00E9rj\u00FCk, z\u00E1rja be az ablakot.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "Csatlakoz\u00E1s"
+   },
+   "connect_message": {
+      "message": "Adja meg a csatlakoz\u00E1si helyet."
+   },
+   "connecting": {
+      "message": "Csatlakoz\u00E1s a k\u00F6vetkez\u0151h\u00F6z: $1, port: $2...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "felhasznalonev@tarhelyszolgaltato[:port]"
+   },
+   "known_hosts_empty": {
+      "message": "Nem tal\u00E1lhat\u00F3 megjegyzett gazdag\u00E9p; nincs mit elfelejteni."
+   },
+   "known_hosts_prompt": {
+      "message": "Elfelejteni k\u00EDv\u00E1nt gazdag\u00E9p kiv\u00E1laszt\u00E1sa [1--$1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "Ismert gazdag\u00E9pek:"
+   },
+   "missing_param": {
+      "message": "Hi\u00E1nyz\u00F3 param\u00E9ter: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "OK"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "V\u00E1ratlan hiba t\u00F6rt\u00E9nt. A tov\u00E1bbi r\u00E9szletek\u00E9rt n\u00E9zze meg a JavaScript-konzolt."
+   },
+   "welcome": {
+      "message": "\u00DCdv\u00F6z\u00F6lj\u00FCk! Nyisson meg egy \u00FAj SSH-kapcsolatot a \"Megnyit\u00E1s\" paranccsal."
+   },
+   "welcome_tip": {
+      "message": "Profi tipp: elmentheti a munkamenetet egy b\u00F6ng\u00E9sz\u0151 k\u00F6nyvjelz\u0151jek\u00E9nt."
+   }
+}

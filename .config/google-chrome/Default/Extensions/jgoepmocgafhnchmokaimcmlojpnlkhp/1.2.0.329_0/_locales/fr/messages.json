@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "+1 de \u003Ca\u003Evous\u003C/a\u003E pour cette page"
+   },
+   "add_plusone_tooltip": {
+      "message": "Attribuer +1 \u00E0 cette page en tant que {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Options de base"
+   },
+   "browser_usage_warning": {
+      "message": "L'activation de cette option entra\u00EEne l'envoi des donn\u00E9es d'utilisation de votre navigateur \u00E0 Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Impossible d'attribuer +1 \u00E0 cette page."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Impossible d'attribuer +1 \u00E0 cette page"
+   },
+   "counts_group_name": {
+      "message": "Nombre de +1"
+   },
+   "error_message": {
+      "message": "Une erreur s'est produite."
+   },
+   "error_tooltip": {
+      "message": "Une erreur s'est produite"
+   },
+   "extension_copyright": {
+      "message": "Copyright Google\u00A0Inc.\u00A02011. Tous droits r\u00E9serv\u00E9s."
+   },
+   "extension_description": {
+      "message": "Attribuez +1 aux pages Web que vous consultez, et partagez-les."
+   },
+   "extension_name": {
+      "message": "Bouton +1 de Google"
+   },
+   "extension_name_sans_google": {
+      "message": "Bouton +1"
+   },
+   "loading": {
+      "message": "Chargement en cours..."
+   },
+   "options_header": {
+      "message": "Options"
+   },
+   "options_title": {
+      "message": "Options"
+   },
+   "privacy_and_terms": {
+      "message": "Confidentialit\u00E9 et conditions d'utilisation"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EVotre\u003C/a\u003E +1 a \u00E9t\u00E9 supprim\u00E9."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Supprimer votre +1 de cette page"
+   },
+   "send_usage_statistics": {
+      "message": "Envoyer automatiquement des statistiques anonymes sur l'utilisation \u00E0 Google"
+   },
+   "show_plusone_counts": {
+      "message": "Afficher le nombre de +1"
+   },
+   "sign_in_message": {
+      "message": "Une fois connect\u00E9, vous pourrez attribuer +1 \u00E0 cette page."
+   },
+   "sign_in_tooltip": {
+      "message": "Se connecter pour utiliser le bouton +1 de Google"
+   },
+   "sign_up_message": {
+      "message": "Inscrivez-vous pour utiliser le bouton +1 de Google."
+   },
+   "sign_up_tooltip": {
+      "message": "S'inscrire pour utiliser le bouton +1 de Google"
+   }
+}

@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EDvs.\u003C/a\u003E a\u021Bi f\u0103cut clic pe +1 pentru aceast\u0103 pagin\u0103."
+   },
+   "add_plusone_tooltip": {
+      "message": "Face\u021Bi clic pe +1 pentru aceast\u0103 pagin\u0103 ca {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Elemente de baz\u0103"
+   },
+   "browser_usage_warning": {
+      "message": "Dac\u0103 aceast\u0103 op\u021Biune este activat\u0103, Google prime\u0219te date privind utilizarea browserului de c\u0103tre dvs."
+   },
+   "cannot_plusone_message": {
+      "message": "Nu pute\u021Bi face clic pe +1 pentru aceast\u0103 pagin\u0103."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Nu pute\u021Bi face clic pe +1 pentru aceast\u0103 pagin\u0103"
+   },
+   "counts_group_name": {
+      "message": "Total"
+   },
+   "error_message": {
+      "message": "A ap\u0103rut o eroare."
+   },
+   "error_tooltip": {
+      "message": "A ap\u0103rut o eroare"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Toate drepturile rezervate."
+   },
+   "extension_description": {
+      "message": "Da\u021Bi +1 pentru o pagin\u0103 web \u0219i distribui\u021Bi-o, oriunde pe web."
+   },
+   "extension_name": {
+      "message": "Buton Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "Butonul +1"
+   },
+   "loading": {
+      "message": "Se \u00EEncarc\u0103..."
+   },
+   "options_header": {
+      "message": "Op\u021Biuni"
+   },
+   "options_title": {
+      "message": "Op\u021Biuni"
+   },
+   "privacy_and_terms": {
+      "message": "Confiden\u021Bialitate \u0219i termeni"
+   },
+   "remove_plusone_success": {
+      "message": "Clicul \u003Ca\u003Edvs.\u003C/a\u003E pe +1 a fost eliminat."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Elimina\u021Bi clicul pe +1 pentru aceast\u0103 pagin\u0103"
+   },
+   "send_usage_statistics": {
+      "message": "Trimite\u021Bi automat statistici de utilizare anonime la Google"
+   },
+   "show_plusone_counts": {
+      "message": "Afi\u0219a\u021Bi totalul de clicuri pe +1"
+   },
+   "sign_in_message": {
+      "message": "Dup\u0103 ce v\u0103 conecta\u021Bi ve\u021Bi putea s\u0103 da\u021Bi +1 pentru aceasta."
+   },
+   "sign_in_tooltip": {
+      "message": "Conecta\u021Bi-v\u0103 pentru a utiliza Google +1"
+   },
+   "sign_up_message": {
+      "message": "\u00CEnscrie\u021Bi-v\u0103 pentru a utiliza Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "\u00CEnscrie\u021Bi-v\u0103 pentru a utiliza Google +1"
+   }
+}

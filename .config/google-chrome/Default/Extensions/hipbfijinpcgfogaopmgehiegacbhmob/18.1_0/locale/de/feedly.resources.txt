@@ -1,0 +1,1043 @@
+# saved by i18n task (de)
+# 
+# 
+# 
+# entries are sorted by key id and grouped for convenience.
+# 
+#
+action.add.comment = add a comment
+#
+action.add.new.source = add a new source
+#
+action.add.source = add source
+#
+action.amazon = Amazon
+#
+action.back.to.top = back to top
+#
+action.best_sources = Best Sources
+action.close = close
+action.comments = comments
+action.comments_site = visit site instead
+action.cover = cover
+action.create_account = create account
+action.create_link = create link
+action.digest = digest
+action.download = download
+action.edit = edit
+action.entire_content = entire content inlined
+#
+action.entry.copy_link = copy link
+action.entry.keep_unread = keep as unread
+action.entry.preview = preview
+action.entry.semantic_tags = show semantic tags
+#
+action.explore = explore
+action.friends = buzz
+action.google = Google
+action.history = history
+action.home = home
+action.karma = karma
+#
+action.keyboard.shortcuts = keyboard shortcuts
+#
+action.latest = latest
+action.like = Like
+action.magazine = magazine
+#
+action.mark.page.as.read = mark page as read
+#
+action.minimize = minimize
+action.next = next
+action.open_in_new_tab = open in new tab
+action.overview = overview
+#
+action.past.annotated = annotated
+action.past.read = read
+action.past.saved = saved
+action.past.saved_for_later = saved for later
+action.past.shared = shared
+#
+action.picture_grid = picture grid
+action.previous = previous
+action.re_tweet = re-tweet
+action.recommend_feedly = recommend feedly
+action.refresh = refresh
+action.related_articles = Related Articles
+action.reply = reply
+action.retweet = retweet
+action.share = share
+action.shared_notes = buzz comments
+action.signout = sign out
+action.sources = organize sources
+action.subscribe = subscribe
+action.subscribe_all = add to my feedly
+action.title_and_summary = title and summary
+action.titles_only = titles only
+action.translate = Translate
+action.tutorial = tutorial
+action.tweet = tweet
+action.twitter = Twitter
+action.video_grid = video grid
+action.youtube = YouTube
+#
+digg.digs = {0,number} digs
+digg.more_comments = {0,number} more digg comments
+digg.no_comments = No comments yet. See {0,tag}digg page for this article.{/0}
+digg.overheard = Overheard on Digg
+digg.page = digg page for this article
+#
+firendfeed.liked_success = Liked successfully.
+#
+friendfeed.conversations = Friendfeed Conversations
+friendfeed.error = Error: {0,number}  -- {1,text}
+friendfeed.loading_room = Loading room information. Please wait...
+friendfeed.my_feed = My Feed
+friendfeed.not_available = Unable to access Friendfeed
+friendfeed.posted_to = Shared on Friendfeed
+friendfeed.posting_to = Posting to Friendfeed ...
+friendfeed.share_to = Share to:
+friendfeed.sharing = You are sharing
+friendfeed.updating = Updating friendfeed ...
+#
+label.actions = actions
+#
+label.add.source = add source
+#
+label.add_to_existing = add to existing category
+label.all = all
+label.all_sources = all sources
+label.amazon = Amazon
+label.and = &amp;
+label.annoted_articles = annotated articles
+#
+label.articles.open_in_feedly = Open articles in feedly
+label.articles.open_in_website = Open articles in website
+#
+label.articles_i_dotdot = Articles I recently ...
+label.at_end = At End
+label.at_top = At Top
+label.attachment = attachment
+label.attention_map = attention map
+label.best_blogs = Best blogs
+label.best_rss = Best RSS Feeds
+label.blogroll = blogroll
+label.body = body
+label.browser_info = browser information
+label.buzz = Buzz
+label.cancel = cancel
+label.click_to_view_feed = click to view feed
+label.close = close
+#
+label.comics.daily_strip = Daily Strip
+#
+label.comma_delimited = comma delimited
+label.comments = Latest Comments
+#
+label.comments.cant = feedly does not have the smarts to display comments from this source (yet).
+label.comments.none = No comments have been posted.
+#
+label.community = community
+label.context = context
+label.create = create
+label.create_magazine = <b>Create</b> magazine
+label.create_new_categories = or create a new category
+label.create_new_category = create new category
+label.create_subscription = create new subscription
+label.description = description
+label.do = Do
+label.done = Done
+label.edit_subscription = Edit subscription
+label.embed = embed
+label.endoflist = End of List
+label.enriching_and_cleaning = Enriching and cleaning up ...
+label.explore = explore
+label.favorite = favorite
+label.favorite_long = increases the probability that articles from this source are included in the digest
+label.favorites = favorites
+label.favorites_only = favorites only
+label.featured = Featured
+label.featured_sources = Featured Sources
+label.feed = feed
+label.feed_id = feed id
+label.feedly = feedly
+#
+label.feedly.cover = Cover
+label.feedly.digest = My Digest
+label.feedly.most_popular = Most Popular
+label.feedly.my_profile = my profile
+label.feedly.weekend = Weekend Edition
+#
+label.feedly@work = feedly@work
+label.filtering = Filtering ...
+label.filters = filters
+label.finance = finance
+label.find_people = Find people
+label.flickr_gallery = Flickr Gallery
+label.following = following
+label.from = from
+label.gr_and_buzz = Share on Google Reader and Buzz
+label.hello = Hello {0,tag}{1,text}{/0}
+label.hint = hint
+#
+label.hint.no_unread = no unread articles
+#
+label.in_feedly = In Feedly
+#
+label.input.show_karma = show karma
+#
+label.internal_info = internal information
+label.jump_to_source = Jump to a  source
+label.karma = Karma
+label.label = label
+label.latest = latest
+label.link = link
+#
+label.loading.articles = Loading articles ...
+label.loading.comments = Loading comments ...
+label.loading.dots = Loading...
+label.loading.feedly = Loading feedly. Please wait ...
+label.loading.filtering = Loading and filtering articles ...
+label.loading.wait = Loading. Please wait ...
+#
+label.mark_all_read = mark all as read
+label.mark_as_favorite = mark as favorite
+label.mark_as_favorite_undo = undo mark as favorite
+label.mark_as_read = mark as read
+label.mentions = Mentions
+#
+label.minimizing.url = Minimizing URL. Please wait...
+#
+label.more = more
+#
+label.more.sources = More Sources
+label.more.tweets = more tweets
+#
+label.most_popular = Popular
+label.my = digest
+label.my_bookmarks = My Bookmarks
+label.my_shared_items = my shared items
+#
+label.nav.others = Others
+label.nav.social = Social
+#
+label.new_articles_available = There are new articles available.
+label.no = No
+#
+label.no.articles = no articles
+label.no.images = No images.
+label.no.links = No links.
+label.no.matches = No matches.
+label.no.sources_defined = No Sources Defined Yet
+label.no.suggestions = No suggestions.
+#
+label.no.unread.articles = All articles have been read.
+#
+label.no.videos = No videos.
+#
+label.note = note
+label.off = Off
+label.older_then_1_day = older than one day
+label.older_then_1_week = older than one week
+label.oldest_first = oldest first
+label.on = On
+label.optional = optional
+label.or = or
+label.photo_gallery = Photo Gallery
+label.post = post
+label.preferences = preferences
+label.preview = preview
+label.processing = Processing ...
+label.reading_history = reading history
+label.recommended_sources = recommended sources
+label.refreshing_digest = Refreshing digest ...
+label.remove_from_later = ... ?
+label.rename = rename
+label.rename_category = rename category
+label.required = required
+label.save = save
+label.save_for_later = save for later
+label.search = Search
+#
+label.search.all_sources = in all my sources
+label.search.best_sources = best sources
+label.search.in_amazon = amazon
+label.search.in_this_page = in this page
+#
+label.searching.dots = Searching ...
+#
+label.seealso = See also:
+label.send = send
+#
+label.sending.dots = Sending ...
+#
+label.share = share
+label.share_this_feed = share this feed
+label.shared = Shared on feedly and Google Reader.
+label.skip = skip
+label.source = Source
+#
+label.source.hint = URL of the website or RSS feed you would like to add
+label.source.list = List of sources
+#
+label.sponsor = sponsor
+label.support = support
+label.tags = tags
+#
+label.time.days.ago = {0,number} {0,choice,1==day,days} ago
+#
+label.time.hours.ago = {0,number} {0,choice,1==hour,hours} ago
+#
+label.time.min.ago = {0,number} min
+#
+label.title = title
+#
+label.title.add_delete_categorize = add, delete and re-categorize your sources
+label.title.add_new_source = Add New Source
+label.title.annotated_by_me = Annotated by me
+label.title.cannot_be_changed = Cannot be changed because {0,text}
+label.title.cannot_be_empty = Title can not be empty
+label.title.change_layout = Change layout and filtering
+label.title.comments = Comments
+label.title.community_long = receive product tips and update information
+label.title.content_inlined = entire content inlined
+label.title.cover = Cover
+label.title.delete_annotation = Delete annotation
+label.title.delete_this_response = Delete this response
+label.title.delicious = Del.icio.us
+label.title.diigo = Diigo
+label.title.edit_profile = edit profile - restart browser to sync
+label.title.embed = Embed
+label.title.evernote = Evernote
+label.title.exclude_source = exclude this source
+label.title.explore_long = find new sources and add them to your feedly
+label.title.facebook = Facebook
+label.title.favorites = Favorites
+label.title.feed_action = actions related to this subscription
+label.title.feed_edit = edit subscription
+label.title.find_best = find the best sources
+label.title.friend_reco = friend recommendations
+label.title.friendfeed = Friendfeed
+label.title.genius = suggest other sources you might also like
+label.title.glance = At A Glance
+label.title.gmail = Google Mail
+label.title.greader = Google Reader
+label.title.grid_of_pictures = a grid of pictures
+label.title.grid_of_video = a grid of videos
+label.title.grouped_by_sub = grouped by subscriptions
+label.title.history = History
+label.title.how_react_twitter = how do people react to the content you share on twitter?
+label.title.instapaper = Instapaper
+label.title.latest = Latest
+label.title.latest_articles = latest articles
+label.title.mark_as_read = mark as read
+label.title.mark_read = mark all as read
+label.title.mark_read_hide = mark as read and hide
+#
+label.title.mini.config = configure or disable
+label.title.mini.next_reco = next - shuffle to the next feedly recommendation
+label.title.mini.re_tweet = re-tweet this
+label.title.mini.reply_tweet = reply to this tweet
+label.title.mini.save_gr = save this article in feedly/Google Reader
+label.title.mini.share_facebook = share this article on facebook
+label.title.mini.share_gr = share this article in feedly/Google Reader
+label.title.mini.share_mail = email this article using gmail
+label.title.mini.share_twitter = share this article on twitter
+#
+label.title.more_categories = more categories
+label.title.more_prefs_categories_long = more categories, preferences, help,...
+label.title.my_digest = My Digest
+label.title.my_feedly = My Feedly
+label.title.new_category_long = How would you like to name the new category?
+label.title.ning = Ning
+label.title.overview = My Yahoo-like overview
+label.title.picture_and_summary = a picture and a summary
+label.title.ping_fm = Ping.fm
+label.title.posterous = Posterous
+label.title.preferences = Preferences
+label.title.prefs_change = change the internal settings of the feedly service
+label.title.recommended_by_me = Recommended by me
+label.title.refresh = Refresh
+label.title.remove_category = Remove category
+label.title.rename_category = Rename category
+label.title.rename_category_long = What would you like to rename this category to?
+label.title.save4later = Saved for later
+label.title.search_for_topics = search for topics
+label.title.search_topics_articles_people = search for topics, articles, sources and people
+label.title.sources = Organize Sources
+label.title.sources_long = You have {0,number} {0,choice,1==source,sources} defined in this category. Go to the sources \
+ to see {0,choice,1==it,all of them}.
+label.title.suggest = suggest other sources you might also like
+label.title.support_long = we are here to answer questions and resolve issues
+label.title.titles_only = Titles Only
+label.title.toggle = click to toggle subscription favorite status
+label.title.top_sites = Top Sites
+label.title.tumblr = Tumblr
+label.title.twitter = Twitter
+label.title.uncategorized_feeds = Uncategorized feeds
+label.title.unsubscribe = unsubscribe
+label.title.unsubscribe_source = unsubscribe from this source
+label.title.view_conversation = view this conversation
+label.title.welcome_wizard = Welcome Wizard
+#
+label.to = to
+label.today = Today
+label.topics = Topics
+label.turnoff_confirmation = Turn off confirmation
+label.tweet = Tweet
+#
+label.tweet.gallery = Tweet Gallery
+label.tweet.it = Tweet it
+#
+label.tweet_gallery = Tweet Gallery
+label.tweets_gallery = Tweets Gallery
+label.uncategorized = uncategorized
+label.unfollow = unfollow
+label.unread_only = unread only
+label.unshare = unshare
+label.unsubscribe = unsubscribe
+label.updates = @feedly
+label.updating_subscription_dots = Updating subscription. Please wait ...
+label.version = version
+#
+label.video.gallery = Video Gallery
+label.video.grid = Video grid
+#
+label.views = views
+label.visits = visits
+label.welcome = Welcome\!
+label.what_do_other_people_read = What do other people read ?
+label.yes = Yes
+label.yesterday = Yesterday
+label.you = You
+#
+label.you.might.like = You Might Also Like
+#
+label.you_tube_gallery = YouTube Gallery
+#
+language.de = German
+#
+language.en.gb = English (UK)
+language.en.us = English (USA)
+#
+language.fr = French
+language.pl = Polish
+#
+legal.copy.info = {0} | version: {1} (build {2,number}) | powered by Google Reader and Twitter.
+#
+mailer.1 = You must specify some recipients for this email.
+mailer.2 = Entry has been sent.
+#
+mailer.ab.1 = {0} (group, {1,number} {1,choice,1==entry,entries})
+mailer.ab.2 = "{0}" <{1}>
+#
+mailer.error.1 = Cannot send mail at this time.
+#
+mailer.link_to_original = link to original
+#
+mailer.login.gmail = Login to gMail first
+#
+mailer.published = published
+#
+mailer.sending.gmail = Sending via gMail ...
+#
+mailer.shared_via = shared via
+mailer.source = source
+mailer.using = using account {0,text}
+#
+message.X_more = {0,number} more
+message.X_shares = {1,tag}{0,number}{/1} {0,choice,1==share,shares}
+message.X_version_info = {0,text} version information
+#
+message.adding.X_sources = Adding {0,number} {0,choice,1==source,sources}.
+message.adding.subscription = Adding subscription. Please wait ...
+#
+message.adding_feed = Adding {0,text} ...
+message.adding_source_X_of_Y = Adding source ({0,number} of {1,number}): {2,text}
+message.adding_subscriptions = Adding subscriptions
+message.already_marked = Already marked.
+message.annotate_hint = To annotate, highlight a snippet of text or alt+click on an image
+message.artcile_not_valid_url = Article does not have a valid URL
+message.article_not_selected = Article is not selected.
+message.articles_X_Y = articles {0,number} - {1,number}
+message.author = by {0,text}
+message.backing_up_opml = Backing up your OPML file.
+#
+message.bug.1 = There are multiple reasons this could happen:
+message.bug.2 = Access to this feed might require a username and password (feedly does not know yet how \
+ to access and load authenticated feeds).
+message.bug.3 = The specified URL does not point to a valid RSS or ATOM feed (in which case you might \
+ want to contact the owner of the website you are trying to subscribe to and let them know \
+ about the problem).
+message.bug.4 = You are running into a feedly bug.
+message.bug.feed_load = Despite trying really hard, Feedly was not able to load this feed.
+message.bug.page = Sorry. We were unable to find page <b>{0,text}</b> \! This is most likely a bug. Please \
+ report it.
+message.bug.report = Please open a ticket on {0,tag}{1,text}{/0} or send an email to {2,tag}{3,text}{/2}. To \
+ help reproduce the problem, \tplease include some context as to what was the last action \
+ you performed before this error occured as well as any [feedly] related information you \
+ can find the "errors" and "messages" sections of the Firefox error console. Thank you\!
+message.bug.thanks = Thank you and sorry for the inconvenience.
+message.bug.ticket = Please {0,tag}open a ticket{/0} and let us know so that we can track this issue down.
+#
+message.building.page = Building page ...
+message.building.step = Step {0,number} of {1,number}: subscribing to {2,text} ...
+#
+message.calais.credit = Semantic highlights provided by the {0,tag}Reuters Open Calais Service{/0}
+#
+message.category.building = Building widget for your {0,tag}{1,text}{/0} category. Please wait...
+message.category.pirvated = Category {0,tag}{1,text}{/0} is now private.
+message.category.private = Making {0,tag}{1,text}{/0} category private. Please wait ...
+#
+message.comments.author = {0,tag}{1,text}{/0} says:
+message.comments.author2 = {0,tag}{1,text}{/0} commented
+message.comments.count = show {0,number} {0,choice,1==comment,comments}
+message.comments.no_stream = No comment stream found
+message.comments.not_understand = Cannot understand the comments format
+#
+message.copied_clipboard = Copied to clipboard.
+message.determining_favorite_subscriptions = Determining favorite subscriptions.
+message.discovered_X_sources = Discovered {0,number} {0,choice,1==source,sources}.
+#
+message.discovering_sources.dots = Discovering sources. Please wait ..."
+#
+message.end_of_list_X_items = You have reached the end of this feed. This feed only contains {0,number} {0,choice,1==article,articles}. \
+ Please verify the unread checkbox if you expected more content here.
+#
+message.entities.found = {0,number} {0,choice,1==entity, entities} found.
+#
+message.error.bundle_not_found = Bundle {1,text} not found. Sorry \!
+message.error.cannot = Cannot perform operation [{0,text}] because: {1,number} -- {2,text}
+message.error.cannot2 = Cannot perform operation [{0,text}].
+message.error.category_not_empty = Category names cannot be empty.
+message.error.edit = Failed to edit subscription ...
+message.error.feed_title = Feed titles cannot be empty.
+message.error.search = Failed to perform search because: {0,tag}{1,text}{/0}.
+#
+message.failed_because_X = Operation failed. Reason: {0,text}
+message.failed_code_message = Operation failed, because: {1,text} ({0,number})
+message.featured_articles = {0,number} featured articles.
+message.feed_info = {0,number} {0,choice,1==visit,visits}, {1,number} {1,choice,1==post,posts} per week, {2,number} \
+ {2,choice,1==subscriber,subscribers}
+#
+message.feedly.intro = {0,tag}Feedly{/0} organizes your favorite sites into a fun, magazine-like start page.
+message.feedly.intro_greeting = Login to create an account and customize feedly into <b>your own personalized magazine</b>.<br> \
+ You will be up and running in <b>less than a minute</b>.<br>
+message.feedly.intro_others = {0,tag}Welcome to Feedly{/0} Login to organize your favorite sources into a magazine-like \
+ start page
+message.feedly.intro_safari = {0,tag}Welcome to Feedly{/0} Please login and {0,tag}reload this page{/0} to start personalizing \
+ your feedly
+message.feedly.login_chrome = Login to design your own multimedia magazine
+message.feedly.login_safari = Please login first then reload this page to access your feedly.
+message.feedly.offline = Sorry. Your feedly session has expired. Please <b>reload this page</b> or restart your \
+ browser to try to create a new session.
+message.feedly.reviewMe = <b>Enjoying feedly?</b> If so, please {0,tag}add a review{/0} to help us get in the best \
+ rated {1,text} add-ons list
+message.feedly.start_here = Start Here
+message.feedly.upgrade = Upgrade
+message.feedly.upgrade2x = {0,tag}Upgrade to Feedly 2.x{/0}: A lot more memory efficient, better exception management \
+ and 47 minor UI bug fixes.
+#
+message.finance_help = Feedly can generate {0,tag}a short summary{/0} of the news/commentaries related to the \
+ stocks you are tracking in Google Finance. {1,tag}show me{/1} or {2,tag}disable{/2}.
+message.finance_help_login = Please {0,tag}create a portfolio{/0} on Google finance and {1,tag}refresh{/1} this module. \
+ You can also visit the feedly {2,tag}preference page{/2} to disable this module.
+message.find_best_sources_for_X = Find best sources for {0,tag}{1,text}{/0}
+message.google_reader_conversations = Google Buzz
+#
+message.help.first_time = Please add some websites to your feedly first by using the import wizard, by browing <a \
+ href="${ devhd.utils.FeedlyUtils.homeURL }\#home">our top 10 lists</a> or by visiting the \
+ website directly and clicking on the +f icon in the address bar
+message.help.nothing_new = Your feedly includes <a href="${ devhd.utils.FeedlyUtils.homeURL }\#sources">${ nbrSubscriptions \
+ } source${ nbrSubscriptions > 1 ? "s":""}</a> but there are not enough unread articles \
+ at this point to generate a digest or a cover.
+#
+message.hilite_first = Highlight some text first please.
+message.hilite_keyword = Highlight keyword first
+message.import_X = import {0,text}
+#
+message.in.category = In {0,text}
+#
+message.infobox.no_sources = {0,tag}Oops{/0} Sorry. Feedly was not able to find any content for this page. This could \
+ be due to a bug or due to the fact that this space has not been configured with any sources.
+#
+message.initiating_interaction_with_X = Initiating interaction with {0,text}. Please wait ...
+#
+message.loading.discovery = Personalizing feedly: {0,text}
+#
+message.loading.n.articles = Loading {0,number} {0,choice,1==article,articles} ...
+#
+message.loading.step = Loading ... (step {0,number} of {1,number})
+#
+message.loading_X = Loading {0,text} ...
+message.loading_X_wait = Loading {0,text}. Please wait ...
+message.login_to_X_first = Please {0,tag}login to{/0} {1,text} first.
+message.login_with_google = Login with Google
+#
+message.mark.as_read = Marking the content of the page as read ...
+message.mark.category_as_read = Marking {0,text} as read. Please wait ...
+#
+message.mini.no_suggestion = Sorry. No suggestions available at this point.
+message.mini.searching_next = Searching for next suggestion ...
+#
+message.navigation.dnd = Drag and drop to re-organize top navigation bar
+#
+message.no.article = Sorry, feedly was not able to get the content of article number \#{0,text}
+message.no.articles = {0,number} {0,choice,1==unread article,unread articles}.
+message.no.categories = {0,number} {0,choice,1==category,categories}.
+message.no.cover = Your feedly includes {0,tag}{1,number} {1,choice,1==subscription, subscriptions}{/0} but \
+ there are not enough unread articles at this point to generate a digest or a cover.
+message.no.entities = No entity found for this article"
+message.no.feed = Could not find a feed for {0,tag}{1,text}{/0}
+message.no.sources = {0,number} {0,choice,1==source,sources}.
+#
+message.no.unread.articles = No unread articles in the '{0,text}' category.
+#
+message.no.unread.articles.help = If you would like to view read articles, please click on the pen icon at the top of the \
+ page and uncheck the unread only filter.
+#
+message.no.unread.articles2 = There are no unread articles.
+message.no.unread.articles3 = There are no unread articles in this category.
+#
+message.no_X_integration = Sorry. {0,text} integration is not available on this platform
+message.not_logged_in_to_google = You are not logged into your Google account
+message.now_following = You are now following {0,text}
+#
+message.num.results = {0,number} {0,choice,1==result,results} found.
+#
+message.number = {0,number}
+message.one_moment = One moment please ...
+message.oops_bug = Oops \! We just run into a bug. See error console for more information
+message.posting_to_X = Posting to {0}. Please wait ...
+message.preference_changed = Preference {0,text} has been changed to {1,text}.
+message.preparing_magazine = Preparing Magazine
+message.profile_not_available = Profile not available.
+#
+message.prompt.continue = Are you sure you want to continue ?
+message.prompt.mark_read = Are you sure you want to mark all your subscriptions are read ? \n\n This action can not \
+ be undone.
+#
+message.published.by = Published by {0,tag}{1,hilite}{/0}
+message.published.in = Published in {0,tag}{1,hilite}{/0}
+message.published.in_by = Published in {0,tag}{1,hilite}{/0} by {2,tag}{3,hilite}{/2}
+#
+message.reaction_no_input = No input ?\!?
+#
+message.reader.comments = Comments
+message.reader.friends = Buzz
+message.reader.latest = Latest
+message.reader.other_sources = Other sources
+message.reader.recently_read = Recently Read
+message.reader.your_annotated_items = Your Annotated Items
+message.reader.your_favorite_sources = Favorite Sources
+message.reader.your_saved_items = Your Saved Items
+message.reader.your_shared_items = Your Shared Items
+#
+message.ready_to_go = You are ready to go\!
+message.resizing_content = Resizing content...
+message.resolving_url = Resolving URL ...
+message.saved = Saved
+#
+message.search.analyzing_from_sources = Analyzing articles from favorite sources - {0,number} {0,choice,1==article,articles}
+message.search.blogsearch = Search {0,tag}Google Blogs{/0} for {1,text}
+message.search.delicious = Search {0,tag}Delicious{/0} for {1,text}
+#
+message.search.favorites.dots = Searching for favorites ...
+#
+message.search.google = Search {0,tag}Google{/0} for {1,text}
+message.search.googlenews = Search {0,tag}Google News{/0} for {1,text}
+message.search.search_for = Searching for {0,tag}{1,text}{/0}
+message.search.twitter = Search {0,tag}Twitter{/0} for {1,text}
+#
+message.search_for_X_in_sources = Search for {0,tag}{1,text}{/0} in my sources
+message.show_X_comments = show {0,number} {0,choice,1==comment, comments}
+message.size = (size: {0,number} MB )
+message.sponsor = If you are the publisher or blogger, learn how to {0,tag}integrate{/0} with feedly.
+message.title_changed_to = Title changed to {0,text}
+message.translating = Translating ...
+#
+message.twitter.followers = {0,number} {0,choice,1==follower,followers} on twitter
+#
+message.unable_to_access_X = Unable to access {0,text}
+#
+message.unread.articles = {0,number} {1,tag}{0,choice,1==unread article,unread articles}{/1}
+message.unread.articles2 = {0,number} unread {0,choice,1==article,articles}.
+#
+message.unsubscribe_info = Unsubscribing from {0,tag}{1,text}{/0} will remove it from both Feedly and Google Reader.
+message.unsubscribed_from = Unsubscribed from {0,tag}{1,text}{/0}.
+message.updating_favorites = Updating favorites
+message.updating_page_dots = Updating page ...
+message.updating_subscription_list = Updating subscription list.
+message.via_X = (via {0,tag}{1,text}{/0})
+#
+message.welcome.X_tutorial = Here is a short tutorial on how to {0,tag}optimize your feedly experience{/0}.
+message.welcome.feedly = Feedly offers 2-way live sync. with Google Reader and Google Buzz.
+message.welcome.hint = Which sources would you like to add to your feedly? Tip: Mark the ones you like the most \
+ as favorite.
+message.welcome.loading_subscriptions_from_X = Loading subscription list from {0,text}. Could take up to a minute. Please wait.
+message.welcome.organize = You can visit the <a href="" data-uri="sources">organize sources</a> page to fine-tune \
+ what sources and topics you would like to subscribe to.
+message.welcome.privacy = The pages you are seeing are generated dynamically in the browser and therefore only accessible \
+ by you. Except for the list of feeds you subscribe to and the list of the articles you \
+ share, no other information is collected or stored by the feedly service.
+message.welcome.review = Review
+#
+openSocial.error.1 = Note is too long for activity stream.
+openSocial.error.2 = Note should not be empty.
+openSocial.error.3 = Could not post to activity stream at time ({0,text})
+openSocial.error.offline = Ning seems off-line.
+#
+openSocial.login = Please login to "OpenSocial" first.
+openSocial.only_in_os = Only available in an Open Social Environment
+openSocial.posted = Posted to your activity stream.
+#
+openSocial.posting.dot = Posting to your activity stream...
+#
+openSocial.using = {0,tag} (using {1,text}) {/0}
+#
+page.base.shared_by = Shared by {0,text}
+page.base.source = Source: {0,tag}{1,text}{/0}
+#
+page.dashbaord.dropremovecategory = Drop here to {0,tag}remove{/0} a category.
+#
+page.explore.articles_per_week = <b>{0,number}</b> {0,choice,1==article,articles}  per week
+page.explore.creating_category = Creating category
+page.explore.explore = Explore
+page.explore.genius_mix = Genius mix {0,tag}{1,text}{/0}
+page.explore.none = none
+page.explore.recommendations = recommendations
+page.explore.searching = Searching...
+page.explore.subscribers = <b>{0,number}</b> {0,choice,1==subscriber,subscribers}
+page.explore.top_sites = Bookmarks & History
+#
+page.explore.twitter.hint_1 = If you are looking for the sources shared by a twitter user, please make sure that you \
+ include @ in the query term (ex: {0,tag}@{1,text}{/0}).
+page.explore.twitter.hint_2 = If you are looking for the sources related to a hashtag/trend, please make sure that you \
+ include \# in the query term (ex: {0,tag},\#{1,text}{/0}).
+page.explore.twitter.hint_4 = If you find a site you like, you can use the +f icon in the URL bar to subscribe to that \
+ site.
+page.explore.twitter.notfound_1 = {0,tag}Sorry{/0} We have reached {0,tag}the twitter hourly quota{/0} and are not able \
+ to lookup {1,text}'s profile. We are working with Twitter to remove this limitation. In \
+ the meantime, you can work around this problem by {2,tag}installing the latest version \
+ of feedly{/2}.
+page.explore.twitter.notfound_2 = We were not able to find any sources for {0,tag}{1,text}{/0}.
+page.explore.twitter.notfound_3 = Please make sure that twitter account exists and that its updates are not protected.
+page.explore.twitter.search_tips = Search Tips
+page.explore.twitter.search_tops_2 = Additional search options
+#
+page.explore.what_who_read = {0,text}'s Tweets
+#
+page.filter.no_results = No results found for {0,tag}{1,text}{/0} in {2,text}.
+page.filter.search_results = Search Results for {0,tag}{1,text}{/0}.
+page.filter.searching = Searching for {0,tag}{1,text}{/0}. Please wait ...
+page.filter.searching2 = Searching for {0,tag}{1,text}{/0} in {2,tag}{3,text}{/2}. Please wait ...
+page.filter.title = Filter {0,tag}{1,text}{/0}
+page.filter.title2 = Filter {0,tag}{1,text}{/0} in {2,tag}{3,text}{/2}
+#
+page.help.all = latest
+page.help.annotated_by_me = annotated by me
+page.help.arm_then = g then
+page.help.articles = Articles
+page.help.at_a_glance = at a glance
+page.help.category_1_9 = category 1-9
+page.help.comments = comments
+page.help.copy_url = copy article URL
+page.help.cover = cover
+page.help.dashboard = organize sources
+page.help.email = email
+page.help.enter = enter
+page.help.esc_to_close = ESC to close
+page.help.favs = favorites
+page.help.friends = buzz
+page.help.history_next = history+1
+page.help.history_prev = history-1
+page.help.home = home
+page.help.inline_collapse = inline/collapse article
+page.help.inline_next = inline next article
+page.help.inline_prev = inline previous article
+page.help.karma = karma
+page.help.keyboard_help = Keyboard Shortcuts Help
+page.help.lists = Lists
+page.help.magic_bar = magic bar
+page.help.mark_as_read_hide = mark as read and hide
+page.help.mark_page_read = mark page as read
+page.help.move_cursor_search = move cursor to search box
+page.help.my_digest = my digest
+page.help.navigation = Navigation
+page.help.others = Others
+page.help.preferences = preferences
+page.help.preview_orig = preview original
+page.help.refresh = refresh
+page.help.save_delicious = save to del.icio.us
+page.help.save_for_later = save for later
+page.help.saved4later = saved for later
+page.help.scan_next = scan next article
+page.help.scan_prev = scan previous article
+page.help.share = share
+page.help.share_with_note = share with note
+page.help.shared_by_me = shared by me
+page.help.shift = shift
+page.help.this_help = this help
+page.help.toggle_as_read = toggle mark as read
+page.help.tweet = tweet
+page.help.view_in_tab = view original in a new tab
+#
+page.login.auth_note = Note: Google is not affiliated with Feedly. Your password will not be shared with the \
+ feedly service.
+page.login.feedly = {0,tag}Feedly is a magazine-like start page{/0} It offers a fast and stylish way to read \
+ and share the content of your favorite sites and services. It provides integration with \
+ Google Reader, Twitter, Friendfeed, Delicious, Digg and YouTube.
+#
+page.login.praise.1 = "The experience is incredible" {0,tag}Read Write Web{/0}
+page.login.praise.2 = "Feedly really rocks as a way to track and share news" {0,tag}Robert Scoble{/0}
+page.login.praise.3 = "My new favorite Firefox extension and home page" {0,tag}Leo Laporte{/0}
+#
+page.preference.general = General
+#
+page.search.empty = No articles found in our sources for {0,tag}{1,text}{/0}.
+page.search.full = full feedly search for {0,tag}{1,text}{/0}
+page.search.heading = Searching for {0,tag}{1,text}{/0}
+page.search.loading = Loading articles ...
+page.search.searchin_dot = Searching. Please wait ...
+#
+page.search.source.blogosphere = In The Blogosphere
+page.search.source.crunchbase = In CrunchBase
+page.search.source.delicious = Most Delicious
+page.search.source.news = In The News
+page.search.source.nyt = In the New York Times
+page.search.source.your_favorites = In Your Favorites
+page.search.source.your_sources = In Your Sources
+#
+page.source.no_unread = no unread
+page.source.shared = {0,number} shared
+page.source.unread = {0,number} unread
+#
+page.sources.action.export = export OPML
+#
+page.sources.createcategory = Create New Category
+page.sources.dragcreatecategory = Drag and drop a subscription here to create a new category
+#
+page.sources.drop.create = Drop here to create a new category.
+#
+page.sources.help.drop = Drop the subscription into one of your categories to re-organize.
+page.sources.help.favorite = Articles from favorite sources have a higher probability to be recommended in the cover \
+ and digest pages.
+#
+page.sources.new_category = new category
+page.sources.postIt = You can use drag and drop to move subscriptions around. The changes you perform in this \
+ page will also be reflected in your Google Reader Subscription database.
+page.sources.removecategory = Remove Category
+#
+page.sources.sub.added = Subscription {2,tag}{0,text}{/2} was added to {2,tag}{1,text}{/2}.
+page.sources.sub.in_category = The item is already in category {1,tag}{0,text}{/1}.
+page.sources.sub.moved = Subscription {2,tag}{0,text}{/2} was moved to {2,tag}{1,text}{/2}.
+page.sources.sub.new_category = New Category:
+page.sources.sub.noop = Nothing happened to subscription {1,tag}{0,text}{/1}.
+#
+page.sources.sub.not.added = Subscription {2,tag}{0,text}{/2} cannot be added to {2,tag}{1,text}{/2}.
+page.sources.sub.not.moved = Subscription {2,tag}{0,text}{/2} cannot be moved to {2,tag}{1,text}{/2}.
+page.sources.sub.not.removed = Subscription {2,tag}{0,text}{/2} cannot be removed from {2,tag}{1,text}{/2}.
+#
+page.sources.sub.removed = Subscription {2,tag}{0,text}{/2} was removed from {2,tag}{1,text}{/2}.
+#
+page.sources.uncategorize = Uncategorize
+page.sources.unsubscribe = Unsubscribe
+#
+pages.sources.removing_category = Removing category
+#
+preference.autoMarkAsReadOnSelect.desc = How long (in {0,tag}milliseconds{/0}) should feedly wait before it marks a selected item \
+ as read? You can set this value to {0,tag}-1{/0} to disable mark as read on selection. \
+ The default value is {0,tag}500{/0} (500 ms is 0.5 seconds).
+preference.autoMarkAsReadOnSelect.label = Auto-'Mark As Read' On Selection
+#
+preference.autoSelectOnScroll.desc = Should feedly automatically select and mark-as-read entries as you scroll the latest page \
+ or other views organized by time? {0,tag}yes{/0}, {0,tag}no{/0} or {0,tag}inlined-only{/0}. \
+ Use inlined-only if you want this behavior only on 'entire content inlined' views. The \
+ default setting is {0,tag}inlined-only{/0}.
+preference.autoSelectOnScroll.label = Auto-Select On Scroll
+#
+preference.autoTag.desc = Should feedly automatically overlay tag information on article content ?
+preference.autoTag.label = Auto Tag Article
+#
+preference.background.desc = Not liking the default background? You can change it here. Example: \#E9ECEC
+preference.background.label = Background Color
+#
+preference.bccEmailAddress.desc = What email address(es) should be automagically BCC'ed when you email an article ?
+preference.bccEmailAddress.label = Auto-magic BCC Email Address(es)
+#
+preference.cacheNextPage.desc = When finished loading a page in a list, should feedly try to pro-actively cache the content \
+ of the next page ? Default value is {0,tag}yes{/0}.
+preference.cacheNextPage.label = Cache Next Page
+#
+preference.confirmMaskAsRead.desc = Should we show a mark as read confirmation dialog ?
+preference.confirmMaskAsRead.label = Confirm Mark As Read
+#
+preference.confirmUnsubscribe.desc = Should we show the Google Reader confirmation message when unsubscribing from feeds ?
+preference.confirmUnsubscribe.label = Confirm Unsubscribe
+#
+preference.defaultStartPageURI.desc = Which page would you like feedly to load when you start feedly ? Tips: You can also bookmark \
+ any feedly page and jump back to that page directly.
+preference.defaultStartPageURI.label = Start Page
+#
+preference.defaultViewer.desc = Where would you like feedly to open the original articles?
+preference.defaultViewer.label = View Original
+#
+preference.flickrModule.desc = When should we include the flickr sidebar module ?
+preference.flickrModule.label = Flickr Module
+#
+preference.googleAppsDomain.desc = Would you like to use Google Apps instead of Gmail when emailing articles? Example: devhd.com
+preference.googleAppsDomain.label = Google Apps domain
+#
+preference.gridLayout.desc = Adjust the layout of the user interface to the width of your display.
+preference.gridLayout.label = Navigation Layout
+#
+preference.indexFilter.all = list all sources
+preference.indexFilter.desc = Should feedly include in the feed index all the sources or the updated ones only?
+preference.indexFilter.label = Sources Module
+preference.indexFilter.updated = list updated sources only
+#
+preference.label.adjust_to_width = automatically adjust to the width of the window
+preference.label.at_a_glance = at a glance
+preference.label.category = on all category pages
+preference.label.cover = cover
+preference.label.digest = digest
+preference.label.disable_mini = no - disable the mini toolbar
+preference.label.disabled = disabled
+preference.label.explore = only in explore pages
+preference.label.favorites = favorites
+preference.label.hide = hide
+preference.label.in_preview_dialog = in preview dialog
+preference.label.in_sep_tab = in separate tab
+preference.label.inlined_only = Only for 'Entire Content Inlined' pages
+preference.label.latest = latest
+preference.label.left = left side
+preference.label.left_nav = left navigation - optimized for 1180px and more
+preference.label.moderate = moderate
+preference.label.narrow_nav = top navigation - optimized for 1024px width
+preference.label.right = right side
+preference.label.show = show
+#
+preference.locale.desc = In what language would you prefer to see feedly in ?
+preference.locale.label = Feedly locale
+#
+preference.miniExcludeList.desc = Comma delimited list of sites you would like feedly mini to not display on. Based on URL \
+ pattern matching. Example: facebook,myspace {0,tag}\!important{/0}: no space before or \
+ after the commas
+preference.miniExcludeList.label = Exclude List
+#
+preference.miniLevel.desc = Should feedly mini (tiny sharing toolbar located at the bottom right of the browser window) \
+  be enabled ?
+preference.miniLevel.label = Mini Enabled ?
+#
+preference.portfolioModule.desc = Should the feedly digest include a summary of the news related to the stocks you are tracking \
+ in Google Finance?
+preference.portfolioModule.label = Finance Module
+#
+preference.readLinkColor.desc = What should be the color of the links for read articles? the default value is \#5A5A5A
+preference.readLinkColor.label = Read Links Color
+#
+preference.section.advanced = advanced
+preference.section.confirm = confirm
+preference.section.digest = digest
+preference.section.mini = feedly mini
+preference.section.profile = profile
+preference.section.sharing = sharing
+preference.section.side_area = side area
+preference.section.sidebar = sidebar
+#
+preference.timelineModule.desc = Should feedly include a Twitter module on the digest page?
+preference.timelineModule.label = Twitter Module
+#
+preference.trendsModule.desc = Should feedly include an 'explore' module on the digest page?
+preference.trendsModule.label = Explore Module
+#
+preference.tweetsFilter.desc = What filter should feedly use to pick the most interesting tweets ? In each category page, \
+ we show a tweet gallery module. The content of that module are tweets which are generated \
+ using a search against twitter. The query term for the search is the name of the category \
+ + the value of this preference. Default value is 'love OR amazing OR wow OR awesome filter:links'
+preference.tweetsFilter.label = Tweet Gallery Filter
+#
+preference.tweetsModule.desc = Should feedly include a 'tweet gallery' module in the side area?
+preference.tweetsModule.label = Tweet Gallery Module
+#
+preference.twitterPostfix.desc = Should feedly add '/cc @feedly' to the end of twitter messages? Empty it if you do not \
+ want any postfix. This helps us filter content and track how your tweets spread - see \
+ Karma"
+preference.twitterPostfix.label = Feedly Postfix
+#
+preference.unreadIndicator.articles = number of unread articles
+preference.unreadIndicator.desc = Should feedly display an unread indicator on the Chrome toolbar icon? If so, which one?
+preference.unreadIndicator.favorites = number of unread favorite sources
+preference.unreadIndicator.label = Unread Indicator (Chrome Only)
+preference.unreadIndicator.none = no indicator
+preference.unreadIndicator.sources = number of unread sources
+#
+preference.unreadLinkColor.desc = What should be the color of the links for unread articles? the default value is \#075FB2
+preference.unreadLinkColor.label = Unread Links Color
+#
+preference.yourAddressBookURL.desc = URL of your email address book, in LDIF format, if any.Note: Feedly will automatically \
+ integrate with your gmail and Yahoo address books.
+preference.yourAddressBookURL.label = Beyond Google and Yahoo\! Contacts
+#
+preference.youtubeModule.desc = When should we include the Youtube sidebar module ?
+preference.youtubeModule.label = Youtube Module
+#
+share.creating = Posting...
+share.extracted_from = [extracted from {0,tag}{1,text}{/0} via {2,tag}feedly{/2}]
+share.using = buzz using {0,text}
+#
+text.capitalze = {0,capitalize}
+text.upper = {0,upper}
+#
+tumblr.login = Please login first to your tumblr account. {0,text}
+tumblr.login_key = hint: could not obtain form key
+tumblr.posted = Link Posted on Tumblr
+#
+tumblr.posting_to.dots = Posting to tumbler ...
+#
+tumblr.quote_ok = Quote created successfully
+#
+twitter.clicks = {0,number} clicks
+twitter.cover = {0,tag}Login to twitter{/0} to see a summary of your tweets, mentions and track topics.
+twitter.direct = direct
+#
+twitter.error.1 = Note is too long for twitter.
+twitter.error.2 = Twitter note should not be empty.
+twitter.error.3 = Could not tweet at time ({0,text})
+twitter.error.offline = Twitter seems off-line.
+#
+twitter.id = Twitter ID
+#
+twitter.karma.intro = Karma is an experiment we are running to help you get more insight on how people react \
+ to the content you are sharing on twitter. Here is {0,tag}the karma page of @{1,text}{/0} \
+ for example.
+twitter.karma.login = login to twitter
+twitter.karma.no_tweets = Could not find any recent tweets from @{0,text} containing bit.ly links (that or twitter \
+ search is not cooperating).
+#
+twitter.login = Please {0,tag}login{/0} to Twitter first.
+twitter.login2 = login to twitter
+twitter.login_timeline = Please {0,tag}login{/0} first and then {1,tag}refresh{/1} this module to see your twitter \
+ timeline.
+#
+twitter.magic.words = Checking Twitter's magic words.
+#
+twitter.posted = Posted on Twitter.
+#
+twitter.posting.dot = Posting to Twitter ...
+#
+twitter.recently_shared_by_you = recently shared by you
+twitter.stream = Tweet Stream
+twitter.trends = Twitter Trends
+twitter.tweet = Tweet
+twitter.tweet_selection = Tweet ({0,number} characters)
+twitter.tweets_from_followers = tweets from the people you follow
+twitter.twitterati = Twitterati
+#
+twitter.user.tweeted = @{0,text} tweeted
+#
+twitter.using = {0,tag} (using {1,text}) {/0}
+#
+twitter.using.bitly = {0,tag} using {1,text} & bit.ly {2,text} {/0}
+#
+twitter.visit_search_twitter = visit search.twitter.com for more information

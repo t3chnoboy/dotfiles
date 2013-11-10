@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "L\u00E4gg till"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "Avancerade Alternativ"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "Grunderna"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "botten"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "\u00C4ndringslogg"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "Radera"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "Visa L\u00E4gg till-knappen p\u00E5 YouTube f\u00F6r denna video."
+   },
+   "desalllightsoff": {
+      "description": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled.",
+      "message": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "Visa bakgrundsbelysning f\u00F6r videon som spelas."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 valda f\u00E4rger runt videon:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "En solid f\u00E4rg:"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "Ett l\u00E5gt v\u00E4rde sk\u00E4rper skuggan, ett h\u00F6gre v\u00E4rde g\u00F6r skuggan suddigare."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Positiva v\u00E4rden \u00F6kar skuggans storlek, negativa minskar den."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "Ta f\u00E4rgen fr\u00E5n videon."
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Use the atmosphere lighting feature only the following video site:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "D\u00E4mpa bakgrunden automatiskt n\u00E4r du trycker p\u00E5 spela upp och g\u00F6r den ljus n\u00E4r du klickar n\u00E5gon annanstans."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site(s):",
+      "message": "Dim only the following video site(s):"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "Bekr\u00E4fta l\u00F6senord"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "Bekr\u00E4fta tid"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Bekr\u00E4fta tid f\u00F6r sk\u00E4rmsl\u00E4ckare"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "Visa snabbmenyn f\u00F6r att fokusera ett objekt."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "Hela sidan kommer att d\u00E4mpas, s\u00E5 att du kan se videon som om du vore p\u00E5 bio."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Block"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Moln som r\u00F6r sig"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Akvarium"
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Regndroppar"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Rymden"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "En bonus i det h\u00E4r till\u00E4gget."
+   },
+   "desenterpassword": {
+      "description": "Enter your password in the box below:",
+      "message": "Enter your password in the box below:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "D\u00E4mpa bakgrunden automatiskt n\u00E4r en sida \u00F6ppnas."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when opening the following page(s):",
+      "message": "Automatically dim the background when opening the following page(s):"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "Normal anv\u00E4ndning (ljuset sl\u00E4cks n\u00E4r du klickar p\u00E5 lampikonen)."
+   },
+   "deseyetimesaver": {
+      "description": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark.",
+      "message": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "Visa tona in-effekten"
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "Visa tona ut-effekten."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "Visa alla Flash-objekt."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads.",
+      "message": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "Visa kanalmenyn."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "Visa videons beskrivning."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar under YouTube videos.",
+      "message": "Show the like/dislike bar under YouTube videos."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "Visa YouTubes Gilla- & Ogillaknappar f\u00F6r denna video."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "Om belysningen \u00E4r avst\u00E4ngd, visa ljus runt muspekaren."
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "Om ljuset \u00E4r av kan du markera ett omr\u00E5de att fokusera p\u00E5."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disables the mouse settings below)",
+      "message": "Normal use (disables the mouse settings below)"
+   },
+   "desmousespotlightt": {
+      "description": "Allows you to click through the darkened screen when the lights are off.",
+      "message": "Allows you to click through the darkened screen when the lights are off."
+   },
+   "desnoflash": {
+      "description": "Don't use this feature.",
+      "message": "Don't use this feature."
+   },
+   "despassword": {
+      "description": "Require a password to be entered before turning the lights back on.",
+      "message": "Require a password to be entered before turning the lights back on."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "Visa spellistan p\u00E5 YouTube."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "Visa alltid d\u00E4mpningsreglaget n\u00E4r ljuset sl\u00E4cks."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "Visa aldrig d\u00E4mpningsreglaget."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "If this option is enabled, it will show you not the remember page."
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Sk\u00E4rmsl\u00E4ckare"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "Visa YouTubes delningsknappar f\u00F6r denna video."
+   },
+   "desshortcutlight": {
+      "description": "Enable the keyboard shortcuts below.",
+      "message": "Enable the keyboard shortcuts below."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "is the diameter of the search lamp."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "Visa f\u00F6rslag fr\u00E5n YouTube."
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "Lights off between the following times:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "tills"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "Visa och invertera f\u00E4rgen p\u00E5 videotiteln."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "Visa antalet visningar f\u00F6r den h\u00E4r videon."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "Om du kan donera lite pengar skulle jag uppskatta det oerh\u00F6rt mycket!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "Gillar du en riktig biosalong?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Enjoy this extension and share it with others who you think will appreciate it."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "OFF"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "ON"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Friendly Remember..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "TOtL V\u00E4lkomstguide"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option."
+   },
+   "helpeyeprotection": {
+      "description": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature.",
+      "message": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "apply"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "with flying"
+   },
+   "installadblocker": {
+      "description": "Use with an Adblocker extension.",
+      "message": "Use with an Adblocker extension."
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "Senaste version kollad den"
+   },
+   "left": {
+      "description": "left",
+      "message": "v\u00E4nster"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Var v\u00E4nlig ange ditt l\u00F6senord"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Fel l\u00F6senord, var v\u00E4nlig f\u00F6rs\u00F6k igen."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Sekunder sparades framg\u00E5ngsrikt!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - Alternativ"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "L\u00F6senordet sparades framg\u00E5ngsrikt!"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Tiden sparades framg\u00E5ngsrikt!"
+   },
+   "optionwrongimg": {
+      "description": "Invalid image file!",
+      "message": "Invalid image file!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "hj\u00E4lp"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "Laddar sidan fortfarande?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "D\u00E4mpa denna sida"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Share"
+   },
+   "recflash": {
+      "description": "Recommended",
+      "message": "Recommended"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Rate"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "Rapportera ett problem"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(se lista)"
+   },
+   "right": {
+      "description": "right",
+      "message": "h\u00F6ger"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "Inst\u00E4llningar"
+   },
+   "shortcutalllights": {
+      "description": "to toggle the lights on/off for all open tabs.",
+      "message": "to toggle the lights on/off for all open tabs."
+   },
+   "shortcutbright": {
+      "description": "to brighten the screen (decrease opacity).",
+      "message": "to brighten the screen (decrease opacity)."
+   },
+   "shortcutdark": {
+      "description": "to darken the screen (increase opacity).",
+      "message": "to darken the screen (increase opacity)."
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "to enable/disable the eye protection feature."
+   },
+   "shortcutopacity": {
+      "description": "to restore to the set darkness (opacity) setting.",
+      "message": "to restore to the set darkness (opacity) setting."
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "to save this opacity value"
+   },
+   "shortcuttotl": {
+      "description": "to toggle the lights on/off.",
+      "message": "to toggle the lights on/off."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "doesn't show this remember page again when I open the option page."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Skip this, and open now the option page"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "Denna programvara \u00E4r licensierad under CC-GNU GPL. F\u00F6r att se en kopia av denna licens, bes\u00F6k"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "L\u00E4gg till-knapp"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "All open tabs"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Bakgrundsbelysning"
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "Automatisk uppspelning"
+   },
+   "titelautowidthyoutube": {
+      "description": "Automatically set the YouTube player to the larger size.",
+      "message": "Automatically set the YouTube player to the larger size."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Blur the rest"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "Osk\u00E4rpa"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Movie theater mode: it show the 'lights off' layer only on the top of the window."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "F\u00E4rg"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "Snabbmeny"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "Ladda ner den h\u00E4r uppgraderingen!"
+   },
+   "titeldownloadupgrade": {
+      "description": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site.",
+      "message": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Dynamisk Bakgrund"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "P\u00E5sk\u00E4gg"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "\u00D6gonskydd"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Tona in"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "Tona ut"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "Flashdetektion"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "Kanal"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "Bakgrundsbild"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "Informationsf\u00E4lt"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "Lampa"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "Visa mindre"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Gillam\u00E4taren"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "Gilla- & Ogillaknappar"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Automatically set to this resolution:",
+      "message": "Automatically set to this resolution:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "Mus"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "Av"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "P\u00E5"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "Opacitet"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "D\u00F6lj lampikonen"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "L\u00F6senordsskydd"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "Spellista"
+   },
+   "titelqualityyoutube": {
+      "description": "Automatically set the quality of YouTube videos.",
+      "message": "Automatically set the quality of YouTube videos."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "D\u00E4mpningsreglage"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Remember page"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Sk\u00E4rm"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "Delningsknappar"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "Tangentbordsgenv\u00E4g"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "Visa mer"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "Spridningsradien"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "F\u00F6rslag"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Sync"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Sync the extension settings with your other browser."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "Uppgradera"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "Videonamn"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "Antal visningar"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Donera"
+   },
+   "top": {
+      "description": "top",
+      "message": "topp"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "Hj\u00E4lp till med \u00F6vers\u00E4ttning"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "Version"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Fokusera p\u00E5 denna video"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "Visuella Effekter"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "Varning!"
+   },
+   "warningtextambilight": {
+      "description": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead.",
+      "message": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead."
+   }
+}

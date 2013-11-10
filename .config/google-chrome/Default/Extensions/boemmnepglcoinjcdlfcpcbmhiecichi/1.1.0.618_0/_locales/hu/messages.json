@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "Hiba t\u00F6rt\u00E9nt."
+   },
+   "error_tooltip": {
+      "message": "Hiba t\u00F6rt\u00E9nt"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Minden jog fenntartva."
+   },
+   "extension_description": {
+      "message": "Tekintse meg Google+ szolg\u00E1ltat\u00E1sbeli \u00E9rtes\u00EDt\u00E9seit az interneten, amikor be van jelentkezve."
+   },
+   "extension_name": {
+      "message": "Google+ \u00E9rtes\u00EDt\u00E9sek"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "$1+-\u00E9rtes\u00EDt\u00E9sek",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "Google+-oldal\u00E9rtes\u00EDt\u00E9sek aktiv\u00E1l\u00E1sa"
+   },
+   "follow_promo_feature_1": {
+      "message": "Amikor felkeres egy Google+ Oldalhoz kapcsolt webhelyet, megjelenik egy cs\u00FAszka a b\u00F6ng\u00E9sz\u0151ablak oldal\u00E1n. Vigye az egeret a cs\u00FAszka f\u00F6l\u00E9 annak r\u00E9szletes n\u00E9zet\u00E9hez, amelyb\u0151l k\u00F6nnyen hozz\u00E1adhatja az oldalt a k\u00F6reihez."
+   },
+   "follow_promo_feature_2": {
+      "message": "A b\u00F6ng\u00E9sz\u0151ben megtal\u00E1lhat\u00F3 \u00E9rtes\u00EDt\u00E9sek gombon egy \"+\" jelzi, ha olyan webhelyet tekint meg, amelyhez kapcsol\u00F3dik egy Google+ Oldal. A gombra kattintva \u2013 ahogy eddig is \u2013 l\u00E1that\u00F3v\u00E1 v\u00E1lnak az \u00E9rtes\u00EDt\u00E9sek, de most megjelennek a Google+ Oldallal kapcsolatos inform\u00E1ci\u00F3k is, megk\u00F6nny\u00EDtve az oldal k\u00F6vet\u00E9s\u00E9nek megkezd\u00E9s\u00E9t."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "Tov\u00E1bb gazdag\u00EDthatja Google+-fal\u00E1t az \u00D6n \u00E1ltal \u00E9rdekesnek tal\u00E1lt Google+ Oldalak k\u00F6vet\u00E9s\u00E9vel:"
+   },
+   "follow_promo_following_description": {
+      "message": "Miut\u00E1n egy Google+ Oldal beker\u00FCl a k\u00F6reibe, a fal\u00E1n megjelenik az oldal \u00F6sszes bejegyz\u00E9se."
+   },
+   "follow_promo_header": {
+      "message": "Fedezzen fel Google+ Oldalakat b\u00F6ng\u00E9sz\u00E9s k\u00F6zben!"
+   },
+   "join_google_plus_message": {
+      "message": "Csatlakozzon a Google+ szolg\u00E1ltat\u00E1shoz, hogy megtekinthesse az \u00E9rtes\u00EDt\u00E9seket."
+   },
+   "join_google_plus_tooltip": {
+      "message": "Csatlakozzon a Google+ szolg\u00E1ltat\u00E1shoz, hogy megtekinthesse az \u00E9rtes\u00EDt\u00E9seket"
+   },
+   "loading": {
+      "message": "Bet\u00F6lt\u00E9s..."
+   },
+   "many_new_notifications": {
+      "message": "\u00D6nnek $1 \u00FAj \u00E9rtes\u00EDt\u00E9se van",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "\u00DAj!"
+   },
+   "no_new_notifications": {
+      "message": "Nincsenek \u00FAj \u00E9rtes\u00EDt\u00E9sek"
+   },
+   "not_now": {
+      "message": "Most nem"
+   },
+   "one_new_notification": {
+      "message": "Egy \u00FAj \u00E9rtes\u00EDt\u00E9se van"
+   },
+   "options_header": {
+      "message": "Be\u00E1ll\u00EDt\u00E1sok"
+   },
+   "options_title": {
+      "message": "Be\u00E1ll\u00EDt\u00E1sok"
+   },
+   "privacy_and_terms": {
+      "message": "Adatv\u00E9delmi ir\u00E1nyelvek \u00E9s \u00C1ltal\u00E1nos Szerz\u0151d\u00E9si Felt\u00E9telek"
+   },
+   "promo_link": {
+      "message": "Tov\u00E1bbi inform\u00E1ci\u00F3 &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003E\u00DAj!\u003C/span\u003E Fedezzen fel Google+ Oldalakat b\u00F6ng\u00E9sz\u00E9s k\u00F6zben!"
+   },
+   "retry_now": {
+      "message": "\u00DAjrapr\u00F3b\u00E1lkoz\u00E1s most."
+   },
+   "retrying_in": {
+      "message": "\u00DAjrapr\u00F3b\u00E1lkoz\u00E1s $1 m\u00E1sodperc m\u00FAlva.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "N\u00E9vtelen felhaszn\u00E1l\u00E1si statisztika automatikus k\u00FCld\u00E9se a Google-nak."
+   },
+   "sign_in_message": {
+      "message": "Jelentkezzen be az \u00E9rtes\u00EDt\u00E9sek megtekint\u00E9s\u00E9hez."
+   },
+   "sign_in_tooltip": {
+      "message": "Jelentkezzen be az \u00E9rtes\u00EDt\u00E9sek megtekint\u00E9s\u00E9hez."
+   },
+   "use_plus_follow_header": {
+      "message": "K\u00E9rek \u00E9rtes\u00EDt\u00E9st a felkeresett webhelyekhez kapcsol\u00F3d\u00F3, a Google+-on megtal\u00E1lhat\u00F3 szem\u00E9lyekkel \u00E9s oldalakkal kapcsolatban (tov\u00E1bbi enged\u00E9lyek sz\u00FCks\u00E9gesek)."
+   },
+   "use_plus_follow_note": {
+      "message": "A felkeresett oldalak URL-jeit a szolg\u00E1ltat\u00E1s elk\u00FCldi a Google-nak a hozz\u00E1juk kapcsol\u00F3d\u00F3 Google+-profilok \u00E9s Oldalak beazonos\u00EDt\u00E1sa \u00E9rdek\u00E9ben."
+   },
+   "yada_yada": {
+      "message": "Ez nem a szok\u00E1sos blabla:"
+   }
+}

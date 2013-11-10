@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "A description of the application.",
+      "message": "Salve suas id\u00E9ias e experi\u00EAncias no Evernote, depois acesse a partir de qualquer dispositivo que voc\u00EA use."
+   },
+   "extensionName": {
+      "description": "The name of the application.",
+      "message": "Evernote Web"
+   }
+}

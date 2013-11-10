@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "js": [ "debug.js", "redditContent.js" ],
+      "matches": [ "http://*.reddit.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "debug.js", "pageOverlay.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "default-src 'self'; connect-src 'self' http://www.reddit.com",
+   "description": "Turn your browser into a redditor's best friend.",
+   "icons": {
+      "128": "images/shine-128.png",
+      "16": "images/shine-16.png",
+      "48": "images/shine-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1NPGcRfqDyRPl0xicirASvvzINKifnNk9RX76L0GmVFl1kyA8Bymoou9N2D9474zyZo3TBWHH7i9pAU86BkCisAMUzKiZBpBgEFDoqop9neQEzE2bSe8ziJPH0DVN08XtYGuQC4jNZpGl8SjB55Uj1i1fMUKxLscmKznn/9CehwIDAQAB",
+   "manifest_version": 2,
+   "name": "reddit companion",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "images/reddit.png",
+      "default_title": "Show reddit information"
+   },
+   "permissions": [ "tabs", "notifications", "http://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.2",
+   "web_accessible_resources": [ "pageOverlay.css", "bar.html", "submit.html", "images/reddit-mail.svg", "images/reddit-modmail.svg" ]
+}

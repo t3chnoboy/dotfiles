@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "Vyskytla sa chyba."
+   },
+   "error_tooltip": {
+      "message": "Vyskytla sa chyba"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. V\u0161etky pr\u00E1va vyhraden\u00E9."
+   },
+   "extension_description": {
+      "message": "Zobrazte si upozornenia na aktivitu v slu\u017Ebe Google+ bez oh\u013Eadu na to, kde sa na webe pr\u00E1ve nach\u00E1dzate."
+   },
+   "extension_name": {
+      "message": "Upozornenia Google+"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "Upozornenia $1+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "Aktivova\u0165 upozornenia str\u00E1nok Google+"
+   },
+   "follow_promo_feature_1": {
+      "message": "Ke\u010F nav\u0161t\u00EDvite str\u00E1nky prepojen\u00E9 so str\u00E1nkou Google+, v bo\u010Dnej \u010Dasti okna prehliada\u010Da sa zobraz\u00ED pos\u00FAva\u010D. Ke\u010F na\u0148 uk\u00E1\u017Eete my\u0161ou, rozbal\u00ED sa a dan\u00FA str\u00E1nku m\u00F4\u017Eete jednoducho prida\u0165 do svojich kruhov."
+   },
+   "follow_promo_feature_2": {
+      "message": "Tla\u010Didlo upozornen\u00ED v prehliada\u010Di bude ozna\u010Den\u00E9 symbolom +, ktor\u00FD ozna\u010Duje, \u017Ee zobrazen\u00E9 str\u00E1nky s\u00FA prepojen\u00E9 so str\u00E1nkou Google+. Kliknut\u00EDm na tla\u010Didlo zobraz\u00EDte svoje upozornenia rovnako ako predt\u00FDm, ale okrem toho sa e\u0161te zobrazia inform\u00E1cie o s\u00FAvisiacej str\u00E1nke Google+ s mo\u017Enos\u0165ou za\u010Da\u0165 str\u00E1nku okam\u017Eite sledova\u0165."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "Zlep\u0161ite svoj stream slu\u017Eby Google+ sledovan\u00EDm str\u00E1nok Google+, ktor\u00E9 v\u00E1s zauj\u00EDmaj\u00FA:"
+   },
+   "follow_promo_following_description": {
+      "message": "Ke\u010F sa str\u00E1nka Google+ nach\u00E1dza vo va\u0161ich kruhoch, za\u010Dn\u00FA sa vo va\u0161om streame zobrazova\u0165 v\u0161etky jej pr\u00EDspevky."
+   },
+   "follow_promo_header": {
+      "message": "Objavte str\u00E1nky Google+ pri prehliadan\u00ED webu"
+   },
+   "join_google_plus_message": {
+      "message": "Ak chcete zobrazi\u0165 upozornenia, pripojte sa k slu\u017Ebe Google+."
+   },
+   "join_google_plus_tooltip": {
+      "message": "Ak chcete zobrazi\u0165 upozornenia, pripojte sa k slu\u017Ebe Google+"
+   },
+   "loading": {
+      "message": "Prebieha na\u010D\u00EDtavanie..."
+   },
+   "many_new_notifications": {
+      "message": "M\u00E1te  nov\u00E9 upozornenia (po\u010Det: $1)",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "Novinka!"
+   },
+   "no_new_notifications": {
+      "message": "Nem\u00E1te \u017Eiadne nov\u00E9 upozornenia"
+   },
+   "not_now": {
+      "message": "Teraz nie"
+   },
+   "one_new_notification": {
+      "message": "M\u00E1te 1 nov\u00E9 upozornenie"
+   },
+   "options_header": {
+      "message": "Mo\u017Enosti"
+   },
+   "options_title": {
+      "message": "Mo\u017Enosti"
+   },
+   "privacy_and_terms": {
+      "message": "Ochrana osobn\u00FDch \u00FAdajov a Zmluvn\u00E9 podmienky"
+   },
+   "promo_link": {
+      "message": "Viac inform\u00E1ci\u00ED &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003ENovinka!\u003C/span\u003E Objavte str\u00E1nky Google+ pri prehliadan\u00ED webu"
+   },
+   "retry_now": {
+      "message": "Sk\u00FAsi\u0165 znova."
+   },
+   "retrying_in": {
+      "message": "\u010Eal\u0161\u00ED pokus prebehne o $1 s.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "Automaticky odosiela\u0165 spolo\u010Dnosti Google anonymn\u00E9 \u0161tatistiky pou\u017E\u00EDvania"
+   },
+   "sign_in_message": {
+      "message": "Ak chcete zobrazi\u0165 upozornenia, prihl\u00E1ste sa."
+   },
+   "sign_in_tooltip": {
+      "message": "Ak chcete zobrazi\u0165 upozornenia, prihl\u00E1ste sa"
+   },
+   "use_plus_follow_header": {
+      "message": "Upozornite ma na \u013Eud\u00ED a str\u00E1nky v slu\u017Ebe Google+ s priraden\u00EDm k webov\u00FDm str\u00E1nkam, ktor\u00E9 nav\u0161tevujem (vy\u017Eaduj\u00FA sa \u010Fal\u0161ie povolenia)"
+   },
+   "use_plus_follow_note": {
+      "message": "Adresy URL nav\u0161t\u00EDven\u00FDch webov\u00FDch str\u00E1nok bud\u00FA odoslan\u00E9 spolo\u010Dnosti Google na identifik\u00E1ciu profilov a str\u00E1nok Google+, ktor\u00E9 s\u00FA s t\u00FDmito adresami URL prepojen\u00E9."
+   },
+   "yada_yada": {
+      "message": "Toto nie s\u00FA obvykl\u00E9 pr\u00E1zdne re\u010Di:"
+   }
+}

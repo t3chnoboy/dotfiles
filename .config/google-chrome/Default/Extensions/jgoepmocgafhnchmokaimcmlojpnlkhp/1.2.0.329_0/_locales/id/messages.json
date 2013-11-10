@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EAnda\u003C/a\u003E telah memberi laman ini +1."
+   },
+   "add_plusone_tooltip": {
+      "message": "Beri laman ini +1 sebagai {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Dasar-Dasar"
+   },
+   "browser_usage_warning": {
+      "message": "Dengan mengaktifkan opsi ini, penggunaan browser Anda akan dibagikan dengan Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Tidak dapat memberi laman ini +1."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Tidak dapat memberi laman ini +1"
+   },
+   "counts_group_name": {
+      "message": "Jumlah"
+   },
+   "error_message": {
+      "message": "Telah terjadi kesalahan."
+   },
+   "error_tooltip": {
+      "message": "Telah terjadi kesalahan."
+   },
+   "extension_copyright": {
+      "message": "Hak Cipta 2011 Google Inc. Semua Hak Dilindungi Undang-Undang."
+   },
+   "extension_description": {
+      "message": "Memberi +1 dan berbagi laman web, apa pun yang Anda buka di web."
+   },
+   "extension_name": {
+      "message": "Tombol Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "Tombol +1"
+   },
+   "loading": {
+      "message": "Memuat..."
+   },
+   "options_header": {
+      "message": "Opsi"
+   },
+   "options_title": {
+      "message": "Opsi"
+   },
+   "privacy_and_terms": {
+      "message": "Privasi &amp; Persyaratan"
+   },
+   "remove_plusone_success": {
+      "message": "+1 \u003Ca\u003EAnda\u003C/a\u003E telah dihapus."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Hapus +1 dari laman ini"
+   },
+   "send_usage_statistics": {
+      "message": "Otomatis mengirim statistik penggunaan anonim ke Google"
+   },
+   "show_plusone_counts": {
+      "message": "Tampilkan Jumlah +1"
+   },
+   "sign_in_message": {
+      "message": "Setelah masuk, Anda dapat memberi laman ini +1."
+   },
+   "sign_in_tooltip": {
+      "message": "Masuk untuk menggunakan Google +1"
+   },
+   "sign_up_message": {
+      "message": "Daftar untuk menggunakan Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "Daftar untuk menggunakan Google +1"
+   }
+}

@@ -1,0 +1,29 @@
+/**
+ * Copyright 2011 Google Inc. All Rights Reserved.
+ */
+
+#content {
+  padding-top: 5px;
+  padding-__MSG_@@bidi_end_edge__: 26px;
+  padding-bottom: 4px;
+  padding-__MSG_@@bidi_start_edge__: 5px;
+}
+
+.thumbnail {
+  margin-top: 0;
+  margin-__MSG_@@bidi_end_edge__: 9px;
+  margin-bottom: -3px;
+  margin-__MSG_@@bidi_start_edge__: 0;
+}
+
+.close-popup-button {
+  __MSG_@@bidi_end_edge__: 5px;
+}
+
+.floatStart {
+  float: __MSG_@@bidi_start_edge__;
+}
+
+.floatEnd {
+  float: __MSG_@@bidi_end_edge__;
+}

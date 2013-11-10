@@ -1,0 +1,398 @@
+{
+   "advanced": {
+      "description": "The text of the button to toggle advanced settings.",
+      "message": "\u0440\u043E\u0437\u0448\u0438\u0440\u0435\u043D\u0456"
+   },
+   "ago": {
+      "description": "A setence that describes that something happened {placeholder} time ago, e.g. '{20 minutes} ago'.",
+      "message": "$1 \u0442\u043E\u043C\u0443"
+   },
+   "animations": {
+      "description": "The label for the checkbox to disable/enable animations.",
+      "message": "\u0410\u043D\u0456\u043C\u0430\u0446\u0456\u044F"
+   },
+   "badge_color": {
+      "description": "Label for the badge color selector.",
+      "message": "\u041A\u043E\u043B\u0456\u0440 \u0442\u043B\u0430"
+   },
+   "cancel": {
+      "description": "The text for a generic 'cancel' button.",
+      "message": "\u0421\u043A\u0430\u0441\u0443\u0432\u0430\u0442\u0438"
+   },
+   "check_all": {
+      "description": "The text of the button that initiates a check of all pages.",
+      "message": "\u041F\u0435\u0440\u0435\u0432\u0456\u0440\u0438\u0442\u0438 \u0443\u0441\u0435"
+   },
+   "check_every": {
+      "description": "The label for the check interval textbox.",
+      "message": "\u0427\u0430\u0441\u0442\u043E\u0442\u0430 \u043F\u0435\u0440\u0435\u0432\u0456\u0440\u043A\u0438"
+   },
+   "check_in_progress": {
+      "description": "The message to display while a check is in progress.",
+      "message": "\u041F\u0435\u0440\u0435\u0432\u0456\u0440\u043A\u0430"
+   },
+   "close": {
+      "description": "The text for a generic 'close form' button.",
+      "message": "\u0417\u0430\u043A\u0440\u0438\u0442\u0438"
+   },
+   "custom_mode": {
+      "description": "The label for custom checking mode (selector or regex).",
+      "message": "\u041E\u0431\u043B\u0430\u0441\u0442\u044C"
+   },
+   "day": {
+      "description": "A single day, as a number suffix (e.g. '1 day').",
+      "message": "1 \u0434\u0435\u043D\u044C"
+   },
+   "days": {
+      "description": "A plural number of days, as a number suffix (e.g. '7 days').",
+      "message": "$1 \u0434\u043D\u0456"
+   },
+   "description": {
+      "description": "The global description of the extension.",
+      "message": "\u0421\u0442\u0435\u0436\u0438\u0442\u044C \u0437\u0430 \u0437\u043C\u0456\u043D\u0430\u043C\u0438 \u0443 \u0432\u0435\u0431-\u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0430\u0445, \u043F\u0440\u0430\u0446\u044E\u044E\u0447\u0438 \u0443 \u0444\u043E\u043D\u043E\u0432\u043E\u043C\u0443 \u0440\u0435\u0436\u0438\u043C\u0456."
+   },
+   "diff_corruption": {
+      "description": "Cache corruption error message on the diff page.",
+      "message": "\u0417\u0430\u0444\u0456\u043A\u0441\u043E\u0432\u0430\u043D\u043E \u0442\u0430 \u0432\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043F\u043E\u0448\u043A\u043E\u0434\u0436\u0435\u043D\u043D\u044F \u043A\u0435\u0448\u0443. \u041F\u043E\u043F\u0435\u0440\u0435\u0434\u043D\u044E \u0432\u0435\u0440\u0441\u0456\u044E \u0432\u0456\u0434\u0445\u0438\u043B\u0435\u043D\u043E. \u041F\u0456\u0434\u0441\u0432\u0456\u0447\u0443\u0432\u0430\u043D\u043D\u044F \u0437\u043C\u0456\u043D \u0431\u0443\u0434\u0435 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u0435 \u043F\u0456\u0441\u043B\u044F \u043D\u0430\u0441\u0442\u0443\u043F\u043D\u043E\u0433\u043E \u043E\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044F."
+   },
+   "diff_error": {
+      "description": "A diff failure error message on the diff page.",
+      "message": "\u041F\u043E\u043C\u0438\u043B\u043A\u0430 \u0432\u0438\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0437\u043C\u0456\u043D. \u0411\u0443\u0434\u044C \u043B\u0430\u0441\u043A\u0430, \u043F\u043E\u0432\u0456\u0434\u043E\u043C\u0442\u0435 \u043F\u0440\u043E \u0446\u0435."
+   },
+   "diff_hide_deletions": {
+      "description": "Link to hide deletions on the diff page.",
+      "message": "\u041F\u0440\u0438\u0445\u043E\u0432\u0430\u0442\u0438 \u0432\u0438\u0434\u0430\u043B\u0435\u043D\u0435"
+   },
+   "diff_original": {
+      "description": "Text of the link to the original page on the diff page.",
+      "message": "\u041E\u0440\u0438\u0433\u0456\u043D\u0430\u043B"
+   },
+   "diff_original_title": {
+      "description": "Tooltip of the link to the original page on the diff page.",
+      "message": "\u041F\u0435\u0440\u0435\u0433\u043B\u044F\u043D\u0443\u0442\u0438 \u043F\u043E\u043F\u0435\u0440\u0435\u0434\u043D\u044E \u0432\u0435\u0440\u0441\u0456\u044E \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438"
+   },
+   "diff_progress": {
+      "description": "The message to show while fetching the page to diff.",
+      "message": "\u0422\u0440\u0438\u0432\u0430\u0454 \u0432\u0438\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0437\u043C\u0456\u043D."
+   },
+   "diff_show_deletions": {
+      "description": "Link to show deletions on the diff page.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u0438 \u0432\u0438\u0434\u0430\u043B\u0435\u043D\u0435"
+   },
+   "diff_textize": {
+      "description": "Link to switch the diff page to text-only mode.",
+      "message": "\u0422\u0435\u043A\u0441\u0442\u043E\u0432\u0438\u0439 \u0440\u0435\u0436\u0438\u043C"
+   },
+   "diff_title": {
+      "description": "The title of the diff page.",
+      "message": "Page Monitor: \u041F\u0435\u0440\u0435\u0433\u043B\u044F\u043D\u0443\u0442\u0438 \u0437\u043C\u0456\u043D\u0438"
+   },
+   "diff_untextize": {
+      "description": "Link to switch the diff page from text-only mode to normal.",
+      "message": "\u041D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u0438\u0439 \u0440\u0435\u0436\u0438\u043C"
+   },
+   "disabled": {
+      "description": "Generic label for disabled items.",
+      "message": "\u0432\u0438\u043C\u043A\u043D\u0435\u043D\u043E"
+   },
+   "enabled": {
+      "description": "Generic label for enabled items.",
+      "message": "\u0443\u0432\u0456\u043C\u043A\u043D\u0435\u043D\u043E"
+   },
+   "export": {
+      "description": "The text of the button to export pages into a bookmarks.html.",
+      "message": "\u0415\u043A\u0441\u043F\u043E\u0440\u0442\u0443\u0432\u0430\u0442\u0438 \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438"
+   },
+   "export_prompt": {
+      "description": "The prompt that appears before the exported pages textbox.",
+      "message": "\u0421\u043A\u043E\u043F\u0456\u044E\u0439\u0442\u0435 \u0446\u0435\u0439 \u0442\u0435\u043A\u0441\u0442 \u0434\u043E \u0444\u0430\u0439\u043B\u0443 \u0442\u0430 \u0437\u0431\u0435\u0440\u0435\u0436\u0456\u0442\u044C \u0439\u043E\u0433\u043E \u044F\u043A bookmarks.html:"
+   },
+   "feedback": {
+      "description": "The text of the feedback link.",
+      "message": "\u0417\u0432\u043E\u0440\u043E\u0442\u043D\u0456\u0439 \u0437\u0432\u2019\u044F\u0437\u043E\u043A"
+   },
+   "hour": {
+      "description": "A single hour, as a number suffix (e.g. '1 hour').",
+      "message": "1 \u0433\u043E\u0434."
+   },
+   "hours": {
+      "description": "A plural number of hours, as a number suffix (e.g. '7 hours').",
+      "message": "$1 \u0433\u043E\u0434."
+   },
+   "import": {
+      "description": "The text of the button to import pages from a bookmarks.html.",
+      "message": "\u0406\u043C\u043F\u043E\u0440\u0442\u0443\u0432\u0430\u0442\u0438 \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438"
+   },
+   "import_button": {
+      "description": "The text for the 'import' button in the import form.",
+      "message": "\u0406\u043C\u043F\u043E\u0440\u0442\u0443\u0432\u0430\u0442\u0438"
+   },
+   "import_empty": {
+      "description": "The error message displayed when no pages are found during an import.",
+      "message": "\u041D\u0435 \u0437\u043D\u0430\u0439\u0434\u0435\u043D\u043E \u0441\u0442\u043E\u0440\u0456\u043D\u043E\u043A \u043F\u0456\u0434 \u0447\u0430\u0441 \u0456\u043C\u043F\u043E\u0440\u0442\u0443\u0432\u0430\u043D\u043D\u044F."
+   },
+   "import_error": {
+      "description": "The error message displayed when a page import fails.",
+      "message": "\u041F\u043E\u043C\u0438\u043B\u043A\u0430. \u0406\u043C\u043F\u043E\u0440\u0442\u0443\u0432\u0430\u043D\u043D\u044F \u043C\u043E\u0433\u043B\u043E \u043D\u0435 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u0438\u0441\u044C."
+   },
+   "import_prompt": {
+      "description": "The prompt that appears before the bookmarks.html textbox when importing.",
+      "message": "\u0412\u0441\u0442\u0430\u0432\u0442\u0435 \u0432\u043C\u0456\u0441\u0442 \u0444\u0430\u0439\u043B\u0443 bookmarks.html \u0441\u044E\u0434\u0438:"
+   },
+   "import_success_multi": {
+      "description": "The message displayed when multiple pages were imported successfully.",
+      "message": "\u0423\u0441\u043F\u0456\u0448\u043D\u043E \u0456\u043C\u043F\u043E\u0440\u0442\u043E\u0432\u0430\u043D\u043E \u0441\u0442\u043E\u0440\u0456\u043D\u043E\u043A: $1."
+   },
+   "import_success_single": {
+      "description": "The message displayed when 1 page was imported successfully.",
+      "message": "\u0423\u0441\u043F\u0456\u0448\u043D\u0438\u0439 \u0456\u043C\u043F\u043E\u0440\u0442 1 \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438."
+   },
+   "last_check": {
+      "description": "The text of the label that specified when the page was last checked.",
+      "message": "\u0412\u043E\u0441\u0442\u0430\u043D\u043D\u0454 \u043E\u043D\u043E\u0432\u043B\u0435\u043D\u043E"
+   },
+   "mark_visited": {
+      "description": "The text on the button that marks an updated page as visited.",
+      "message": "\u043F\u043E\u0437\u043D\u0430\u0447\u0438\u0442\u0438 \u043F\u0440\u043E\u0447\u0438\u0442\u0430\u043D\u043E\u044E"
+   },
+   "minute": {
+      "description": "A single minute, as a number suffix (e.g. '1 minute').",
+      "message": "1 \u0445\u0432."
+   },
+   "minutes": {
+      "description": "A plural number of minutes, as a number suffix (e.g. '7 minutes').",
+      "message": "$1 \u0445\u0432."
+   },
+   "monitor": {
+      "description": "The text of the button that marks a page for monitoring.",
+      "message": "\u0412\u0456\u0434\u0441\u0442\u0435\u0436\u0443\u0432\u0430\u0442\u0438 \u0437\u043C\u0456\u043D\u0438 \u043D\u0430 \u0446\u0456\u0439 \u0441\u0442\u043E\u0440\u0456\u043D\u0446\u0456"
+   },
+   "name": {
+      "description": "The name of the extension.",
+      "message": "Page Monitor"
+   },
+   "never": {
+      "description": "A 'last checked' label for pages that have never been checked.",
+      "message": "\u043D\u0456\u043A\u043E\u043B\u0438"
+   },
+   "new_sound_failed": {
+      "description": "The error message displayed when the URL specified for a new sound could not be played.",
+      "message": "Chrome \u043D\u0435 \u043C\u043E\u0436\u0435 \u0432\u0456\u0434\u0442\u0432\u043E\u0440\u0438\u0442\u0438 \u0437\u0432\u0443\u043A \u0437\u0430 \u0432\u043A\u0430\u0437\u0430\u043D\u0438\u043C \u043F\u043E\u0441\u0438\u043B\u0430\u043D\u043D\u044F\u043C."
+   },
+   "new_sound_prompt": {
+      "description": "The prompt that appears when the user tries to add a new sound.",
+      "message": "\u0411\u0443\u0434\u044C \u043B\u0430\u0441\u043A\u0430, \u0443\u0432\u0435\u0434\u0456\u0442\u044C \u0456\u043C\u2019\u044F \u0442\u0430 \u043F\u043E\u0441\u0438\u043B\u0430\u043D\u043D\u044F \u043D\u0430 \u043D\u043E\u0432\u0438\u0439 \u0437\u0432\u0443\u043A."
+   },
+   "no_changes": {
+      "description": "The popup text when no changes have been found.",
+      "message": "\u0421\u0442\u043E\u0440\u0456\u043D\u043A\u0430 \u043D\u0435 \u0437\u043C\u0456\u043D\u044E\u0432\u0430\u043B\u0430\u0441\u044F."
+   },
+   "no_pages_monitored": {
+      "description": "The text that replaces the pages list on the options page when no pages are monitored.",
+      "message": "\u0421\u0442\u043E\u0440\u0456\u043D\u043A\u0438 \u043D\u0435 \u0432\u0456\u0434\u0441\u0442\u0435\u0436\u0443\u044E\u0442\u044C\u0441\u044F."
+   },
+   "notifications": {
+      "description": "Label for the desktop notifications checkbox.",
+      "message": "\u0421\u043F\u043E\u0432\u0456\u0449\u0435\u043D\u043D\u044F \u0420\u043E\u0431\u043E\u0447\u043E\u0433\u043E \u0441\u0442\u043E\u043B\u0443"
+   },
+   "notifications_timeout": {
+      "description": "Label for the desktop notifications timeout textbox.",
+      "message": "\u0422\u0440\u0438\u0432\u0430\u043B\u0456\u0441\u0442\u044C \u0441\u043F\u043E\u0432\u0456\u0449\u0435\u043D\u043D\u044F"
+   },
+   "ok": {
+      "description": "The text for a generic 'ok' button.",
+      "message": "\u0413\u0430\u0440\u0430\u0437\u0434"
+   },
+   "options": {
+      "description": "The text of the options link.",
+      "message": "\u041D\u0430\u043B\u0430\u0448\u0442\u0443\u0432\u0430\u043D\u043D\u044F"
+   },
+   "options_header": {
+      "description": "The text of the pages list header on the options page.",
+      "message": "\u0412\u0456\u0434\u0441\u0442\u0435\u0436\u0443\u0432\u0430\u043D\u0456 \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438"
+   },
+   "options_title": {
+      "description": "The title of the options page.",
+      "message": "\u041D\u0430\u043B\u0430\u0448\u0442\u0443\u0432\u0430\u043D\u043D\u044F Page Monitor"
+   },
+   "page_monitored": {
+      "description": "This text appears in the popup when the current page is already monitored.",
+      "message": "\u0421\u0442\u043E\u0440\u0456\u043D\u043A\u0430 \u043F\u0456\u0434 \u043D\u0430\u0433\u043B\u044F\u0434\u043E\u043C"
+   },
+   "page_updated_multi": {
+      "description": "Notification title: multiple pages have been updated.",
+      "message": "\u041E\u043D\u043E\u0432\u043B\u0435\u043D\u043E \u0441\u0442\u043E\u0440\u0456\u043D\u043E\u043A: $1"
+   },
+   "page_updated_single": {
+      "description": "Notification title: a single page has been updated.",
+      "message": "\u0421\u0442\u043E\u0440\u0456\u043D\u043A\u0443 \u043E\u043D\u043E\u0432\u043B\u0435\u043D\u043E"
+   },
+   "pick_button": {
+      "description": "The text on the button that launches the selector GUI.",
+      "message": "\u041E\u0431\u0440\u0430\u0442\u0438"
+   },
+   "regex": {
+      "description": "The label for regex mode.",
+      "message": "\u0420\u0435\u0433\u0443\u043B\u044F\u0440\u043D\u0438\u0439 \u0432\u0438\u0440\u0430\u0437"
+   },
+   "remove_page": {
+      "description": "The text on the button that stops a page from being monitored.",
+      "message": "\u0432\u0438\u0434\u0430\u043B\u0438\u0442\u0438"
+   },
+   "rename_page": {
+      "description": "The text of the button to rename a page.",
+      "message": "\u043F\u0435\u0440\u0435\u043D\u0430\u0437\u0432\u0430\u0442\u0438"
+   },
+   "second": {
+      "description": "A single second, as a number suffix (e.g. '1 second').",
+      "message": "1 \u0441\u0435\u043A."
+   },
+   "seconds": {
+      "description": "A plural number of seconds, as a number suffix (e.g. '7 seconds').",
+      "message": "$1 \u0441\u0435\u043A."
+   },
+   "selector": {
+      "description": "The label for selector mode.",
+      "message": "\u041E\u0431\u0440\u0430\u0442\u0438 \u0432\u0440\u0443\u0447\u043D\u0443"
+   },
+   "selector_gui_done": {
+      "description": "The button which accepts the selection and closes the page in the visual selector construction GUI.",
+      "message": "\u0413\u043E\u0442\u043E\u0432\u043E"
+   },
+   "selector_gui_help": {
+      "description": "The caption of the help button in the visual selector construction GUI.",
+      "message": "\u0414\u043E\u043F\u043E\u043C\u043E\u0433\u0430"
+   },
+   "selector_gui_help_text": {
+      "description": "The help message in the visual selector construction GUI.",
+      "message": "\u0426\u0435\u0439 \u0456\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442 \u0434\u043E\u043F\u043E\u043C\u043E\u0436\u0435 \u043E\u0431\u0440\u0430\u0442\u0438 \u0447\u0430\u0441\u0442\u0438\u043D\u0443 \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438, \u0437\u0430 \u043E\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044F\u043C\u0438 \u044F\u043A\u043E\u0457 \u0432\u0438 \u0445\u043E\u0447\u0435\u0442\u0435 \u0441\u0442\u0435\u0436\u0438\u0442\u0438.\n\n\u041F\u0435\u0440\u0435\u0441\u0443\u0432\u0430\u0439\u0442\u0435 \u043A\u0443\u0440\u0441\u043E\u0440 \u043C\u0438\u0448\u0456, \u043F\u0456\u0434\u0441\u0432\u0456\u0447\u0443\u044E\u0447\u0438 \u043F\u043E\u0442\u0440\u0456\u0431\u043D\u0438\u0439 \u0432\u0430\u043C \u0444\u0440\u0430\u0433\u043C\u0435\u043D\u0442. \u0429\u043E\u0439\u043D\u043E \u0432\u0430\u0441 \u0432\u043B\u0430\u0448\u0442\u043E\u0432\u0443\u0454 \u0432\u0438\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u0430\u0431\u043E \u044F\u043A\u0430\u0441\u044C \u0439\u043E\u0433\u043E \u0447\u0430\u0441\u0442\u0438\u043D\u0430, \u043F\u0456\u0434\u0442\u0432\u0435\u0440\u0434\u0456\u0442\u044C \u0439\u043E\u0433\u043E, \u043A\u043B\u0430\u0446\u043D\u0443\u0432\u0448\u0438 \u043C\u0438\u0448\u043A\u043E\u044E. \n\n\u042F\u043A\u0449\u043E \u0432\u0430\u0441 \u0437\u0430\u0434\u043E\u0432\u043E\u043B\u044C\u043D\u044F\u0454 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442, \u043D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C \u00AB\u0413\u043E\u0442\u043E\u0432\u043E\u00BB.\n\n\u042F\u043A\u0449\u043E \u043E\u0431\u0440\u0430\u043D\u0438\u0439 \u0435\u043B\u0435\u043C\u0435\u043D\u0442 \u0454 \u043B\u0438\u0448\u0435 \u0447\u0430\u0441\u0442\u0438\u043D\u043E\u044E, \u043F\u043E\u0442\u0440\u0456\u0431\u043D\u043E\u0457 \u0432\u0430\u043C \u043E\u0431\u043B\u0430\u0441\u0442\u0456, \u043D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C \u00AB\u0420\u043E\u0437\u0448\u0438\u0440\u0438\u0442\u0438 \u0432\u0438\u0434\u0456\u043B\u0435\u043D\u043D\u044F\u00BB. \n\u0420\u043E\u0437\u0448\u0438\u0440\u044E\u0439\u0442\u0435 \u0432\u0438\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u0434\u043E\u0442\u0438, \u0434\u043E\u043A\u0438 \u043D\u0435 \u043F\u0456\u0434\u0441\u0432\u0456\u0442\u0438\u0442\u044C\u0441\u044F \u043F\u043E\u0442\u0440\u0456\u0431\u043D\u0430 \u0432\u0430\u043C \u0447\u0430\u0441\u0442\u0438\u043D\u0430, \u0430\u0431\u043E \u0434\u043E\u043A\u0438 \u043D\u0435 \u043F\u0456\u0434\u0441\u0432\u0456\u0442\u0438\u0442\u044C\u0441\u044F \u0443\u0441\u044F \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0430.\n\n\u042F\u043A\u0449\u043E \u0432\u0438 \u0445\u043E\u0447\u0435\u0442\u0435 \u043F\u043E\u0447\u0430\u0442\u0438 \u0432\u0438\u0434\u0456\u043B\u0435\u043D\u043D\u044F \u0441\u043F\u043E\u0447\u0430\u0442\u043A\u0443, \u0437\u043D\u043E\u0432\u0443 \u043D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C \u00AB\u041E\u0431\u0440\u0430\u0442\u0438 \u0435\u043B\u0435\u043C\u0435\u043D\u0442\u00BB."
+   },
+   "selector_gui_parent": {
+      "description": "The button which switches from a selected element to its parent in the visual selector construction GUI.",
+      "message": "\u0420\u043E\u0437\u0448\u0438\u0440\u0438\u0442\u0438 \u0432\u0438\u0434\u0456\u043B\u0435\u043D\u043D\u044F"
+   },
+   "selector_gui_pick": {
+      "description": "The 'pick element' button in the visual selector construction GUI.",
+      "message": "\u041E\u0431\u0440\u0430\u0442\u0438 \u0435\u043B\u0435\u043C\u0435\u043D\u0442"
+   },
+   "sort": {
+      "description": "The label for the sort order drop-down.",
+      "message": "\u0421\u043E\u0440\u0442\u0443\u0432\u0430\u0442\u0438 \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438 \u0437\u0430"
+   },
+   "sort_date": {
+      "description": "The 'date added' option in the sort order drop-down.",
+      "message": "\u0447\u0430\u0441\u043E\u043C \u0434\u043E\u0434\u0430\u0432\u0430\u043D\u043D\u044F"
+   },
+   "sort_interval": {
+      "description": "The 'check interval' option in the sort order drop-down.",
+      "message": "\u0447\u0430\u0441\u0442\u043E\u0442\u043E\u044E \u043E\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044F"
+   },
+   "sort_last_change": {
+      "description": "The 'last changed' option in the sort order drop-down.",
+      "message": "\u043D\u043E\u0432\u0438\u0437\u043D\u043E\u044E \u0437\u043C\u0456\u043D"
+   },
+   "sort_last_check": {
+      "description": "The 'last check' option in the sort order drop-down.",
+      "message": "\u0447\u0430\u0441\u043E\u043C \u043E\u0441\u0442\u0430\u043D\u043D\u044C\u043E\u0457 \u043F\u0435\u0440\u0435\u0432\u0456\u0440\u043A\u0438"
+   },
+   "sort_name": {
+      "description": "The 'name' option in the sort order drop-down.",
+      "message": "\u0456\u043C\u2019\u044F\u043C"
+   },
+   "sort_url": {
+      "description": "The 'URL' option in the sort order drop-down.",
+      "message": "\u043F\u043E\u0441\u0438\u043B\u0430\u043D\u043D\u044F\u043C"
+   },
+   "sound_alert": {
+      "description": "Label for the sound alert drop-down.",
+      "message": "\u0417\u0432\u0443\u043A\u043E\u0432\u0435 \u0441\u043F\u043E\u0432\u0456\u0449\u0435\u043D\u043D\u044F"
+   },
+   "sound_chime": {
+      "description": "The label of the default chime sound.",
+      "message": "\u0414\u0437\u0432\u0456\u043D\u043E\u043A"
+   },
+   "sound_create": {
+      "description": "The text of the 'create' button in the 'new sound' form.",
+      "message": "\u0421\u0442\u0432\u043E\u0440\u0438\u0442\u0438"
+   },
+   "sound_cuckoo": {
+      "description": "The label of the default cuckoo sound.",
+      "message": "\u0417\u043E\u0437\u0443\u043B\u044F"
+   },
+   "sound_delete": {
+      "description": "The text of the button that deletes the selected sound.",
+      "message": "\u0412\u0438\u0434\u0430\u043B\u0438\u0442\u0438"
+   },
+   "sound_name": {
+      "description": "The label for the sound name in the 'new sound' form.",
+      "message": "\u0406\u043C\u2019\u044F"
+   },
+   "sound_new": {
+      "description": "The text of the button that opens the 'new sound' form.",
+      "message": "\u0421\u0442\u0432\u043E\u0440\u0438\u0442\u0438"
+   },
+   "sound_none": {
+      "description": "The value of the no-sound option in the sound alert drop-down.",
+      "message": "\u043D\u0435\u043C\u0430\u0454"
+   },
+   "sound_play": {
+      "description": "The text of the button that plays the selected sound.",
+      "message": "\u0412\u0456\u0434\u0442\u0432\u043E\u0440\u0438\u0442\u0438"
+   },
+   "sound_url": {
+      "description": "The label for the sound URL in the 'new sound' form.",
+      "message": "\u041F\u043E\u0441\u0438\u043B\u0430\u043D\u043D\u044F (\u0444\u0430\u0439\u043B \u0443 \u0444\u043E\u0440\u043C\u0430\u0442\u0456 MP3 \u0430\u0431\u043E OGG)"
+   },
+   "stop_monitoring": {
+      "description": "The text on the button that stops a page from being monitored.",
+      "message": "\u043F\u0440\u0438\u043F\u0438\u043D\u0438\u0442\u0438 \u0432\u0456\u0434\u0441\u0442\u0435\u0436\u0443\u0432\u0430\u043D\u043D\u044F"
+   },
+   "test_button": {
+      "description": "The text on the button that tests a given regex or selector on a page in advanced mode.",
+      "message": "\u041F\u0435\u0440\u0435\u0432\u0456\u0440\u0438\u0442\u0438"
+   },
+   "test_fail": {
+      "description": "The message that appears when a regex or selector test fails to retrieve the page to test.",
+      "message": "\u041F\u043E\u043C\u0438\u043B\u043A\u0430 \u0432\u0456\u0434\u043A\u0440\u0438\u0432\u0430\u043D\u043D\u044F \u0441\u0442\u043E\u0440\u0456\u043D\u043A\u0438."
+   },
+   "test_matches": {
+      "description": "The message that appears when a regex or selector test matches something.",
+      "message": "\u0417\u043D\u0430\u0439\u0434\u0435\u043D\u043E:"
+   },
+   "test_no_matches": {
+      "description": "The message that appears when a regex or selector test does not match anything.",
+      "message": "\u0412\u0445\u043E\u0434\u0436\u0435\u043D\u043D\u044F \u0432\u0456\u0434\u0441\u0443\u0442\u043D\u0456."
+   },
+   "test_progress": {
+      "description": "The message that appears while testing a regex or selector.",
+      "message": "\u041F\u0435\u0440\u0435\u0432\u0456\u0440\u043A\u0430..."
+   },
+   "unknown": {
+      "description": "A placeholder for an unknown piece of data.",
+      "message": "\u043D\u0435\u0432\u0456\u0434\u043E\u043C\u043E"
+   },
+   "until_closed": {
+      "description": "The option describing the notifications remaining active until closed.",
+      "message": "\u043F\u043E\u043A\u0438 \u043D\u0435 \u0437\u0430\u043A\u0440\u0438\u0454\u0442\u0435"
+   },
+   "untitled": {
+      "description": "Default name for pages that have an empty name, with placeholder for the URL.",
+      "message": "\u041D\u0435\u043D\u0430\u0437\u0432\u0430\u043D\u0430 ($1)"
+   },
+   "view_all": {
+      "description": "The text of the button that opens all updated pages in new tabs.",
+      "message": "\u041F\u0435\u0440\u0435\u0433\u043B\u044F\u043D\u0443\u0442\u0438 \u0443\u0441\u0456 \u043E\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044F"
+   },
+   "view_all_function": {
+      "description": "The caption of the settings drop-down to select what the 'View All' button in the popup does.",
+      "message": "\u0424\u0443\u043D\u043A\u0446\u0456\u044F \u00AB\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u0438 \u0432\u0441\u0435\u00BB"
+   },
+   "view_diff": {
+      "description": "The text on the button that opens the diff page.",
+      "message": "\u043F\u0435\u0440\u0435\u0433\u043B\u044F\u043D\u0443\u0442\u0438 \u0437\u043C\u0456\u043D\u0438"
+   },
+   "view_original": {
+      "description": "One of the possible selections for the 'View All function' dropdown. Means that the original page rather than the diff will be opened.",
+      "message": "\u043F\u043E\u043F\u0435\u0440\u0435\u0434\u043D\u044F \u0432\u0435\u0440\u0441\u0456\u044F"
+   }
+}

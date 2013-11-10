@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "L\u00E4gg alltid till i Google+"
+   },
+   "always_add_desc": {
+      "message": "Om alternativet \u00E4r markerat l\u00E4ggs \u00F6vers\u00E4ttningsfunktionen alltid till i Google+. Annars l\u00E4ggs den endast till n\u00E4r du klickar p\u00E5 till\u00E4ggsknappen."
+   },
+   "autosaved": {
+      "message": "Sparades automatiskt"
+   },
+   "background": {
+      "message": "Bakgrund f\u00F6r \u00F6vers\u00E4ttningen:"
+   },
+   "example": {
+      "message": "Exempel"
+   },
+   "extension_desc": {
+      "message": "\u00D6vers\u00E4tt ditt fl\u00F6de i Google+ med hj\u00E4lp av integrerat och inbyggt st\u00F6d f\u00F6r Google \u00D6vers\u00E4tt."
+   },
+   "extension_name": {
+      "message": "Google \u00D6vers\u00E4tt f\u00F6r Google+"
+   },
+   "google_translate": {
+      "message": "Google \u00D6vers\u00E4tt"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 f\u00F6r Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Spr\u00E5k:"
+   },
+   "language_desc": {
+      "message": "Inneh\u00E5llet kommer att \u00F6vers\u00E4ttas till detta spr\u00E5k."
+   },
+   "options_saved": {
+      "message": "Alternativen har sparats"
+   },
+   "save": {
+      "message": "Spara"
+   },
+   "translate_header": {
+      "message": "\u00D6vers\u00E4tt"
+   }
+}

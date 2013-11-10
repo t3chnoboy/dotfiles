@@ -1,0 +1,19 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "translate-48.png"
+   },
+   "default_locale": "en",
+   "description": "__MSG_EXTENSION_DESC__",
+   "icons": {
+      "128": "translate-128.png",
+      "16": "translate-16.png",
+      "48": "translate-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCv2wj4KTKbdGGUpJoUWkTz/XB3ztTesk1XVj1NghJmIxPHbX74LK5uwlg5qi8ibgr5mr1dQfLCWH9/pNxblG+l9CgmwaAHGhAjwhnYEeY1Z3neB4cNs5bN5vqhxGScKigb5Its9ISAC5QLw9FQO7w/xZkkgVwCmIzEKL3Q6LYPOQIDAQAB",
+   "name": "__MSG_EXTENSION_NAME__",
+   "options_page": "options.html",
+   "permissions": [ "https://plus.google.com/*", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.7"
+}

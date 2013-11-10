@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "\u041E\u0441\u043D\u043E\u0432\u043D\u044B\u0435"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "\u0441\u043D\u0438\u0437\u0443"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "\u0418\u0441\u0442\u043E\u0440\u0438\u044F \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0439"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "\u0423\u0434\u0430\u043B\u0438\u0442\u044C"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0443 \u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0434\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u0432\u0438\u0434\u0435\u043E."
+   },
+   "desalllightsoff": {
+      "description": "If this option is enabled, and you click on the lamp button. All open tabs will go dark.",
+      "message": "If this option is enabled, and you click on the lamp button. All open tabs will go dark."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "\u0412\u043A\u043B\u044E\u0447\u0430\u0442\u044C Ambilight-\u044D\u0444\u0444\u0435\u043A\u0442 \u0432\u043E \u0432\u0440\u0435\u043C\u044F \u0432\u043E\u0441\u043F\u0440\u043E\u0438\u0437\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u0432\u0438\u0434\u0435\u043E."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u043B\u044C\u043D\u044B\u0445 \u0446\u0432\u0435\u0442\u0430 \u0432\u043E\u043A\u0440\u0443\u0433 \u0432\u0438\u0434\u0435\u043E:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "\u0421\u043F\u043B\u043E\u0448\u043D\u043E\u0439 \u0446\u0432\u0435\u0442"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "\u041F\u0440\u0438 \u043C\u0430\u043B\u043E\u043C \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0438 \u0442\u0435\u043D\u044C \u0431\u0443\u0434\u0435\u0442 \u0440\u0435\u0437\u043A\u043E\u0439, \u043F\u0440\u0438 \u0431\u043E\u043B\u044C\u0448\u043E\u043C - \u0431\u043E\u043B\u0435\u0435 \u0440\u0430\u0437\u043C\u044B\u0442\u043E\u0439."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "\u041F\u043E\u043B\u043E\u0436\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u044E\u0442 \u0440\u0430\u0437\u043C\u0435\u0440 \u0442\u0435\u043D\u0438, \u043E\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0435 - \u0443\u043C\u0435\u043D\u044C\u0448\u0430\u044E\u0442."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "\u0417\u0430\u0445\u0432\u0430\u0442 \u0446\u0432\u0435\u0442\u0430 \u0438\u0437 \u0432\u0438\u0434\u0435\u043E."
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Use the atmosphere lighting feature only the following video site:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u044F\u0442\u044C \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443 \u043F\u0440\u0438 \u043D\u0430\u0436\u0430\u0442\u0438\u0438 \u043D\u0430 \u043A\u043D\u043E\u043F\u043A\u0443 Play \u0432 Youtube."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site:",
+      "message": "Dim only the following video site:"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "\u041F\u043E\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044C \u043F\u0430\u0440\u043E\u043B\u044C"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "\u0417\u0430\u0434\u0430\u0442\u044C \u0432\u0440\u0435\u043C\u044F"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "\u0417\u0430\u0434\u0430\u0442\u044C \u0432\u0440\u0435\u043C\u044F"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043A\u043E\u043D\u0442\u0435\u043A\u0441\u0442\u043D\u043E\u0435 \u043C\u0435\u043D\u044E \u0434\u043B\u044F \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u043E\u0432 \u043D\u0430 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0435."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "\u0417\u0430\u0442\u0435\u043C\u043D\u044F\u0435\u0442 \u0441\u043E\u0434\u0435\u0440\u0436\u0438\u043C\u043E\u0435 \u0432\u0435\u0431-\u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B \u0434\u043B\u044F \u043A\u043E\u043C\u0444\u043E\u0440\u0442\u043D\u043E\u0433\u043E \u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0430 \u0432\u0438\u0434\u0435\u043E (\u043A\u0430\u043A \u0432 \u043A\u0438\u043D\u043E\u0442\u0435\u0430\u0442\u0440\u0435)."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Blocks"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Moving Clouds"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Fish Tank"
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Raindrops"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Space Universe"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "A bonus in this extension."
+   },
+   "desenterpassword": {
+      "description": "Enter you password in the inputbox here below:",
+      "message": "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448 \u043F\u0430\u0440\u043E\u043B\u044C \u0432 \u043F\u043E\u043B\u0435 \u043D\u0438\u0436\u0435:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u044F\u0442\u044C \u0444\u043E\u043D \u043F\u0440\u0438 \u043E\u0442\u043A\u0440\u044B\u0442\u0438\u0438 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when open the following page:",
+      "message": "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u044F\u0442\u044C \u0444\u043E\u043D \u043D\u0430 \u044D\u0442\u043E\u0439 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0435:"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0440\u0435\u0436\u0438\u043C (\u0437\u0430\u0442\u0435\u043C\u043D\u044F\u0442\u044C \u043F\u0440\u0438 \u043D\u0430\u0436\u0430\u0442\u0438\u0438 \u043D\u0430 \u0438\u043A\u043E\u043D\u043A\u0443 \u0432 \u043F\u0430\u043D\u0435\u043B\u0438 \u0430\u0434\u0440\u0435\u0441\u0430)."
+   },
+   "deseyetimesaver": {
+      "description": "When the page is inactive (no mouse movement), it go automatic dark in the chosen seconds.",
+      "message": "\u041A\u043E\u0433\u0434\u0430 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u043D\u0435\u0430\u043A\u0442\u0438\u0432\u043D\u0430 (\u043C\u044B\u0448\u044C \u043D\u0435 \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0430\u0435\u0442\u0441\u044F), \u043E\u043D\u0430 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u0438\u0442\u0441\u044F \u0447\u0435\u0440\u0435\u0437 \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u0435 \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0435\u043A\u0443\u043D\u0434."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "\u041F\u043B\u0430\u0432\u043D\u043E\u0435 \u043F\u043E\u044F\u0432\u043B\u0435\u043D\u0438\u0435"
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "\u041F\u043B\u0430\u0432\u043D\u043E\u0435 \u0437\u0430\u0442\u0443\u0445\u0430\u043D\u0438\u0435"
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0432\u0441\u0435 Flash-\u043E\u0431\u044A\u0435\u043A\u0442\u044B"
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, and skip the URL control. So website ads may also show up.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0432\u0441\u0435 Flash-\u043E\u0431\u044A\u0435\u043A\u0442\u044B, \u0438 \u043D\u0435 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C \u0433\u0438\u043F\u0435\u0440\u0441\u0441\u044B\u043B\u043E\u043A. \u0420\u0435\u043A\u043B\u0430\u043C\u0430 \u043D\u0430 \u0441\u0430\u0439\u0442\u0435 \u043C\u043E\u0436\u0435\u0442 \u0441\u0442\u0430\u0442\u044C \u0432\u0438\u0434\u0438\u043C\u043E\u0439."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043F\u0430\u043D\u0435\u043B\u044C \u043A\u0430\u043D\u0430\u043B\u043E\u0432 YouTube \u0438\u043B\u0438 \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "Show the description information about the video."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar from this YouTube video.",
+      "message": "Show the like/dislike bar from this YouTube video."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0438 Like & Dislike (\u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F & \u043D\u0435 \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F) \u0432\u0438\u0434\u0435\u043E\u0440\u043E\u043B\u0438\u043A\u0430 \u043D\u0430 \u0441\u0430\u0439\u0442\u0435 Youtube."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "\u0415\u0441\u043B\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E, \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0441\u0432\u0435\u0447\u0435\u043D\u0438\u0435 \u0432\u043E\u043A\u0440\u0443\u0433 \u043A\u0443\u0440\u0441\u043E\u0440\u0430."
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "\u0415\u0441\u043B\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E, \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0432\u044B\u0431\u0440\u0430\u0442\u044C \u043E\u0431\u043B\u0430\u0441\u0442\u044C \u0434\u043B\u044F \u0444\u043E\u043A\u0443\u0441\u0430 \u043D\u0443\u0436\u043D\u043E\u0433\u043E \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u0430."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disable below mouse settings).",
+      "message": "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0440\u0435\u0436\u0438\u043C (\u043E\u0442\u043A\u043B\u044E\u0447\u0430\u0435\u0442 \u043D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u043C\u044B\u0448\u0438 \u043D\u0438\u0436\u0435)."
+   },
+   "desmousespotlightt": {
+      "description": "If the light is off, click through the element.",
+      "message": "\u0415\u0441\u043B\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E, \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B \u0441\u043A\u0432\u043E\u0437\u044C \u043D\u0435\u0433\u043E."
+   },
+   "desnoflash": {
+      "description": "Use not this feature.",
+      "message": "Use not this feature."
+   },
+   "despassword": {
+      "description": "When the lights go back on, it ask you to enter your password.",
+      "message": "\u041F\u0440\u0438 \u0432\u044B\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0438 \u0437\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u044F \u043F\u043E\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044F \u0432\u0432\u0435\u0441\u0442\u0438 \u043F\u0430\u0440\u043E\u043B\u044C."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043F\u043B\u0435\u0439\u043B\u0438\u0441\u0442 \u043D\u0430 \u0441\u0430\u0439\u0442\u0435 YouTube."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "\u0412\u0441\u0435\u0433\u0434\u0430 \u043F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0443\u0440\u043E\u0432\u0435\u043D\u044C \u0437\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u044F."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "\u0421\u043A\u0440\u044B\u0432\u0430\u0442\u044C \u0443\u0440\u043E\u0432\u0435\u043D\u044C \u0437\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u044F."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "If this option is enabled, it will show you not the remember page."
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "\u0417\u0430\u0441\u0442\u0430\u0432\u043A\u0430:"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043A\u043D\u043E\u043F\u043A\u0438 share (\u043F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F) \u0432\u0438\u0434\u0435\u043E\u0440\u043E\u043B\u0438\u043A\u0430 \u043D\u0430 \u0441\u0430\u0439\u0442\u0435 YouTube."
+   },
+   "desshortcutlight": {
+      "description": "to enable all the shortcuts opportunities.",
+      "message": "to enable all the shortcuts opportunities."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "is the diameter of the search lamp."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0430\u0446\u0438\u0438 \u043A \u0432\u0438\u0434\u0435\u043E \u043E\u0442 \u0441\u0430\u0439\u0442\u0430 YouTube."
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "Lights off between the following times:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "\u0434\u043E"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0432\u0438\u0434\u0435\u043E (\u0438\u043D\u0432\u0435\u0440\u0441\u043D\u043E)."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u043E\u0432 \u044D\u0442\u043E\u0433\u043E \u0432\u0438\u0434\u0435\u043E."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "\u0415\u0441\u043B\u0438 \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043F\u043E\u0436\u0435\u0440\u0442\u0432\u043E\u0432\u0430\u043D\u0438\u0435 (\u043D\u0430 \u043B\u044E\u0431\u0443\u044E \u0441\u0443\u043C\u043C\u0443), \u044F \u0431\u0443\u0434\u0443 \u043E\u0447\u0435\u043D\u044C \u043F\u0440\u0438\u0437\u043D\u0430\u0442\u0435\u043B\u0435\u043D!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "Do you like a real movie theater?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Enjoy this extension and share it with others who you think will appreciate it."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "OFF"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "ON"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Friendly Remember..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "TOtL-\u0440\u0443\u043A\u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option."
+   },
+   "helpeyeprotection": {
+      "description": "When you enable the 'Eye protection' option, it will default disable the 'Auto Play' option.",
+      "message": "\u041F\u0440\u0438 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0438 \u043E\u043F\u0446\u0438\u0438 '\u0417\u0430\u0449\u0438\u0442\u0430 \u0433\u043B\u0430\u0437', \u043E\u043F\u0446\u0438\u044F '\u0410\u0432\u0442\u043E\u0437\u0430\u043F\u0443\u0441\u043A' \u043E\u0442\u043A\u043B\u044E\u0447\u0430\u0435\u0442\u0441\u044F."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "apply"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "with flying"
+   },
+   "installadblocker": {
+      "description": "Then install a Adblocker Extension",
+      "message": "\u0422\u043E\u0433\u0434\u0430 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0435 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043D\u0438\u0435 Adblock"
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "\u041F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0439 \u0432\u044B\u043F\u043E\u043B\u043D\u044F\u043B\u0430\u0441\u044C"
+   },
+   "left": {
+      "description": "left",
+      "message": "\u0441\u043B\u0435\u0432\u0430"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Please enter your password"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Wrong password, please try again."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0443\u0441\u043F\u0435\u0448\u043D\u043E \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u044B!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - \u041E\u043F\u0446\u0438\u0438"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "Password is saved successfully!"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Time is saved successfully!"
+   },
+   "optionwrongimg": {
+      "description": "Wrong image file!",
+      "message": "Wrong image file!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "\u043F\u043E\u043C\u043E\u0449\u044C"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u0432\u0441\u0451 \u0435\u0449\u0451 \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044F?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "\u0417\u0430\u0442\u0435\u043C\u043D\u0438\u0442\u044C \u044D\u0442\u0443 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Share"
+   },
+   "recflash": {
+      "description": "Recommend to use this feature",
+      "message": "\u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u0442\u0441\u044F \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u044D\u0442\u0443 \u0444\u0443\u043D\u043A\u0446\u0438\u044E"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Rate"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "\u0421\u043E\u043E\u0431\u0449\u0438\u0442\u044C \u043E \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0435"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(\u0441\u043C. \u0441\u043F\u0438\u0441\u043E\u043A)"
+   },
+   "right": {
+      "description": "right",
+      "message": "\u0441\u043F\u0440\u0430\u0432\u0430"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "\u041F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u044B"
+   },
+   "shortcutalllights": {
+      "description": "to do the lights off on all open tabs page.",
+      "message": "to do the lights off on all open tabs page."
+   },
+   "shortcutbright": {
+      "description": "to bright the screen",
+      "message": "to bright the screen"
+   },
+   "shortcutdark": {
+      "description": "to dark the screen",
+      "message": "to dark the screen"
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "to enable/disable the eye protection feature."
+   },
+   "shortcutopacity": {
+      "description": "to restore the default darkness",
+      "message": "to restore the default darkness"
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "to save this opacity value"
+   },
+   "shortcuttotl": {
+      "description": "to do the lights on/off.",
+      "message": "to do the lights on/off."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "doesn't show this remember page again when I open the option page."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Skip this, and open now the option page"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "\u042D\u0442\u043E \u041F\u041E \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u044F\u0435\u0442\u0441\u044F \u043F\u043E \u043B\u0438\u0446\u0435\u043D\u0437\u0438\u0438 CC-GNU GPL. \u0414\u043B\u044F \u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0430 \u043A\u043E\u043F\u0438\u0438 \u043B\u0438\u0446\u0435\u043D\u0437\u0438\u0438 \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435 \u044D\u0442\u0443 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "\u041A\u043D\u043E\u043F\u043A\u0430 \u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "All open tabs"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Ambilight (\u0414\u0438\u043D\u0430\u043C\u0438\u0447\u0435\u0441\u043A\u043E\u0435 \u0444\u043E\u043D\u043E\u0432\u043E\u0435 \u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435)"
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "\u0410\u0432\u0442\u043E\u0437\u0430\u043F\u0443\u0441\u043A"
+   },
+   "titelautowidthyoutube": {
+      "description": "Set the YouTube player automatic to the large mode.",
+      "message": "Set the YouTube player automatic to the large mode."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Blur the rest"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "\u0420\u0430\u0434\u0438\u0443\u0441 \u0440\u0430\u0437\u043C\u044B\u0442\u0438\u044F"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Movie theater mode: it show the 'lights off' layer only on the top of the window."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "\u0426\u0432\u0435\u0442"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "\u041A\u043E\u043D\u0442\u0435\u043A\u0441\u0442\u043D\u043E\u0435 \u043C\u0435\u043D\u044E"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u044D\u0442\u043E \u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435!"
+   },
+   "titeldownloadupgrade": {
+      "description": "This upgrade add support for focus the selected image. And show a gallery of the images on that webpage.",
+      "message": "This upgrade add support for focus the selected image. And show a gallery of the images on that webpage."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Dynamic Background"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "\u0421\u043A\u0440\u044B\u0442\u044B\u0435 \u0444\u0443\u043D\u043A\u0446\u0438\u0438"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "\u0417\u0430\u0449\u0438\u0442\u0430 \u0433\u043B\u0430\u0437"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "\u041F\u043E\u044F\u0432\u043B\u0435\u043D\u0438\u0435"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "\u0417\u0430\u0442\u0443\u0445\u0430\u043D\u0438\u0435"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "\u0420\u0430\u0441\u043F\u043E\u0437\u043D\u0430\u0432\u0430\u043D\u0438\u0435 Flash-\u043E\u0431\u044A\u0435\u043A\u0442\u043E\u0432"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "\u041A\u0430\u043D\u0430\u043B"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "\u0424\u043E\u043D\u043E\u0432\u043E\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "\u0418\u043D\u0444\u043E\u043F\u0430\u043D\u0435\u043B\u044C"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "\u041B\u0430\u043C\u043F\u043E\u0447\u043A\u0430"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u043C\u0435\u043D\u044C\u0448\u0435"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "\u0421\u0442\u0440\u043E\u043A\u0430 \u043B\u0430\u0439\u043A\u043E\u0432"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "\u041A\u043D\u043E\u043F\u043A\u0438 \u041D\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u0438 \u041D\u0435 \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Choose here your video quality:",
+      "message": "Choose here your video quality:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "\u041C\u044B\u0448\u044C"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "\u0412\u044B\u043A\u043B."
+   },
+   "titelon": {
+      "description": "On",
+      "message": "\u0412\u043A\u043B."
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "\u041F\u0440\u043E\u0437\u0440\u0430\u0447\u043D\u043E\u0441\u0442\u044C"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "\u0421\u043A\u0440\u044B\u0442\u044C \u0438\u043A\u043E\u043D\u043A\u0443 \u0432 \u043F\u0430\u043D\u0435\u043B\u0438 \u0430\u0434\u0440\u0435\u0441\u0430"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "\u0417\u0430\u0449\u0438\u0442\u0430 \u043F\u0430\u0440\u043E\u043B\u0435\u043C"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "\u041F\u043B\u0435\u0439\u043B\u0438\u0441\u0442"
+   },
+   "titelqualityyoutube": {
+      "description": "Use automatic the HD quality of the YouTube video.",
+      "message": "Use automatic the HD quality of the YouTube video."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u0437\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u044F"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Remember page"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "\u0417\u0430\u0442\u0435\u043C\u043D\u0435\u043D\u0438\u0435"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "\u041A\u043D\u043E\u043F\u043A\u0430 \u041F\u043E\u0434\u0435\u043B\u0438\u0442\u044C\u0441\u044F"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "\u0421\u043E\u0447\u0435\u0442\u0430\u043D\u0438\u0435 \u043A\u043B\u0430\u0432\u0438\u0448"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0435"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "\u0420\u0430\u0434\u0438\u0443\u0441 \u0440\u0430\u0441\u0441\u0435\u0438\u0432\u0430\u043D\u0438\u044F"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "\u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0430\u0446\u0438\u0438"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Sync"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Sync the extension settings with your other browser."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0432\u0438\u0434\u0435\u043E"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u043E\u0432"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "\u041F\u043E\u0436\u0435\u0440\u0442\u0432\u043E\u0432\u0430\u0442\u044C"
+   },
+   "top": {
+      "description": "top",
+      "message": "\u0441\u0432\u0435\u0440\u0445\u0443"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "\u041F\u043E\u043C\u043E\u0447\u044C \u0432 \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u0435"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "\u0412\u0435\u0440\u0441\u0438\u044F"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "\u0412\u044B\u0434\u0435\u043B\u0438\u0442\u044C \u044D\u0442\u043E \u0432\u0438\u0434\u0435\u043E"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "\u0412\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u044D\u0444\u0444\u0435\u043A\u0442\u044B"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "\u0412\u043D\u0438\u043C\u0430\u043D\u0438\u0435!"
+   },
+   "warningtextambilight": {
+      "description": "If it's impossible to show the real atmosphere lighting because of security rule. It will show the one solid color effect.",
+      "message": "\u0415\u0441\u043B\u0438 \u0432\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 ambilight-\u044D\u0444\u0444\u0435\u043A\u0442\u0430 \u0431\u0443\u0434\u0435\u0442 \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0438\u0437-\u0437\u0430 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043A \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438, \u0446\u0432\u0435\u0442\u043E\u0432\u043E\u0439 \u044D\u0444\u0444\u0435\u043A\u0442 \u0431\u0443\u0434\u0435\u0442 \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0442\u044C\u0441\u044F \u0441 \u043E\u0434\u043D\u0438\u043C \u0441\u043F\u043B\u043E\u0448\u043D\u044B\u043C \u0446\u0432\u0435\u0442\u043E\u043C."
+   }
+}

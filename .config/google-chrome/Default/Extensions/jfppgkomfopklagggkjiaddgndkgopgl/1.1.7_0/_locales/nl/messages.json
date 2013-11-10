@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Altijd toevoegen aan Google+"
+   },
+   "always_add_desc": {
+      "message": "Als deze optie is aangevinkt, wordt de vertaalfunctie altijd toegevoegd aan Google+. Zo niet, dan wordt de functie alleen toegevoegd wanneer u op de extensieknop klikt."
+   },
+   "autosaved": {
+      "message": "Automatisch opgeslagen"
+   },
+   "background": {
+      "message": "Achtergrond voor de vertaling:"
+   },
+   "example": {
+      "message": "Voorbeeld"
+   },
+   "extension_desc": {
+      "message": "Vertaal uw Google+-updates met ge\u00EFntegreerde inline ondersteuning van Google Vertalen."
+   },
+   "extension_name": {
+      "message": "Google Vertalen voor Google+"
+   },
+   "google_translate": {
+      "message": "Google Vertalen"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 voor Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Taal:"
+   },
+   "language_desc": {
+      "message": "Inhoud wordt vertaald in deze taal."
+   },
+   "options_saved": {
+      "message": "Opties zijn opgeslagen"
+   },
+   "save": {
+      "message": "Opslaan"
+   },
+   "translate_header": {
+      "message": "Vertalen"
+   }
+}

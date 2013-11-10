@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "Tejto str\u00E1nke \u003Ca\u003Este dali\u003C/a\u003E +1."
+   },
+   "add_plusone_tooltip": {
+      "message": "Dajte tejto str\u00E1nke +1 ako pou\u017E\u00EDvate\u013E {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Z\u00E1klady"
+   },
+   "browser_usage_warning": {
+      "message": "Po povolen\u00ED tejto mo\u017Enosti sa bud\u00FA inform\u00E1cie o pou\u017E\u00EDvan\u00ED v\u00E1\u0161ho prehliada\u010Da zdie\u013Ea\u0165 so spolo\u010Dnos\u0165ou Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Tejto str\u00E1nke nie je mo\u017En\u00E9 da\u0165 +1."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Tejto str\u00E1nke nie je mo\u017En\u00E9 da\u0165 +1"
+   },
+   "counts_group_name": {
+      "message": "Po\u010Det"
+   },
+   "error_message": {
+      "message": "Vyskytla sa chyba."
+   },
+   "error_tooltip": {
+      "message": "Vyskytla sa chyba"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. V\u0161etky pr\u00E1va vyhraden\u00E9."
+   },
+   "extension_description": {
+      "message": "D\u00E1vajte +1 a zdie\u013Eajte webov\u00FA str\u00E1nku bez oh\u013Eadu na to, kde na webe sa nach\u00E1dzate."
+   },
+   "extension_name": {
+      "message": "Tla\u010Didlo Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "Tla\u010Didlo +1"
+   },
+   "loading": {
+      "message": "Prebieha na\u010D\u00EDtavanie..."
+   },
+   "options_header": {
+      "message": "Mo\u017Enosti"
+   },
+   "options_title": {
+      "message": "Mo\u017Enosti"
+   },
+   "privacy_and_terms": {
+      "message": "Ochrana osobn\u00FDch \u00FAdajov a Zmluvn\u00E9 podmienky"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EVa\u0161e\u003C/a\u003E odpor\u00FA\u010Danie +1 bolo odstr\u00E1nen\u00E9."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Odstr\u00E1ni\u0165 +1 z tejto str\u00E1nky"
+   },
+   "send_usage_statistics": {
+      "message": "Automaticky odosiela\u0165 spolo\u010Dnosti Google anonymn\u00E9 \u0161tatistiky pou\u017E\u00EDvania"
+   },
+   "show_plusone_counts": {
+      "message": "Zobrazi\u0165 po\u010Det +1"
+   },
+   "sign_in_message": {
+      "message": "Po prihl\u00E1sen\u00ED budete m\u00F4c\u0165 tejto str\u00E1nke da\u0165 +1."
+   },
+   "sign_in_tooltip": {
+      "message": "Ak chcete pou\u017E\u00EDva\u0165 slu\u017Ebu Google +1, prihl\u00E1ste sa"
+   },
+   "sign_up_message": {
+      "message": "Ak chcete pou\u017E\u00EDva\u0165 slu\u017Ebu Google +1, zaregistrujte sa."
+   },
+   "sign_up_tooltip": {
+      "message": "Ak chcete pou\u017E\u00EDva\u0165 slu\u017Ebu Google +1, zaregistrujte sa"
+   }
+}

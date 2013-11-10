@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif
+}
+
+p, td {
+    font-size: 10pt
+}
+
+p {
+    text-align: left;
+    padding: 0 0 0.5em;
+    margin: 0
+}
+
+hr {
+    height: 0;
+    border-style: none;
+    border-top: 1px solid #bbb;
+    margin: 0.7em
+}
+
+h2 {
+    font-size: 14px;
+    border-bottom: 1px solid #bbb
+}
+
+td {
+    vertical-align: top
+}

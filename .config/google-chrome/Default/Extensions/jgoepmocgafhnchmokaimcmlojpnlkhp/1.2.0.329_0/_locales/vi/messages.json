@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EB\u1EA1n\u003C/a\u003E \u0111\u00E3 +1 trang n\u00E0y."
+   },
+   "add_plusone_tooltip": {
+      "message": "+1 trang n\u00E0y d\u01B0\u1EDBi t\u00EAn {{user}}"
+   },
+   "basics_page_title": {
+      "message": "C\u01A1 b\u1EA3n"
+   },
+   "browser_usage_warning": {
+      "message": "B\u1EADt t\u00F9y ch\u1ECDn n\u00E0y s\u1EBD chia s\u1EBB vi\u1EC7c s\u1EED d\u1EE5ng tr\u00ECnh duy\u1EC7t c\u1EE7a b\u1EA1n v\u1EDBi Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Kh\u00F4ng th\u1EC3 +1 trang n\u00E0y."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Kh\u00F4ng th\u1EC3 +1 trang n\u00E0y"
+   },
+   "counts_group_name": {
+      "message": "S\u1ED1 l\u01B0\u1EE3ng"
+   },
+   "error_message": {
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i."
+   },
+   "error_tooltip": {
+      "message": "\u0110\u00E3 x\u1EA3y ra l\u1ED7i"
+   },
+   "extension_copyright": {
+      "message": "B\u1EA3n quy\u1EC1n 2011 Google Inc. M\u1ECDi quy\u1EC1n \u0111\u01B0\u1EE3c b\u1EA3o l\u01B0u."
+   },
+   "extension_description": {
+      "message": "+1 v\u00E0 chia s\u1EBB trang web, d\u00F9 b\u1EA1n \u1EDF b\u1EA5t k\u1EF3 \u0111\u00E2u tr\u00EAn web."
+   },
+   "extension_name": {
+      "message": "N\u00FAt Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "N\u00FAt +1"
+   },
+   "loading": {
+      "message": "\u0110ang ta\u0309i..."
+   },
+   "options_header": {
+      "message": "T\u00F9y ch\u1ECDn"
+   },
+   "options_title": {
+      "message": "T\u00F9y ch\u1ECDn"
+   },
+   "privacy_and_terms": {
+      "message": "B\u1EA3o m\u1EADt v\u00E0 \u0111i\u1EC1u kho\u1EA3n"
+   },
+   "remove_plusone_success": {
+      "message": "+1 \u003Ca\u003Ec\u1EE7a b\u1EA1n\u003C/a\u003E \u0111\u00E3 \u0111\u01B0\u1EE3c x\u00F3a."
+   },
+   "remove_plusone_tooltip": {
+      "message": "X\u00F3a +1 kh\u1ECFi trang n\u00E0y"
+   },
+   "send_usage_statistics": {
+      "message": "T\u1EF1 \u0111\u1ED9ng g\u1EEDi s\u1ED1 li\u1EC7u th\u1ED1ng k\u00EA s\u1EED d\u1EE5ng \u1EA9n danh t\u1EDBi Google"
+   },
+   "show_plusone_counts": {
+      "message": "Hi\u1EC3n th\u1ECB s\u1ED1 l\u01B0\u1EE3ng +1"
+   },
+   "sign_in_message": {
+      "message": "Khi b\u1EA1n \u0111\u00E3 \u0111\u0103ng nh\u1EADp, b\u1EA1n s\u1EBD c\u00F3 th\u1EC3 +1 trang n\u00E0y."
+   },
+   "sign_in_tooltip": {
+      "message": "\u0110\u0103ng nh\u1EADp \u0111\u1EC3 s\u1EED d\u1EE5ng Google +1"
+   },
+   "sign_up_message": {
+      "message": "\u0110\u0103ng k\u00FD \u0111\u1EC3 s\u1EED d\u1EE5ng Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "\u0110\u0103ng k\u00FD \u0111\u1EC3 s\u1EED d\u1EE5ng Google +1"
+   }
+}

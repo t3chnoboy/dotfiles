@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Med Googles onlinekalender er det nemt at holde styr p\u00E5 alle livets vigtige begivenheder p\u00E5 \u00E9t sted."
+   },
+   "app_name": {
+      "message": "Google Kalender"
+   },
+   "description_extended": {
+      "message": "Det burde ikke v\u00E6re en byrde at l\u00E6gge din tidsplan. Med Google Kalender er det nemt at holde styr p\u00E5 alle livets vigtige begivenheder p\u00E5 \u00E9t sted."
+   },
+   "description_reason_1": {
+      "message": "Del din tidsplan"
+   },
+   "description_reason_2": {
+      "message": "2. F\u00E5 din kalender med p\u00E5 farten"
+   },
+   "description_reason_3": {
+      "message": "3. Glem aldrig en begivenhed igen"
+   },
+   "description_reason_4": {
+      "message": "4. Send invitationer, og spor de udbedte svar"
+   },
+   "description_reason_5": {
+      "message": "5. Synkroniser med applikationer p\u00E5 din computer"
+   },
+   "description_reason_6": {
+      "message": "6. Arbejd offline"
+   },
+   "description_reason_7": {
+      "message": "7. Er alt det gratis?"
+   },
+   "description_reason_content_1": {
+      "message": "Lad dine medarbejdere, dine venner og din familie se din kalender, og f\u00E5 vist tidsplaner, som andre har delt med dig. N\u00E5r du ved, hvorn\u00E5r alle er ledige eller har travlt, er det nemt at l\u00E6gge en tidsplan."
+   },
+   "description_reason_content_2": {
+      "message": "Med tovejssynkronisering til din mobiltelefons indbyggede kalender eller en mobil version af Google Kalender, der er lavet til den lille sk\u00E6rm, kan du f\u00E5 adgang til din kalender, mens du er v\u00E6k fra dit skrivebord."
+   },
+   "description_reason_content_3": {
+      "message": "P\u00E5mindelser, der kan tilpasses, hj\u00E6lper dig med at holde tidsplanen. Du kan v\u00E6lge at f\u00E5 en meddelelse via e-mail eller f\u00E5 en sms sendt direkte til din mobiltelefon."
+   },
+   "description_reason_content_4": {
+      "message": "Inviter andre til begivenheder i din kalender. G\u00E6ster kan give besked, om hvorvidt de kommer til dine begivenheder, pr. e-mail eller via Google Kalender."
+   },
+   "description_reason_content_5": {
+      "message": "F\u00E5 adgang til din kalender p\u00E5 den m\u00E5de og det tidspunkt, du foretr\u00E6kker, ved at synkronisere begivenheder med andre applikationer s\u00E5som Microsoft Outlook, Apple iCal og Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Hold styr p\u00E5, hvor du skal v\u00E6re, selv n\u00E5r du ikke har adgang til internettet. Med offlineadgang kan du f\u00E5 vist en skrivebeskyttet udgave af din kalender, uanset hvor du befinder dig."
+   },
+   "description_reason_content_7": {
+      "message": "Jeps."
+   },
+   "description_reasons": {
+      "message": "Syv grunde til at bruge Google Kalender..."
+   }
+}

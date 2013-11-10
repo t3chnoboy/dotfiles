@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Create and edit scripts"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Apps Script"
+   }
+}

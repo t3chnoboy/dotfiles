@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://news.google.com/"
+      },
+      "urls": [ "*://news.google.com/" ]
+   },
+   "description": "Search thousands of news stories",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfIi+uVz4J2O4myMbm6JE7Ux8M7mS29h4GmZrCRUPQaD9RS8sbVmIG7yk13p6ZHGzFfWZIkSKhPwBCEpDTkSG4szFoN6R3GUkKNVqoDOVjEZl13byZa7tI160iOJ4QCJmlIqB2sxcmOIxeD3Twyu32ILy+l3wYaste6xbIv76iEwIDAQAB",
+   "name": "Google News",
+   "options_page": "http://news.google.com/news/settings",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.0"
+}

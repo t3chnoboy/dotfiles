@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Sempre adicionar ao Google+"
+   },
+   "always_add_desc": {
+      "message": "Quando marcada, sempre adiciona o recurso de tradu\u00E7\u00E3o ao Google+. Caso contr\u00E1rio, ele s\u00F3 \u00E9 adicionado quando voc\u00EA clica no bot\u00E3o da extens\u00E3o."
+   },
+   "autosaved": {
+      "message": "Salvo automaticamente"
+   },
+   "background": {
+      "message": "Plano de fundo para a tradu\u00E7\u00E3o:"
+   },
+   "example": {
+      "message": "Exemplo"
+   },
+   "extension_desc": {
+      "message": "Traduza seu fluxo do Google+ usando o suporte integrado e in-line do Google Tradutor."
+   },
+   "extension_name": {
+      "message": "Google Tradutor para Google+"
+   },
+   "google_translate": {
+      "message": "Google Tradutor"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 para Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Idioma:"
+   },
+   "language_desc": {
+      "message": "O conte\u00FAdo ser\u00E1 traduzido para este idioma."
+   },
+   "options_saved": {
+      "message": "Op\u00E7\u00F5es salvas"
+   },
+   "save": {
+      "message": "Salvar"
+   },
+   "translate_header": {
+      "message": "Google Tradutor"
+   }
+}

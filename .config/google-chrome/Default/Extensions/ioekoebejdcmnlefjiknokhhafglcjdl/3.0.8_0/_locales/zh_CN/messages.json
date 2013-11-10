@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Dropbox \u662F\u4E00\u9879\u53EF\u5E2E\u4F60\u5C06\u6240\u6709\u7167\u7247\u3001\u6587\u6863\u548C\u89C6\u9891\u643A\u5E26\u5230\u4EFB\u4F55\u5730\u65B9\u7684\u514D\u8D39\u670D\u52A1\u3002"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Dropbox"
+   }
+}

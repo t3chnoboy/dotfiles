@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Ad\u0103uga\u0163i \u00EEntotdeauna la Google+"
+   },
+   "always_add_desc": {
+      "message": "Dac\u0103 este bifat\u0103, func\u0163ia de traducere va fi ad\u0103ugat\u0103 \u00EEntotdeauna la Google+, \u00EEn caz contrar, aceasta fiind ad\u0103ugat\u0103 numai atunci c\u00E2nd face\u0163i clic pe butonul extensiei."
+   },
+   "autosaved": {
+      "message": "Salvate automat"
+   },
+   "background": {
+      "message": "Culoare de fundal pentru traducere:"
+   },
+   "example": {
+      "message": "Exemplu"
+   },
+   "extension_desc": {
+      "message": "Traduce\u0163i fluxul dvs. Google+ utiliz\u00E2nd asisten\u0163a integrat\u0103, direct\u0103 a produsului Google Traducere."
+   },
+   "extension_name": {
+      "message": "Google Traducere pentru Google+"
+   },
+   "google_translate": {
+      "message": "Google Traducere"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 pentru Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Limb\u0103:"
+   },
+   "language_desc": {
+      "message": "Con\u0163inutul va fi tradus \u00EEn aceast\u0103 limb\u0103."
+   },
+   "options_saved": {
+      "message": "Op\u0163iunile au fost salvate"
+   },
+   "save": {
+      "message": "Salva\u0163i"
+   },
+   "translate_header": {
+      "message": "Google Traducere"
+   }
+}

@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "\u9001\u4FE1\u5148\u3092\u89E3\u6790\u3067\u304D\u307E\u305B\u3093: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "\u30AD\u30E3\u30F3\u30BB\u30EB"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "\u3053\u306E\u30B3\u30DE\u30F3\u30C9\u306F\u3001\u65E2\u77E5\u306E\u30DB\u30B9\u30C8\u306E\u4E00\u89A7\u3068\u3001\u524A\u9664\u5BFE\u8C61\u30DB\u30B9\u30C8\u306E\u30D7\u30ED\u30F3\u30D7\u30C8\u3092\u8868\u793A\u3057\u307E\u3059\u3002"
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "\u65E2\u77E5\u306E SSH \u30DB\u30B9\u30C8\u3092\u524A\u9664\u3057\u307E\u3059\u3002"
+   },
+   "cmd_ssh_help": {
+      "message": "|username| \u30D1\u30E9\u30E1\u30FC\u30BF\u3068 |hostname| \u30D1\u30E9\u30E1\u30FC\u30BF\u306F\u5FC5\u9808\u3067\u3059\u304C\u3001|port| \u306F\u7701\u7565\u3067\u304D\u307E\u3059\u3002\u30DD\u30FC\u30C8\u3092\u6307\u5B9A\u3057\u306A\u3044\u5834\u5408\u306F\u3001\u30C7\u30D5\u30A9\u30EB\u30C8\u5024\u306E 22 \u304C\u9069\u7528\u3055\u308C\u307E\u3059\u3002"
+   },
+   "cmd_ssh_title": {
+      "message": "\u65B0\u3057\u3044 SSH \u30BB\u30C3\u30B7\u30E7\u30F3\u3092\u958B\u304D\u307E\u3059\u3002"
+   },
+   "command_complete": {
+      "message": "$1 \u30B3\u30DE\u30F3\u30C9\u306F\u7D42\u4E86\u30B3\u30FC\u30C9 $2 \u3067\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002\u3053\u306E\u30A6\u30A3\u30F3\u30C9\u30A6\u306F\u3044\u3064\u3067\u3082\u9589\u3058\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "\u63A5\u7D9A"
+   },
+   "connect_message": {
+      "message": "\u63A5\u7D9A\u5148\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "connecting": {
+      "message": "\u30DD\u30FC\u30C8 $2 \u3067 $1 \u306B\u63A5\u7D9A\u3057\u3066\u3044\u307E\u3059...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "username@hostname[:port]"
+   },
+   "known_hosts_empty": {
+      "message": "\u524A\u9664\u5BFE\u8C61\u3068\u306A\u308B\u65E2\u77E5\u306E\u30DB\u30B9\u30C8\u304C\u3042\u308A\u307E\u305B\u3093\u3002"
+   },
+   "known_hosts_prompt": {
+      "message": "\u524A\u9664\u3059\u308B\u30DB\u30B9\u30C8\u3092\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044 [1\uFF5E$1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "\u65E2\u77E5\u306E\u30DB\u30B9\u30C8:"
+   },
+   "missing_param": {
+      "message": "\u6B21\u306E\u30D1\u30E9\u30E1\u30FC\u30BF\u304C\u3042\u308A\u307E\u305B\u3093: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "OK"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "\u4E88\u671F\u3057\u306A\u3044\u30A8\u30E9\u30FC\u304C\u767A\u751F\u3057\u307E\u3057\u305F\u3002\u8A73\u3057\u304F\u306F JavaScript \u30B3\u30F3\u30BD\u30FC\u30EB\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+   },
+   "welcome": {
+      "message": "\u3088\u3046\u3053\u305D\uFF01\u300Copen\u300D\u30B3\u30DE\u30F3\u30C9\u3067\u65B0\u3057\u3044 SSH \u63A5\u7D9A\u3092\u958B\u59CB\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+   },
+   "welcome_tip": {
+      "message": "\u4E0A\u7D1A\u8005\u5411\u3051\u30D2\u30F3\u30C8: \u3053\u306E\u30BB\u30C3\u30B7\u30E7\u30F3\u306F\u30D6\u30E9\u30A6\u30B6\u306E\u30D6\u30C3\u30AF\u30DE\u30FC\u30AF\u3068\u3057\u3066\u4FDD\u5B58\u3067\u304D\u307E\u3059\u3002"
+   }
+}

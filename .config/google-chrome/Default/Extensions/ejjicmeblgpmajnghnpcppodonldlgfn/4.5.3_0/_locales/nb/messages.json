@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Googles gratis nettkalender gj\u00F8r at du enkelt kan holde styr p\u00E5 livets viktige begivenheter, alt p\u00E5 ett sted."
+   },
+   "app_name": {
+      "message": "Google Kalender"
+   },
+   "description_extended": {
+      "message": "Organisering av tidsplaner trenger ikke \u00E5 v\u00E6re en slitsom aff\u00E6re. Google Kalender gj\u00F8r det enkelt \u00E5 holde styr p\u00E5 livets viktige begivenheter, alt p\u00E5 ett sted."
+   },
+   "description_reason_1": {
+      "message": "1. Del tidsplanen din"
+   },
+   "description_reason_2": {
+      "message": "2. Tilgang til kalenderen din n\u00E5r du er p\u00E5 farten"
+   },
+   "description_reason_3": {
+      "message": "3. Du glemmer aldri en begivenhet igjen"
+   },
+   "description_reason_4": {
+      "message": "4. Send invitasjoner og spor anmodninger om svar (RSVP)"
+   },
+   "description_reason_5": {
+      "message": "5. Synkronisering med skrivebordsprogrammene dine"
+   },
+   "description_reason_6": {
+      "message": "6. Frakoblet arbeid"
+   },
+   "description_reason_7": {
+      "message": "7. Er alt dette gratis?"
+   },
+   "description_reason_content_1": {
+      "message": "Gj\u00F8r kalenderen din tilgjengelig for medarbeidere, familie og venner, og se tidsplanene som andre deler med deg. Planlegging er mye enklere n\u00E5r du til enhver tid vet om andre er ledige eller ikke."
+   },
+   "description_reason_content_2": {
+      "message": "Hvis du har toveissynkronisering med mobiltelefonens innebygde kalender eller en mobilversjon av Google Kalender som er laget for sm\u00E5 skjermer, har du tilgang til kalenderen din selv n\u00E5r du ikke befinner deg ved skrivebordet."
+   },
+   "description_reason_content_3": {
+      "message": "Overhold tidsplanen ved hjelp av tilpassbare p\u00E5minnelser. Du kan velge \u00E5 bli varslet per e-post eller motta en tekstmelding p\u00E5 mobiltelefonen."
+   },
+   "description_reason_content_4": {
+      "message": "Du kan invitere andre personer til kalenderhendelsene dine, og gjestene kan svare p\u00E5 invitasjoner per e-post eller via Google Kalender."
+   },
+   "description_reason_content_5": {
+      "message": "Du har tilgang til kalenderen din n\u00E5r og hvor som helst hvis du synkroniserer kalenderhendelser med andre programmer, slik som Microsoft Outlook, Apple iCal og Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Du vet hvor du skal v\u00E6re til enhver tid, selv om du ikke har tilgang Internett. Frakoblet tilgang gj\u00F8r at du kan se en skrivebeskyttet versjon av kalenderen din, uansett hvor du er."
+   },
+   "description_reason_content_7": {
+      "message": "Jepp."
+   },
+   "description_reasons": {
+      "message": "Sju grunner til \u00E5 bruke Google Kalender"
+   }
+}

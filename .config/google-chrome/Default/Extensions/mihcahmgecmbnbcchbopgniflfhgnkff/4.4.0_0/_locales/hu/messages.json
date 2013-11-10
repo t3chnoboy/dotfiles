@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "Megjelen\u00EDti az olvasatlan \u00FCzeneteket a Google Mail be\u00E9rkez\u0151 levelei k\u00F6z\u00F6tt. A gombra kattintva is megnyithatja a be\u00E9rkez\u0151 leveleit."
+   },
+   "gmailcheck_exception": {
+      "message": "kiv\u00E9tel: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Google Lev\u00E9lfigyel\u0151"
+   },
+   "gmailcheck_node_error": {
+      "message": "Hiba: h\u00EDrcsatorna leh\u00EDvva, de a csom\u00F3pont (&lt;fullcount&gt;) hi\u00E1nyzik"
+   }
+}

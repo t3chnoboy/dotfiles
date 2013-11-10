@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "A description of the application.",
+      "message": "Speichern Sie Ihre Ideen und Erlebnisse in Evernote und greifen Sie \u00FCber Ihren Computer oder Ihr Mobiltelefon darauf zu."
+   },
+   "extensionName": {
+      "description": "The name of the application.",
+      "message": "Evernote Web"
+   }
+}

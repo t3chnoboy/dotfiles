@@ -1,0 +1,308 @@
+{
+   "BAD_DESTINATION": {
+      "description": "Error displayed when we can't parse the destination for the ssh command.",
+      "message": "Unable to parse destination: $DEST$",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "invalid.destination"
+         }
+      }
+   },
+   "BEFORE_UNLOAD": {
+      "description": "The message shown to a user when they try to close a tab with an open session.",
+      "message": "Closing this tab will disconnect this session."
+   },
+   "CANCEL_BUTTON_LABEL": {
+      "description": "The label for the Cancel button in dialogs.",
+      "message": "Cancel"
+   },
+   "CMD_SSH_FORGET_HOST_HELP": {
+      "description": "Long form help text for this command.  Do not translate the parameter names in |pipes|.",
+      "message": "This command displays a menu of known hosts and prompts for the host to forget."
+   },
+   "CMD_SSH_FORGET_HOST_TITLE": {
+      "description": "One-sentence description for this command.",
+      "message": "Forget a known ssh host."
+   },
+   "CMD_SSH_HELP": {
+      "description": "Long form help text for this command.  Do not translate the parameter names in |pipes|.",
+      "message": "The |username| and |hostname| parameters are required, |port| is optional.  If port is not specified it defaults to 22."
+   },
+   "CMD_SSH_TITLE": {
+      "description": "One-sentence description for this command.",
+      "message": "Opens a new SSH session."
+   },
+   "COMMAND_COMPLETE": {
+      "description": "Message displayed when the current command has completed.",
+      "message": "The command $NAME$ exited with status code $CODE$.",
+      "placeholders": {
+         "code": {
+            "content": "$2",
+            "example": "0"
+         },
+         "name": {
+            "content": "$1",
+            "example": "ssh"
+         }
+      }
+   },
+   "CONNECTING": {
+      "description": "Status message shown when connecting to a host.",
+      "message": "Connecting to $DESTINATION$...",
+      "placeholders": {
+         "destination": {
+            "content": "$1",
+            "example": "username@example.com"
+         }
+      }
+   },
+   "CONNECT_BUTTON_LABEL": {
+      "description": "Label for the connect button.",
+      "message": "Connect"
+   },
+   "DELETE_BUTTON_LABEL": {
+      "description": "The label for the delete button.",
+      "message": "Delete"
+   },
+   "DEL_KEYCAP": {
+      "description": "The keycap for the delete key, displayed on the delete button.",
+      "message": "[DEL]"
+   },
+   "DISCONNECT_MESSAGE": {
+      "description": "Message displayed after the plugin exits, but before the reconnect message.",
+      "message": "NaCl plugin exited with status code $CODE$.",
+      "placeholders": {
+         "code": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "ENTER_KEYCAP": {
+      "description": "The keycap for the enter key, displayed on the connect button.",
+      "message": "[ENTER]"
+   },
+   "FIELD_ARGSTR_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'argstr' field.",
+      "message": "additional ssh arguments"
+   },
+   "FIELD_ARGSTR_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'argstr' field.",
+      "message": "extra command line arguments"
+   },
+   "FIELD_DESCRIPTION_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'description' field.",
+      "message": "description"
+   },
+   "FIELD_DESCRIPTION_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'description' field.",
+      "message": "username@hostname or free form text"
+   },
+   "FIELD_HOSTNAME_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'hostname' field.",
+      "message": "hostname"
+   },
+   "FIELD_HOSTNAME_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'hostname' field.",
+      "message": "hostname"
+   },
+   "FIELD_IDENTITY_ARIA_LABEL": {
+      "description": "Text to use as the aria-label for the identity dropdown.",
+      "message": "identity"
+   },
+   "FIELD_PORT_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'port' field.",
+      "message": "port"
+   },
+   "FIELD_PORT_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'port' field.",
+      "message": "port"
+   },
+   "FIELD_RELAY_HOST_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'relay-host' field.",
+      "message": "relay host"
+   },
+   "FIELD_RELAY_HOST_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'relay-host' field.",
+      "message": "relay hostname"
+   },
+   "FIELD_RELAY_PORT_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'relay-port' field.",
+      "message": "port"
+   },
+   "FIELD_RELAY_PORT_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'relay-port' field.",
+      "message": "port"
+   },
+   "FIELD_TERMINAL_PROFILE_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'terminal-profile' field.",
+      "message": "terminal profile name"
+   },
+   "FIELD_TERMINAL_PROFILE_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'terminal profile' field.",
+      "message": "default"
+   },
+   "FIELD_USERNAME_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'username' field.",
+      "message": "username"
+   },
+   "FIELD_USERNAME_PLACEHOLDER": {
+      "description": "Text use as the placeholder for the 'username' field.",
+      "message": "username"
+   },
+   "FOUND_RELAY": {
+      "description": "Text displayed in the terminal when the user is connecting through a relay.",
+      "message": "Found relay server: $URL$",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "http://proxy.example.com:8023/"
+         }
+      }
+   },
+   "IDENTITY_LABEL": {
+      "description": "The label for the 'identity' field.",
+      "message": "Identity"
+   },
+   "IMPORT_LINK_ARIA_LABEL": {
+      "description": "The aria-label for the Import link.",
+      "message": "file import"
+   },
+   "IMPORT_LINK_LABEL": {
+      "description": "The label for the 'identity' field.",
+      "message": "Import..."
+   },
+   "INITIALIZING_RELAY": {
+      "description": "Text displayed in the terminal when the user is connecting through a relay.",
+      "message": "Looking up relay server using: $HOST$",
+      "placeholders": {
+         "host": {
+            "content": "$1",
+            "example": "proxy.example.com"
+         }
+      }
+   },
+   "JSON_PARSE_ERROR": {
+      "description": "Error message shown when parsing JSON input failed",
+      "message": "Could not parse JSON in '$1'"
+   },
+   "KNOWN_HOSTS_EMPTY": {
+      "description": "Message displayed when there are no hosts to delete.",
+      "message": "No known hosts, nothing to forget."
+   },
+   "KNOWN_HOSTS_PROMPT": {
+      "description": "Prompt displayed by the ssh-forget-host command",
+      "message": "Please select a host to forget [1-$COUNT$]: ",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "KNOWN_HOSTS_TITLE": {
+      "description": "Header text displayed before the list of known hosts.",
+      "message": "Known hosts:"
+   },
+   "LOADING_LABEL": {
+      "description": "The text displayed in the identity dropdown while we load identities.",
+      "message": "Loading..."
+   },
+   "MISSING_PARAM": {
+      "description": "Error message displayed when a command is missing a parameter.",
+      "message": "Missing parameter: $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "username"
+         }
+      }
+   },
+   "NOTIFY_COPY": {
+      "description": "Short status message displayed in a terminal overlay when text is automatically copied to the clipboard.",
+      "message": "Selection Copied"
+   },
+   "OK_BUTTON_LABEL": {
+      "description": "The label for the OK button in dialogs.",
+      "message": "OK"
+   },
+   "OPEN_AS_WINDOW_TIP": {
+      "description": "Message displayed to users who are running Secure Shell in a tab.",
+      "message": "[Pro Tip] Use 'Open as Window' to keep Control-W from closing your terminal!\r\n[Pro Tip] See $URL$ for more information.",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "http://goo.gl/OeH3i"
+         }
+      }
+   },
+   "PLUGIN_LOADING": {
+      "description": "Status message displayed while loading the plugin.",
+      "message": "Loading NaCl plugin..."
+   },
+   "PLUGIN_LOADING_COMPLETE": {
+      "description": "Appended to PLUGIN_LOADING message when loading is complete.",
+      "message": " done."
+   },
+   "PREFERENCES_HEADER": {
+      "description": "Friendly message shown on options page",
+      "message": "Preferences Page"
+   },
+   "PREFERENCES_RESET": {
+      "description": "Message displayed after options are reset",
+      "message": "All preferences reset!"
+   },
+   "RECONNECT_MESSAGE": {
+      "description": "Message displayed after a connection closes",
+      "message": "(R)econnect, (C)hoose another connection, or E(x)it?"
+   },
+   "RELAY_RETRY": {
+      "description": "Displayed in a text overlay when we experience an error talking to the relay server.",
+      "message": "Retrying..."
+   },
+   "SHORTCUT_LIST_ARIA_LABEL": {
+      "description": "Text use as the aria-label for the 'shortcut-list'.",
+      "message": "saved connections"
+   },
+   "SSH_ARGSTR_LABEL": {
+      "description": "The label for the 'argstr' field.",
+      "message": "SSH Arguments"
+   },
+   "TERMINAL_PROFILE_LABEL": {
+      "description": "Text use as the label for the 'terminal-profile' field.",
+      "message": "Terminal Profile"
+   },
+   "UNEXPECTED_ERROR": {
+      "description": "Generic message displayed when we encounter an unexpected error.",
+      "message": "An unexpected error occurred, please chech the JavaScript console for more details."
+   },
+   "WELCOME_FAQ": {
+      "description": "A link to the frequently asked questions, displayed at startup",
+      "message": "Answers to Frequently Asked Questions: $URL$",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "http://goo.gl/m6Nj8"
+         }
+      }
+   },
+   "WELCOME_VERSION": {
+      "description": "Message displayed to the user when the application is first launched",
+      "message": "Welcome to $NAME$ version $VERSION$.",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Secure Shell"
+         },
+         "version": {
+            "content": "$2",
+            "example": "1.0"
+         }
+      }
+   },
+   "ZOOM_WARNING": {
+      "description": "Shown in the top/right corner if the Zoom setting is not set to 100%.",
+      "message": "Please set Wrench-\u003EZoom to 100%"
+   }
+}

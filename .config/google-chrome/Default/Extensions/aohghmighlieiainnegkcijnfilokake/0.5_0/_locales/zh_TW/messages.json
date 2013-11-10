@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "\u5EFA\u7ACB\u53CA\u7DE8\u8F2F\u6587\u4EF6"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google \u6587\u4EF6"
+   }
+}

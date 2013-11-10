@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "N\u00E3o \u00E9 poss\u00EDvel analisar o destino: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "Cancelar"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "Este comando apresenta um menu de anfitri\u00F5es conhecidos e solicita ao anfitri\u00E3o que esque\u00E7a."
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "Esquecer um anfitri\u00E3o SSH conhecido."
+   },
+   "cmd_ssh_help": {
+      "message": "Os par\u00E2metros |username| e |hostname| s\u00E3o obrigat\u00F3rios, |port| \u00E9 opcional. Se a porta n\u00E3o for especificada, \u00E9 aplicada a predefini\u00E7\u00E3o de 22."
+   },
+   "cmd_ssh_title": {
+      "message": "Abre uma nova sess\u00E3o SSH."
+   },
+   "command_complete": {
+      "message": "O comando $1 foi conclu\u00EDdo com o c\u00F3digo de sa\u00EDda $2. Feche esta janela quando pretender.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "Ligar"
+   },
+   "connect_message": {
+      "message": "Introduza um destino para a liga\u00E7\u00E3o."
+   },
+   "connecting": {
+      "message": "A ligar a $1, porta $2...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "username@hostname[:porta]"
+   },
+   "known_hosts_empty": {
+      "message": "Sem anfitri\u00F5es conhecidos, nada a esquecer."
+   },
+   "known_hosts_prompt": {
+      "message": "Selecione um anfitri\u00E3o a esquecer [1-$1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "Anfitri\u00F5es conhecidos:"
+   },
+   "missing_param": {
+      "message": "Par\u00E2metro em falta: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "OK"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "Ocorreu um erro inesperado, verifique a consola de JavaScript para obter mais detalhes."
+   },
+   "welcome": {
+      "message": "Bem-vindo! Abra uma nova liga\u00E7\u00E3o ssh com o comando \"abrir\""
+   },
+   "welcome_tip": {
+      "message": "Sugest\u00E3o Pro: pode guardar esta sess\u00E3o como marcador do navegador."
+   }
+}

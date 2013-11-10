@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "S Googleovim besplatnim online kalendarom na jednom \u0107ete mjestu jednostavno pratiti sve va\u017Ene doga\u0111aje u \u017Eivotu."
+   },
+   "app_name": {
+      "message": "Google Kalendar"
+   },
+   "description_extended": {
+      "message": "Organiziranje rasporeda ne bi trebao biti problem. S Google Kalendarom mo\u017Eete jednostavno pratiti sve bitne doga\u0111aje u \u017Eivotu na jednom mjestu."
+   },
+   "description_reason_1": {
+      "message": "1. Dijelite svoj raspored"
+   },
+   "description_reason_2": {
+      "message": "2. Imajte svoj kalendar uvijek uz sebe"
+   },
+   "description_reason_3": {
+      "message": "3. Vi\u0161e nikad ne zaboravite nijedan doga\u0111aj"
+   },
+   "description_reason_4": {
+      "message": "4. \u0160aljite pozivnice i pratite odgovore na njih"
+   },
+   "description_reason_5": {
+      "message": "5. Sinkronizirajte kalendar s aplikacijama za radnu povr\u0161inu"
+   },
+   "description_reason_6": {
+      "message": "6. Radite izvan mre\u017Ee"
+   },
+   "description_reason_7": {
+      "message": "7. To je sve besplatno?"
+   },
+   "description_reason_content_1": {
+      "message": "Omogu\u0107ite svojim suradnicima, \u010Dlanovima obitelji i prijateljima da vide va\u0161 kalendar i prika\u017Eite im rasporede koje su drugi podijelili s vama. Kad znate kad je netko slobodan ili zauzet, planiranje je igra."
+   },
+   "description_reason_content_2": {
+      "message": "Uz dvosmjernu sinkronizaciju s ugra\u0111enim kalendarom u mobitelu ili mobilnom verzijom Google Kalendara napravljenom za male zaslone svom kalendaru mo\u017Eete pristupiti i dok niste za radnim stolom."
+   },
+   "description_reason_content_3": {
+      "message": "Prilagodivi podsjetnici pomo\u0107i \u0107e vam da sve obavljate na vrijeme. Mo\u017Eete odabrati ho\u0107ete li obavijesti dobivati e-po\u0161tom ili tekstualnim porukama koje sti\u017Eu izravno na va\u0161 telefon."
+   },
+   "description_reason_content_4": {
+      "message": "Pozovite druge ljude na doga\u0111aje u svom kalendaru. Gosti mogu odgovoriti na pozivnice za va\u0161e doga\u0111aje e-po\u0161tom ili putem Google Kalendara."
+   },
+   "description_reason_content_5": {
+      "message": "Pristupite svom kalendaru kako god i kad god to \u017Eelite tako \u0161to \u0107ete sinkronizirati doga\u0111aje s ostalim aplikacijama kao \u0161to su Microsoft Outlook, Apple iCal i Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Znajte gdje biste trebali biti, \u010Dak i kad nemate pristup internetu. Uz izvanmre\u017Eni pristup mo\u017Eete pogledati verziju kalendara samo za \u010Ditanje, gdje god se nalazili."
+   },
+   "description_reason_content_7": {
+      "message": "Aha."
+   },
+   "description_reasons": {
+      "message": "7 razloga za upotrebu Google Kalendara..."
+   }
+}

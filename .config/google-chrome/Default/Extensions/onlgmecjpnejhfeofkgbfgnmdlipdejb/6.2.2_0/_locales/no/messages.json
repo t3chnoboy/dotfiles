@@ -1,0 +1,10 @@
+﻿{
+  "appName": {
+    "message": "Picasa",
+    "description": "App name."
+  },
+  "appDesc": {
+    "message": "Rask og enkel bildedeling på nett fra Google med 1 GB gratis lagringsplass.", 
+    "description":"App description."
+  }
+}

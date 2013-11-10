@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003ESin\u00E4\u003C/a\u003E annoit t\u00E4lle sivulle +1."
+   },
+   "add_plusone_tooltip": {
+      "message": "Anna t\u00E4lle sivulle +1 k\u00E4ytt\u00E4j\u00E4n\u00E4 {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Perustiedot"
+   },
+   "browser_usage_warning": {
+      "message": "Jos otat t\u00E4m\u00E4n asetuksen k\u00E4ytt\u00F6\u00F6n, selaimesi k\u00E4ytt\u00F6tiedot jaetaan Googlelle."
+   },
+   "cannot_plusone_message": {
+      "message": "T\u00E4lle sivulle ei voi antaa +1."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "T\u00E4lle sivulle ei voi antaa +1"
+   },
+   "counts_group_name": {
+      "message": "Lukum\u00E4\u00E4r\u00E4"
+   },
+   "error_message": {
+      "message": "Tapahtui virhe."
+   },
+   "error_tooltip": {
+      "message": "Tapahtui virhe"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Kaikki oikeudet pid\u00E4tet\u00E4\u00E4n."
+   },
+   "extension_description": {
+      "message": "Anna verkkosivuille +1 ja jaa niit\u00E4 milt\u00E4 tahansa sivulta."
+   },
+   "extension_name": {
+      "message": "Google +1 -painike"
+   },
+   "extension_name_sans_google": {
+      "message": "+1-painike"
+   },
+   "loading": {
+      "message": "Ladataan..."
+   },
+   "options_header": {
+      "message": "Asetukset"
+   },
+   "options_title": {
+      "message": "Asetukset"
+   },
+   "privacy_and_terms": {
+      "message": "Tietosuoja ja k\u00E4ytt\u00F6ehdot"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003ESinun\u003C/a\u003E antamasi +1 on poistettu."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Poista antamasi +1 t\u00E4lt\u00E4 sivulta"
+   },
+   "send_usage_statistics": {
+      "message": "L\u00E4het\u00E4 Googlelle anonyymej\u00E4 k\u00E4ytt\u00F6tilastoja automaattisesti."
+   },
+   "show_plusone_counts": {
+      "message": "N\u00E4yt\u00E4 +1-merkint\u00F6jen lukum\u00E4\u00E4r\u00E4"
+   },
+   "sign_in_message": {
+      "message": "Kun olet kirjautunut sis\u00E4\u00E4n, voit antaa t\u00E4lle sivulle +1."
+   },
+   "sign_in_tooltip": {
+      "message": "Kirjaudu sis\u00E4\u00E4n, niin voit k\u00E4ytt\u00E4\u00E4 Google +1 -palvelua"
+   },
+   "sign_up_message": {
+      "message": "Rekister\u00F6idy, niin voit k\u00E4ytt\u00E4\u00E4 Google +1:t\u00E4."
+   },
+   "sign_up_tooltip": {
+      "message": "Ota Google +1 k\u00E4ytt\u00F6\u00F6n"
+   }
+}

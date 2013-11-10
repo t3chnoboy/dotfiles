@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EVi\u003C/a\u003E ste ovoj stranici dali +1."
+   },
+   "add_plusone_tooltip": {
+      "message": "Dajte ovoj stranici +1 kao {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Osnove"
+   },
+   "browser_usage_warning": {
+      "message": "Omogu\u0107avanjem ove opcije upotreba va\u0161eg preglednika dijelit \u0107e se s Googleom."
+   },
+   "cannot_plusone_message": {
+      "message": "Ovoj stranici ne mo\u017Eete dati +1."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Ovoj stranici ne mo\u017Eete dati +1"
+   },
+   "counts_group_name": {
+      "message": "Broj"
+   },
+   "error_message": {
+      "message": "Do\u0161lo je do pogre\u0161ke."
+   },
+   "error_tooltip": {
+      "message": "Do\u0161lo je do pogre\u0161ke"
+   },
+   "extension_copyright": {
+      "message": "Autorska prava 2011. Google Inc. Sva prava pridr\u017Eana."
+   },
+   "extension_description": {
+      "message": "Ozna\u010Dite sa +1 i dijelite web-stranicu, na bilo kojem dijelu weba."
+   },
+   "extension_name": {
+      "message": "Gumb Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "Gumb +1"
+   },
+   "loading": {
+      "message": "U\u010Ditavanje..."
+   },
+   "options_header": {
+      "message": "Opcije"
+   },
+   "options_title": {
+      "message": "Opcije"
+   },
+   "privacy_and_terms": {
+      "message": "Privatnost i uvjeti"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EVa\u0161a\u003C/a\u003E oznaka +1 uklonjena je."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Ukloni +1 s ove stranice"
+   },
+   "send_usage_statistics": {
+      "message": "Automatski \u0161alji anonimne statistike upotrebe Googleu"
+   },
+   "show_plusone_counts": {
+      "message": "Prikaz broja oznaka +1"
+   },
+   "sign_in_message": {
+      "message": "Kada se prijavite, mo\u0107i \u0107ete ozna\u010Diti ovu stranicu sa +1."
+   },
+   "sign_in_tooltip": {
+      "message": "Prijavite se da biste upotrebljavali uslugu Google +1"
+   },
+   "sign_up_message": {
+      "message": "Prijavite se za upotrebu usluge Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "Prijavite se za upotrebu usluge Google +1"
+   }
+}

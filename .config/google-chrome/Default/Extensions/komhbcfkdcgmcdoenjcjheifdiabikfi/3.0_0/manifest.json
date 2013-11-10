@@ -1,0 +1,16 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://play.google.com/store/"
+      },
+      "urls": [ "https://play.google.com/store/" ]
+   },
+   "description": "A one-stop shop for all your favorite entertainment.",
+   "icons": {
+      "128": "ic_menu_play_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUdSC3iVY/YUNyhu0AAMgW/i7NAgkdr+tpXO+x5tFGFLi73SBojDIHxjJGCSCZn4rzYS2mBldsDZiA7K7PP51dpJBsAIlorEDqBqVeVFrkSV6ZuZMDGUpFGm/wE3n2AqGwkoz2DpaA4WjQfzce/K/8Oy0DsRhyHLatQaPNXieMpQIDAQAB",
+   "name": "Google Play",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.0"
+}

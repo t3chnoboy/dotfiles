@@ -1,0 +1,7 @@
+[Data Source]
+DisplayName=friends-twitter-contacts
+Enabled=true
+Parent=local-stub
+
+[Address Book]
+BackendName=local

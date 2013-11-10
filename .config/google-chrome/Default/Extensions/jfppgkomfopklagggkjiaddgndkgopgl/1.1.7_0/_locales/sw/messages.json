@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Daima ongeza kwenye Google+"
+   },
+   "always_add_desc": {
+      "message": "Wakati imewekwa alama, daima itaongeza kipengele cha tafsiri kwa Google+, la sivyo itaongezwa tu wakati unapobofya kitufe cha kirefusho."
+   },
+   "autosaved": {
+      "message": "Imehifadhiwa atomatiki"
+   },
+   "background": {
+      "message": "Usuli wa utafsiri:"
+   },
+   "example": {
+      "message": "Mfano"
+   },
+   "extension_desc": {
+      "message": "Tafsiri mtiririko wako wa Google+ kwa kutumia auni iliyojumuisha, iliyo ndani ya Google Tafsiri."
+   },
+   "extension_name": {
+      "message": "Google Tafsiri kwa ajili ya Google+"
+   },
+   "google_translate": {
+      "message": "Google Tafsiri"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 kwa ajili ya Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Lugha:"
+   },
+   "language_desc": {
+      "message": "Maudhui yatatafsiriwa kwa lugha hii."
+   },
+   "options_saved": {
+      "message": "Chaguo zimehifadhiwa"
+   },
+   "save": {
+      "message": "Hifadhi"
+   },
+   "translate_header": {
+      "message": "Tafsiri"
+   }
+}

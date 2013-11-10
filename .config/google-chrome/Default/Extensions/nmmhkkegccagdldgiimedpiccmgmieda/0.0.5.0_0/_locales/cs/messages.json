@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Pen\u011B\u017Eenka Google pro digit\u00E1ln\u00ED zbo\u017E\u00ED"
+   },
+   "app_name": {
+      "message": "Pen\u011B\u017Eenka Google"
+   },
+   "craw_app_unavailable": {
+      "message": "Aplikace v sou\u010Dasn\u00E9 dob\u011B nen\u00ED dostupn\u00E1."
+   },
+   "craw_connect_to_network": {
+      "message": "P\u0159ipojte se pros\u00EDm k s\u00EDti."
+   },
+   "iap_unavailable": {
+      "message": "Platby v aplikaci aktu\u00E1ln\u011B nejsou k dispozici."
+   },
+   "please_sign_in": {
+      "message": "P\u0159ihlaste se do Chromu."
+   }
+}

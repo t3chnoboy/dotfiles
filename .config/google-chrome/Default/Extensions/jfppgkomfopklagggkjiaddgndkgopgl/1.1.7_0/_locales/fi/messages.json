@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Lis\u00E4\u00E4 aina Google+ -palveluun"
+   },
+   "always_add_desc": {
+      "message": "Kun t\u00E4m\u00E4 on valittu, k\u00E4\u00E4nn\u00F6stoiminto lis\u00E4t\u00E4\u00E4n aina Google+ -palveluun. Muutoin toiminto lis\u00E4t\u00E4\u00E4n vain klikatessasi laajennuspainiketta."
+   },
+   "autosaved": {
+      "message": "Tallennettu automaattisesti"
+   },
+   "background": {
+      "message": "K\u00E4\u00E4nn\u00F6ksen tausta:"
+   },
+   "example": {
+      "message": "Esimerkki"
+   },
+   "extension_desc": {
+      "message": "K\u00E4\u00E4nn\u00E4 Google+-streamisi Google-k\u00E4\u00E4nt\u00E4j\u00E4n avulla."
+   },
+   "extension_name": {
+      "message": "Google-k\u00E4\u00E4nt\u00E4j\u00E4 Google+-palvelulle"
+   },
+   "google_translate": {
+      "message": "Google-k\u00E4\u00E4nt\u00E4j\u00E4"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 Google+-palvelulle",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Kieli:"
+   },
+   "language_desc": {
+      "message": "Sis\u00E4lt\u00F6 k\u00E4\u00E4nnet\u00E4\u00E4n t\u00E4lle kielelle."
+   },
+   "options_saved": {
+      "message": "Asetukset tallennettu"
+   },
+   "save": {
+      "message": "Tallenna"
+   },
+   "translate_header": {
+      "message": "K\u00E4\u00E4nn\u00E4"
+   }
+}

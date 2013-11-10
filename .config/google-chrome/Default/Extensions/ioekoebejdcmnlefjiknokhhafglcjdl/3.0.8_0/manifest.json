@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.dropbox.com/at/cws"
+      },
+      "urls": [ "http://www.dropbox.com/at/cws" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHeqvrWOz3YpfaXJEPvPhBONL2gVR7sqprB15aqU4MWdiPxZm5/HCiRD1EN86YAk31TIY5Vn9QkJ6AnsIOJ860Wn8Kdbo3a+G635SmsJWQixioaHE6RLskARaWMBDPkjqEI+TAGi4I+L1G+/oq01gAremGy0lChftULsUhmDZhdwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.8"
+}

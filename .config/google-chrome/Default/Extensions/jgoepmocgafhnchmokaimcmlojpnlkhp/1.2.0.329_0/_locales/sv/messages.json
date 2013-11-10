@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EDu\u003C/a\u003E har +1:at sidan."
+   },
+   "add_plusone_tooltip": {
+      "message": "+1:a sidan som {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Grunderna"
+   },
+   "browser_usage_warning": {
+      "message": "Om du aktiverar det h\u00E4r alternativet delas din webbl\u00E4saranv\u00E4ndning med Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Det g\u00E5r inte att +1:a sidan."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Det g\u00E5r inte att +1:a sidan"
+   },
+   "counts_group_name": {
+      "message": "Antal"
+   },
+   "error_message": {
+      "message": "Ett fel har intr\u00E4ffat."
+   },
+   "error_tooltip": {
+      "message": "Ett fel har intr\u00E4ffat"
+   },
+   "extension_copyright": {
+      "message": "Upphovsr\u00E4tt 2011 Google Inc. Med ensamr\u00E4tt."
+   },
+   "extension_description": {
+      "message": "Du kan +1:a och dela en webbsida, var som helst p\u00E5 webben."
+   },
+   "extension_name": {
+      "message": "Google+1-knappen"
+   },
+   "extension_name_sans_google": {
+      "message": "+1-knappen"
+   },
+   "loading": {
+      "message": "L\u00E4ser in ..."
+   },
+   "options_header": {
+      "message": "Alternativ"
+   },
+   "options_title": {
+      "message": "Alternativ"
+   },
+   "privacy_and_terms": {
+      "message": "Sekretess och villkor"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EDin\u003C/a\u003E +1 har tagits bort."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Ta bort +1 fr\u00E5n sidan"
+   },
+   "send_usage_statistics": {
+      "message": "Skicka anonym anv\u00E4ndarstatistik till Google automatiskt"
+   },
+   "show_plusone_counts": {
+      "message": "Visa antalet +1"
+   },
+   "sign_in_message": {
+      "message": "N\u00E4r du har loggat in kommer du att kunna +1:a sidan."
+   },
+   "sign_in_tooltip": {
+      "message": "Logga in om du vill anv\u00E4nda Google+1"
+   },
+   "sign_up_message": {
+      "message": "Registrera dig om du vill anv\u00E4nda Google+1."
+   },
+   "sign_up_tooltip": {
+      "message": "Registrera dig om du vill anv\u00E4nda Google+1"
+   }
+}

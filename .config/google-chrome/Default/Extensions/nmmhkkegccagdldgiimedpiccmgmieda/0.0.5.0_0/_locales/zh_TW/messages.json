@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google \u96FB\u5B50\u9322\u5305\u6578\u4F4D\u5546\u54C1\u4ED8\u6B3E"
+   },
+   "app_name": {
+      "message": "Google \u96FB\u5B50\u9322\u5305"
+   },
+   "craw_app_unavailable": {
+      "message": "\u76EE\u524D\u7121\u6CD5\u4F7F\u7528\u9019\u500B\u61C9\u7528\u7A0B\u5F0F\u3002"
+   },
+   "craw_connect_to_network": {
+      "message": "\u8ACB\u9023\u4E0A\u7DB2\u8DEF\u3002"
+   },
+   "iap_unavailable": {
+      "message": "\u76EE\u524D\u7121\u6CD5\u4F7F\u7528\u61C9\u7528\u7A0B\u5F0F\u5167\u4ED8\u6B3E\u529F\u80FD\u3002"
+   },
+   "please_sign_in": {
+      "message": "\u8ACB\u767B\u5165 Chrome\u3002"
+   }
+}

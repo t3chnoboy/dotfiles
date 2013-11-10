@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "\u03A0\u03C1\u03BF\u03C3\u03B8\u03AE\u03BA\u03B7"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "\u0395\u03C0\u03B9\u03BB\u03BF\u03B3\u03AD\u03C2 \u03B3\u03B9\u03B1 \u03C0\u03C1\u03BF\u03C7\u03C9\u03C1\u03B7\u03BC\u03AD\u03BD\u03BF\u03C5\u03C2"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "\u0392\u03B1\u03C3\u03B9\u03BA\u03AC"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "bottom"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "\u0391\u03C1\u03C7\u03B5\u03AF\u03BF \u03B1\u03BB\u03BB\u03B1\u03B3\u03CE\u03BD"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "Delete"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "Show the add button from this YouTube video."
+   },
+   "desalllightsoff": {
+      "description": "If this option is enabled, and you click on the lamp button. All open tabs will go dark.",
+      "message": "If this option is enabled, and you click on the lamp button. All open tabs will go dark."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "Show you the atmosphere lighting effect of the current playing video."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 choosen colors around the video:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "A solid color:"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "If set to a lower value the shadow will be sharp, the higher the number, the more blurred it will be."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Positive values increase the size of the shadow, negative values decrease the size."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "Take the color from the video."
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Use the atmosphere lighting feature only the following video site:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "\u0391\u03C5\u03C4\u03CC\u03BC\u03B1\u03C4\u03B1 \u03C3\u03BA\u03BF\u03C4\u03B5\u03B9\u03BD\u03B9\u03AC\u03B6\u03B5\u03B9 \u03C4\u03BF \u03C0\u03B1\u03C1\u03B1\u03C3\u03BA\u03AE\u03BD\u03B9\u03BF \u03CC\u03C4\u03B1\u03BD \u03BA\u03AC\u03BD\u03B5\u03C4\u03B5 \u03BA\u03BB\u03B9\u03BA \u03C3\u03C4\u03BF \u03BA\u03BF\u03C5\u03BC\u03C0\u03AF \u03B1\u03BD\u03B1\u03C0\u03B1\u03C1\u03B1\u03B3\u03C9\u03B3\u03AE\u03C2 \u03BA\u03B1\u03B9 \u03B1\u03BD\u03C4\u03AF\u03B8\u03B5\u03C4\u03B1."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site:",
+      "message": "Dim only the following video site:"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "Confirm password"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "Confirm time"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Confirm Screen Saver Time"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "\u0395\u03BC\u03C6\u03AC\u03BD\u03B9\u03C3\u03B7 \u03C4\u03BF\u03C5 \u03BC\u03B5\u03BD\u03BF\u03CD \u03C0\u03B5\u03C1\u03B9\u03B2\u03AC\u03BB\u03BB\u03BF\u03BD\u03C4\u03BF\u03C2 \u03B3\u03B9\u03B1 \u03BD\u03B1 \u03B5\u03C0\u03B9\u03BA\u03B5\u03BD\u03C4\u03C1\u03C9\u03B8\u03B5\u03AF\u03C4\u03B5 \u03C3\u03B5 \u03AD\u03BD\u03B1 \u03C3\u03C4\u03BF\u03B9\u03C7\u03B5\u03AF\u03BF."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "\u039F\u03BB\u03CC\u03BA\u03BB\u03B7\u03C1\u03B7 \u03B7 \u03C3\u03B5\u03BB\u03AF\u03B4\u03B1 \u03B8\u03B1 \u03C3\u03BA\u03BF\u03C4\u03B5\u03B9\u03BD\u03B9\u03AC\u03C3\u03B5\u03B9, \u03CE\u03C3\u03C4\u03B5 \u03BD\u03B1 \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF\u03C4\u03B5 \u03BD\u03B1 \u03C0\u03B1\u03C1\u03B1\u03BA\u03BF\u03BB\u03BF\u03C5\u03B8\u03AE\u03C3\u03B5\u03C4\u03B5 \u03C4\u03BF \u03B2\u03AF\u03BD\u03C4\u03B5\u03BF \u03C3\u03B1\u03BD \u03BD\u03B1 \u03B5\u03AF\u03C3\u03B1\u03C3\u03C4\u03B5 \u03C3\u03C4\u03BF \u03C3\u03B9\u03BD\u03B5\u03BC\u03AC."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Blocks"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Moving Clouds"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Fish Tank"
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Raindrops"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Space Universe"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "A bonus in this extension."
+   },
+   "desenterpassword": {
+      "description": "Enter you password in the inputbox here below:",
+      "message": "Enter you password in the inputbox here below:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "\u039D\u03B1 \u03B3\u03AF\u03BD\u03B5\u03C4\u03B1\u03B9 \u03B1\u03C5\u03C4\u03CC\u03BC\u03B1\u03C4\u03B1 \u03B1\u03BC\u03C5\u03B4\u03C1\u03CC \u03C4\u03BF \u03C0\u03B1\u03C1\u03B1\u03C3\u03BA\u03AE\u03BD\u03B9\u03BF \u03CC\u03C4\u03B1\u03BD \u03B1\u03BD\u03BF\u03AF\u03B3\u03B5\u03B9 \u03BC\u03B9\u03B1 \u03C3\u03B5\u03BB\u03AF\u03B4\u03B1."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when open the following page:",
+      "message": "Dim \u03B1\u03C5\u03C4\u03CC\u03BC\u03B1\u03C4\u03B1 \u03C4\u03BF \u03C6\u03CC\u03BD\u03C4\u03BF \u03CC\u03C4\u03B1\u03BD \u03B1\u03BD\u03BF\u03AF\u03BE\u03B5\u03C4\u03B5 \u03C4\u03B7\u03BD \u03B1\u03BA\u03CC\u03BB\u03BF\u03C5\u03B8\u03B7 \u03C3\u03B5\u03BB\u03AF\u03B4\u03B1:"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "\u039A\u03B1\u03BD\u03BF\u03BD\u03B9\u03BA\u03AE \u03C7\u03C1\u03AE\u03C3\u03B7 (\u03A4\u03B1 \u03C6\u03CE\u03C4\u03B1 \u03C3\u03B2\u03AE\u03BD\u03BF\u03C5\u03BD \u03CC\u03C4\u03B1\u03BD \u03BA\u03AC\u03BD\u03B5\u03C4\u03B5 \u03BA\u03BB\u03B9\u03BA \u03C3\u03C4\u03BF \u03B5\u03B9\u03BA\u03BF\u03BD\u03AF\u03B4\u03B9\u03BF \u03C4\u03BF\u03C5 \u03BB\u03B1\u03BC\u03C0\u03C4\u03AE\u03C1\u03B1)."
+   },
+   "deseyetimesaver": {
+      "description": "When the page is inactive (no mouse movement), it go automatic dark in the chosen seconds.",
+      "message": "When the page is inactive (no mouse movement), it go automatic dark in the chosen seconds."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03BF \u03B1\u03C0\u03BF\u03C4\u03AD\u03BB\u03B5\u03C3\u03BC\u03B1 fade in."
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03BF \u03B1\u03C0\u03BF\u03C4\u03AD\u03BB\u03B5\u03C3\u03BC\u03B1 fade out."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "\u03A0\u03C1\u03BF\u03B2\u03BF\u03BB\u03AE \u03CC\u03BB\u03C9\u03BD \u03C4\u03C9\u03BD \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03B9\u03BC\u03AD\u03BD\u03C9\u03BD Flash."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, and skip the URL control. So website ads may also show up.",
+      "message": "Show all Flash objects, and skip the URL control. So website ads may also show up."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03B7\u03BD \u03BC\u03C0\u03AC\u03C1\u03B1 YouTube Channel \u03AE \u03C4\u03BF \u03CC\u03BD\u03BF\u03BC\u03B1."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03B9\u03C2 \u03C0\u03BB\u03B7\u03C1\u03BF\u03C6\u03BF\u03C1\u03AF\u03B5\u03C2 \u03C3\u03C7\u03B5\u03C4\u03B9\u03BA\u03AC \u03BC\u03B5 \u03C4\u03B7\u03BD \u03C0\u03B5\u03C1\u03B9\u03B3\u03C1\u03B1\u03C6\u03AE \u03C4\u03BF\u03C5 \u03B2\u03AF\u03BD\u03C4\u03B5\u03BF."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar from this YouTube video.",
+      "message": "Show the like/dislike bar from this YouTube video."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03B1 like \u03BA\u03B1\u03B9 dislike \u03BA\u03BF\u03C5\u03BC\u03C0\u03B9\u03AC \u03C4\u03BF\u03C5 YouTube \u03B3\u03B9\u03B1 \u03B1\u03C5\u03C4\u03CC \u03C4\u03BF \u03B2\u03AF\u03BD\u03C4\u03B5\u03BF."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "If the light is off, show a spotlight around the mouse cursor."
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "If the light is off, you can select an area to focus a item."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disable below mouse settings).",
+      "message": "Normal use (disable below mouse settings)."
+   },
+   "desmousespotlightt": {
+      "description": "If the light is off, click through the element.",
+      "message": "If the light is off, click through the element."
+   },
+   "desnoflash": {
+      "description": "Use not this feature.",
+      "message": "Use not this feature."
+   },
+   "despassword": {
+      "description": "When the lights go back on, it ask you to enter your password.",
+      "message": "When the lights go back on, it ask you to enter your password."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03B7 \u03BB\u03AF\u03C3\u03C4\u03B1 \u03B1\u03BD\u03B1\u03C0\u03B1\u03C1\u03B1\u03B3\u03C9\u03B3\u03AE\u03C2 \u03C4\u03BF\u03C5 YouTube \u03C3\u03C4\u03B7\u03BD \u03B9\u03C3\u03C4\u03BF\u03C3\u03B5\u03BB\u03AF\u03B4\u03B1 YouTube."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "\u039D\u03B1 \u03B5\u03BC\u03C6\u03B1\u03BD\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9 \u03C0\u03AC\u03BD\u03C4\u03B1 \u03B7 \u03BC\u03C0\u03AC\u03C1\u03B1 \u03B5\u03C0\u03B9\u03C0\u03AD\u03B4\u03BF\u03C5 \u03B1\u03BC\u03C5\u03B4\u03C1\u03CC\u03C4\u03B7\u03C4\u03B1\u03C2 \u03CC\u03C4\u03B1\u03BD \u03C4\u03B1 \u03C6\u03CE\u03C4\u03B1 \u03C3\u03B2\u03AE\u03BD\u03BF\u03C5\u03BD."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "\u039D\u03B1 \u03BC\u03B7\u03BD \u03B5\u03BC\u03C6\u03B1\u03BD\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9 \u03C0\u03BF\u03C4\u03AD \u03B7 \u03BC\u03C0\u03AC\u03C1\u03B1 \u03B5\u03C0\u03B9\u03C0\u03AD\u03B4\u03BF\u03C5 \u03B1\u03BC\u03C5\u03B4\u03C1\u03CC\u03C4\u03B7\u03C4\u03B1\u03C2."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "If this option is enabled, it will show you not the remember page."
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Screen Saver:"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03B1 \u03BA\u03BF\u03C5\u03BC\u03C0\u03B9\u03AC share \u03C4\u03BF\u03C5 YouTube \u03B3\u03B9\u03B1 \u03B1\u03C5\u03C4\u03CC \u03C4\u03BF \u03B2\u03AF\u03BD\u03C4\u03B5\u03BF."
+   },
+   "desshortcutlight": {
+      "description": "to enable all the shortcuts opportunities.",
+      "message": "to enable all the shortcuts opportunities."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "is the diameter of the search lamp."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03C4\u03B9\u03C2 \u03C0\u03C1\u03BF\u03C4\u03AC\u03C3\u03B5\u03B9\u03C2 \u03C4\u03B7\u03C2 \u03B9\u03C3\u03C4\u03BF\u03C3\u03B5\u03BB\u03AF\u03B4\u03B1\u03C2 YouTube."
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "Lights off between the following times:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "until"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "\u0394\u03B5\u03AF\u03C4\u03B5 \u03BA\u03B1\u03B9 \u03B1\u03BD\u03B1\u03C3\u03C4\u03C1\u03AD\u03C8\u03C4\u03B5 \u03C4\u03BF \u03C7\u03C1\u03CE\u03BC\u03B1 \u03C4\u03BF\u03C5 \u03C4\u03AF\u03C4\u03BB\u03BF\u03C5 \u03B2\u03AF\u03BD\u03C4\u03B5\u03BF."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "\u0395\u03BC\u03C6\u03B1\u03BD\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9 \u03BF \u03B1\u03C1\u03B9\u03B8\u03BC\u03CC\u03C2 \u03C4\u03B7\u03C2 \u03C0\u03C1\u03BF\u03B2\u03BF\u03BB\u03AE\u03C2 \u03B3\u03B9\u03B1 \u03B1\u03C5\u03C4\u03CC \u03C4\u03BF \u03B2\u03AF\u03BD\u03C4\u03B5\u03BF."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "\u0395\u03AC\u03BD \u03BC\u03C0\u03BF\u03C1\u03B5\u03AF\u03C4\u03B5 \u03BD\u03B1 \u03BA\u03AC\u03BD\u03B5\u03C4\u03B5 \u03BC\u03B9\u03B1 \u03B4\u03C9\u03C1\u03B5\u03AC \u03BF\u03C0\u03BF\u03B9\u03BF\u03C5\u03B4\u03AE\u03C0\u03BF\u03C4\u03B5 \u03C0\u03BF\u03C3\u03BF\u03CD, \u03B8\u03B1 \u03C4\u03BF \u03B5\u03BA\u03C4\u03B9\u03BC\u03BF\u03CD\u03C3\u03B1 \u03C0\u03AC\u03C1\u03B1 \u03C0\u03BF\u03BB\u03CD!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "Do you like a real movie theater?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Enjoy this extension and share it with others who you think will appreciate it."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "OFF"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "ON"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Friendly Remember..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "TOtL Welcome Guide"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option."
+   },
+   "helpeyeprotection": {
+      "description": "When you enable the 'Eye protection' option, it will default disable the 'Auto Play' option.",
+      "message": "When you enable the 'Eye protection' option, it will default disable the 'Auto Play' option."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "apply"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "with flying"
+   },
+   "installadblocker": {
+      "description": "Then install a Adblocker Extension",
+      "message": "Then install a Adblocker Extension"
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "Latest version checked on"
+   },
+   "left": {
+      "description": "left",
+      "message": "left"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Please enter your password"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Wrong password, please try again."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Seconds is saved successfully!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - \u0395\u03C0\u03B9\u03BB\u03BF\u03B3\u03AD\u03C2"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "Password is saved successfully!"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Time is saved successfully!"
+   },
+   "optionwrongimg": {
+      "description": "Wrong image file!",
+      "message": "Wrong image file!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "help"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "The page is still loading?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "\u03A0\u03B9\u03BF \u03C3\u03BA\u03BF\u03CD\u03C1\u03BF \u03C3\u03B5 \u03B1\u03C5\u03C4\u03AE \u03C4\u03B7 \u03C3\u03B5\u03BB\u03AF\u03B4\u03B1"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Share"
+   },
+   "recflash": {
+      "description": "Recommend to use this feature",
+      "message": "Recommend to use this feature"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Rate"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "\u0391\u03BD\u03B1\u03C6\u03BF\u03C1\u03AC \u03C0\u03C1\u03BF\u03B2\u03BB\u03AE\u03BC\u03B1\u03C4\u03BF\u03C2"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(\u03B2\u03BB\u03AD\u03C0\u03B5 \u03BA\u03B1\u03C4\u03AC\u03BB\u03BF\u03B3\u03BF)"
+   },
+   "right": {
+      "description": "right",
+      "message": "right"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "\u03A1\u03C5\u03B8\u03BC\u03AF\u03C3\u03B5\u03B9\u03C2"
+   },
+   "shortcutalllights": {
+      "description": "to do the lights off on all open tabs page.",
+      "message": "to do the lights off on all open tabs page."
+   },
+   "shortcutbright": {
+      "description": "to bright the screen",
+      "message": "to bright the screen"
+   },
+   "shortcutdark": {
+      "description": "to dark the screen",
+      "message": "to dark the screen"
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "to enable/disable the eye protection feature."
+   },
+   "shortcutopacity": {
+      "description": "to restore the default darkness",
+      "message": "to restore the default darkness"
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "to save this opacity value"
+   },
+   "shortcuttotl": {
+      "description": "to do the lights on/off.",
+      "message": "to do the lights on/off."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "doesn't show this remember page again when I open the option page."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Skip this, and open now the option page"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "\u0391\u03C5\u03C4\u03CC \u03C4\u03BF \u03BB\u03BF\u03B3\u03B9\u03C3\u03BC\u03B9\u03BA\u03CC \u03C5\u03C0\u03CC \u03C4\u03B7\u03BD \u03AC\u03B4\u03B5\u03B9\u03B1 CC-GNU GPL. \u0393\u03B9\u03B1 \u03BD\u03B1 \u03B4\u03B5\u03AF\u03C4\u03B5 \u03AD\u03BD\u03B1 \u03B1\u03BD\u03C4\u03AF\u03B3\u03C1\u03B1\u03C6\u03BF \u03B1\u03C5\u03C4\u03AE\u03C2 \u03C4\u03B7\u03C2 \u03AC\u03B4\u03B5\u03B9\u03B1\u03C2, \u03B5\u03C0\u03B9\u03C3\u03BA\u03B5\u03C6\u03C4\u03B5\u03AF\u03C4\u03B5"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "Add Button"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "All open tabs"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Atmosphere Lighting"
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "\u0391\u03C5\u03C4\u03CC\u03BC\u03B1\u03C4\u03B7 \u03B1\u03BD\u03B1\u03C0\u03B1\u03C1\u03B1\u03B3\u03C9\u03B3\u03AE"
+   },
+   "titelautowidthyoutube": {
+      "description": "Set the YouTube player automatic to the large mode.",
+      "message": "Set the YouTube player automatic to the large mode."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Blur the rest"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "The blur radius"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Movie theater mode: it show the 'lights off' layer only on the top of the window."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "\u03A7\u03C1\u03CE\u03BC\u03B1"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "\u039C\u03B5\u03BD\u03BF\u03CD"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "Download this Upgrade!"
+   },
+   "titeldownloadupgrade": {
+      "description": "This upgrade add support for focus the selected image. And show a gallery of the images on that webpage.",
+      "message": "This upgrade add support for focus the selected image. And show a gallery of the images on that webpage."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Dynamic Background"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "Easter Eggs"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "\u03A0\u03C1\u03BF\u03C3\u03C4\u03B1\u03C3\u03AF\u03B1 \u03C4\u03C9\u03BD \u03BC\u03B1\u03C4\u03B9\u03CE\u03BD"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Fade In"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "Fade Out"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "\u0391\u03BD\u03AF\u03C7\u03BD\u03B5\u03C5\u03C3\u03B7 Flash"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "\u039A\u03B1\u03BD\u03AC\u03BB\u03B9"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "\u0395\u03B9\u03BA\u03CC\u03BD\u03B1 \u03C6\u03CC\u03BD\u03C4\u03BF\u03C5"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "\u039C\u03C0\u03AC\u03C1\u03B1 \u03C0\u03BB\u03B7\u03C1\u03BF\u03C6\u03BF\u03C1\u03B9\u03CE\u03BD"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "Bulb"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "Show less"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Like Bar"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "\u039A\u03BF\u03C5\u03BC\u03C0\u03B9\u03AC Like & Dislike"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Choose here your video quality:",
+      "message": "Choose here your video quality:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "Mouse"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "Off"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "On"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "\u0391\u03B4\u03B9\u03B1\u03C6\u03AC\u03BD\u03B5\u03B9\u03B1"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "\u0391\u03C0\u03CC\u03BA\u03C1\u03C5\u03C8\u03B7 \u03B5\u03B9\u03BA\u03BF\u03BD\u03B9\u03B4\u03AF\u03BF\u03C5 \u03BB\u03B1\u03BC\u03C0\u03C4\u03AE\u03C1\u03B1"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "Password Protection"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "\u039B\u03AF\u03C3\u03C4\u03B1 \u03B1\u03BD\u03B1\u03C0\u03B1\u03C1\u03B1\u03B3\u03C9\u03B3\u03AE\u03C2"
+   },
+   "titelqualityyoutube": {
+      "description": "Use automatic the HD quality of the YouTube video.",
+      "message": "Use automatic the HD quality of the YouTube video."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "\u039C\u03C0\u03AC\u03C1\u03B1 \u03B5\u03C0\u03B9\u03C0\u03AD\u03B4\u03BF\u03C5 \u03B1\u03BC\u03C5\u03B4\u03C1\u03CC\u03C4\u03B7\u03C4\u03B1\u03C2"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Remember page"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Screen"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "\u039A\u03BF\u03C5\u03BC\u03C0\u03B9\u03AC share"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "\u03A0\u03BB\u03AE\u03BA\u03C4\u03C1\u03BF \u03C3\u03C5\u03BD\u03C4\u03CC\u03BC\u03B5\u03C5\u03C3\u03B7\u03C2"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "Show more"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "The spread radius"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "\u03A0\u03C1\u03BF\u03C4\u03AC\u03C3\u03B5\u03B9\u03C2"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Sync"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Sync the extension settings with your other browser."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "Upgrade"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "\u03A4\u03AF\u03C4\u03BB\u03BF\u03C2 \u0392\u03AF\u03BD\u03C4\u03B5\u03BF"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "\u0391\u03C1\u03B9\u03B8\u03BC\u03CC\u03C2 \u03C4\u03C9\u03BD Views"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Donate"
+   },
+   "top": {
+      "description": "top",
+      "message": "top"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "Help Translate"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "\u0388\u03BA\u03B4\u03BF\u03C3\u03B7"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Focus \u03C3\u03B5 \u03B1\u03C5\u03C4\u03CC \u03C4\u03BF \u03B2\u03AF\u03BD\u03C4\u03B5\u03BF"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "\u039F\u03C0\u03C4\u03B9\u03BA\u03AC \u0395\u03C6\u03AD"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "Warning!"
+   },
+   "warningtextambilight": {
+      "description": "If it's impossible to show the real atmosphere lighting because of security rule. It will show the one solid color effect.",
+      "message": "If it's impossible to show the real atmosphere lighting because of security rule. It will show the one solid color effect."
+   }
+}

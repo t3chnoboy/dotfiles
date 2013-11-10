@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "With Google's free online calendar, it's easy to keep track of life's important events, all in one place."
+   },
+   "app_name": {
+      "message": "Google Calendar"
+   },
+   "description_extended": {
+      "message": "Organising your schedule shouldn't be a burden. With Google Calendar, it's easy to keep track of life's important events, all in one place."
+   },
+   "description_reason_1": {
+      "message": "1. Share your schedule"
+   },
+   "description_reason_2": {
+      "message": "2. Get your calendar on the go"
+   },
+   "description_reason_3": {
+      "message": "3. Never forget another event again"
+   },
+   "description_reason_4": {
+      "message": "4. Send invitations and track RSVPs"
+   },
+   "description_reason_5": {
+      "message": "5. Sync with your desktop applications"
+   },
+   "description_reason_6": {
+      "message": "6. Work offline"
+   },
+   "description_reason_7": {
+      "message": "7. All this is free?"
+   },
+   "description_reason_content_1": {
+      "message": "Let your colleagues, family and friends see your calendar, and view schedules that others have shared with you. When you know when everyone is free or busy, scheduling is really easy."
+   },
+   "description_reason_content_2": {
+      "message": "With two-way syncing to your mobile phone's built-in calendar or a mobile version of Google Calendar that's made for the small screen, you can access your calendar while you're away from your desk."
+   },
+   "description_reason_content_3": {
+      "message": "Customisable reminders help you stay on schedule. You can choose to be notified by email or get a text message sent right to your mobile phone."
+   },
+   "description_reason_content_4": {
+      "message": "Invite other people to events on your calendar. Guests can RSVP to your events by email or via Google Calendar."
+   },
+   "description_reason_content_5": {
+      "message": "Access your calendar however and whenever you want by syncing events with other applications, such as Microsoft Outlook, Apple iCal and Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Know where you're supposed to be even when you don't have Internet access. With offline access, you can view a read-only version of your calendar, no matter where you are."
+   },
+   "description_reason_content_7": {
+      "message": "Yep."
+   },
+   "description_reasons": {
+      "message": "7 reasons to use Google Calendar..."
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "spoofer.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "spoofer.png",
+      "default_popup": "popup.html",
+      "default_title": "Chrome UA Spoofer"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "spoofer_cs.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Spoofs & Mimics User-Agent strings.",
+   "icons": {
+      "128": "spoofer-128.png",
+      "16": "spoofer-16.png",
+      "32": "spoofer-32.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxnz7M5S5T87Cha/Y0CRjoEW1nI5EC/rl8YWyF41BoD2LI6sl43NAEm2MNRpxCpXfroRPT0++USTik9rC1BRGULIhy8UTcQO/lWcKdTe8i+mmAr7qHeEUz9BTatn0ArZUC6kiBzFITm15CzQo3DGYY7ZL8g8gZRDwsyCr9d00uDQIDAQAB",
+   "manifest_version": 2,
+   "name": "User-Agent Switcher for Chrome",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "http://spoofer-extension.appspot.com/", "https://spoofer-extension.appspot.com/", "\u003Call_urls\u003E" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.26",
+   "web_accessible_resources": [ "jquery.js", "spoofer_cs.js" ]
+}

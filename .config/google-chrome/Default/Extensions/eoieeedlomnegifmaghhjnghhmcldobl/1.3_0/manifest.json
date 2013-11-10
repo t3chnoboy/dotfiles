@@ -1,0 +1,20 @@
+{
+   "api_console_project_id": "629453589428",
+   "app": {
+      "launch": {
+         "local_path": "main.html"
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "default_locale": "en_US",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy5cz4/VyckfOTtl69c727lZCOMDT1goMRiRYhBv+N6QiBxeWqWcDKjZGWOClTabNZRpmi0J9PeK9k0FHIIOFZ+jUxbrXMO6oDTe4E1GRLdTCYpr0RMDPm4L1kn/Ziycxim+Sz3+Oc+1bSw7WyhvISb4Gdr/3Cg2HjxO0s5s0cjwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

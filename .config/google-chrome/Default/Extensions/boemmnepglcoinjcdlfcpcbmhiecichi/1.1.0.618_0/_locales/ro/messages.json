@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "A ap\u0103rut o eroare."
+   },
+   "error_tooltip": {
+      "message": "A ap\u0103rut o eroare"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Toate drepturile rezervate."
+   },
+   "extension_description": {
+      "message": "Afi\u0219a\u021Bi notific\u0103rile Google+ privind activitatea c\u00E2nd sunte\u021Bi conectat(\u0103), oriunde pe web."
+   },
+   "extension_name": {
+      "message": "Notific\u0103ri Google+"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "Notific\u0103ri $1+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "Activa\u021Bi notific\u0103rile pentru pagina Google+"
+   },
+   "follow_promo_feature_1": {
+      "message": "C\u00E2nd accesa\u021Bi un site conectat la o pagin\u0103 Google+, \u00EEn laterala ferestrei de browser va ap\u0103rea un cursor. Trece\u021Bi cu mouse-ul peste cursor pentru a-l extinde \u0219i pentru a ad\u0103uga cu u\u0219urin\u021B\u0103 pagina \u00EEn cercurile dvs."
+   },
+   "follow_promo_feature_2": {
+      "message": "Butonul pentru notific\u0103ri din browserul dvs. va fi etichetat cu semnul \u201E+\u201D pentru a indica c\u00E2nd afi\u0219a\u021Bi un site conectat la o pagin\u0103 Google+. C\u00E2nd da\u021Bi clic pe buton, se afi\u0219eaz\u0103 notific\u0103rile ca p\u00E2n\u0103 \u00EEn prezent, dar acum se vor afi\u0219a \u0219i informa\u021Biile care \u021Bin de pagina Google+ \u0219i ve\u021Bi avea la dispozi\u021Bie un mijloc rapid de a \u00EEncepe s\u0103 urm\u0103ri\u021Bi aceast\u0103 pagin\u0103."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "\u00CEmbun\u0103t\u0103\u021Bi\u021Bi fluxul dvs. Google+ urm\u0103rind paginile Google+ pe care le considera\u021Bi interesante:"
+   },
+   "follow_promo_following_description": {
+      "message": "De fiecare dat\u0103 c\u00E2nd o pagin\u0103 Google+ se afl\u0103 \u00EEn cercurile dvs., toate post\u0103rile din pagina respectiv\u0103 vor \u00EEncepe s\u0103 apar\u0103 \u00EEn fluxul dvs."
+   },
+   "follow_promo_header": {
+      "message": "Descoperi\u021Bi pagini Google+ \u00EEn timp ce naviga\u021Bi pe web"
+   },
+   "join_google_plus_message": {
+      "message": "\u00CEnscrie\u021Bi-v\u0103 la Google+ pentru a afi\u0219a notific\u0103rile."
+   },
+   "join_google_plus_tooltip": {
+      "message": "\u00CEnscrie\u021Bi-v\u0103 la Google+ pentru a afi\u0219a notific\u0103rile"
+   },
+   "loading": {
+      "message": "Se \u00EEncarc\u0103..."
+   },
+   "many_new_notifications": {
+      "message": "Ave\u021Bi $1 (de) notific\u0103ri noi",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "Nou!"
+   },
+   "no_new_notifications": {
+      "message": "Nu ave\u021Bi notific\u0103ri noi"
+   },
+   "not_now": {
+      "message": "Nu acum"
+   },
+   "one_new_notification": {
+      "message": "Ave\u021Bi 1 notificare nou\u0103"
+   },
+   "options_header": {
+      "message": "Op\u021Biuni"
+   },
+   "options_title": {
+      "message": "Op\u021Biuni"
+   },
+   "privacy_and_terms": {
+      "message": "Confiden\u021Bialitate \u0219i termeni"
+   },
+   "promo_link": {
+      "message": "Afla\u021Bi mai multe &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003ENou!\u003C/span\u003E Descoperi\u021Bi pagini Google+ \u00EEn timp ce naviga\u021Bi pe web"
+   },
+   "retry_now": {
+      "message": "Re\u00EEncerca\u021Bi acum."
+   },
+   "retrying_in": {
+      "message": "Se re\u00EEncearc\u0103 peste $1 sec.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "Trimite\u021Bi automat statistici de utilizare anonime la Google"
+   },
+   "sign_in_message": {
+      "message": "Conecta\u021Bi-v\u0103 pentru a afi\u0219a notific\u0103rile."
+   },
+   "sign_in_tooltip": {
+      "message": "Conecta\u021Bi-v\u0103 pentru a afi\u0219a notific\u0103rile"
+   },
+   "use_plus_follow_header": {
+      "message": "Doresc s\u0103 fiu notificat(\u0103) cu privire la persoanele \u0219i la paginile de pe Google+ asociate site-urilor pe care le accesez (sunt necesare permisiuni suplimentare)"
+   },
+   "use_plus_follow_note": {
+      "message": "Adresele URL ale site-urilor pe care le accesa\u021Bi vor fi trimise la Google pentru a identifica profilurile \u0219i paginile Google+ conectate la adresele URL respective."
+   },
+   "yada_yada": {
+      "message": "Acesta nu este obi\u0219nuitul bla bla:"
+   }
+}

@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003E\u003C/a\u003E Hai fatto +1 su questa pagina."
+   },
+   "add_plusone_tooltip": {
+      "message": "Fai +1 su questa pagina come {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Opzioni di base"
+   },
+   "browser_usage_warning": {
+      "message": "Se abiliti questa opzione condividerai i dati sull'utilizzo del browser con Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Impossibile fare +1 su questa pagina."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Impossibile fare +1 su questa pagina"
+   },
+   "counts_group_name": {
+      "message": "Conteggi"
+   },
+   "error_message": {
+      "message": "Si \u00E8 verificato un errore."
+   },
+   "error_tooltip": {
+      "message": "Si \u00E8 verificato un errore"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Tutti i diritti riservati."
+   },
+   "extension_description": {
+      "message": "Fai +1 su una pagina web e condividila, ovunque sul Web."
+   },
+   "extension_name": {
+      "message": "Pulsante +1 Google"
+   },
+   "extension_name_sans_google": {
+      "message": "Pulsante +1"
+   },
+   "loading": {
+      "message": "Caricamento in corso..."
+   },
+   "options_header": {
+      "message": "Opzioni"
+   },
+   "options_title": {
+      "message": "Opzioni"
+   },
+   "privacy_and_terms": {
+      "message": "Privacy e termini"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EIl tuo\u003C/a\u003E +1 \u00E8 stato rimosso."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Rimuovi il +1 da questa pagina"
+   },
+   "send_usage_statistics": {
+      "message": "Invia automaticamente le statistiche di utilizzo anonime a Google."
+   },
+   "show_plusone_counts": {
+      "message": "Mostra conteggi dei +1"
+   },
+   "sign_in_message": {
+      "message": "Dopo avere eseguito l'accesso potrai fare +1 su questa pagina."
+   },
+   "sign_in_tooltip": {
+      "message": "Accedi per utilizzare Google+1"
+   },
+   "sign_up_message": {
+      "message": "Registrati per utilizzare Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "Registrati per utilizzare Google +1"
+   }
+}

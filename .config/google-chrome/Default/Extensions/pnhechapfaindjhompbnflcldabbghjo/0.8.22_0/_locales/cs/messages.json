@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "Nelze analyzovat c\u00EDl: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "Zru\u0161it"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "Tento p\u0159\u00EDkaz zobrazuje nab\u00EDdku zn\u00E1m\u00FDch hostitel\u016F a v\u00FDzvy k zapomenut\u00ED hostitel\u016F."
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "Zapomenout zn\u00E1m\u00E9ho hostitele SSH."
+   },
+   "cmd_ssh_help": {
+      "message": "Parametry |username| a |hostname| jsou povinn\u00E9, parametr |port| je voliteln\u00FD. Pokud nen\u00ED zad\u00E1n port, bude jeho v\u00FDchoz\u00ED hodnota nastavena na 22."
+   },
+   "cmd_ssh_title": {
+      "message": "Zah\u00E1jen\u00ED nov\u00E9 relace SSH."
+   },
+   "command_complete": {
+      "message": "P\u0159\u00EDkaz $1 byl dokon\u010Den s ukon\u010Dovac\u00EDm k\u00F3dem $2. Toto okno m\u016F\u017Eete zav\u0159\u00EDt.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "P\u0159ipojit"
+   },
+   "connect_message": {
+      "message": "Zadejte pros\u00EDm c\u00EDl, ke kter\u00E9mu se chcete p\u0159ipojit."
+   },
+   "connecting": {
+      "message": "P\u0159ipojov\u00E1n\u00ED k hostiteli $1, port $2...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "uzivatelskejmeno@nazevhostitele[:port]"
+   },
+   "known_hosts_empty": {
+      "message": "\u017D\u00E1dn\u00ED zn\u00E1m\u00ED hostitel\u00E9, kter\u00E9 by bylo mo\u017En\u00E9 zapomenout."
+   },
+   "known_hosts_prompt": {
+      "message": "Vyberte hostitele, kter\u00E9ho chcete zapomenout [1\u2013$1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "Zn\u00E1m\u00ED hostitel\u00E9:"
+   },
+   "missing_param": {
+      "message": "Chyb\u00ED parametr: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "OK"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "Do\u0161lo k neo\u010Dek\u00E1van\u00E9 chyb\u011B. Dal\u0161\u00ED informace naleznete v konzole JavaScriptu."
+   },
+   "welcome": {
+      "message": "V\u00EDtejte! Pomoc\u00ED p\u0159\u00EDkazu 'open' spust\u00EDte nov\u00E9 p\u0159ipojen\u00ED SSH."
+   },
+   "welcome_tip": {
+      "message": "Tip pro profesion\u00E1ly: Tuto relaci m\u016F\u017Eete ulo\u017Eit jako z\u00E1lo\u017Eku prohl\u00ED\u017Ee\u010De."
+   }
+}

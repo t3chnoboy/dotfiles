@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google Wallet for digitale varer"
+   },
+   "app_name": {
+      "message": "Google Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "Appen er ikke tilg\u00E6ngelig i \u00F8jeblikket."
+   },
+   "craw_connect_to_network": {
+      "message": "Opret forbindelse til et netv\u00E6rk."
+   },
+   "iap_unavailable": {
+      "message": "Betaling i appen er ikke tilg\u00E6ngelig i \u00F8jeblikket."
+   },
+   "please_sign_in": {
+      "message": "Log ind p\u00E5 Chrome."
+   }
+}

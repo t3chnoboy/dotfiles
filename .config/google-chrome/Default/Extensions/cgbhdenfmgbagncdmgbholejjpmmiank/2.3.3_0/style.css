@@ -1,0 +1,174 @@
+﻿/*
+YouTube(TM) Ratings Preview
+Copyright (C) 2013 Cristian Perez - cpr@cpr.name - http://cpr.name
+
+YouTube(TM) Ratings Preview is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or at your option any later version.
+
+YouTube(TM) Ratings Preview is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with YouTube(TM) Ratings Preview. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* ytrp stands for YouTube Ratings Preview /*
+/* rb stands for rating bar */
+/* bg stands for background */
+/* fg stands for foreground */
+/* hl stands for highlight */
+
+/*//////////////////// OWN STYLES ////////////////////*/
+
+.ytrp_rb_bg
+{
+	position: absolute;
+	background: white;
+	z-index: 1;
+}
+
+.ytrp_rb_fg
+{
+	position: absolute;
+}
+
+.ytrp_rb_bg_bottom
+{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+	border-top: 1px solid #FFF;
+}
+
+.ytrp_rb_bg_top
+{
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+	border-bottom: 1px solid #FFF;
+}
+
+.ytrp_rb_bg_left
+{
+	left: 0;
+	top: 4px;
+	bottom: 4px;
+	width: 4px;
+	border-right: 1px solid #FFF;
+}
+
+.ytrp_rb_bg_right
+{
+	right: 0;
+	top: 4px;
+	bottom: 4px;
+	width: 4px;
+	border-left: 1px solid #FFF;
+}
+
+.ytrp_rb_fg_like
+{
+	bottom: 0;
+	left: 0;
+	height: 4px;
+	background: #060;
+}
+
+.ytrp_rb_fg_dislike
+{
+	bottom: 0;
+	right: 0;
+	height: 4px;
+	background: #C00;
+	border-left: 1px solid #FFF;
+}
+
+.ytrp_rb_fg_norating
+{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+	background: #AAA;
+}
+
+.ytrp_rb_fg_hl
+{
+	background: #00F;
+}
+
+.ytrp_rb_fg_hl_bottom
+{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+}
+
+.ytrp_rb_fg_hl_top
+{
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+}
+
+.ytrp_rb_fg_hl_left
+{
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 4px;
+}
+
+.ytrp_rb_fg_hl_right
+{
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 4px;
+}
+
+/*//////////////////// OVERRIDEN STYLES ////////////////////*/
+
+.video-extras-sparkbars, .video-extras-sparkbar-likes, .video-extras-sparkbar-dislikes
+{
+	height: 4px !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.video-extras-sparkbars
+{
+	margin: 4px 0 !important;
+	overflow: visible !important;
+	font-size: 0px !important;
+	white-space: nowrap !important;
+}
+
+.video-extras-sparkbar-likes
+{
+	background: #060 !important;
+	float: none !important;
+	display: inline-block !important;
+	margin-left: -1px !important;
+}
+
+.video-extras-sparkbar-dislikes
+{
+	background: #C00 !important;
+	float: none !important;
+	display: inline-block !important;
+	border-left: 1px solid #FFF !important;
+}
+
+.video-time, .video-actions
+{
+	bottom: 6px !important; /* original value was 2px */
+	/*right: 6px !important; /* original value was 2px, could set to 6px for highlighted videos */
+}
+
+.video-time, .addto-button, .yt-uix-button
+{
+	z-index: 2 !important; /* original value was not set */
+}

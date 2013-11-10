@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Google Mapsin avulla l\u00F6yd\u00E4t tietoja paikallisyrityksist\u00E4, reittiohjeita sek\u00E4 katutason kuvia ymp\u00E4ri maailmaa."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Maps"
+   }
+}

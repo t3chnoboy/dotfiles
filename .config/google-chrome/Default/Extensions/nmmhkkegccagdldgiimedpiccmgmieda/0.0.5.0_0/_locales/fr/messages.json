@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google\u00A0Wallet pour le contenu num\u00E9rique"
+   },
+   "app_name": {
+      "message": "Google\u00A0Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "Application indisponible pour le moment."
+   },
+   "craw_connect_to_network": {
+      "message": "Veuillez vous connecter \u00E0 un r\u00E9seau."
+   },
+   "iap_unavailable": {
+      "message": "Les paiements via l'application ne sont pas disponibles pour le moment."
+   },
+   "please_sign_in": {
+      "message": "Veuillez vous connecter \u00E0 Chrome."
+   }
+}

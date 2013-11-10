@@ -1,0 +1,344 @@
+{
+   "editThis_": {
+      "message": ""
+   },
+   "editThis_AN_adsDescription": {
+      "message": "\u5728\u6211\u8BBF\u95EE\u7684\u4E00\u4E9B\u9875\u9762\u4E2D\u663E\u793A\u4E9B\u4E0D\u663E\u773C\u7684\u5E7F\u544A\u3002"
+   },
+   "editThis_AN_optInDescription": {
+      "message": "\u5141\u8BB8\u6211\u4EEC\u4F7F\u7528\u60A8\u7684\u6D4F\u89C8\u4FE1\u606F\uFF0C\u6240\u6709\u7684\u4FE1\u606F\u90FD\u662F\u533F\u540D\u7684\u3002"
+   },
+   "editThis_Alert_deleteAll": {
+      "message": "\u4F60\u786E\u5B9A\u5220\u9664\u6B64\u7AD9\u70B9\u7684\u6240\u6709cookies\u5417\uFF1F"
+   },
+   "editThis_Alert_deleteCookie": {
+      "message": "\u5220\u9664cookie"
+   },
+   "editThis_Alert_deleteRule": {
+      "message": "\u5220\u9664\u8BE5\u89C4\u5219"
+   },
+   "editThis_Alert_submitAll": {
+      "message": "\u63D0\u4EA4\u66F4\u6539"
+   },
+   "editThis_Amount": {
+      "message": "\u91D1\u989D"
+   },
+   "editThis_Blocked_Cookies": {
+      "message": "\u5C4F\u853Dcookies"
+   },
+   "editThis_Blocked_Def": {
+      "message": "\u5982\u679C\u4F60\u4E0D\u60F3\u8BA9\u67D0\u4E2Acookie\u88AB\u521B\u5EFA\uFF0C\u6DFB\u52A0\u4E00\u4E2A\u8FC7\u6EE4\u89C4\u5219\u5373\u53EF"
+   },
+   "editThis_Charity_Message": {
+      "message": "\u4F60\u5C06\u5E2E\u52A9\u300C\u9700\u8981\u5E2E\u52A9\u7684\u5C0F\u5B69 (Children in need)\u300D\uFF0C\u56E0\u4E3A $1% \u7684\u6350\u8D60\u5C06\u8F6C\u5230"
+   },
+   "editThis_ContextMenu": {
+      "message": "\u7F16\u8F91cookies"
+   },
+   "editThis_Copied_clipboard": {
+      "message": "Cookie \u5DF2\u590D\u5236\u5230\u526A\u5207\u677F"
+   },
+   "editThis_Copy_Cookies": {
+      "message": "\u5BFC\u51FAcookies"
+   },
+   "editThis_Copy_Cookies_Type": {
+      "message": "\u9009\u62E9cookies\u7684\u8F93\u51FA\u683C\u5F0F"
+   },
+   "editThis_Details": {
+      "message": "\u8BE6\u7EC6\u4FE1\u606F"
+   },
+   "editThis_Donate": {
+      "message": "\u6350\u732E"
+   },
+   "editThis_Donation_Date": {
+      "message": "\u6350\u52A9\u65E5\u671F"
+   },
+   "editThis_Encode_Cookie_Value": {
+      "message": "\u5EFA\u8BAE\u4F9D\u7167 \u003Ca href=\"http://curl.haxx.se/rfc/cookie_spec.html\"\u003Ehttp://curl.haxx.se/rfc/cookie_spec.html\u003C/a\u003E\u7F16\u8F91cookies\u7684\u503C"
+   },
+   "editThis_Flag_Cookie": {
+      "message": "\u6DFB\u52A0\u89C4\u5219"
+   },
+   "editThis_Flag_New_Cookie": {
+      "message": "\u6807\u8BB0\u65B0cookies"
+   },
+   "editThis_Humanitarian_Program": {
+      "message": "\u4EBA\u9053\u4E3B\u4E49\u65B9\u6848"
+   },
+   "editThis_Is_ReadOnly": {
+      "message": "\u9501\u5B9A\u7684"
+   },
+   "editThis_Max_Date": {
+      "message": "\u8BBE\u7F6Ecookie\u7684\u5468\u671F\u4E3A"
+   },
+   "editThis_Max_Date_Option": {
+      "message": "\u5FFD\u7565\u4EFB\u4F55cookies\u7684\u6700\u5927\u5468\u671F"
+   },
+   "editThis_Money_Raised": {
+      "message": "\u5DF2\u7ECF\u53D1\u653E\u7684\u8D44\u91D1"
+   },
+   "editThis_Options": {
+      "message": "\u9009\u9879"
+   },
+   "editThis_Paste_Cookie_Here": {
+      "message": "\u8BF7\u5C06\u6B32\u5BFC\u5165\u7684cookies\u7C98\u8D34\u5728\u8FD9\u91CC"
+   },
+   "editThis_Paste_Cookies": {
+      "message": "\u5BFC\u5165cookie"
+   },
+   "editThis_Protected_Cookies": {
+      "message": "\u9501\u5B9A\u7684Cookies"
+   },
+   "editThis_Rate_ETC": {
+      "message": "\u4E3A Edit This Cookie \u8BC4\u5206"
+   },
+   "editThis_Rate_Us_Intro": {
+      "message": "\u5982\u679C\u4F60\u559C\u6B22\u8BE5\u63D2\u4EF6\uFF0C\u8BF7\u5728 Chrome \u5728\u7EBF\u5546\u5E97\u7559\u4E0B\u60A8\u7684\u8BC4\u5206\u3002"
+   },
+   "editThis_ReadOnly_Def": {
+      "message": "\u201C\u53D7\u4FDD\u62A4\u7684Cookie\u201D\u6307\u65E0\u6CD5\u88AB\u7F51\u7AD9\u6216\u5176\u4ED6\u6269\u5C55\u4FEE\u6539\u7684Cookie"
+   },
+   "editThis_Save": {
+      "message": "\u4FDD\u5B58"
+   },
+   "editThis_Set_ReadOnly": {
+      "message": "\u8BBE\u7F6E\u4E3A\u53EA\u8BFB"
+   },
+   "editThis_Show_Alerts": {
+      "message": "\u603B\u662F\u8BF7\u6C42\u786E\u8BA4"
+   },
+   "editThis_Show_Christmas_Icon": {
+      "message": "\u56FE\u6807\u4E0A\u663E\u793A\u5723\u8BDE\u5E3D"
+   },
+   "editThis_Show_ContextMenu": {
+      "message": "\u6DFB\u52A0\u201C\u7F16\u8F91Cookies\u201D\u5230\u53F3\u952E\u83DC\u5355"
+   },
+   "editThis_Show_ContextMenu_helper": {
+      "message": "\u5982\u679C\u542F\u7528\uFF0C\u60A8\u5C06\u80FD\u591F\u901A\u8FC7\u53F3\u952E\u5355\u51FB\u5B83\u6765\u9690\u85CF\u5DE5\u5177\u680F\u4E0A\u7684\u56FE\u6807\uFF01"
+   },
+   "editThis_Show_Domain": {
+      "message": "\u5728\u6BCF\u4E2Acookie\u540D\u79F0\u65C1\u8FB9\u663E\u793A\u57DF\u540D"
+   },
+   "editThis_Source_Code": {
+      "message": "\u6E90\u7801"
+   },
+   "editThis_Source_Code_Intro": {
+      "description": "It will read: Check Edit This Cookie's source code on GitHub",
+      "message": "\u5728 $1 \u4E0A\u6D4F\u89C8 Edit This Cookie \u7684\u6E90\u7801"
+   },
+   "editThis_Use_Custom_Locale": {
+      "message": "\u66F4\u6539\u8BED\u8A00"
+   },
+   "editThis_addNew": {
+      "message": "\u6DFB\u52A0\u65B0cookie"
+   },
+   "editThis_addRule": {
+      "message": "\u6DFB\u52A0\u89C4\u5219"
+   },
+   "editThis_adsInfoAndSettings": {
+      "message": "\u8BBE\u7F6E"
+   },
+   "editThis_advertisements": {
+      "message": "\u5E7F\u544A"
+   },
+   "editThis_amountByHand": {
+      "message": "\u70B9\u51FB\u8FD9\u91CC\u8F93\u5165\u4E00\u4E2A\u91D1\u989D"
+   },
+   "editThis_backToList": {
+      "message": "\u56DE\u5230\u5217\u8868"
+   },
+   "editThis_bugsFeatureRequest": {
+      "message": "\u95EE\u9898\u53CD\u9988"
+   },
+   "editThis_bugsFeatureRequestIntro": {
+      "message": "\u53D1\u73B0\u9519\u8BEF\u6216\u6709\u65B0\u60F3\u6CD5\uFF1F\u544A\u8BC9\u6211\u4EEC\u5427\uFF01"
+   },
+   "editThis_cancel": {
+      "message": "\u53D6\u6D88"
+   },
+   "editThis_contacts": {
+      "message": "\u8054\u7CFB\u65B9\u5F0F"
+   },
+   "editThis_contactsIntro": {
+      "message": "\u7ED9\u6211\u4EEC\u53D1\u9001\u4E00\u5C01\u7535\u5B50\u90AE\u4EF6"
+   },
+   "editThis_cookiesCreated": {
+      "message": "\u5DF2\u521B\u5EFA\u7684Cookies"
+   },
+   "editThis_cookiesDeleted": {
+      "message": "\u5DF2\u5220\u9664 Cookie"
+   },
+   "editThis_cookiesExported": {
+      "message": "\u5BFC\u51FA\u7684 Cookie"
+   },
+   "editThis_cookiesFlagged": {
+      "message": "\u5DF2\u6807\u8BB0\u4E3A\u5220\u9664"
+   },
+   "editThis_cookiesImported": {
+      "message": "\u5BFC\u5165\u7684 Cookie"
+   },
+   "editThis_cookiesModified": {
+      "message": "\u4FEE\u6539\u7684cookies"
+   },
+   "editThis_cookiesProtected": {
+      "message": "\u7981\u6B62\u66F4\u6539\u7684 Cookie"
+   },
+   "editThis_cookiesShortened": {
+      "message": "\u7F29\u77EDcookies\u7684\u6709\u6548\u65F6\u95F4"
+   },
+   "editThis_day": {
+      "message": "\u65E5"
+   },
+   "editThis_deleteAll": {
+      "message": "\u5220\u9664\u5168\u90E8"
+   },
+   "editThis_description": {
+      "message": "Edit This Cookie\u662F\u4E00\u4E2Acookie\u7BA1\u7406\u5668\u3002\u60A8\u53EF\u4EE5\u6DFB\u52A0\uFF0C\u5220\u9664\uFF0C\u7F16\u8F91\uFF0C\u641C\u7D22\uFF0C\u9501\u5B9A\u548C\u5C4F\u853Dcookies\uFF01"
+   },
+   "editThis_domain": {
+      "message": "\u57DF\u540D"
+   },
+   "editThis_donations": {
+      "message": "\u6350\u8D60"
+   },
+   "editThis_expiration": {
+      "message": "\u8FC7\u671F\u65F6\u95F4"
+   },
+   "editThis_flagAll": {
+      "message": "\u5168\u90E8\u52A0\u5165\u9ED1\u540D\u5355\u540E\u6E05\u7A7A"
+   },
+   "editThis_gospelBookTitle": {
+      "message": "\u98DE\u9762\u5927\u795E\u7684\u798F\u97F3"
+   },
+   "editThis_help": {
+      "message": "\u5E2E\u52A9"
+   },
+   "editThis_helpIntro": {
+      "message": "\u4E0B\u9762\u7531\u6211\u6765\u89E3\u91CA\u672C\u63D2\u4EF6\u7684\u57FA\u672C\u529F\u80FD"
+   },
+   "editThis_hostOnly": {
+      "message": "hostOnly"
+   },
+   "editThis_hour": {
+      "message": "\u65F6"
+   },
+   "editThis_httpOnly": {
+      "message": "httpOnly"
+   },
+   "editThis_iWantDonate": {
+      "description": "I want to donate X euros",
+      "message": "\u6211\u8981\u6350\u52A9"
+   },
+   "editThis_minutes": {
+      "message": "\u5206\u949F"
+   },
+   "editThis_month": {
+      "message": "\u6708"
+   },
+   "editThis_name": {
+      "message": "\u540D\u79F0"
+   },
+   "editThis_noBlockAdded": {
+      "message": "\u6CA1\u6709\u6DFB\u52A0\u8FC7\u6EE4\u89C4\u5219"
+   },
+   "editThis_noReadOnlyAdded": {
+      "message": "\u6CA1\u6709\u53D7\u4FDD\u62A4\u7684Cookie"
+   },
+   "editThis_noStatsNotice": {
+      "message": "\u6682\u65E0\u6570\u636E:("
+   },
+   "editThis_path": {
+      "message": "\u8DEF\u5F84"
+   },
+   "editThis_paypalSupportIntro": {
+      "description": "It will read: Support us using PayPal. Move the slider to change the amount",
+      "message": "\u6211\u4EEC\u5F00\u53D1\u514D\u8D39\u597D\u7528\u7684\u5F00\u6E90\u8F6F\u4EF6\uFF0C\u4F60\u53EF\u4EE5\u82B1$1\uFF08\u6216\u66F4\u591A\uFF09\u6765\u652F\u6301\u6211\u4EEC\u3002\u003Cbr\u003E\u003Cbr\u003E\u6211\u4EEC\u5BF9\u6B64\u8868\u793A\u611F\u8C22\uFF01"
+   },
+   "editThis_ppBenefit1": {
+      "message": "\u60A8\u4F1A\u6536\u5230\u4E00\u5C01\u611F\u8C22\u4FE1\uFF0C\u60A8\u7684\u5927\u6069\u5927\u5FB7\u6211\u4EEC\u94ED\u8BB0\u4E8E\u5FC3\u3002"
+   },
+   "editThis_ppBenefit2": {
+      "message": "\u60A8\u5C06\u7559\u540D\u9752\u53F2\u3002"
+   },
+   "editThis_ppBenefit3": {
+      "message": "\u4F60\u5C06\u6536\u5230\u4E00\u5F20\u6765\u81EA\u300CEdit This Cookie\u300D\u7684\u660E\u4FE1\u7247\uFF01"
+   },
+   "editThis_ppBenefit4": {
+      "message": "\u4F60\u53EF\u4EE5\u63D0\u4EA4\u90A3\u4E9B\u8BA9\u4F60\u611F\u5230\u4E0D\u723D\u7684\u529F\u80FD\uFF0C\u7136\u540E\u6211\u4F1A\u5728\u7B2C\u4E00\u65F6\u95F4\u5C06\u5176\u6539\u5230\u60A8\u6EE1\u610F\uFF01"
+   },
+   "editThis_ppBenefit5": {
+      "message": "\u4F60\u53EF\u4EE5\u63D0\u51FA\u4E00\u4E2A\u4F60\u60F3\u8981\u7684\u529F\u80FD\uFF0C\u6211\u4F1A\u5C3D\u529B\u5C06\u5176\u5B9E\u73B0\uFF01(\u4E0D\u8981\u63D0\u4E0D\u73B0\u5B9E\u7684\u529F\u80FD :P )"
+   },
+   "editThis_ppBenefit6": {
+      "message": "\u5982\u679C\u6211\u4EEC\u76F8\u9047\uFF0C\u6211\u8BF7\u4F60\u559D\u610F\u5927\u5229\u5496\u5561\u548C\u7279\u8272\u70B9\u5FC3"
+   },
+   "editThis_ppBenefit7": {
+      "message": "\u4F60\u771F\u597D\uFF01\u6765\uFF0C\u8BF7\u4F60\u559D\u5564\u9152\uFF01\u5564\u9152\u723D\u6B6A\u6B6A\uFF01"
+   },
+   "editThis_ppBenefit8": {
+      "message": "\u60A8\u662F\u6211\u4EEC\u7684\u52A8\u529B\u4E4B\u6E90\u3002\u5982\u679C\u4F60\u613F\u610F\uFF0C\u6211\u5C06\u5BC4\u4E66\u4EE5\u8868\u611F\u8C22\uFF1A"
+   },
+   "editThis_ppBenefit9": {
+      "message": "\u60A8\u7684\u6350\u52A9\u662F\u6211\u4EEC\u7684\u52A8\u529B\u3002"
+   },
+   "editThis_reloadAfterChanges": {
+      "message": "\u63D0\u4EA4\u66F4\u6539\u540E\u5237\u65B0\u9875\u9762"
+   },
+   "editThis_reset": {
+      "message": "\u6E05\u7A7A"
+   },
+   "editThis_search": {
+      "message": "\u641C\u7D22"
+   },
+   "editThis_seconds": {
+      "message": "\u79D2"
+   },
+   "editThis_secure": {
+      "message": "\u5B89\u5168"
+   },
+   "editThis_session": {
+      "message": "session"
+   },
+   "editThis_skipCacheOnReload": {
+      "message": "\u5237\u65B0\u9875\u9762\u65F6\u8DF3\u8FC7\u7F13\u5B58"
+   },
+   "editThis_stats": {
+      "message": "\u72B6\u6001"
+   },
+   "editThis_statsIntro": {
+      "message": "\u5728\u8FD9\u91CC\u60A8\u53EF\u4EE5\u67E5\u770B\u672C\u63D2\u4EF6\u7684\u4F7F\u7528\u60C5\u51B5\u3002\u8FD9\u4E9B\u4FE1\u606F\u81EA2012\u5E747\u6708\u5F00\u59CB\u7EDF\u8BA1\u3002"
+   },
+   "editThis_statsSharePolicy": {
+      "message": "\u6211\u4EEC\u4FDD\u8BC1\u4EFB\u4F55\u4E2A\u4EBA\u4FE1\u606F\u90FD\u4E0D\u4F1A\u88AB\u516C\u5F00\uFF01"
+   },
+   "editThis_statsSince": {
+      "message": "Cookie\u7EDF\u8BA1\u81EA : $1"
+   },
+   "editThis_storeID": {
+      "message": "storeID"
+   },
+   "editThis_support": {
+      "message": "\u8D5E\u52A9\u5F00\u53D1\u8005"
+   },
+   "editThis_time": {
+      "message": "\u65F6\u95F4"
+   },
+   "editThis_timesUsed": {
+      "message": "\u60A8\u5DF2\u4F7F\u7528\u201CEdit This Cookie\u201D\u63D2\u4EF6$1\u6B21"
+   },
+   "editThis_translation": {
+      "message": "\u7FFB\u8BD1"
+   },
+   "editThis_translationIntro": {
+      "message": "\u5E2E\u52A9\u6211\u4EEC\u7FFB\u8BD1\u8BE5\u63D2\u4EF6\u5230\u60A8\u7684\u8BED\u8A00"
+   },
+   "editThis_useRegularExpressions": {
+      "message": "\u4F60\u53EF\u4EE5\u4F7F\u7528\u6B63\u5219\u8868\u8FBE\u5F0F"
+   },
+   "editThis_value": {
+      "message": "\u503C"
+   },
+   "editThis_year": {
+      "message": "\u5E74"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Play your music instantly, anywhere"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Google Play Music"
+   }
+}

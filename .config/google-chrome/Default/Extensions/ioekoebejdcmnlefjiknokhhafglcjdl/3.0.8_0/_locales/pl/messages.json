@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Dropbox jest bezp\u0142atn\u0105 us\u0142ug\u0105, kt\u00F3ra pozwala zabra\u0107 ze sob\u0105 wszystkie swoje zdj\u0119cia, dokumenty i wideo w dowolne miejsce."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Dropbox"
+   }
+}

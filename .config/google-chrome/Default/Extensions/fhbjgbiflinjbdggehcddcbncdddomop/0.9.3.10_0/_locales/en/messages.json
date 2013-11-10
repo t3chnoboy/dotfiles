@@ -1,0 +1,44 @@
+{
+   "bad_request": {
+      "message": "Bad request"
+   },
+   "clear": {
+      "message": "Clear"
+   },
+   "data": {
+      "message": "Data"
+   },
+   "debuglink": {
+      "message": "Debug link"
+   },
+   "description": {
+      "message": "Test, develop and document APIs with pleasure!"
+   },
+   "headers": {
+      "message": "Headers"
+   },
+   "method": {
+      "message": "Method"
+   },
+   "name": {
+      "message": "Postman - REST Client"
+   },
+   "processing": {
+      "message": "Processing"
+   },
+   "request": {
+      "message": "Request"
+   },
+   "response": {
+      "message": "Response"
+   },
+   "send": {
+      "message": "Send"
+   },
+   "status": {
+      "message": "Status"
+   },
+   "url": {
+      "message": "URL"
+   }
+}

@@ -1,0 +1,1 @@
+AU.support.init();

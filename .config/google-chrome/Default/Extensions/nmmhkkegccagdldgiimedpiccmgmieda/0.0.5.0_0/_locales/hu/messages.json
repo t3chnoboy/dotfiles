@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google Wallet digit\u00E1lis \u00E1rucikkekhez"
+   },
+   "app_name": {
+      "message": "Google P\u00E9nzt\u00E1rca"
+   },
+   "craw_app_unavailable": {
+      "message": "Az alkalmaz\u00E1s jelenleg nem \u00E9rhet\u0151 el."
+   },
+   "craw_connect_to_network": {
+      "message": "K\u00E9rj\u00FCk, csatlakozzon egy h\u00E1l\u00F3zathoz."
+   },
+   "iap_unavailable": {
+      "message": "Az alkalmaz\u00E1son bel\u00FCli fizet\u00E9s jelenleg nem \u00E9rhet\u0151 el."
+   },
+   "please_sign_in": {
+      "message": "Jelentkezzen be a Chrome-ba."
+   }
+}

@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "notifications_background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "icons/icon19.nonotifications.png",
+      "default_title": "__MSG_extension_name__"
+   },
+   "content_scripts": [ {
+      "js": [ "js/landingPageInterface.js" ],
+      "matches": [ "*://*.google.com/chrome/*/google-plus.html*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "js/notifications_content_script.js" ],
+      "matches": [ "*://*.google.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com https://apis.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "icons/icon128.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCv+9y9BX8Dq2O0Ad5ZxZ3cqFFYL/Ett+H7IZCAfKxqjz1ExOaqTEx4fqpeNcn+7Vj6jqRwljZ5ZaUSC54SgaeKPOAjBHHDv+1qYN98hUwQDWkhQ3YXMF3uPfMN7nsqwKQonluE5+RR16FSUXpGMJYc+kGFwTV0eP1lmIfDU6PBhwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "5.0.316.0",
+   "name": "__MSG_extension_name__",
+   "optional_permissions": [ "https://www.googleapis.com/*", "https://www.clients6.google.com/*", "http://*/*" ],
+   "options_page": "options.html",
+   "permissions": [ "*://*.google.com/*", "*://google.com/*", "cookies", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0.618",
+   "web_accessible_resources": [ "icons/gplus_tab_2.png", "icons/x_icon_hover.png" ]
+}

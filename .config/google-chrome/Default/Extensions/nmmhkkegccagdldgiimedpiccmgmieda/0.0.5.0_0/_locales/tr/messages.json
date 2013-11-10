@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google C\u00FCzdan ile Dijital \u00DCr\u00FCnler"
+   },
+   "app_name": {
+      "message": "Google C\u00FCzdan"
+   },
+   "craw_app_unavailable": {
+      "message": "Uygulama \u015Fu anda kullan\u0131lam\u0131yor."
+   },
+   "craw_connect_to_network": {
+      "message": "L\u00FCtfen bir a\u011Fa ba\u011Flan\u0131n."
+   },
+   "iap_unavailable": {
+      "message": "Uygulama \u0130\u00E7i \u00D6demeler \u015Fu anda kullan\u0131lamaz."
+   },
+   "please_sign_in": {
+      "message": "L\u00FCtfen Chrome'da oturum a\u00E7\u0131n."
+   }
+}

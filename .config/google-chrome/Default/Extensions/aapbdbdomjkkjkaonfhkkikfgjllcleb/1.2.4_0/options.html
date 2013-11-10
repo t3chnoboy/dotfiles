@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Translate Extension Options</title>
+    <!-- source for debugging will not be in released package -->
+    <link rel="stylesheet" type="text/css" href="options.css">
+    <script src="utils.js"></script>
+    <script src="options.js"></script>
+    <!-- compiled files -->
+    <link rel="stylesheet" type="text/css" href="options_css_compiled.css">
+    <script src="options_compiled.js"></script>
+    <script>
+      function toggle(id) {
+        var style = document.getElementById(id).style;
+        style.display = style.display ? '' : 'none';
+      }
+    </script>
+  </head>
+  <body onload="new OptionsControl().init()">
+    <div id="content">
+      <h1>
+        <img src='http://www.google.com/images/logos/translate_logo.gif'
+             title="Google Translate" alt="Google Translate"><br>
+        Chrome Extension Options
+      </h1>
+
+      <div class="option_row">
+        <div class="option_name">Your default language:</div>
+        <div class="option_picker">
+          <select id="targetLangSel"></select>
+        </div>
+      </div>
+
+      <div id="nonWinWarning" class="option_row" style="display:none">
+        <p class="warning">
+          The following options do <b>NOT</b> work on your Chrome, because currently
+          Chrome supports language detection only on <b>Windows</b>. However, you
+          can still change your options and stay tuned.
+        </p>
+      </div>
+      <script>
+        if (navigator.platform.toLowerCase().indexOf('win') != 0) {
+          document.getElementById('nonWinWarning').style.display = '';
+        }
+      </script>
+
+      <div class="option_row">
+        <div class="option_name">Prompt automatically:</div>
+        <div class="option_picker">
+          <input id="autoDisplayChk" type="checkbox">&nbsp;
+        </div>
+        <div class="option_picker_fixed">
+          <label for="autoDisplayChk">
+            Automatically show the Google Translate banner when the web page's
+            language is not in your Chrome options, <b>EXCEPT</b> for the following
+          </label>
+          <a href="javascript:toggle('autoDisplayMoreDiv')" title="Excluded languages and URLs">
+            languages and URLs</a>.
+          <div id="autoDisplayMoreDiv" style="display:none"><div></div><div></div></div>
+        </div>
+      </div>
+
+      <div class="option_row">
+        <div class="option_name">Translate automatically:</div>
+        <div class="option_picker">
+          <input id="autoTransChk" type="checkbox">&nbsp;
+        </div>
+        <div class="option_picker_fixed">
+          <label for="autoTransChk">
+            Automatically translate the web pages in the following
+          </label>
+          <a href="javascript:toggle('autoTransDiv')" title="Excluded languages and URLs">
+            languages and URLs</a>.
+          <div id="autoTransDiv" style="display:none"><div></div><div></div></div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button id="saveBtn">Save</button>
+        <button onclick="history.go(0)">Reset</button>
+        <span id="saveStatus" style="display:none">Options saved.</span>
+      </div>
+
+    </div>
+
+    <div class="footer"><a href="http://translate.google.com/">Google Translate Homepage</a></div>
+    <div class="footer">&copy;2010 Google - <a href="http://www.google.com/privacy.html">Privacy</a></div>
+
+    <textarea id="langMapTemplate" style="display:none">
+      <h3>{{$title}}</h3>
+      <div class="extra_padding">
+        <select id="{{$selectId}}" style="width:200px"></select>
+        <button id="{{$addBtnId}}">
+          Add
+        </button><br>
+        <select id="{{$listId}}" multiple size="5" style="width:200px"></select>
+        <button id="{{$removeBtnId}}" style="vertical-align:top">
+          Remove
+        </button>
+      </div>
+    </textarea>
+
+    <textarea id="urlListTemplate" style="display:none">
+      <h3>{{$title}}</h3>
+      <div class="extra_padding">
+        <input id="{{$textId}}" style="width:250px">
+        <button id="{{$addBtnId}}">
+          Add
+        </button><br>
+        <input id="{{$reChkId}}" type="checkbox">
+        <label for="{{$reChkId}}">
+          Regular expression (<a href="http://www.google.com/search?q=javascript+regular+expression" title="Learn regular expression" target="_blank">?</a>)
+        </label>
+        <br>
+        <select id="{{$listId}}" multiple size="5" style="width:250px"></select>
+        <button id="{{$removeBtnId}}" style="vertical-align:top">
+          Remove
+        </button>
+      </div>
+    </textarea>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+   "app_copyright": {
+      "message": "Copyright 2011 Google Inc.\u200E \u05DB\u05DC \u05D4\u05D6\u05DB\u05D5\u05D9\u05D5\u05EA \u05E9\u05DE\u05D5\u05E8\u05D5\u05EA."
+   },
+   "app_description": {
+      "message": "\u05E9\u05EA\u05E3 \u05D0\u05EA \u05D4\u05D3\u05D1\u05E8\u05D9\u05DD \u05D4\u05E0\u05DB\u05D5\u05E0\u05D9\u05DD \u05E2\u05DD \u05D4\u05D0\u05E0\u05E9\u05D9\u05DD \u05D4\u05E0\u05DB\u05D5\u05E0\u05D9\u05DD."
+   },
+   "app_name": {
+      "message": "Google+\u200E"
+   },
+   "share_intent_title": {
+      "message": "\u05E9\u05EA\u05E3 \u05D1-\u200FGoogle+\u200E"
+   }
+}

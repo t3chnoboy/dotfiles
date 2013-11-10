@@ -1,0 +1,27 @@
+{
+   "background": {
+      "page": "background.htm",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "img/browser_icon.png",
+      "default_popup": "popup.htm",
+      "default_title": "__MSG_name__"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "img/extension_icon.png",
+      "16": "img/browser_icon.png",
+      "32": "img/extension_icon.png",
+      "48": "img/extension_icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXkbhIjDC34WcIanOW2pHCBc6xs0D6A8U1XXye+v5F6NIWLqmjnFtv8MSu/YRBu+Rbz4QCd2nYuDrSab3adPTPrAAz6Y9zgSdu2LjiQfwxR2n4XhxPXKtkS18c2Hhe8jesuB1zGZ9FaVEYnE9L5ohuLrGQ/i1MIna6+D33uP+eyQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "options_page": "options.htm",
+   "permissions": [ "tabs", "*://*/", "chrome://favicon/", "unlimitedStorage", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.1"
+}

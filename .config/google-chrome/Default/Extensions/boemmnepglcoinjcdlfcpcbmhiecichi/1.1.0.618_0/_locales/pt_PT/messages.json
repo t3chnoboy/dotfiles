@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "Ocorreu um erro."
+   },
+   "error_tooltip": {
+      "message": "Ocorreu um erro"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Todos os Direitos Reservados."
+   },
+   "extension_description": {
+      "message": "Veja as notifica\u00E7\u00F5es de atividade do Google+ quando tiver sess\u00E3o iniciada, em qualquer lugar da Web."
+   },
+   "extension_name": {
+      "message": "Notifica\u00E7\u00F5es do Google+"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "Notifica\u00E7\u00F5es do $1+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "Ativar notifica\u00E7\u00F5es de p\u00E1gina do Google+"
+   },
+   "follow_promo_feature_1": {
+      "message": "Quando visita um Website ligado a uma p\u00E1gina do Google+, aparecer\u00E1 um controlo de deslize no lado da janela do navegador. Coloque o cursor do rato sobre o controlo de deslize para o expandir e adicione facilmente a p\u00E1gina aos seus c\u00EDrculos."
+   },
+   "follow_promo_feature_2": {
+      "message": "O bot\u00E3o de notifica\u00E7\u00F5es no seu navegador ficar\u00E1 com o emblema \"+\" para indicar quando est\u00E1 a visualizar um Website ligado a uma p\u00E1gina do Google+. Clicar no bot\u00E3o mostra as suas notifica\u00E7\u00F5es tal como anteriormente, mas agora tamb\u00E9m ir\u00E1 apresentar as informa\u00E7\u00F5es da p\u00E1gina do Google+ associada e fornecer uma forma r\u00E1pida de a come\u00E7ar a seguir."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "Melhore o stream do Google+ seguindo as p\u00E1ginas do Google+ que considera interessantes:"
+   },
+   "follow_promo_following_description": {
+      "message": "Sempre que uma p\u00E1gina do Google+ se encontrar nos seus c\u00EDrculos, todas as publica\u00E7\u00F5es dessa p\u00E1gina come\u00E7ar\u00E3o a aparecer no seu stream."
+   },
+   "follow_promo_header": {
+      "message": "Descubra p\u00E1ginas do Google+ enquanto navega na Web."
+   },
+   "join_google_plus_message": {
+      "message": "Adira ao Google+ para ver as notifica\u00E7\u00F5es."
+   },
+   "join_google_plus_tooltip": {
+      "message": "Adira ao Google+ para ver as notifica\u00E7\u00F5es"
+   },
+   "loading": {
+      "message": "A carregar..."
+   },
+   "many_new_notifications": {
+      "message": "Tem $1 novas notifica\u00E7\u00F5es",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "Novo!"
+   },
+   "no_new_notifications": {
+      "message": "N\u00E3o existem novas notifica\u00E7\u00F5es."
+   },
+   "not_now": {
+      "message": "Agora n\u00E3o"
+   },
+   "one_new_notification": {
+      "message": "Tem 1 nova notifica\u00E7\u00E3o"
+   },
+   "options_header": {
+      "message": "Op\u00E7\u00F5es"
+   },
+   "options_title": {
+      "message": "Op\u00E7\u00F5es"
+   },
+   "privacy_and_terms": {
+      "message": "Privacidade e Termos"
+   },
+   "promo_link": {
+      "message": "Saiba mais &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003ENovo!\u003C/span\u003E Descubra p\u00E1ginas do Google+ enquanto navega na Web"
+   },
+   "retry_now": {
+      "message": "Tentar novamente agora."
+   },
+   "retrying_in": {
+      "message": "A tentar novamente dentro de $1s",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "Enviar automaticamente estat\u00EDsticas de utiliza\u00E7\u00E3o an\u00F3nimas para o Google"
+   },
+   "sign_in_message": {
+      "message": "Inicie sess\u00E3o para ver as notifica\u00E7\u00F5es."
+   },
+   "sign_in_tooltip": {
+      "message": "Inicie sess\u00E3o para ver as notifica\u00E7\u00F5es"
+   },
+   "use_plus_follow_header": {
+      "message": "Notificar-me acerca das pessoas e p\u00E1ginas no Google+ associadas aos Websites que visito (Requer permiss\u00F5es adicionais)"
+   },
+   "use_plus_follow_note": {
+      "message": "Os URL dos Websites que visita ser\u00E3o enviados para a Google de forma a identificar os perfis do Google+ e p\u00E1ginas ligadas a esses URL."
+   },
+   "yada_yada": {
+      "message": "Isto n\u00E3o \u00E9 o \"bl\u00E1-bl\u00E1-bl\u00E1\" habitual:"
+   }
+}

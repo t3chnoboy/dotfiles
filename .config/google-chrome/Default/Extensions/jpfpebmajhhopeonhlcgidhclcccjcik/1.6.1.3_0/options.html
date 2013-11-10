@@ -1,0 +1,1139 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title i18n="options_pagetitle"></title>
+	<link rel="stylesheet" href="css/master.css?v=09212012">
+	<link rel="stylesheet" href="css/options.css?v=09212012">
+	<link rel="stylesheet" href="css/dial.css?v=09212012" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/checkboxes.js"></script>
+	<script src="js/jscolor.js"></script>
+	<script src="js/json2.js"></script>
+	<script src="js/jquery.ui.min.js"></script>
+	<script src="js/tooltip.js"></script>
+	<script src="js_system/options.js?v=09212012"></script>
+	<script src="js_system/options.base64.js"></script>
+	<script src="js_system/options.export.js?v=09212012"></script>
+	<script src="js_system/options.background.js?v=09212012"></script>
+	<script src="js_system/common.js?v=09212012"></script>
+	<script src="js_system/db.js?v=09212012"></script>
+	<script src="js_system/options.page.js?v=09212012"></script>
+</head>
+<body>
+
+	<div id="container">
+
+		<header>
+			<ul id="navigation">
+				<li><a class="click-open-extension-page" data-url="newtab.html" title="Back">&laquo; <span i18n="back"></span></a></li>
+			</ul>
+		</header>
+
+		<div id="main" class="rounded10 dropshadow">
+
+			<input id="savesettingstop" class="save_settings_button" type="submit" class="rounded4 alignright" value="Save settings" />
+			<h1 style="border:0;" i18n="options_options"></h1>
+
+			<div id="options_navigation">
+				<ul>
+					<li><a class="options_tab_link selected" rel="general" i18n="options_nav_options"></a></li>
+					<li><a class="options_tab_link" rel="design" i18n="options_nav_background"></a></li>
+					<li><a class="options_tab_link" rel="dials" i18n="options_nav_customize"></a></li>
+					<li><a class="options_tab_link" rel="sidebars" i18n="options_nav_sidebar"></a></li>
+					<li><a class="options_tab_link" rel="apps" i18n="options_nav_apps"></a></li>
+					<li><a class="options_tab_link" rel="sync" id="sync_indicator" i18n="options_nav_sync"></a></li>
+					<li><a class="options_tab_link" rel="importexport" i18n="options_nav_backup"></a></li>
+					<li class="changelog"><a class="options_tab_link" rel="general" href="http://speeddial2.com/changelog" i18n="options_nav_changelog"></a></li>
+				</ul>
+			</div>
+
+		<div id="options">
+
+		<form action="newtab.html" method="post" accept-charset="utf-8">
+
+<!-- GENERAL -->
+
+	<div id="tab_dials" class="options_tab">
+
+			<div id="preview">
+			<ul id="pages">
+				<li class="link">
+					<a>
+						<div class="thumbnail_container"></div>
+						<div class="title" i18n="options_customize_sample_title"></div>
+					</a>
+					<div class="shadow">&nbsp;</div>
+				</li>
+			</ul>
+			</div>
+
+			<div id="explain">
+				<center><img src="images/options.dial-explain.jpg" style="" /></center>
+				<br />
+			</div>
+
+
+			<center>
+				<a class="explain_link click-explain-show" i18n="options_customize_explain">Explain</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a class="explain_link click-explain-hide" i18n="options_customize_preview">Show preview</a>
+			</center>
+
+			<br /><br />
+
+			<table style="width:100%;margin-right:20px;">
+
+					<tr>
+						<td i18n="options_customize_shadow"></td>
+						<td>
+							<div class="radio">
+							<input type="radio" name="options-dropShadow" class="click-preview-shadow" value="none" id="options-dropShadow-none" />
+							<label for="options-dropShadow-none" i18n="options_customize_no_shadow">
+								No shadow
+							</label>
+
+							<input type="radio" name="options-dropShadow" class="click-preview-shadow" value="paper" id="options-dropShadow-1" />
+							<label for="options-dropShadow-1">
+								Paper
+							</label>
+
+							<input type="radio" name="options-dropShadow" class="click-preview-shadow" value="circle" id="options-dropShadow-2" >
+							<label for="options-dropShadow-2">
+								Circle
+							</label>
+
+							<input type="radio" name="options-dropShadow" class="click-preview-shadow" value="drop" id="options-dropShadow-3" />
+							<label for="options-dropShadow-3">
+								Drop
+							</label>
+
+							<input type="radio" name="options-dropShadow" class="click-preview-shadow" value="aside" id="options-dropShadow-4" />
+							<label for="options-dropShadow-4">
+								Aside
+							</label>
+
+							<input type="radio" name="options-dropShadow" class="click-preview-shadow" value="box" id="options-dropShadow-5" />
+							<label for="options-dropShadow-5">
+								Box
+							</label>
+
+							<input type="radio" name="options-dropShadow" class="click-preview-shadow" value="glow" id="options-dropShadow-6" />
+							<label for="options-dropShadow-6">
+								Glow
+							</label>
+							</div>
+						</td>
+					</tr>
+					 <tr class="odd">
+						<td i18n="options_customize_rounded_corners"></td>
+						<td>
+
+							<input type="range" min="0" max="12" value="" id="options-corners" />
+							<input type="text" disabled="disabled" name="options-corners-val" value="" id="options-corners-val" /> px
+						</td>
+					</tr>
+					<tr>
+						<td i18n="options_customize_padding"></td>
+						<td>
+							<input type="range" min="0" max="12" step="2" value="" id="options-padding" />
+							<input type="text" disabled="disabled" name="options-padding-val" value="" id="options-padding-val" /> px
+						</td>
+					</tr>
+					<tr class="odd">
+						<td i18n="options_customize_title_position"></td>
+						<td>
+							<div class="radio">
+							<input type="radio" name="options-titlePosition" value="bottom" id="options-titlePosition-inside" class="click-set-value" data-option="options.dialstyle.titleposition" data-value="bottom" />
+							<label for="options-titlePosition-inside" i18n="options_customize_title_position_inside"></label>
+
+							<input type="radio" name="options-titlePosition" value="top" id="options-titlePosition-outside" class="click-set-value" data-option="options.dialstyle.titleposition" data-value="top" />
+							<label for="options-titlePosition-outside" i18n="options_customize_title_position_outside"></label>
+							</div>
+						</td>
+					</tr>
+
+				<tr>
+					<td colspan="2">
+						<h3 class="section" i18n="options_customize_customize_colors"></h3>
+					</td>
+				</tr>
+				</table>
+				<style type="text/css">
+
+					.specify-colors input {
+						display:inline;
+						width:94px;
+						margin:0 3px 0 0;
+					}
+
+				</style>
+				<table width="100%" class="specify-colors">
+				<tr>
+					<td width="25%" i18n="options_customize_background_color"></td>
+					<td width="25%" i18n="options_customize_inner_background_color"></td>
+					<td width="25%" i18n="options_customize_border_colors"></td>
+					<td width="25%" i18n="options_customize_title_color"></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<input class="color" id="options-colors-dialbg">
+						<input class="color" id="options-colors-dialbgover" rel="tooltip" title="Mouseover color" data-placement="bottom">
+					</td>
+					<td align="center">
+						<input class="color" id="options-colors-dialbginner">
+						<input class="color" id="options-colors-dialbginnerover" rel="tooltip" title="Mouseover color" data-placement="bottom">
+					</td>
+					<td align="center">
+						<input class="color" id="options-colors-border">
+						<input class="color" id="options-colors-borderover" rel="tooltip" title="Mouseover color" data-placement="bottom">
+					</td>
+					<td align="center">
+						<input class="color" id="options-colors-title">
+						<input class="color" id="options-colors-titleover" rel="tooltip" title="Mouseover color" data-placement="bottom">
+					</td>
+				</tr>
+				</table>
+
+				<table>
+
+			<tr>
+				<td colspan="2">
+					<h3 class="section" i18n="options_customize_title"></h3>
+				</td>
+			</tr>
+				<tr>
+					<td><label for="options-showTitle" i18n="options_customize_show_title"></label></td>
+					<td><input type="checkbox" class="on_off change-toggle-value" data-option="options.showTitle" id="options-showTitle" name="options-showTitle" value="1" /></td>
+				</tr>
+				<tr class="odd">
+					<td><label for="options-showVisits" i18n="options_customize_show_visits"></label></td>
+					<td><input type="checkbox" class="on_off change-toggle-value" data-option="options.showVisits" id="options-showVisits" name="options-showVisits" value="1" /></td>
+				</tr>
+
+			<tr>
+				<td i18n="options_customize_text_align"></td>
+				<td>
+					<div class="radio">
+
+					<input type="radio" name="options-titleAlign" id="options-titleAlign-left" class="click-preview-title-alignment" data-option="options.dialstyle.titleAlign" data-value="left" />
+					<label for="options-titleAlign-left" i18n="left">
+						Left
+					</label>
+					<input type="radio" name="options-titleAlign" id="options-titleAlign-center" class="click-preview-title-alignment" data-option="options.dialstyle.titleAlign" data-value="center"  />
+					<label for="options-titleAlign-center" i18n="center">
+						Center
+					</label>
+					<input type="radio" name="options-titleAlign" id="options-titleAlign-right" class="click-preview-title-alignment" data-option="options.dialstyle.titleAlign" data-value="right" />
+					<label for="options-titleAlign-right" i18n="Right">
+						Right
+					</label>
+					</div>
+				</td>
+			</tr>
+
+			<tr class="odd">
+				<td>Font face</td>
+				<td>
+				<select id="options-fontface" style="width:200px;">
+					<option value="Nobile, sans-serif;">Nobile (default)</option>
+					<option value='Helvetica,"Helvetica Nueue";arial,sans-serif;'>Helvetica/Helvetica Nueue</option>
+					<option value="Arial, Helvetica, sans-serif;">Arial, Helvetica</option>
+					<option value="'Arial Black', Gadget, sans-serif; ">Arial Black, Gadget</option>
+					<option value="'Bookman Old Style', serif;">Bookman Old Style</option>
+					<option value="'Comic Sans MS', cursive;">Comic Sans MS</option>
+					<option value="Courier, monospace;">Courier</option>
+					<option value="'Courier New', Courier, monospace;">Courier New</option>
+					<option value="Garamond, serif;">Garamond</option>
+					<option value="Georgia, serif;">Georgia</option>
+					<option value="Impact, Charcoal, sans-serif;">Impact, Charcoal</option>
+					<option value="'Lucida Console', Monaco, monospace;">Lucida Console, Monaco</option>
+					<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif;">Lucida Sans Unicode, Lucida Grande</option>
+					<option value="'MS Sans Serif', Geneva, sans-serif;">MS Sans Serif, Geneva</option>
+					<option value="'MS Serif', 'New York', sans-serif;">MS Serif, New York</option>
+					<option value="'Palatino Linotype', 'Book Antiqua', Palatino, serif;">Palatino Linotype, Book Antiqua, Palatino</option>
+					<option value="Symbol, sans-serif;">Symbol</option>
+					<option value="Tahoma, Geneva, sans-serif;">Tahoma, Geneva</option>
+					<option value="'Times New Roman', Times, serif;">Times New Roman, Times</option>
+					<option value="'Trebuchet MS', Helvetica, sans-serif;">Trebuchet MS, Helvetica</option>
+					<option value="Verdana, Geneva, sans-serif;">Verdana, Geneva</option>
+					<option value="Webdings, sans-serif;">Webdings</option>
+					<option value="Wingdings, 'Zapf Dingbats', sans-serif;">Wingdings, Zapf Dingbats</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Font style</td>
+				<td>
+					<select id="options-fontstyle">
+						<option value="font-weight:normal;font-style:normal;">Normal</option>
+						<option value="font-weight:normal;font-style:italic;">Italic</option>
+						<option value="font-weight:bold;font-style:normal;">Bold</option>
+						<option value="font-weight:bold;font-style:italic;">Bold Italic</option>
+					</select>
+				</td>
+			</tr>
+			<tr class="odd">
+				<td>Font size</td>
+				<td><input type="text" name="" value="" id="options-fontsize" value="" /> px</td>
+			</tr>
+
+				<tr>
+					<td colspan="2">
+						<h3 class="section">Custom CSS</h3>
+					</td>
+				</tr>
+					<tr>
+						<td colspan="2">
+							Enter your custom CSS without the &lt;style&gt; tags<br />
+							Please note that this option is for <b>advanced users only</b>, don't write anything here unless you know what you're doing :)<br />
+							<textarea id="options-custom-css" rows="10" cols="40"></textarea>
+						</td>
+					</tr>
+
+			</table>
+
+			<br class="clear" />
+
+	</div>
+
+	<div id="tab_general" class="options_tab">
+
+		 <table width="900" id="generalsettings">
+
+				<tr class="odd">
+					<td><label>Number of columns</label></td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="Columns" data-content="Number of dials to be shown in one row. Number of rows is calculated automatically according to overal number of saved dials."></span>
+						<input type="range" min="2" max="20" step="1" value="" id="options-columns" style="width:350px;" />
+						<input type="text" class="input-range-value" disabled="disabled" name="options-columns-val" value="" id="options-columns-val" /> in a row
+					</td>
+				</tr>
+				<tr>
+					<td><label>Dial spacing</label></td>
+					<td>
+						<input type="range" min="10" max="50" step="2" value="" id="options-dialspacing" style="width:350px;" />
+						<input type="text" class="input-range-value" disabled="disabled" name="options-dialspacing-val" value="" id="options-dialspacing-val" /> px
+					</td>
+				</tr>
+				<tr class="odd">
+					<td><label>Order by</label>
+					</td>
+					<td style="width:450px;" id="options.order">
+						<span class="questionmark" data-placement="left" rel="popover" title="Ordering dials" data-content="Dials can be ordered automatically by number of visits or by your own manual order. If you choose to order pages manually, you can drag them to change their position."></span>
+
+						<div class="radio">
+
+							<input type="radio" name="order" id="options-order-position" class="click-set-value" data-option="options.order" data-value="position" />
+							<label for="options-order-position">
+								<font i18n="options_options_order_manual"></font> <font i18n="default"></font>
+							</label>
+							<input type="radio" name="order" id="options-order-visits" class="click-set-value" data-option="options.order" data-value="visits" />
+							<label for="options-order-visits" i18n="options_options_order_most_visited">
+								By most visited
+							</label>
+
+						</div>
+
+					</td>
+				</tr>
+				<tr>
+					<td><label for="options-scrollLayout" i18n="options_options_scroll_layout"></label></td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="Fit or scroll overlaping dials" data-content="Scroll dials infinitely instead focing them to fit on screen."></span>
+
+						<div class="radio">
+							<input type="radio" name="options-scrollLayout" id="options-scrollLayout0" class="click-set-value" data-option="options.scrollLayout" data-value="0" />
+							<label for="options-scrollLayout0">
+								Always fit on screen
+							</label>
+							<input type="radio" name="options-scrollLayout" id="options-scrollLayout1" class="click-set-value" data-option="options.scrollLayout" data-value="1" />
+							<label for="options-scrollLayout1">
+								Allow scrolling
+							</label>
+						</div>
+
+					</td>
+				</tr>
+				<tr class="odd">
+					<td><label for="options-centervertically" i18n="options_options_center_vertically"></label></td>
+					<td><input type="checkbox" class="on_off change-toggle-value" data-option="options.centerVertically" name="options-centervertically" id="options-centervertically" value="1" /></td>
+				</tr>
+				<tr>
+					<td><label i18n="options_options_refresh_thumbnail">Refresh thumbnail image</label></td>
+					<td>
+
+						<div class="radio">
+
+						<input type="radio" name="refreshThumbnails" id="options-refreshThumbnails0" class="click-set-value" data-option="options.refreshThumbnails" data-value="0" />
+						<label for="options-refreshThumbnails0">
+							Disabled (default)
+						</label>
+						<i>or&nbsp;&nbsp;every</i>
+
+						<input type="radio" name="refreshThumbnails" id="options-refreshThumbnails2" class="click-set-value" data-option="options.refreshThumbnails" data-value="2" />
+						<label for="options-refreshThumbnails2">
+							2<sup>nd</sup> visit
+						</label>
+
+
+						<input type="radio" name="refreshThumbnails" id="options-refreshThumbnails5" class="click-set-value" data-option="options.refreshThumbnails" data-value="5" />
+						<label for="options-refreshThumbnails5">
+							5<sup>th</sup> visit
+						</label>
+
+						<input type="radio" name="refreshThumbnails" id="options-refreshThumbnails10" class="click-set-value" data-option="options.refreshThumbnails" data-value="10" />
+						<label for="options-refreshThumbnails10">
+							10<sup>th</sup> visit
+						</label>
+
+						</div>
+
+
+					</td>
+				</tr>
+				<tr class="odd">
+					<td><label for="options-keepActiveGroup">Remember active group</label></td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="Keep active group" data-content="Option to remember and open last used group on new launch."></span>
+						<input type="checkbox" id="options-keepActiveGroup" name="options-keepActiveGroup" class="on_off change-toggle-value" data-option="options.keepActiveGroup" value="1" />
+					</td>
+				</tr>
+				<tr><td colspan="2">
+					<br />
+					<h3 class="section" style="border:0;">Advanced options</h3>
+				</td></tr>
+				<tr class="odd">
+					<td><label for="options-showAddButton">Show <img src="images/newtab.plus.png" width="24" /> button?</label></td>
+					<td><input type="checkbox" id="options-showAddButton" name="options-showAddButton" class="on_off change-toggle-value" data-option="options.showAddButton" value="1" /></td>
+				</tr>
+				<tr>
+					<td><label for="options-showOptionsButton">Show Options button?</label></td>
+					<td><input type="checkbox" id="options-showOptionsButton" name="options-showOptionsButton" class="on_off change-toggle-value" data-option="options.showOptionsButton" value="1" /></td>
+				</tr>
+				<tr class="odd">
+					<td>
+						<label for="options-alwaysNewTab">Open links in new tab?</label>
+					</td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="Open links in new tab" data-content="Turn on to open all links in new tab. If turned on, middle click or Ctrl+click will open links in current tab instead of new tab."></span>
+						<input type="checkbox" id="options-alwaysNewTab" name="options-alwaysNewTab" 
+						class="on_off change-toggle-value" data-option="options.alwaysNewTab" value="1" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="options-highlight">Highlight most visited pages?</label>
+					</td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="Most visited sites" data-content="Speedial2 keeps track of your daily habits and remembers which pages do you visit in the morning, afternoon, evening and night. By turning on this option, you should see a red corner on 3 pages you visit often at current part of a day."></span>
+						<input type="checkbox" id="options-highlight" name="options-highlight" class="on_off change-toggle-value" data-option="options.highlight" value="1" />
+					</td>
+				</tr>
+				<tr class="odd">
+					<td><label>Modify width</label></td>
+					<td>
+						<input type="range" min="50" max="95" value="" id="options-dialspace" style="width:350px"/>
+						<input type="text" disabled="disabled" name="options-dialspace-val" value="" id="options-dialspace-val" style="border:0;background:transparent;width:25px;margin-left:15px;padding:0;margin-right:0px;" /> % of screen width
+					</td>
+				</tr>
+				<tr>
+					<td><label for="options-thumbnailRatio">Custom thumbnail ratio (default:1)</label></td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="Fit or scroll overlaping dials" data-content="Allows you to modify aspect ratio of dials."></span>
+						<input type="range" min="0.7" max="1.8" step="0.01" value="" id="options-thumbnailRatio" style="width:350px;" />
+						<input type="text" class="input-range-value" disabled="disabled" name="options-thumbnailRatio-val" value="" id="options-thumbnailRatio-val" />
+						<a class="explain_link click-reset-thumbnail-ration">Reset to default</a>
+					</td>
+				</tr>
+				<tr class="odd">
+					<td>
+						<label>How to fit custom logos?</label>
+					</td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="How to fit custom logos." data-content="How to fit your custom images in thumbanil area?"></span>
+						<div class="radio">
+
+							<input type="radio" name="centerThumbnailsVertically" id="options-centerThumbnailsVertically1" class="click-set-value" data-option="options.centerThumbnailsVertically" data-value="1" />
+							<label for="options-centerThumbnailsVertically1">Fit (default)</label>
+
+							<input type="radio" name="centerThumbnailsVertically" id="options-centerThumbnailsVertically2" class="click-set-value" data-option="options.centerThumbnailsVertically" data-value="2" />
+							<label for="options-centerThumbnailsVertically2">Fit width and center</label>
+
+							<input type="radio" name="centerThumbnailsVertically" id="options-centerThumbnailsVertically0" class="click-set-value" data-option="options.centerThumbnailsVertically" data-value="0" />
+							<label for="options-centerThumbnailsVertically0">Fit width</label>
+
+							<input type="radio" name="centerThumbnailsVertically" id="options-centerThumbnailsVertically3" class="click-set-value" data-option="options.centerThumbnailsVertically" data-value="3" />
+							<label for="options-centerThumbnailsVertically3">No resizing</label>
+
+						</div>
+
+					</td>
+				</tr>
+				<tr>
+					<td><label>Thumbnail quality</label>
+					</td>
+					<td style="vertical-align:top!important">
+						<span class="questionmark" data-placement="left" rel="popover" title="Thumbnail quality" data-content="We recommend setting HIGH QUALITY for less than 10 dials, MEDIUM quality for 10-20 thumbnails and LOW quality for > 20 thumbnails.<b>Please keep in mind</b> that thumbnail quality also determines loading time of a new tab."></span>
+
+						<div class="radio">
+						<input type="radio" name="thumbnail_quality" id="options-thumbquality-high" class="click-set-value" data-option="options.thumbnailQuality" data-value="high" />
+						<label for="options-thumbquality-high">
+							High
+						</label>
+						<input type="radio" name="thumbnail_quality" id="options-thumbquality-medium" class="click-set-value" data-option="options.thumbnailQuality" data-value="medium" />
+						<label for="options-thumbquality-medium">
+							Medium
+						</label>
+						<input type="radio" name="thumbnail_quality" id="options-thumbquality-low" class="click-set-value" data-option="options.thumbnailQuality" data-value="low" />
+						<label for="options-thumbquality-low">
+							Low
+						</label>
+						</div>
+
+					</td>
+				</tr>
+				<tr class="odd">
+					<td><label>Name for default group</label></td>
+					<td style="vertical-align:top!important">
+						<input type="text" name="" value="" id="options-defaultGroupName" value="" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="options-showContextMenu">Show in Chrome's context menu?</label>
+					</td>
+					<td>
+						<span class="questionmark" data-placement="left" rel="popover" title="Context menu" data-content="Option to enable Speed dial 2 in context menu of other pages. This menu contains shortcuts to quickly add current page or all currently opened pages to speed dial. <b>Please note that this option will be applied after restarting your browser.</b>"></span>
+						<span style="float:right!important;padding:6px 12px;color:#999;font-size:12px;" >reqires browser restart</span>
+						<input type="checkbox" id="options-showContextMenu" name="options-showContextMenu" class="on_off change-toggle-value" data-option="options.showContextMenu" value="1" />
+					</td>
+				</tr>
+			</table>
+	</div>
+
+<!-- DESIGN -->
+
+	<div id="tab_design" class="options_tab">
+
+		<ul class="tabs">
+			<li rel="background_pattern" class="selected">Background patterns</li>
+			<li rel="background_images">Background images</li>
+			<li rel="background_custom">Custom URL</li>
+			<li rel="background_file">File</li>
+		</ul>
+
+		<div id="background_file" class="tab" style="display:none">
+
+			<br /><br />
+			<table>
+			<tr>
+				<td colspan="4"><b>File</b></td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<input type="file" id="backgroundFile" value="" style="border:0;padding:0;"	/>
+					<br />
+					<br />
+					<b>Warning:</b>
+					Because of special way how Chrome handles local files, using this feature is highly not recommended. Background images loaded from your computer will result in <b>much higher memory usage</b> (possibly hundreds of megabytes of RAM) and will slow down overal loading time of Speed Dial 2 as well as overal performance of Your browser! We recommend that you use some of image hosting services like <a href="http://imgur.com">imgur.com</a>.
+				</td>
+			</tr>
+			</table>
+
+		</div>
+
+		<div id="background_custom" class="tab" style="display:none">
+
+			<br /><br />
+
+			<table id="bg" style="width:100%;">
+				<tr>
+					<td><b>URL</b> <small class="alignright"><a class="explain_link click-reset-background">clear</a> &nbsp;&nbsp;</small></td>
+					<td><b>Color</b></td>
+					<td><b>Repeat</b></td>
+					<td><b>Position</b></td>
+				</tr>
+				<tr>
+					<td style="width:290px;">
+						<input placeholder="Background image URL" type="text" value="" id="options-background" style="width:300px" />
+						<br class="clear" />
+						<span style="color:#bbb">Leave empty for no background image</span>
+
+					</td>
+					<td style="width:110px;vertical-align:top!important">
+						<input class="color" id="options-colors-bg" style="margin:0;padding-right:32px;width:94px">
+					</td>
+					<td style="width:190px;vertical-align:top!important;">
+
+					<select id="options-repeatbackground" style="padding:5px;width:190px;">
+						<option value="no-repeat">Don't repeat</option>
+						<option value="repeat">Repeat</option>
+						<option value="repeat-x">Repeat-horizontally</option>
+						<option value="repeat-y">Repeat-vertically</option>
+					</select>
+
+					</td>
+				<td style="width:200px;vertical-align:top!important" align="left">
+					<select id="options-backgroundPosition" style="width:200px;padding:5px;">
+						<option value="left top">Top-Left (default)</option>
+						<option value="center top">Top-Center</option>
+						<option value="right top">Top-Right</option>
+						<option value="left center">Center-Left</option>
+						<option value="center center">Center</option>
+						<option value="right center">Center-Right</option>
+						<option value="left bottom">Bottom-Left</option>
+						<option value="center bottom">Bottom-Center</option>
+						<option value="right bottom">Bottom-Right</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<br />
+					<b>Tip:</b>
+					You can use image hosting provider like <a href="http://imgur.com">imgur.com</a>
+				</td>
+			</tr>
+			</table>
+
+			<br class="clear" />
+
+		</div>
+		<div id="background_images" class="tab" style="display:none">
+
+			<br class="clear" /><br class="clear" />
+
+			<div id="themes">
+
+					<div class="bg" background="images/themes/light/background_top.jpg" pattern="images/themes/light/background_strip.jpg" position="right top" repeat="repeat-x">
+						<img src="images/themes/light/preview.jpg" alt="" />
+						<br />
+						Light
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5189/5568713071_1cebc7cfbf_o.jpg" pattern="" position="left top" repeat="repeat-x" color="FFF">
+						<img src="images/themes/clouds/preview.jpg" alt="" />
+						<br />
+						Clouds
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5269/5565626408_f8e75b62f4_o.png" pattern="" position="left top" repeat="repeat-x">
+						<img src="images/themes/classic/preview.jpg" alt="" />
+						<br />
+						Minimalist
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5022/5565048623_7300cd271a_o.png" pattern="" position="left top" repeat="repeat-x" color="D9D9D9">
+						<img src="images/themes/grey/preview.jpg" alt="" />
+						<br />
+						Grey
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5144/5565625606_afa32a9e7b_o.gif" pattern="" position="left top" repeat="repeat" color="FFFFFF">
+						<img src="images/themes/lines/preview.jpg" alt="" />
+						<br />
+						Lines
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5139/5565048085_6ec226a33b_o.png" pattern="" position="right bottom" repeat="repeat-x" color="FFFFFF">
+						<img src="images/themes/android/preview.jpg" alt="" />
+						<br />
+						Android by <a href="http://roman.nurik.net/" target="_blank">roman.nurik</a>
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5022/5565048135_dfe2f91533_o.jpg" pattern="" position="left top" repeat="repeat">
+						<img src="images/themes/abstract/preview.jpg" alt="" />
+						<br />
+						Abstract
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5106/5565625506_6d5a398d8c_o.jpg" pattern="" position="left top" repeat="repeat-x" color="FFFFFF">
+						<img src="images/themes/wood/preview.jpg" alt="" />
+						<br />
+						Wood
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5187/5565047761_c64cd09832_o.jpg" pattern="" position="left top" repeat="no-repeat">
+						<img src="images/themes/greenglare/preview.jpg" alt="" />
+						<br />
+						Green glare inspired by Michael Dinning
+					</div>
+					<div class="bg" background="http://farm6.static.flickr.com/5134/5565626330_a8ef933e18_o.jpg" pattern="http://farm6.static.flickr.com/5137/5565048757_357eda6018_o.jpg" position="center top" repeat="no-repeat">
+						<img src="images/themes/dark/preview.jpg" alt="" />
+						<br />
+						Dark
+					</div>
+
+					<br class="clear" />
+				</div>
+
+		</div>
+		<div id="background_pattern" class="tab">
+
+				<h3 class="info">~ All these great patterns comes from <a target="_blank" title="Beautiful patterns" href="http://subtlepatterns.com/">www.subtlepatterns.com</a> by <a target="_blank" title="Atle Mo" href="http://atlemo.com/">Atle Mo</a>. ~</h3>
+				<div id="subtle_patterns"></div>
+				<br class="clear" />
+
+		</div>
+		<br class="clear" />
+
+	</div>
+
+<!-- SIDEBAR -->
+
+	<div id="tab_sidebars" class="options_tab">
+
+		 <table width="900" id="generalsettings">
+				<tr>
+					<td>
+						<label for="options-sidebar">Use sidebar?</label>
+						</td>
+					<td valign="middle"><input type="checkbox" id="options-sidebar" name="options-sidebar" class="on_off change-toggle-value" data-option="options.sidebar" value="1" /></td>
+				</tr>
+				<tr class="odd">
+					<td>
+						<label>Access sidebar by</label>
+					</td>
+					<td style="width:450px;" id="options.order">
+						<div class="radio">
+						<input type="radio" name="sidebaractivation" id="options-sidebaractivation-position" class="click-set-value" data-option="options.sidebaractivation" data-value="position" />
+						<label for="options-sidebaractivation-position">
+							Entering the right side of the screen
+						</label>
+						<input type="radio" name="sidebaractivation" id="options-sidebaractivation-scroll" class="click-set-value" data-option="options.sidebaractivation" data-value="scroll" />
+						<label for="options-sidebaractivation-scroll">
+							Scrolling down the mousewheel
+						</label>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="options-sidebar-showhistory">Show Recently closed tabs?</label>
+						</td>
+					<td valign="middle"><input type="checkbox" id="options-sidebar-showhistory" name="options-sidebar-showhistory" class="on_off change-toggle-value" data-option="options.sidebar.showHistory" /></td>
+				</tr>
+				<tr>
+					<td>
+						<label for="options-sidebar-showapps">Show Apps?</label>
+						</td>
+					<td valign="middle"><input type="checkbox" id="options-sidebar-showapps" name="options-sidebar-showapps" class="on_off change-toggle-value" data-option="options.sidebar.showApps" /></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<br />
+						<hr />
+						<br />
+						<center>
+							<b style="font-size:20px;">Bookmarks</b><br /><br />
+							<div class="radio">
+
+								<input id="bookmarks-provider-none" type="radio" name="options.bookmarks.provider" />
+								<label for="bookmarks-provider-none">None</label>
+
+								<input id="bookmarks-provider-chrome" type="radio" name="options.bookmarks.provider" />
+								<label for="bookmarks-provider-chrome">Chrome bookmarks</label>
+
+								<input id="bookmarks-provider-delicious" type="radio" name="options.bookmarks.provider" />
+								<label for="bookmarks-provider-delicious">Delicious bookmarks</label>
+
+								<input id="bookmarks-provider-google" type="radio" name="options.bookmarks.provider" />
+								<label for="bookmarks-provider-google">Google bookmarks</label>
+
+								<input id="bookmarks-provider-pinboard" type="radio" name="options.bookmarks.provider" />
+								<label for="bookmarks-provider-pinboard">Pinboard.in bookmarks</label>
+
+							</div>
+
+							<div class="bookmarks-provider" id="bookmarks-provider-delicious-settings">
+								<table>
+								<tr>
+									<td>
+										<label for="options-sidebar-delicious-username">Delicious username?</label>
+										</td>
+									<td valign="middle">
+										<input type="text" value="" id="options-sidebar-delicious-username" name="options-sidebar-delicious-username" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="options-useDeliciousShortcut">Use Alt+D to save new bookmark?</label>
+									</td>
+									<td valign="middle">
+										<input type="checkbox" id="options-useDeliciousShortcut" name="options-useDeliciousShortcut" class="on_off change-toggle-value" data-option="options.useDeliciousShortcut" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label>Always show tags:</label>
+										<!--<span>Enter tags you always want to be shown<br />separate by comma, f.e: jquery,design,css</span>-->
+										</td>
+										<td valign="middle">
+											<input type="text" value="" id="options-sidebar-delicious-favoriteTags" />
+									</td>
+								</tr>
+								</table>
+
+							</div>
+
+							<div class="bookmarks-provider" id="bookmarks-provider-pinboard-settings">
+								<table>
+								<tr>
+									<td>
+										<label for="options-sidebar-pinboard-username">Pinboard username?</label>
+										</td>
+									<td valign="middle">
+										<input type="text" value="" id="options-sidebar-pinboard-username" name="options-sidebar-pinboard-username" />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<label for="options-usePinboardShortcut">Use Alt+D to save new bookmark?</label>
+									</td>
+									<td valign="middle">
+										<input type="checkbox" id="options-usePinboardShortcut" name="options-usePinboardShortcut" class="on_off change-toggle-value" data-option="options.usePinboardShortcut" />
+									</td>
+								</tr>
+								</table>
+
+							</div>
+
+							<div class="bookmarks-provider" id="bookmarks-provider-google-settings">
+								<table>
+								<tr>
+									<td>
+										<label for="options-useGoogleBookmarksShortcut">Use Alt+D shortcut to save new bookmark?</label>
+									</td>
+									<td valign="middle">
+										<input type="checkbox" id="options-useGoogleBookmarksShortcut" name="options-useGoogleBookmarksShortcut" class="on_off change-toggle-value" data-option="options.useGoogleBookmarksShortcut" />
+									</td>
+								</tr>
+								</table>
+							</div>
+
+
+							<div class="bookmarks-provider" id="bookmarks-provider-chrome-settings">
+								<table>
+								<tr>
+									<td>
+										<label for="options-sidebar-showbookmarksURL">List with URL?</label>
+										</td>
+									<td valign="middle"><input type="checkbox" id="options-sidebar-showbookmarksURL" name="options-sidebar-showbookmarksURL" class="on_off change-toggle-value" data-option="options.sidebar.showBookmarksURL" /></td>
+								</tr>
+								</table>
+							</div>
+
+						</center>
+					</td>
+				</tr>
+				</table>
+
+
+	</div>
+
+<!-- IMPORT/EXPORT -->
+
+	<div id="tab_importexport" class="options_tab">
+
+		<div style="width:435px;float:left;font-size:16px;line-height:24px;margin-right:20px">
+			This section allows you to easily import/export your dials and setting to another computer.
+			To export and backup your setting click <b>Export settings</b> button and copy all of generated text that appears.
+			<a class="move-settings" data-direction="export">Export settings</a>
+		</div>
+		<div style="width:435px;float:left;font-size:16px;line-height:24px;">
+			To import your setting, press <b>Import settings</b> button and paste settings you previously saved.
+			Note that importing your settings will erase all your dials and saved options!
+			<a class="move-settings" data-direction="import">Import settings</a>
+		</div>
+		<br class="clear" /><br class="clear" />
+
+		<div id="export">
+			<p>
+				<b>These are your exported settings</b> - copy and paste through "Import settings" button to use on different PC.
+			</p>
+			<textarea id="export_textarea" rows="20" cols="100"></textarea><br />
+		</div>
+
+		<div id="import">
+			<p>
+				<b>Paste settings</b> you previously exported through "Export settings" button.
+			</p>
+			<textarea id="import_textarea" rows="15" cols="100"></textarea><br class="clear" /><br class="clear" />
+			<input id="import-settings-button" type="button" value="Import these settings" class="rounded4 noalign" />
+		</div>
+
+	</div>
+
+<!-- END:IMPORT/EXPORT -->
+
+<!-- APPS -->
+
+	<div id="tab_apps" class="options_tab">
+
+		 <table width="900" id="generalsettings">
+				<tr>
+					<td>
+						<label>Show Apps panel?</label>
+						<span>You can show your installed Apps in standalone panel <br />or list your Apps in sidebar (see also <i>Sidebar</i> section).</span>
+						</td>
+					<td valign="middle"><input type="checkbox" id="options-apps-show" class="on_off change-toggle-value" data-option="options.apps.show" value="1" /></td>
+				</tr>
+				<tr class="odd">
+					<td>
+						<label>Panel position</label>
+					</td>
+					<td style="width:450px;">
+						<div class="radio">
+							<input type="radio" name="options-apps-position" id="options-apps-position-top" class="click-set-value" data-option="options.apps.position" data-value="top" />
+							<label for="options-apps-position-top">
+								Top
+							</label>
+
+							<input type="radio" name="options-apps-position" id="options-apps-position-bottom" class="click-set-value" data-option="options.apps.position" data-value="bottom"  />
+							<label for="options-apps-position-bottom">
+								Bottom
+							</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Panel theme</label>
+					</td>
+					<td style="width:450px;">
+						<div class="radio">
+
+						<input type="radio" name="options-apps-theme" id="options-apps-theme-light" class="click-set-value" data-option="options.apps.theme" data-value="light" />
+						<label for="options-apps-theme-light">
+							Light
+						</label>
+
+						<input type="radio" name="options-apps-theme" id="options-apps-theme-dark" class="click-set-value" data-option="options.apps.theme" data-value="dark" />
+						<label for="options-apps-theme-dark">
+							Dark
+						</label>
+
+						<input type="radio" name="options-apps-theme" id="options-apps-theme-transparent" class="click-set-value" data-option="options.apps.theme" data-value="transparent" />
+						<label for="options-apps-theme-transparent">
+							Transparent
+						</label>
+
+						</div>
+					</td>
+				</tr>
+				<tr class="odd">
+					<td>
+						<label>Icon size</label>
+					</td>
+					<td style="width:450px;">
+						<div class="radio">
+						<input type="radio" name="options-apps-iconsize" id="options-apps-iconsize-small" class="click-set-value" data-option="options.apps.iconsize" data-value="small" />
+						<label for="options-apps-iconsize-small">
+							Small
+						</label>
+						<input type="radio" name="options-apps-iconsize" id="options-apps-iconsize-medium" class="click-set-value" data-option="options.apps.iconsize" data-value="medium" />
+						<label for="options-apps-iconsize-medium">
+							Medium
+						</label>
+						<input type="radio" name="options-apps-iconsize" id="options-apps-iconsize-large" class="click-set-value" data-option="options.apps.iconsize" data-value="large" />
+						<label for="options-apps-iconsize-large">
+							Large
+						</label>
+						<input type="radio" name="options-apps-iconsize" id="options-apps-iconsize-extrasmall" class="click-set-value" data-option="options.apps.iconsize" data-value="extrasmall" />
+						<label for="options-apps-iconsize-extrasmall">
+							Icons only
+						</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Icon alignment</label>
+					</td>
+					<td style="width:450px;">
+						<div class="radio">
+						<input type="radio" name="options-apps-align" id="options-apps-align-left" class="click-set-value" data-option="options.apps.align" data-value="left" />
+						<label for="options-apps-align-left">
+							Left
+						</label>
+						<input type="radio" name="options-apps-align" id="options-apps-align-center" class="click-set-value" data-option="options.apps.align" data-value="center"  />
+						<label for="options-apps-align-center">
+							Center
+						</label>
+						<input type="radio" name="options-apps-align" id="options-apps-align-right" class="click-set-value" data-option="options.apps.align" data-value="right"  />
+						<label for="options-apps-align-right">
+							Right
+						</label>
+						</div>
+					</td>
+				</tr>
+
+			</table><hr />
+
+			<div>
+				<h4><a href="http://www.google.com/support/chrome_webstore/bin/answer.py?hl=en&answer=1050586&topic=1212375">Read more about Chrome Apps</a></h4>
+			</div>
+
+
+	</div>
+
+	<div id="tab_sync" class="options_tab">
+
+		 <table width="550" id="sync_account">
+
+				<tr>
+					<td><label>Sync username</label></td>
+					<td><label>Password</label></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="" id="options-sync-username" value="" placeholder="Enter your sync username" /></td>
+					<td><input type="password" name="" id="options-sync-password" value="" placeholder="Enter your sync password" /></td>
+					<td><input type="image" src="images/options.sync.jpg" id="sync" /></td>
+				</tr>
+				<tr>
+					<td style="vertical-align:top!important;text-align:right;padding-right:20px;">
+						<a target="_blank" href="http://speeddial2.com/login">My bookmarks</a> |
+						<a target="_blank" href="http://speeddial2.com/account/forgot_password">Reset password</a>
+					</td>
+					<td colspan="2">
+						<span id="sync_status"></span>
+					</td>
+				</tr>
+
+		</table>
+
+		<center id="register_account">
+			Login or <a href="http://speeddial2.com/register" target="_blank">Create Pro account</a>
+		</center>
+
+		<div id="setup_sync">
+
+			<a href="http://speeddial2.com/register" target="_blank"><img src="images/options.sync.setup-account.jpg" /></a>
+
+			<div>
+				<p id="sync_info">
+					If you like Speed Dial 2, you’ll <span><b>love</b></span> to have it in your pocket!
+				</p>
+				<ul id="sync_features">
+					<li><span>Synchronization.</span></li>
+					<li><span>Online</span> access to your <br />bookmarks at <a href="http://my.speeddial2.com" target="_blank">http://my.speeddial2.com</a>. </li>
+					<li>Optimized for <span>mobile</span> devices. </li>
+				</ul>
+				<p id="sync_price"><b>$1.99</b></p>
+				<p id="sync_price_info">
+					for a lifetime account.<br /><br />
+					Everone who previously donated any amount will be provided with free account! Read more below.
+				</p>
+			</div>
+
+
+		</div>
+
+		<br class="clear" />
+
+		<div id="explain_sync">
+
+			<div id="left">
+
+				<h2>How does it work?</h2>
+				<h3>Sync</h3>
+				<p>
+					With Speed Dial Pro, you bookmarks and settings are being automatically synchronized to our server <a target="_blank" href="http://speeddial2.com">speeddial2.com</a>.
+					This means your extension with all dials, groups and settings will be synchronized across different computers right after you provide you sync credentials (username and password).
+					Synchronization with our server takes place every time you start a browser and any other changes (creating new bookmarks or group) are immediatelly replicated online. <br /><br />
+				</p>
+
+				<h3>Mobile / online access</h3>
+				<p>
+					Since your groups and bookmarks will be available online, you can access them from any other browser or mobile device by logging in at <b><a target="_blank" href="http://my.speeddial2.com">my.speeddial2.com</a></b>.
+					They're optimized to be viewed on mobile devices and tablets as well as desktop computers. To quickly access your bookmarks from your mobile device, set Speed Dial 2 as a homepage or pin it as a bookmark on your Homescreen.
+				</p>
+
+				<h2>How to become a Pro</h2>
+				<ol style="margin-left:0px;">
+					<li>Create your account by visiting <a target="_blank" href="http://speeddial2.com/register">www.speeddial2.com/register</a>.</li>
+					<li>Log in at <a target="_blank" href="http://speeddial2.com/login">www.speeddial2.com/login</a> <br />and pay for your Speed Dial 2 Pro with Pay Pal.</li>
+					<li>Finally, enter your username <br />and password at the top of this page. </li>
+				</ol>
+				<br />To display your bookmarks online please visit <a target="_blank" href="http://my.speeddial2.com">http://my.speeddial2.com</a>
+
+			</div>
+			<div id="right">
+
+				<h2>Free accounts</h2>
+				<p>
+					Everone who previously donated any amount will be provided with free account. Just make sure to <a target="_blank" href="http://speeddial2.com/register">register</a> your account with e-mail address you've previously used for your Pay Pal donation.
+				</p>
+
+				<h2>Why is it paid?</h2>
+
+				<p>
+					At first, we tried to develop synchronization that will work with Google accounts and within Google Chrome's bookmarks. After several tries, we found out that structure of
+					Chrome's bookmarks just isn't sufficient to synchronize all data, as well as Chrome doesn't provide developers with better control over synchronization process.
+					This means we weren't able to force Google Chrome's synchronization every time when it was needed, which is essential need for proper synchronization.
+					<br /><br />
+					We decided to build our own synchronization mechanism, and since it is online, it furthermore allows us to display your bookmarks on every browser and device independently.
+					We strongly believe this is a right way to go and we hope you'll understand our reasons.
+					<br /><br />
+					As development has become more and more time consuming and additional resources are required for these new features to work, we decided to offer these for Pro accounts only.
+					We believe a price for becoming a Pro is resonable enough, and would like to ensure all our users that all free features will always remain as they are. <br /><br />
+				</p>
+
+			</div>
+
+		</div>
+
+		<br class="clear" />
+
+	</div>
+
+<!-- SUBMIT -->
+
+			</form>
+
+
+
+			</div>
+			<h1></h1>
+			<input class="save_settings_button" type="submit" class="rounded4 alignright" value="Save settings" />
+
+			<div style="width:80px;margin-top:3px;float:left;">
+				<a target="_blank" href="http://twitter.com/share?via=speeddial2&amp;url=https://chrome.google.com/webstore/detail/jpfpebmajhhopeonhlcgidhclcccjcik&amp;text=Speed Dial 2 - best rated startpage for Google Chrome" class="twitter-share-button" data-url="http://speeddial2.com/" data-count="none" data-via="speeddial2" id="custom-tweet-button">Tweet</a>
+			</div><br />
+			<div style="width:330px;float:left;margin-top:-17px;"><iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvirae.org%2Fspeeddial2%2F&amp;layout=standard&amp;show_faces=false&amp;width=330&amp;action=like&amp;font=tahoma&amp;colorscheme=light&amp;height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:330px; height:30px;" allowTransparency="true"></iframe></div>
+		</div>
+
+
+			<div style="clear:both"></div>
+
+
+<!-- FOOTER -->
+
+		<div id="support">
+			<div>
+			<h1 style="margin:0;">Try <span style="color:#72DBD8">Speed Dial 2 Pro</span></h1>
+			<p style="font-size:16px;color:#eee;line-height:26px;">
+				- Synchronize your bookmarks and settings across different computers. <br />
+				- Access your bookmarks from anywhere. <br />
+				- Works with any mobile device - mobile phones and tablets! <br /><br />
+				<input type="button" class="click-tab-sync rounded4 noalign" value="Read more" />
+			</p>
+			<br /><br />
+			<p>
+				<a target="_blank" href="http://speeddial2.com/support/">Learn more about what's coming up in future releases</a><br />
+				<a target="_blank" href="http://speeddial2.com/support/">Suggest a feature</a><br />
+			</p>
+			<a class="mediatemple" target="_blank" href="http://mediatemple.net/#a_aid=502c376f07ffe"><img src="images/options.mediatemple.png" /></a>
+			</div>
+
+			
+
+			<br /><br /><br />
+
+		</div>
+
+		
+
+		<footer>with <span>&hearts;</span> by <a href="http://virae.org" target="_blank" id="virae">virae</a></footer>
+
+	</div> <!--! end of #container -->
+
+	<!--! plugin component dialogs -->
+	<div id="message"></div>
+
+	
+
+</body></html>

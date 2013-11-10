@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EPa\u017Eym\u0117jote\u003C/a\u003E +1 \u0161iame puslapyje."
+   },
+   "add_plusone_tooltip": {
+      "message": "Pa\u017Eym\u0117ti +1 \u0161iame puslapyje kaip {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Pagrindai"
+   },
+   "browser_usage_warning": {
+      "message": "\u012Egalinus \u0161i\u0105 parinkt\u012F nar\u0161ykl\u0117s naudojimas bus bendrinamas su \u201EGoogle\u201C."
+   },
+   "cannot_plusone_message": {
+      "message": "Negalima pa\u017Eym\u0117ti +1 \u0161iame puslapyje."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Negalima pa\u017Eym\u0117ti +1 \u0161iame puslapyje"
+   },
+   "counts_group_name": {
+      "message": "Paspaudimai"
+   },
+   "error_message": {
+      "message": "\u012Evyko klaida."
+   },
+   "error_tooltip": {
+      "message": "\u012Evyko klaida"
+   },
+   "extension_copyright": {
+      "message": "Autori\u0173 teis\u0117s \u201EGoogle Inc.\u201C, 2011 m. Visos teis\u0117s saugomos."
+   },
+   "extension_description": {
+      "message": "Spustel\u0117kite tinklalapio mygtuk\u0105 +1 ir bendrinkite tinklalap\u012F bet kurioje \u017Einiatinklio vietoje."
+   },
+   "extension_name": {
+      "message": "Mygtukas \u201EGoogle +1\u201C"
+   },
+   "extension_name_sans_google": {
+      "message": "Mygtukas +1"
+   },
+   "loading": {
+      "message": "\u012Ekeliama..."
+   },
+   "options_header": {
+      "message": "Parinktys"
+   },
+   "options_title": {
+      "message": "Parinktys"
+   },
+   "privacy_and_terms": {
+      "message": "Privatumas ir s\u0105lygos"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EJ\u016Bs\u0173\u003C/a\u003E +1 buvo pa\u0161alintas."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Pa\u0161alinti +1 i\u0161 \u0161io puslapio"
+   },
+   "send_usage_statistics": {
+      "message": "Automati\u0161kai si\u0173sti anonimin\u0119 naudojimo statistik\u0105 \u201EGoogle\u201C."
+   },
+   "show_plusone_counts": {
+      "message": "Rodyti +1 paspaudimus"
+   },
+   "sign_in_message": {
+      "message": "Kai b\u016Bsite prisijung\u0119, gal\u0117site \u0161iame puslapyje spustel\u0117ti mygtuk\u0105 +1."
+   },
+   "sign_in_tooltip": {
+      "message": "Jei norite naudoti \u201EGoogle +1\u201C, prisijunkite"
+   },
+   "sign_up_message": {
+      "message": "Jei norite naudoti \u201EGoogle +1\u201C, prisiregistruokite."
+   },
+   "sign_up_tooltip": {
+      "message": "Jei norite naudoti \u201EGoogle +1\u201C, prisiregistruokite"
+   }
+}

@@ -1,0 +1,23 @@
+<tr>
+    <td>
+        <span class="user-collection-action-edit" data-id="{{id}}">{{name}}</span>
+        {{#if is_public}}
+        <span class="label label-success">Public</span>
+        {{/if}}
+        <br/>
+        <span class="user-collection-link">{{link}}</span><br/>
+        <span class="user-collection-updated-at">Last updated on {{updated_at_formatted}}</span>
+    </td>
+    <td style="width: 75px;">
+        <a
+           data-name="{{name}}"
+           rel="tooltip" data-original-title="Download collection" data-placement="bottom"
+           class="user-collection-action-download" data-id="{{id}}" data-remote-id="{{remote_id}}">
+            <img src="img/download.png" style="vertical-align: middle; width: 20px; height: 20px;"/></a>
+        <a
+           data-name="{{name}}"
+           rel="tooltip" data-original-title="Delete collection" data-placement="bottom"
+           class="user-collection-action-delete" data-id="{{id}}">
+            <img src="img/delete.png" style="vertical-align: middle; width: 20px; height: 20px;"/></a>
+    </td>
+</tr>

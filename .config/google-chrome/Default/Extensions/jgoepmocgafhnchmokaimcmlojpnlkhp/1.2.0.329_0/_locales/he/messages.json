@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003E\u05D0\u05EA\u05D4\u003C/a\u003E \u05DC\u05D7\u05E6\u05EA \u05E2\u05DC \u200E+1 \u05D1\u05D3\u05E3 \u05D6\u05D4."
+   },
+   "add_plusone_tooltip": {
+      "message": "\u05DC\u05D7\u05E5 \u05E2\u05DC \u200E+1 \u05D1\u05D3\u05E3 \u05D6\u05D4 \u05DB-{{user}}"
+   },
+   "basics_page_title": {
+      "message": "\u05DE\u05D9\u05D3\u05E2 \u05D1\u05E1\u05D9\u05E1\u05D9"
+   },
+   "browser_usage_warning": {
+      "message": "\u05D4\u05E4\u05D9\u05DB\u05EA \u05D0\u05E4\u05E9\u05E8\u05D5\u05EA \u05D6\u05D5 \u05DC\u05E4\u05E2\u05D9\u05DC\u05D4 \u05EA\u05E9\u05EA\u05E3 \u05D0\u05EA \u05E4\u05E8\u05D8\u05D9 \u05D4\u05E9\u05D9\u05DE\u05D5\u05E9 \u05E9\u05DC\u05DA \u05D1\u05D3\u05E4\u05D3\u05E4\u05DF \u05E2\u05DD Google."
+   },
+   "cannot_plusone_message": {
+      "message": "\u05DC\u05D0 \u05E0\u05D9\u05EA\u05DF \u05DC\u05DC\u05D7\u05D5\u05E5 \u05E2\u05DC +1 \u05D1\u05D3\u05E3 \u05D6\u05D4"
+   },
+   "cannot_plusone_tooltip": {
+      "message": "\u05DC\u05D0 \u05E0\u05D9\u05EA\u05DF \u05DC\u05DC\u05D7\u05D5\u05E5 \u05E2\u05DC \u200E+1 \u05D1\u05D3\u05E3 \u05D6\u05D4"
+   },
+   "counts_group_name": {
+      "message": "\u05E1\u05E4\u05D9\u05E8\u05D5\u05EA"
+   },
+   "error_message": {
+      "message": "\u05D0\u05D9\u05E8\u05E2\u05D4 \u05E9\u05D2\u05D9\u05D0\u05D4."
+   },
+   "error_tooltip": {
+      "message": "\u05D0\u05D9\u05E8\u05E2\u05D4 \u05E9\u05D2\u05D9\u05D0\u05D4"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc.\u200E \u05DB\u05DC \u05D4\u05D6\u05DB\u05D5\u05D9\u05D5\u05EA \u05E9\u05DE\u05D5\u05E8\u05D5\u05EA."
+   },
+   "extension_description": {
+      "message": "\u05DC\u05D7\u05E5 \u05E2\u05DC \u200E+1 \u05D5\u05E9\u05EA\u05E3 \u05D3\u05E3 \u05D1\u05DB\u05DC \u05DE\u05E7\u05D5\u05DD \u05E9\u05EA\u05E8\u05E6\u05D4  \u05D1\u05D0\u05D9\u05E0\u05D8\u05E8\u05E0\u05D8."
+   },
+   "extension_name": {
+      "message": "\u05DB\u05E4\u05EA\u05D5\u05E8 Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "\u05DB\u05E4\u05EA\u05D5\u05E8 1+"
+   },
+   "loading": {
+      "message": "\u05D8\u05D5\u05E2\u05DF..."
+   },
+   "options_header": {
+      "message": "\u05D0\u05E4\u05E9\u05E8\u05D5\u05D9\u05D5\u05EA"
+   },
+   "options_title": {
+      "message": "\u05D0\u05E4\u05E9\u05E8\u05D5\u05D9\u05D5\u05EA"
+   },
+   "privacy_and_terms": {
+      "message": "\u05E4\u05E8\u05D8\u05D9\u05D5\u05EA \u05D5\u05EA\u05E0\u05D0\u05D9\u05DD"
+   },
+   "remove_plusone_success": {
+      "message": "\u05E8\u05D9\u05E9\u05D5\u05DD \u200E+1 \u003Ca\u003E\u05E9\u05DC\u05DA\u003C/a\u003E \u05D4\u05D5\u05E1\u05E8."
+   },
+   "remove_plusone_tooltip": {
+      "message": "\u05D4\u05E1\u05E8 \u200E+1 \u05DE\u05D3\u05E3 \u05D6\u05D4"
+   },
+   "send_usage_statistics": {
+      "message": "\u05E9\u05DC\u05D7 \u05D1\u05D0\u05D5\u05E4\u05DF \u05D0\u05D5\u05D8\u05D5\u05DE\u05D8\u05D9 \u05E1\u05D8\u05D8\u05D9\u05E1\u05D8\u05D9\u05E7\u05EA \u05E9\u05D9\u05DE\u05D5\u05E9 \u05D0\u05E0\u05D5\u05E0\u05D9\u05DE\u05D9\u05EA \u05DC-Google"
+   },
+   "show_plusone_counts": {
+      "message": "\u05D4\u05E6\u05D2 \u05E1\u05E4\u05D9\u05E8\u05D5\u05EA \u200E+1"
+   },
+   "sign_in_message": {
+      "message": "\u05DC\u05D0\u05D7\u05E8 \u05E9\u05EA\u05D9\u05DB\u05E0\u05E1, \u05EA\u05D5\u05DB\u05DC \u05DC\u05DC\u05D7\u05D5\u05E5 \u05E2\u05DC \u200E+1 \u05D1\u05D3\u05E3 \u05D6\u05D4."
+   },
+   "sign_in_tooltip": {
+      "message": "\u05D4\u05D9\u05DB\u05E0\u05E1 \u05DB\u05D3\u05D9 \u05DC\u05D4\u05E9\u05EA\u05DE\u05E9 \u05D1-Google +1."
+   },
+   "sign_up_message": {
+      "message": "\u05D4\u05D9\u05E8\u05E9\u05DD \u05DB\u05D3\u05D9 \u05DC\u05D4\u05E9\u05EA\u05DE\u05E9 \u05D1-Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "\u05D4\u05D9\u05E8\u05E9\u05DD \u05DB\u05D3\u05D9 \u05DC\u05D4\u05E9\u05EA\u05DE\u05E9 \u05D1-Google +1"
+   }
+}

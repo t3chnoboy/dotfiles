@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Gr\u00E2ce \u00E0 l'agenda en ligne gratuit de Google, vous pouvez suivre tous les \u00E9v\u00E9nements importants de votre vie en un seul et m\u00EAme endroit."
+   },
+   "app_name": {
+      "message": "Google\u00A0Agenda"
+   },
+   "description_extended": {
+      "message": "Organiser votre planning ne doit pas \u00EAtre un pensum. Avec Google\u00A0Agenda, vous pouvez suivre tous les \u00E9v\u00E9nements importants de votre vie en un seul et unique endroit."
+   },
+   "description_reason_1": {
+      "message": "1. Partager votre planning"
+   },
+   "description_reason_2": {
+      "message": "2. Acc\u00E9der \u00E0 votre agenda o\u00F9 que vous soyez"
+   },
+   "description_reason_3": {
+      "message": "3. \u00CAtre s\u00FBr de ne plus jamais oublier un \u00E9v\u00E9nement"
+   },
+   "description_reason_4": {
+      "message": "4. Envoyer des invitations et suivre les r\u00E9ponses"
+   },
+   "description_reason_5": {
+      "message": "5. Synchroniser avec vos applications de bureau"
+   },
+   "description_reason_6": {
+      "message": "6. Travailler hors connexion"
+   },
+   "description_reason_7": {
+      "message": "7. Et tout cela gratuitement\u00A0?"
+   },
+   "description_reason_content_1": {
+      "message": "Autorisez vos coll\u00E8gues, parents et amis \u00E0 consulter votre agenda, et consultez les emplois du temps que d'autres utilisateurs partagent avec vous. C'est tellement plus facile d'organiser des plannings quand on conna\u00EEt les disponibilit\u00E9s des uns et des autres."
+   },
+   "description_reason_content_2": {
+      "message": "Gr\u00E2ce \u00E0 la synchronisation bidirectionnelle avec l'agenda int\u00E9gr\u00E9 \u00E0 votre mobile ou \u00E0 une version mobile de Google\u00A0Agenda con\u00E7ue pour un petit \u00E9cran, vous pouvez acc\u00E9der \u00E0 votre agenda sans votre ordinateur."
+   },
+   "description_reason_content_3": {
+      "message": "Les rappels personnalisables vous aident \u00E0 respecter votre planning. Vous pouvez les recevoir sous la forme d'e-mails ou de SMS envoy\u00E9s directement sur votre mobile."
+   },
+   "description_reason_content_4": {
+      "message": "Invitez d'autres personnes \u00E0 des \u00E9v\u00E9nements de votre agenda. Les invit\u00E9s peuvent r\u00E9pondre par e-mail ou dans Google\u00A0Agenda."
+   },
+   "description_reason_content_5": {
+      "message": "Acc\u00E9dez \u00E0 votre agenda comme et quand vous le souhaitez en synchronisant les \u00E9v\u00E9nements avec d'autres applications telles que Microsoft Outlook, Apple\u00A0iCal et Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Sachez ce que vous devez faire m\u00EAme lorsque vous ne disposez pas d'un acc\u00E8s Internet. O\u00F9 que vous soyez, hors connexion, vous pouvez afficher une version en lecture seule de votre agenda."
+   },
+   "description_reason_content_7": {
+      "message": "Absolument."
+   },
+   "description_reasons": {
+      "message": "Sept\u00A0raisons d'utiliser Google\u00A0Agenda..."
+   }
+}

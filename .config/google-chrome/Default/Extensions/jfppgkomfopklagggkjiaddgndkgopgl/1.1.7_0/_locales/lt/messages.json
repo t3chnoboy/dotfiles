@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Visada prid\u0117ti prie \u201EGoogle+\u201C"
+   },
+   "always_add_desc": {
+      "message": "Jei \u0161is nustatymas pa\u017Eym\u0117tas, prie \u201EGoogle+\u201C visada bus pridedama vertimo funkcija. Kitu atveju ji bus pridedama tik spustel\u0117jus pl\u0117tinio mygtuk\u0105."
+   },
+   "autosaved": {
+      "message": "I\u0161saugota automati\u0161kai"
+   },
+   "background": {
+      "message": "Vertimo fonas"
+   },
+   "example": {
+      "message": "Pavyzdys"
+   },
+   "extension_desc": {
+      "message": "Verskite \u201EGoogle+\u201C sraut\u0105 naudodami integruot\u0105, tiesiogin\u012F \u201EGoogle\u201C vert\u0117jo palaikym\u0105."
+   },
+   "extension_name": {
+      "message": "\u201EGoogle\u201C vert\u0117jas, skirtas \u201EGoogle+\u201C"
+   },
+   "google_translate": {
+      "message": "\u201EGoogle\u201C vert\u0117jas"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1, skirtas \u201EGoogle+\u201C",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Kalba"
+   },
+   "language_desc": {
+      "message": "Turinys bus ver\u010Diamas \u012F \u0161i\u0105 kalb\u0105."
+   },
+   "options_saved": {
+      "message": "Parinktys i\u0161saugotos"
+   },
+   "save": {
+      "message": "I\u0161saugoti"
+   },
+   "translate_header": {
+      "message": "Vert\u0117jas"
+   }
+}

@@ -1,0 +1,17 @@
+{
+	"licensed": false,
+	"packages":
+	[
+		"Package Control",
+		"Package Control",
+		"Package Control",
+		"Nodejs",
+		"Package Control"
+	],
+	"startup_sec": 5.669787,
+	"syntax":
+	{
+		"JSON": 11
+	},
+	"time": 0
+}

@@ -1,0 +1,150 @@
+<html>
+<head>
+  <title>Photo Zoom for Facebook Options</title>
+  <script type="text/javascript" src="/js/rg3.util.js"></script>
+  <script type="text/javascript" src="/js/rg3.storage.js"></script>
+  <script type="text/javascript">
+  </script>
+  <style type="text/css">
+    /**
+     * Reset Based on Yahoo! Inc's reset v2.5.2
+     **/
+    /*html, body {min-height:100%;}*/
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0; padding:0;}
+    table {border-collapse:collapse; border-spacing:0;}
+    fieldset,img {border:0;}
+    address,caption,cite,code,dfn,em,strong,th,var {font-style:normal; font-weight:normal;}
+    ol,ul {list-style:none;}
+    caption,th {text-align:left;}
+    h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+    q:before,q:after {content:'';}
+    abbr,acronym {border:0;}
+  
+    strong,b {font-weight:bold;}
+    em,i {font-style:italic;}
+    iframe {background:white;}
+  
+    body {font-size:12px; font-family:"Segoe UI", Frutiger, Tahoma, "Helvetica", "Helvetica Neue", Arial, sans-serif; background:#FFF; color:#1A1A1A; text-align:left;}
+    html {width:100%; height:100%; background:-webkit-gradient(linear, left top, right top, from(#edeff4), color-stop(0.3, #d8dfea), to(#d8dfea)); -webkit-background-size: 6px 100%;}
+    body {background:#FFF; position:relative; z-index:2; width:700px; padding:10px 30px; margin:30px auto 0px auto; -webkit-border-radius:0px; -webkit-box-shadow:0px 1px 5px rgba(0,0,0,0.6); /*border:2px solid #FFF; background:-webkit-gradient(linear, left bottom, left top, from(#EEE), color-stop(10%, #FFF), to(#FFF));*/}
+    body > h1 {height:108px; padding-top:25px; padding-left:160px; min-height:128px; margin-bottom:25px; font-size:45px; font-weight:bold; background:transparent url(../images/icon.128.png) no-repeat left center;}
+    body > h1 + p {position:absolute; top:90px; left:0px; font-weight:bold; padding-left:190px; font-size:22px; color:#AAA;}
+    html > head {display:block; pointer-events:none; z-index:1; position:absolute; left:0; top:0; bottom:0px; right:0px; background:-webkit-gradient(linear, left top, left bottom, from(rgba(59,89,152,0.33)), to(rgba(59,89,152,0)));}
+    
+    p {font-size:13px; line-height:1.5; padding-bottom:8px; color:#222;}
+    .box {padding:5px 10px 10px; margin-bottom:25px; -webkit-border-radius:0px; background:#f7f7f7; border:1px solid #CCC; -webkit-box-shadow:inset 0px 0px 2px #FFF;}
+    /*
+    .fb_btn {border:1px solid transparent; text-align:center; margin-right:3px; text-decoration:none; padding:2px 10px; -webkit-border-radius:1px; font-size:11px; font-weight:bold; cursor: pointer; display: inline-block; font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; color:#000; -webkit-box-shadow:0px 1px 0px rgba(0,0,0,0.1);}
+    .fb_btn:active {background:#dddddd;}
+    .fb_btn.gray {border-color:#999999; color:#000; background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(0.05, #f5f6f6), to(#e4e4e3));}
+    .fb_btn.gray:active {background:#dddddd;}
+    .fb_btn.blue {border-color:#29447e; color:#FFF; background:-webkit-gradient(linear, left top, left bottom, from(#8a9cc2), color-stop(0.05, #637bad), to(#5972a7));}
+    .fb_btn.blue:active {background:#4f6aa3;}
+    .fb_btn.blue:hover {-webkit-box-shadow:0px 0px 10px #8a9cc2;}
+   */
+
+    .fb_btn {border:1px solid transparent; text-align:center; margin-right:3px; text-decoration:none; padding:2px 10px; -webkit-border-radius:1px; font-size:11px; font-weight:bold; cursor: pointer; display: inline-block; font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; color:#000; background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.1)), to(rgba(255,255,255,0.001)))}
+    .fb_btn:active {background:#dddddd;}
+    .fb_btn.gray {border-color:#9b9b9b #9b9b9b #888888; color:#000; background-color:#e4e4e3; box-shadow:inset 0px 1px 0px #FFF, 0px 1px 0px rgba(0,0,0,0.1); -webkit-box-shadow:inset 0px 1px 0px #FFF, 0px 1px 0px rgba(0,0,0,0.1); -moz-box-shadow:inset 0px 1px 0px #FFF, 0px 1px 0px rgba(0,0,0,0.1); background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.4)), to(rgba(255,255,255,0.001)))}
+    .fb_btn.gray:active {background:#dddddd; border-color:#999999; box-shadow:0px 1px 0px rgba(0,0,0,0.1); -webkit-box-shadow:0px 1px 0px rgba(0,0,0,0.1); -moz-box-shadow:0px 1px 0px rgba(0,0,0,0.1);}
+    .fb_btn.blue {border-color:#29447E #29447E #1A356E; color:#FFF; background-color:#5972a7; box-shadow:inset 0px 1px 0px #8a9cc2, 0px 1px 0px rgba(0,0,0,0.1); -webkit-box-shadow:inset 0px 1px 0px #8a9cc2, 0px 1px 0px rgba(0,0,0,0.1); -moz-box-shadow:inset 0px 1px 0px #8a9cc2, 0px 1px 0px rgba(0,0,0,0.1);}
+    .fb_btn.blue:active {background:#4f6aa3; border-color:#29447E; box-shadow:0px 1px 0px rgba(0,0,0,0.1); -webkit-box-shadow:0px 1px 0px rgba(0,0,0,0.1); -moz-box-shadow:0px 1px 0px rgba(0,0,0,0.1);}
+    .fb_btn.green{border-color:#3b6e22 #3b6e22 #2c5115; color:#FFF; background-color:#67a54b; box-shadow:inset 0px 1px 0px #98c286, 0px 1px 0px rgba(0,0,0,0.1); -webkit-box-shadow:inset 0px 1px 0px #98c286, 0px 1px 0px rgba(0,0,0,0.1); -moz-box-shadow:inset 0px 1px 0px #98c286, 0px 1px 0px rgba(0,0,0,0.1);}
+    .fb_btn.green:active {background:#609946; border-color:#3b6e22; box-shadow:0px 1px 0px rgba(0,0,0,0.1); -webkit-box-shadow:0px 1px 0px rgba(0,0,0,0.1); -moz-box-shadow:0px 1px 0px rgba(0,0,0,0.1);}
+                                  
+
+    #log {font-size:12px;}
+    #log * {font-size:inherit;}
+    #log > table {width:100%; border-spacing:2px; border-collapse:separate;}
+    #log > table tr {}
+    #log > table tr td {padding:5px; vertical-align:middle; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+    #log > table tr td span {display:block; max-width:360px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+    #log > table tr.item td span {font-weight:bold;}
+    #log > table tr td:first-child {vertical-align:middle;}
+    #log > table tr.error td {background:#FEE;}
+    #log > table tr.info td {background:#EEF;}
+
+    
+  </style>
+</head>
+<body>
+
+  <h1>Photo Zoom for Facebook</h1>
+  <p>The best way to view photos on Facebook!</p>
+
+  <button id="clearlog">Clear Log</button>
+  <div id="log"></div>
+
+  <script>
+    function refresh(){
+      var log, table, el;
+
+      el = document.getElementById('log');
+      el.innerHTML = "";
+
+      try{ log = JSON.parse(RG3.storage.get('debuglog')); }catch(e){}
+
+      if(log && log.length){
+        var table, i, l, d, item, tr, td, data, dataKey;
+        table = RG3.util.newElement('table');
+        el.appendChild(table);
+        for(i = 0, l = log.length; i < l; i++){
+          item = log[i];
+          tr = RG3.util.newElement('tr', {'class':item.type+' item'});
+          td = RG3.util.newElement('td', {'html':'<span>'+item.type.toUpperCase()+'</span>'});
+          tr.appendChild(td);
+          d = new Date(item.date);
+          td = RG3.util.newElement('td', {'html':'<span>'+(d.getMonth()+1)+'/'+d.getDate()+'/'+String(d.getFullYear()).replace(/^\d\d(\d\d)$/, '$1')+' - '+d.getHours()+':'+d.getMinutes()+':'+d.getSeconds()+'</span>'});
+          tr.appendChild(td);
+          td = RG3.util.newElement('td', {'html':'<span>'+item.message+'</span>', 'colSpan':'2'});
+          tr.appendChild(td);
+          table.appendChild(tr);
+          if(item.data && item.data.length){
+            try{ data = JSON.parse(item.data); }catch(e){ data = null; }
+            if(data){
+              for(dataKey in data){
+                tr = RG3.util.newElement('tr', {'class':item.type});
+                td = RG3.util.newElement('td', {'html':'','colSpan':'2'});
+                tr.appendChild(td);
+                td = RG3.util.newElement('td', {'html':'<span>'+dataKey+'</span>'});
+                tr.appendChild(td);
+                v = data[dataKey];
+                if(/^https?:\/\//i.test(v)){
+                  v = '<a href="'+v+'" target="_blank">'+v+'</a>';
+                }
+                td = RG3.util.newElement('td', {'html':'<span>'+v+'</span>','title':data[dataKey]});
+                tr.appendChild(td);
+                table.appendChild(tr);
+              }
+            }
+          }
+        }
+      }else{
+        el.innerHTML = '<p style="text-align:center;">No Debug Log</p>';
+      }
+    }
+    refresh();
+
+    
+    RG3.util.addEvent(document.getElementById('clearlog'), 'click', function(e){
+      RG3.storage.set('debuglog', JSON.stringify([]));
+      refresh();
+    });
+
+
+  </script>
+
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-22980224-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_setSampleRate', '1']); //sets sampling rate to 1%
+    
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = 'https://ssl.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+</html>

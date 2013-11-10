@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://mail.google.com/mail/mu/?mui=ca"
+      },
+      "urls": [ "https://mail.google.com/mail/mu/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_WEBSTORE_PRONGHORN_PRODUCT_NAME__",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChT6oJaykFTd2csfmkFZi3Q3b+wqIQMQe3zW627AgjqOrsS8yh95obKydJgcZm7OBnyF4qp/MbUE6Ilc7fKD1VJNpzX7AL4qloY+GPH64hA/YRByF5SkLtxoGrPNXOoVXpDlr5alAhbcH959BiDMBSomoEC1o9AE9PxzbptJKsjwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_WEBSTORE_PRONGHORN_PRODUCT_NAME__",
+   "offline_enabled": true,
+   "permissions": [ "unlimitedStorage", "notifications", "background" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.20"
+}

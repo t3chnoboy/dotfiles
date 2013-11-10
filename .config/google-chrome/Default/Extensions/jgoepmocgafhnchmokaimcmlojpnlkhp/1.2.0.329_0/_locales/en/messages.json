@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EYou\u003C/a\u003E +1'd this page."
+   },
+   "add_plusone_tooltip": {
+      "message": "+1 this page as {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Basics"
+   },
+   "browser_usage_warning": {
+      "message": "Enabling this option will share your browser usage with Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Cannot +1 this page."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Cannot +1 this page"
+   },
+   "counts_group_name": {
+      "message": "Counts"
+   },
+   "error_message": {
+      "message": "An error has occurred."
+   },
+   "error_tooltip": {
+      "message": "An error has occurred"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. All Rights Reserved."
+   },
+   "extension_description": {
+      "message": "+1 and share a web page, anywhere you go on the web."
+   },
+   "extension_name": {
+      "message": "Google +1 Button"
+   },
+   "extension_name_sans_google": {
+      "message": "+1 Button"
+   },
+   "loading": {
+      "message": "Loading..."
+   },
+   "options_header": {
+      "message": "Options"
+   },
+   "options_title": {
+      "message": "Options"
+   },
+   "privacy_and_terms": {
+      "message": "Privacy &amp; Terms"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EYour\u003C/a\u003E +1 has been removed."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Remove +1 from this page"
+   },
+   "send_usage_statistics": {
+      "message": "Automatically send anonymous usage statistics to Google"
+   },
+   "show_plusone_counts": {
+      "message": "Show +1 Counts"
+   },
+   "sign_in_message": {
+      "message": "Once you're signed in, you'll be able to +1 this page."
+   },
+   "sign_in_tooltip": {
+      "message": "Sign in to use Google +1"
+   },
+   "sign_up_message": {
+      "message": "Sign up to use Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "Sign up to use Google +1"
+   }
+}

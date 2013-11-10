@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Mit dem kosten Online-Kalender von Google haben Sie wichtige Ereignisse stets auf einen Blick parat."
+   },
+   "app_name": {
+      "message": "Google Kalender"
+   },
+   "description_extended": {
+      "message": "Die Verwaltung Ihres Terminplans muss nicht m\u00FChselig sein. Mit Google Kalender haben Sie alle wichtigen Ereignisse stets auf einen Blick parat."
+   },
+   "description_reason_1": {
+      "message": "1. Teilen Ihres Terminplans"
+   },
+   "description_reason_2": {
+      "message": "2. Zugriff auf Ihren Kalender von unterwegs"
+   },
+   "description_reason_3": {
+      "message": "3. Kein Verpassen von Terminen"
+   },
+   "description_reason_4": {
+      "message": "4. Senden von Einladungen und Verfolgen von Teilnahmebest\u00E4tigungen"
+   },
+   "description_reason_5": {
+      "message": "5. Synchronisierung mit Ihren Desktop-Anwendungen"
+   },
+   "description_reason_6": {
+      "message": "6. Offline-Arbeit"
+   },
+   "description_reason_7": {
+      "message": "7. Und das alles ist kostenlos?"
+   },
+   "description_reason_content_1": {
+      "message": "Zeigen Sie Ihren Kollegen, Familienmitgliedern und Freunden Ihren Kalender und sehen Sie sich Terminpl\u00E4ne an, die andere mit Ihnen geteilt haben. Da Sie so stets dar\u00FCber informiert sind, wann jeder Zeit hat oder besch\u00E4ftigt ist, wird die Zeitplanung zum Kinderspiel."
+   },
+   "description_reason_content_2": {
+      "message": "Dank der bidirektionalen Synchronisierung mit dem integrierten Kalender Ihres Mobiltelefons oder einer mobilen Version von Google Kalender f\u00FCr kleine Displays k\u00F6nnen Sie von unterwegs auf Ihren Kalender zugreifen."
+   },
+   "description_reason_content_3": {
+      "message": "Dank der anpassbaren Erinnerungen verpassen Sie keinen Termin mehr. Sie k\u00F6nnen festlegen, ob Sie per E-Mail oder SMS an Ihr Telefon benachrichtigt werden m\u00F6chten."
+   },
+   "description_reason_content_4": {
+      "message": "Laden Sie andere zu Ereignissen in Ihrem Kalender ein. G\u00E4ste k\u00F6nnen die Teilnahme per E-Mail oder \u00FCber Google Kalender best\u00E4tigen."
+   },
+   "description_reason_content_5": {
+      "message": "Greifen Sie jederzeit und \u00FCberall durch Synchronisieren von Terminen mit anderen Anwendungen wie Microsoft Outlook, Apple iCal und Mozilla Sunbird auf Ihren Kalender zu."
+   },
+   "description_reason_content_6": {
+      "message": "Bleiben Sie stets dar\u00FCber informiert, was als N\u00E4chstes ansteht - selbst, wenn Sie keine Internetverbindung haben. Per Offline-Zugriff k\u00F6nnen Sie v\u00F6llig ortsunabh\u00E4ngig eine schreibgesch\u00FCtzte Version Ihres Kalenders anzeigen."
+   },
+   "description_reason_content_7": {
+      "message": "Ja!"
+   },
+   "description_reasons": {
+      "message": "Sieben Gr\u00FCnde f\u00FCr die Verwendung von Google Kalender..."
+   }
+}

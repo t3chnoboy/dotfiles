@@ -1,0 +1,39 @@
+<li id="collection-{{id}}" data-id="{{id}}" class="sidebar-collection">
+    <div class="sidebar-collection-head">
+        <div class="collection-head-actions">
+            <a
+               data-placement="bottom"
+               rel="tooltip" data-original-title="Add folder"
+               ref="#modal-add-folder" data-toggle="modal"
+               class="collection-actions-add-folder" data-id="{{id}}" data-name="{{name}}">
+                <img src="img/folder_plus.png" style="vertical-align: middle;"/></a>
+            <a
+               data-placement="bottom"
+               rel="tooltip" data-original-title="Edit collection"
+               ref="#modal-edit-collection" data-toggle="modal"
+               class="collection-actions-edit" data-id="{{id}}" data-name="{{name}}">
+                <img src="img/edit.png" style="vertical-align: middle;"/></a>
+            <a
+               data-placement="bottom"
+               rel="tooltip" data-original-title="Share collection"
+               class="collection-actions-download" data-id="{{id}}">
+                <img src="img/share.png" style="vertical-align: middle;"/></a>
+            <a rel="tooltip" data-original-title="Delete collection"
+               data-name="{{name}}"
+               data-placement="bottom"
+               href="#modal-delete-collection" data-toggle="modal"
+               class="collection-actions-delete" data-id="{{id}}">
+                <img src="img/delete.png" style="vertical-align: middle;"/></a>
+        </div>
+        <div class="sidebar-collection-head-name" data-id="{{id}}">
+            <span class="sidebar-collection-head-dt">
+              <img src="img/dt.png"/>
+            </span>
+            {{name}}
+        </div>
+    </div>
+    <div id="collection-children-{{id}}" class="collection-children">
+      <ul id="folders-{{id}}" class="folders"></ul>
+      <ul id="collection-requests-{{id}}" class="sidebar-collection-requests"></ul>
+    </div>
+</li>

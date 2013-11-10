@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "Tiek r\u0101d\u012Bts nelas\u012Bto zi\u0146ojumu skaits Google Mail ies\u016Btn\u0113. Varat ar\u012B noklik\u0161\u0137in\u0101t uz pogas, lai atv\u0113rtu ies\u016Btni."
+   },
+   "gmailcheck_exception": {
+      "message": "iz\u0146\u0113mums: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Google Mail Checker"
+   },
+   "gmailcheck_node_error": {
+      "message": "K\u013C\u016Bda: pl\u016Bsma ir izg\u016Bta, ta\u010Du netika atrasts neviens &lt;fullcount&gt; mezgls"
+   }
+}

@@ -1,0 +1,1 @@
+var AN_jq172=jQuery.noConflict();chrome.extension.sendRequest({reqtype:"getAds"},function(a){});

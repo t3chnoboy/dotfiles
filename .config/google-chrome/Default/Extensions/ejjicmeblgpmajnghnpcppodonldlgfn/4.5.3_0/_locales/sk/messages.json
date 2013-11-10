@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "V\u010Faka bezplatn\u00E9mu kalend\u00E1ru online spolo\u010Dnosti Google m\u00F4\u017Eete \u013Eahko sledova\u0165 v\u0161etky d\u00F4le\u017Eit\u00E9 udalosti na jednom mieste."
+   },
+   "app_name": {
+      "message": "Kalend\u00E1r Google"
+   },
+   "description_extended": {
+      "message": "Organiz\u00E1cia programu by v\u00E1s nemala za\u0165a\u017Eova\u0165. V\u010Faka Kalend\u00E1ru Google si m\u00F4\u017Eete \u013Eahko udr\u017Eiava\u0165 preh\u013Ead o d\u00F4le\u017Eit\u00FDch udalostiach na jednom mieste."
+   },
+   "description_reason_1": {
+      "message": "1. Zdie\u013Eanie v\u00E1\u0161ho programu"
+   },
+   "description_reason_2": {
+      "message": "2. Vezmite si kalend\u00E1r so sebou"
+   },
+   "description_reason_3": {
+      "message": "3. U\u017E \u017Eiadne zme\u0161kan\u00E9 udalosti"
+   },
+   "description_reason_4": {
+      "message": "4. Odosielanie pozv\u00E1nok a sledovanie odpoved\u00ED na pozv\u00E1nky"
+   },
+   "description_reason_5": {
+      "message": "5. Synchroniz\u00E1cia s aplik\u00E1ciami v po\u010D\u00EDta\u010Di"
+   },
+   "description_reason_6": {
+      "message": "6. Pr\u00E1ca v re\u017Eime offline"
+   },
+   "description_reason_7": {
+      "message": "7. V\u0161etko je zadarmo?"
+   },
+   "description_reason_content_1": {
+      "message": "Spr\u00EDstupnite svoj kalend\u00E1r spolupracovn\u00EDkom, rodine a priate\u013Eom a prezerajte si programy, ktor\u00E9 s vami zdie\u013Eaj\u00FA ostatn\u00ED pou\u017E\u00EDvatelia. Ke\u010F viete, kedy je kto vo\u013En\u00FD \u010Di vy\u0165a\u017Een\u00FD, pl\u00E1novanie je hra\u010Dka."
+   },
+   "description_reason_content_2": {
+      "message": "V\u010Faka obojsmernej synchroniz\u00E1cii so vstavan\u00FDm kalend\u00E1rom v\u00E1\u0161ho mobiln\u00E9ho telef\u00F3nu alebo s mobilnou verziou Kalend\u00E1ra Google navrhnutou pre mal\u00E9 obrazovky m\u00F4\u017Eete ku kalend\u00E1ru pristupova\u0165, aj ke\u010F pr\u00E1ve nepracujete na svojom po\u010D\u00EDta\u010Di."
+   },
+   "description_reason_content_3": {
+      "message": "Prisp\u00F4sobite\u013En\u00E9 pripomienky v\u00E1m pom\u00E1haj\u00FA dodr\u017Eiava\u0165 v\u00E1\u0161 program. M\u00F4\u017Eete si vybra\u0165, \u010Di v\u00E1m bud\u00FA pripomienky posielan\u00E9 e-mailom alebo pomocou textov\u00FDch spr\u00E1v priamo do v\u00E1\u0161ho telef\u00F3nu."
+   },
+   "description_reason_content_4": {
+      "message": "Poz\u00FDvajte ostatn\u00FDch na udalosti zap\u00EDsan\u00E9 vo va\u0161om kalend\u00E1ri. Hostia m\u00F4\u017Eu svoju \u00FA\u010Das\u0165 na va\u0161ich podujatiach potvrdzova\u0165 e-mailom alebo prostredn\u00EDctvom Kalend\u00E1ra Google."
+   },
+   "description_reason_content_5": {
+      "message": "Pristupujte do svojho kalend\u00E1ra akoko\u013Evek a kdeko\u013Evek pomocou synchroniz\u00E1cie udalost\u00ED s in\u00FDmi aplik\u00E1ciami, ako s\u00FA Microsoft Outlook, Apple iCal alebo Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Udr\u017Eiavajte si preh\u013Ead o tom, kde by ste mali by\u0165, aj vtedy, ke\u010F nem\u00E1te pr\u00EDstup k Internetu. V\u010Faka pr\u00EDstupu offline si m\u00F4\u017Eete prezera\u0165 verziu svojho adres\u00E1ra ur\u010Den\u00FA iba na \u010D\u00EDtanie, nech ste kdeko\u013Evek."
+   },
+   "description_reason_content_7": {
+      "message": "\u00C1no."
+   },
+   "description_reasons": {
+      "message": "7 d\u00F4vodov, pre\u010Do pou\u017E\u00EDva\u0165 Kalend\u00E1r Google..."
+   }
+}

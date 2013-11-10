@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "Ajouter"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "Options avanc\u00E9es"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "Notions de base"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "bottom"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "Changelog"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "Supprimer"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "Show the add button from this YouTube video."
+   },
+   "desalllightsoff": {
+      "description": "If this option is enabled, and you click on the lamp button. All open tabs will go dark.",
+      "message": "If this option is enabled, and you click on the lamp button. All open tabs will go dark."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "Affiche l'effet de lumi\u00E8re ambiante sur la vid\u00E9o en cours."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 choosen colors around the video:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "Une couleur unie"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "Si la valeur est faible, l'ombre sera vive, et plus la valeur sera forte, plus l'ombre sera diffuse."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Les valeurs positives augmentent la taille du noir et les valeurs n\u00E9gatives la diminue"
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "Prends la couleur de la vid\u00E9o."
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Use the atmosphere lighting feature only the following video site:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "Assombrit automatiquement la page quand vous lancez la vid\u00E9o."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site:",
+      "message": "Assombrit seulement les sites suivants:"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "Confirmez votre mot de passe"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "Confirmer le temps"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Appliquer le temps de mise en veille"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "Afficher le menu contextuel pour un \u00E9l\u00E9ment."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "La page de votre navigateur s\u2019assombrit et vous regardez votre vid\u00E9o comme dans un cin\u00E9ma."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Blocs"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Nuages Mouvement"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Aquarium "
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Pluie"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Univers Spatial"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "A bonus in this extension."
+   },
+   "desenterpassword": {
+      "description": "Enter you password in the inputbox here below:",
+      "message": "Entrez votre mot de passe dans la zone ci-dessous:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "Assombrit automatiquement l'arri\u00E8re-plan \u00E0 l'ouverture d'une page."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when open the following page:",
+      "message": "Assombrit automatiquement l'arri\u00E8re-plan \u00E0 l'ouverture de la suivi page:"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "Utilisation normale (la lumi\u00E8re s'\u00E9teint en cliquant sur l'ic\u00F4ne de l'ampoule)."
+   },
+   "deseyetimesaver": {
+      "description": "When the page is inactive (no mouse movement), it go automatic dark in the chosen seconds.",
+      "message": "Lorsque la page est inactive (pas de mouvement de  souris), elle s'\u00E9teint automatiquement dans le temps choisi."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "Activer l'effet de fondu"
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "Active l'effet fade out."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "Montre tous les objets Flash."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, and skip the URL control. So website ads may also show up.",
+      "message": "Montre tous les objets Flash, et passe le contr\u00F4le des liens. Les sites publicitaires risquent d'apparaitre"
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "Montre la barre ou le nom de la cha\u00EEne YouTube."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "Affiche la description de la vid\u00E9o."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar from this YouTube video.",
+      "message": "Show the like/dislike bar from this YouTube video."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "Montrer les boutons \"j'aime\" et \"je n'aime pas\" de YouTube pour cette vid\u00E9o."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "Si la lumi\u00E8re est \u00E9teinte, met en \u00E9vidence le curseur."
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "If the light is off, you can select an area to focus a item."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disable below mouse settings).",
+      "message": "Utilisation normale (d\u00E9sactive les r\u00E9glages de la souris ci-dessous)."
+   },
+   "desmousespotlightt": {
+      "description": "If the light is off, click through the element.",
+      "message": "Si les lumi\u00E8res sont \u00E9teintes, cliquez sur un \u00E9l\u00E9ment"
+   },
+   "desnoflash": {
+      "description": "Use not this feature.",
+      "message": "Use not this feature."
+   },
+   "despassword": {
+      "description": "When the lights go back on, it ask you to enter your password.",
+      "message": "Lorsque la lumiere reviendra, il vous demandera de rentrer votre mot de passe"
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "Montre la playlist YouTube sur le site YouTube."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "Toujours afficher le niveau d\u2019obscurit\u00E9."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "Ne jamais afficher le niveau d\u2019obscurit\u00E9."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "If this option is enabled, it will show you not the remember page."
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Screen Saver:"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "Montre les boutons de partage de YouTube pour cette vid\u00E9o."
+   },
+   "desshortcutlight": {
+      "description": "to enable all the shortcuts opportunities.",
+      "message": "to enable all the shortcuts opportunities."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "is the diameter of the search lamp."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "Afficher les suggestions YouTube"
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "Lights off between the following times:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "jusqu'\u00E0"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "Afficher et inverser la couleur du titre de la vid\u00E9o."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "Montre le nombre de vues pour cette vid\u00E9o."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "Merci pour les dons que vous pouvez me faire quels qu'en soit le montant!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "Aimez-vous les vraies salles de cin\u00E9ma ?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Enjoy this extension and share it with others who you think will appreciate it."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "\u00C9teint"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "Allum\u00E9"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Friendly Remember..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "Guide de d\u00E9marage TOtL"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "L'option \"Protection de la Vue\" est activ\u00E9e, pour utiliser la fonction ci-dessous, d\u00E9sactivez l'option \"Protection de la Vue\"."
+   },
+   "helpeyeprotection": {
+      "description": "When you enable the 'Eye protection' option, it will default disable the 'Auto Play' option.",
+      "message": "When you enable the 'Eye protection' option, it will default disable the 'Auto Play' option."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "appliquer"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "with flying"
+   },
+   "installadblocker": {
+      "description": "Then install a Adblocker Extension",
+      "message": "Puis installez une extension pour bloquer les publicit\u00E9s (AdBlock)."
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "Derni\u00E8re version verifi\u00E9e"
+   },
+   "left": {
+      "description": "left",
+      "message": "Gauche "
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Veuillez saisir votre mot de passe"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Mauvais mot de passe, veuillez r\u00E9essayer."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Seconds is saved successfully!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - Options"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "Le mot de passe a bien \u00E9t\u00E9 sauvegard\u00E9!"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Le temps a bien \u00E9t\u00E9 sauvegard\u00E9!"
+   },
+   "optionwrongimg": {
+      "description": "Wrong image file!",
+      "message": "Mauvais fichier image!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "help"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "La page charge toujours ?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "Darken this page"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Partager"
+   },
+   "recflash": {
+      "description": "Recommend to use this feature",
+      "message": "Recommend to use this feature"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Rate"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "Signaler un probl\u00E8me"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(voir la liste compl\u00E8te)"
+   },
+   "right": {
+      "description": "right",
+      "message": "right"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "Param\u00E8tres"
+   },
+   "shortcutalllights": {
+      "description": "to do the lights off on all open tabs page.",
+      "message": "pour \u00E9teindre les lumi\u00E8res sur tout les onglets ouverts."
+   },
+   "shortcutbright": {
+      "description": "to bright the screen",
+      "message": "to bright the screen"
+   },
+   "shortcutdark": {
+      "description": "to dark the screen",
+      "message": "to dark the screen"
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "to enable/disable the eye protection feature."
+   },
+   "shortcutopacity": {
+      "description": "to restore the default darkness",
+      "message": "pour restorer l'assombrissement par d\u00E9faut"
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "to save this opacity value"
+   },
+   "shortcuttotl": {
+      "description": "to do the lights on/off.",
+      "message": "pour allumer/\u00E9teindre la lumi\u00E8re."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "doesn't show this remember page again when I open the option page."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Skip this, and open now the option page"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "Cette application est sous licence CC-GNU GPL. Pour conna\u00EEtre les termes de cette licence, visitez"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "Bouton Ajouter \u00E0"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "All open tabs"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Lumi\u00E8re ambiante "
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "Autoplay"
+   },
+   "titelautowidthyoutube": {
+      "description": "Set the YouTube player automatic to the large mode.",
+      "message": "Set the YouTube player automatic to the large mode."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Blur the rest"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "Diam\u00E8tre de l'effet de flou"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Movie theater mode: it show the 'lights off' layer only on the top of the window."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "Couleur"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "Menu contextuel"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "Telecharger cette Amelioration!"
+   },
+   "titeldownloadupgrade": {
+      "description": "This upgrade add support for focus the selected image. And show a gallery of the images on that webpage.",
+      "message": "This upgrade add support for focus the selected image. And show a gallery of the images on that webpage."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Fond Dynamique"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "Easter Eggs"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "Protection des yeux"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Fade In"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "Fade Out"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "D\u00E9tection de Flash"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "Cha\u00EEne"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "Image d'arri\u00E8re-plan"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "Barre d\u2019informations"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "Ampoule"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "Show less"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Barre d'avis"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "Boutons \"j\u2019aime\" et \"je n\u2019aime pas\""
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Choose here your video quality:",
+      "message": "Choose here your video quality:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "Souris"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "Off"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "On"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "Opacit\u00E9"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "Masquer l'ic\u00F4ne de lampe"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "Protection avec mot de passe"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "Liste de lecture"
+   },
+   "titelqualityyoutube": {
+      "description": "Use automatic the HD quality of the YouTube video.",
+      "message": "Utiliser automatiquement la qualit\u00E9 HD pour les vid\u00E9os YouTube."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "Opacit\u00E9"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Remember page"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Screen"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "Boutons de partage"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "Raccourci clavier"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "Show more"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "Diam\u00E8tre de l'effet de diffusion"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "Suggestions"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Synchroniser"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Synchronise les r\u00E9glages de l'extension avec vos autres navigateurs."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "Mise a niveau"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "Titre de la vid\u00E9o"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "Nombre de Vues"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Donner"
+   },
+   "top": {
+      "description": "top",
+      "message": "top"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "Aidez-nous \u00E0 traduire"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "Version"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Centrer sur cette vid\u00E9o"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "Effets visuels"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "Attention !"
+   },
+   "warningtextambilight": {
+      "description": "If it's impossible to show the real atmosphere lighting because of security rule. It will show the one solid color effect.",
+      "message": "S'il est impossible d'afficher la lumi\u00E8re ambiante r\u00E9elle \u00E0 cause d'une r\u00E8gle de s\u00E9curit\u00E9, l'effet de couleur unie s'affichera."
+   }
+}

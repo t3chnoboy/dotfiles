@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Aggiungi sempre a Google+"
+   },
+   "always_add_desc": {
+      "message": "Quando selezionata, la funzione di traduzione viene sempre aggiunta a Google+, in caso contrario viene aggiunta solo quando viene fatto clic sul pulsante dell'estensione."
+   },
+   "autosaved": {
+      "message": "Salvataggio automatico avvenuto correttamente"
+   },
+   "background": {
+      "message": "Sfondo per la traduzione:"
+   },
+   "example": {
+      "message": "Esempio"
+   },
+   "extension_desc": {
+      "message": "Traduci il tuo Stream Google+ utilizzando il supporto integrato e in linea di Google Traduttore."
+   },
+   "extension_name": {
+      "message": "Google Traduttore per Google+"
+   },
+   "google_translate": {
+      "message": "Google Traduttore"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 per Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Lingua:"
+   },
+   "language_desc": {
+      "message": "I contenuti saranno tradotti in questa lingua."
+   },
+   "options_saved": {
+      "message": "Le opzioni sono state salvate"
+   },
+   "save": {
+      "message": "Salva"
+   },
+   "translate_header": {
+      "message": "Traduttore"
+   }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <style type="text/css">
+        body {
+            width: 15em;
+        }
+
+        #preload {
+            font-size: 8pt;
+            float: left
+        }
+
+        #footer {
+            font-size: 8pt;
+            float: right
+        }
+
+        #siteDomain {
+            color: #0e774a
+        }
+    </style>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/popup.js"></script>
+</head>
+<body>
+<h2>Hover Zoom</h2>
+<table>
+    <tr>
+        <td><input type="checkbox" id="chkExtensionDisabled"></td>
+        <td><label for="chkExtensionDisabled" id="lblDisable">Disable for all sites</label></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" id="chkExcludeSite"></td>
+        <td><label for="chkExcludeSite"><span id="Dis-enable">Disable</span> <span id="lblFor">for</span> <span
+                id="siteDomain"></span></label></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+        </td>
+    </tr>
+</table>
+<p id="preload">
+    <a href="#" id="aPreload" style="display: none">Preload zoomed images</a>
+    <span id="lblPreloading" style="display: none"><span id="spanPreloading">Preloading...</span> <progress
+            id="prgPreloading" style="width: 6em;"></progress></span>
+</p>
+<p id="footer"><a id="aMoreOptions" href="options.html" target="_blank">More options</a></p>
+</body>
+</html>

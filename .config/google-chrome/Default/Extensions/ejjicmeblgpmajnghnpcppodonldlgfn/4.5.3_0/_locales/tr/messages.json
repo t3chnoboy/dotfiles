@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Google'\u0131n \u00FCcretsiz \u00E7evrimi\u00E7i takvimi sayesinde hayat\u0131n\u0131z\u0131n \u00F6nemli olaylar\u0131n\u0131 tek bir yerden takip edebilirsiniz."
+   },
+   "app_name": {
+      "message": "Google Takvim"
+   },
+   "description_extended": {
+      "message": "Zaman plan\u0131n\u0131z\u0131 d\u00FCzenlemek zor olmamal\u0131. Google Takvim'i kullanarak hayat\u0131n\u0131z\u0131n \u00F6nemli olaylar\u0131n\u0131 tek bir yerden kolayca takip edebilirsiniz."
+   },
+   "description_reason_1": {
+      "message": "1. Zaman plan\u0131n\u0131z\u0131 payla\u015F\u0131n"
+   },
+   "description_reason_2": {
+      "message": "2. Takviminiz yoldayken de yan\u0131n\u0131zda olsun"
+   },
+   "description_reason_3": {
+      "message": "3. Bir daha hi\u00E7 bir etkinli\u011Fi unutmay\u0131n"
+   },
+   "description_reason_4": {
+      "message": "4. Davetiyeler g\u00F6nderin ve LCV'leri takip edin"
+   },
+   "description_reason_5": {
+      "message": "5. Masa\u00FCst\u00FC uygulamalar\u0131n\u0131zla senkronize edin"
+   },
+   "description_reason_6": {
+      "message": "6. \u00C7evrimd\u0131\u015F\u0131 \u00E7al\u0131\u015F\u0131n"
+   },
+   "description_reason_7": {
+      "message": "7. T\u00FCm bunlar \u00FCcretsiz mi?"
+   },
+   "description_reason_content_1": {
+      "message": "\u00C7al\u0131\u015Fma arkada\u015Flar\u0131n\u0131z\u0131n, ailenizin ve dostlar\u0131n\u0131z\u0131n takviminizi g\u00F6rmelerine izin verin ve siz de di\u011Ferlerinin sizinle payla\u015Ft\u0131\u011F\u0131 zaman planlar\u0131n\u0131 g\u00F6r\u00FCnt\u00FCleyin. Herkesin m\u00FCsait veya me\u015Fgul oldu\u011Fu zaman\u0131 bildi\u011Finizde planlama yapmak \u00E7ok kolay olur."
+   },
+   "description_reason_content_2": {
+      "message": "Cep telefonunuzun yerle\u015Fik takvimine veya Google Takvim'in k\u00FC\u00E7\u00FCk ekran i\u00E7in tasarlanan mobil s\u00FCr\u00FCm\u00FCne iki y\u00F6nl\u00FC senkronize etme olana\u011F\u0131 sayesinde, masan\u0131z\u0131n ba\u015F\u0131nda olmasan\u0131z da takviminize eri\u015Febilirsiniz."
+   },
+   "description_reason_content_3": {
+      "message": "\u00D6zelle\u015Ftirilebilir hat\u0131rlat\u0131c\u0131lar, zaman plan\u0131n\u0131z\u0131n d\u0131\u015F\u0131na \u00E7\u0131kmaman\u0131za yard\u0131mc\u0131 olur. Bildirimleri e-postayla almay\u0131 se\u00E7ebilir ya da do\u011Frudan cep telefonunuza k\u0131sa mesaj olarak g\u00F6nderilmesini isteyebilirsiniz."
+   },
+   "description_reason_content_4": {
+      "message": "Di\u011Fer ki\u015Fileri takviminizdeki etkinliklere davet edin. Davetliler etkinli\u011Finiz i\u00E7in LCV'leri e-postayla veya Google Takvim \u00FCzerinden g\u00F6nderebilirler."
+   },
+   "description_reason_content_5": {
+      "message": "Etkinlikleri Microsoft Outlook, Apple iCal ve Mozilla Sunbird gibi di\u011Fer uygulamalarla senkronize ederek takviminize istedi\u011Finiz zaman, istedi\u011Finiz \u015Fekilde eri\u015Fin."
+   },
+   "description_reason_content_6": {
+      "message": "\u0130nternet eri\u015Fiminiz olmad\u0131\u011F\u0131nda bile zaman plan\u0131n\u0131za g\u00F6re nerede olman\u0131z gerekti\u011Fini bilin. \u00C7evrimd\u0131\u015F\u0131 eri\u015Fimle nerede olursan\u0131z olun takviminizin salt okunur s\u00FCr\u00FCm\u00FCn\u00FC g\u00F6r\u00FCnt\u00FCleyebilirsiniz."
+   },
+   "description_reason_content_7": {
+      "message": "Evet."
+   },
+   "description_reasons": {
+      "message": "Google Takvim'i kullanmak i\u00E7in 7 neden..."
+   }
+}

@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "Kohteen $1 j\u00E4sent\u00E4minen ep\u00E4onnistui",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "Peruuta"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "T\u00E4m\u00E4 komento n\u00E4ytt\u00E4\u00E4 tunnettujen is\u00E4ntien luettelon ja kysyy unohtamista is\u00E4nn\u00E4lt\u00E4."
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "Unohda tunnettu ssh-is\u00E4nt\u00E4."
+   },
+   "cmd_ssh_help": {
+      "message": "|username|- ja |hostname|-parametrit ovat pakollisia, |port| on valinnainen. Jos porttia ei ole m\u00E4\u00E4ritetty, k\u00E4ytet\u00E4\u00E4n oletusporttia 22."
+   },
+   "cmd_ssh_title": {
+      "message": "Avaa uuden SSH-istunnon."
+   },
+   "command_complete": {
+      "message": "Komento $1 p\u00E4\u00E4tetty sulkemiskoodilla $2. Voit sulkea t\u00E4m\u00E4n ikkunan.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "Yhdist\u00E4"
+   },
+   "connect_message": {
+      "message": "Anna kohde, johon yhteys muodostetaan."
+   },
+   "connecting": {
+      "message": "Yhdistet\u00E4\u00E4n kohteeseen $1, portti $2...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "k\u00E4ytt\u00E4j\u00E4nimi@is\u00E4nt\u00E4nimi[:portti]"
+   },
+   "known_hosts_empty": {
+      "message": "Ei tunnettuja is\u00E4nti\u00E4."
+   },
+   "known_hosts_prompt": {
+      "message": "Valitse unohdettava is\u00E4nt\u00E4 [1\u2013$1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "Tunnetut is\u00E4nn\u00E4t:"
+   },
+   "missing_param": {
+      "message": "Puuttuva parametri: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "OK"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "Tapahtui odottamaton virhe. Saat lis\u00E4tietoja JavaScript-konsolista."
+   },
+   "welcome": {
+      "message": "Tervetuloa! Avaa uusi ssh-yhteys open-komennolla."
+   },
+   "welcome_tip": {
+      "message": "Pro-vinkki: voit tallentaa t\u00E4m\u00E4n k\u00E4ytt\u00F6kerran selaimen kirjanmerkiksi."
+   }
+}

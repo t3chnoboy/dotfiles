@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "script.js" ],
+      "matches": [ "*://*.youtube.com/*" ]
+   } ],
+   "description": "Show the likes and dislikes bar over every video thumbnail in YouTube so that you can know its rating before watching it.",
+   "icons": {
+      "128": "icon128round.png",
+      "16": "favicon16.png",
+      "48": "icon48round.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCw6xTawCoO4JMD4LAKnrw4vcT1DXWl2CCKMIPEqM131uvcxZnD5z+iHOS++86ve9Byq4JRbH/Qjyn5z3u3gIGab9vGO9+hIcQtV1ypfMm25X/o0F+NCBbyA5hb7d4zyDnluHyuHb2ksCia6u7prA/GdRytwnR0huKg97cKqssvIQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "23",
+   "name": "YouTube\u2122 Ratings Preview",
+   "options_page": "popup.html",
+   "page_action": {
+      "default_icon": {
+         "19": "favicon19gray.png",
+         "38": "favicon38gray.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "YouTube\u2122 Ratings Preview configuration"
+   },
+   "permissions": [ "tabs", "*://*.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.3"
+}

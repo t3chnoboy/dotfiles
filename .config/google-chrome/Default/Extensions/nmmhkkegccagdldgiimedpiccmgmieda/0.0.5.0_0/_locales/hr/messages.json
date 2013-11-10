@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google nov\u010Danik za digitalne proizvode"
+   },
+   "app_name": {
+      "message": "Google Nov\u010Danik"
+   },
+   "craw_app_unavailable": {
+      "message": "Aplikacija trenuta\u010Dno nije dostupna."
+   },
+   "craw_connect_to_network": {
+      "message": "Pove\u017Eite se s mre\u017Eom."
+   },
+   "iap_unavailable": {
+      "message": "Pla\u0107anje u aplikaciji trenuta\u010Dno nije dostupno."
+   },
+   "please_sign_in": {
+      "message": "Prijavite se na Chrome."
+   }
+}

@@ -1,0 +1,24 @@
+[
+	{
+		id: "avc.donors.science",
+		link: "http://www.donorschoose.org/donors/viewChallenge.html?id=62851&category=78&max=50",
+		visual: "http://www.feedly.com/images/avc.donors.science.png",
+		via: "@fredwilson",
+		text: "Help fund Math and Science Projects For Young Women"
+	},
+	{
+		id: "benioff.ucsf",
+		link: "http://www.causes.com/causes/541223",
+		visual: "http://www.feedly.com/images/benioff.ucsf.png",
+		via: "@benioff",
+		text: "Help children live longer lives. Let's build a new children's hospital in San Francisco"
+	},
+	{
+		id: "embrane",
+		link: "http://www.embrane.com/current-openings/",
+		visual: "http://www.feedly.com/images/embrane.png",
+		via: "@dantemalagrino",
+		text: "Embrane is hiring. Java, Security, UI, QA. Work on next generation cloud infrastructure."
+	},
+	 
+]

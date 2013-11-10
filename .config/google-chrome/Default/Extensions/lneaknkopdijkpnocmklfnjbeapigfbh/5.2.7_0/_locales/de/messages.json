@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "In Google Maps k\u00F6nnen Sie nach lokalen Gesch\u00E4ften und Unternehmen suchen, Routen berechnen und Orte in aller Welt auf Stra\u00DFenebene anzeigen."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Maps"
+   }
+}

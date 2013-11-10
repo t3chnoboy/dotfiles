@@ -1,0 +1,344 @@
+{
+   "editThis_": {
+      "message": ""
+   },
+   "editThis_AN_adsDescription": {
+      "message": "N\u00E4yt\u00E4 huomaamattomia mainoksia joillakin k\u00E4ymill\u00E4ni sivuilla"
+   },
+   "editThis_AN_optInDescription": {
+      "message": "Anna meid\u00E4n ker\u00E4t\u00E4 selailudataasi. (Kaikki data on anonyymi\u00E4)"
+   },
+   "editThis_Alert_deleteAll": {
+      "message": "Poista kaikki ev\u00E4steet t\u00E4lt\u00E4 sivulta?"
+   },
+   "editThis_Alert_deleteCookie": {
+      "message": "Poista ev\u00E4ste"
+   },
+   "editThis_Alert_deleteRule": {
+      "message": "Poista t\u00E4m\u00E4 s\u00E4\u00E4nt\u00F6"
+   },
+   "editThis_Alert_submitAll": {
+      "message": "P\u00E4ivit\u00E4 ev\u00E4stemuutokset"
+   },
+   "editThis_Amount": {
+      "message": "Summa"
+   },
+   "editThis_Blocked_Cookies": {
+      "message": "Estetyt ev\u00E4steet"
+   },
+   "editThis_Blocked_Def": {
+      "message": "Jos haluat automaattisesti poistaa tietyn ev\u00E4steen aina kun se luodaan, lis\u00E4\u00E4 suodatin, jolloin se ei h\u00E4iritse sinua en\u00E4\u00E4."
+   },
+   "editThis_Charity_Message": {
+      "message": "Autat samalla lapsia ymp\u00E4ri maailmaan, sill\u00E4 $1% tuotoista saa "
+   },
+   "editThis_ContextMenu": {
+      "message": "Muokkaa ev\u00E4steit\u00E4"
+   },
+   "editThis_Copied_clipboard": {
+      "message": "Ev\u00E4steet kopioitu leikep\u00F6yd\u00E4lle"
+   },
+   "editThis_Copy_Cookies": {
+      "message": "Vie ev\u00E4steet"
+   },
+   "editThis_Copy_Cookies_Type": {
+      "message": "Valitse haluttu vientimuoto ev\u00E4steille"
+   },
+   "editThis_Details": {
+      "message": "Tiedot"
+   },
+   "editThis_Donate": {
+      "message": "Osallistu"
+   },
+   "editThis_Donation_Date": {
+      "message": "Lahjoitusp\u00E4iv\u00E4m\u00E4\u00E4r\u00E4"
+   },
+   "editThis_Encode_Cookie_Value": {
+      "message": "Enkoodaa ev\u00E4steitten arvot (kuten \u003Ca href=\"http://curl.haxx.se/rfc/cookie_spec.html\"\u003Et\u00E4\u00E4ll\u00E4\u003C/a\u003E kerrotaan) (Suositeltu)"
+   },
+   "editThis_Flag_Cookie": {
+      "message": "Merkitse ev\u00E4ste"
+   },
+   "editThis_Flag_New_Cookie": {
+      "message": "Merkitse uusi ev\u00E4ste"
+   },
+   "editThis_Humanitarian_Program": {
+      "message": "Humanitaarinen ohjelma"
+   },
+   "editThis_Is_ReadOnly": {
+      "message": "Suojattu"
+   },
+   "editThis_Max_Date": {
+      "message": "Aseta ev\u00E4steen maksimi-i\u00E4ksi"
+   },
+   "editThis_Max_Date_Option": {
+      "message": "Ohita maksimi-ik\u00E4 millekk\u00E4\u00E4n ev\u00E4steelle"
+   },
+   "editThis_Money_Raised": {
+      "message": "Rahaa ker\u00E4tty yhteens\u00E4"
+   },
+   "editThis_Options": {
+      "message": "Valinnat"
+   },
+   "editThis_Paste_Cookie_Here": {
+      "message": "Liit\u00E4 t\u00E4h\u00E4n tuotavat ev\u00E4steet. T\u00E4ss\u00E4 viel\u00E4 sallitut tiedostomuodot:"
+   },
+   "editThis_Paste_Cookies": {
+      "message": "Tuo ev\u00E4steit\u00E4"
+   },
+   "editThis_Protected_Cookies": {
+      "message": "Suojatut ev\u00E4steet"
+   },
+   "editThis_Rate_ETC": {
+      "message": "Arvostele Edit This Cookie"
+   },
+   "editThis_Rate_Us_Intro": {
+      "message": "Jos pid\u00E4t Edit This Cookiesta, j\u00E4t\u00E4 siit\u00E4 arvostelu Chrome Web Storeen klikkaamalla t\u00E4st\u00E4!"
+   },
+   "editThis_ReadOnly_Def": {
+      "message": "Suojattu ev\u00E4ste on ev\u00E4ste, jota ei voi muokata mik\u00E4\u00E4n verkkosivu tai laajennus."
+   },
+   "editThis_Save": {
+      "message": "Tallenna"
+   },
+   "editThis_Set_ReadOnly": {
+      "message": "Aseta vain luku-tilaan"
+   },
+   "editThis_Show_Alerts": {
+      "message": "Pyyd\u00E4 aina varmistusta"
+   },
+   "editThis_Show_Christmas_Icon": {
+      "message": "N\u00E4yt\u00E4 tonttulakkikuvake"
+   },
+   "editThis_Show_ContextMenu": {
+      "message": "N\u00E4yt\u00E4 \"Muokkaa ev\u00E4steit\u00E4\" kontekstivalikossa"
+   },
+   "editThis_Show_ContextMenu_helper": {
+      "message": "Jos t\u00E4m\u00E4 on k\u00E4ytoss\u00E4, voit piilottaa oikeassa yl\u00E4kulmassa olevan kuvakkeen klikkaamalla sit\u00E4 oikealla napilla!"
+   },
+   "editThis_Show_Domain": {
+      "message": "N\u00E4yt\u00E4 domain l\u00E4hell\u00E4 jokaisen ev\u00E4steen nime\u00E4"
+   },
+   "editThis_Source_Code": {
+      "message": "L\u00E4hdekoodi"
+   },
+   "editThis_Source_Code_Intro": {
+      "description": "It will read: Check Edit This Cookie's source code on GitHub",
+      "message": "Tsekkaa Edit This Cookien l\u00E4hdekoodi $1issa"
+   },
+   "editThis_Use_Custom_Locale": {
+      "message": "Valitse toinen kieli"
+   },
+   "editThis_addNew": {
+      "message": "Lis\u00E4\u00E4 uusi ev\u00E4ste"
+   },
+   "editThis_addRule": {
+      "message": "Lis\u00E4\u00E4 t\u00E4m\u00E4 s\u00E4\u00E4nt\u00F6"
+   },
+   "editThis_adsInfoAndSettings": {
+      "message": "tietoa ja asetuksia"
+   },
+   "editThis_advertisements": {
+      "message": "Mainokset"
+   },
+   "editThis_amountByHand": {
+      "message": "Valitaksesi tarkan summan, paina t\u00E4st\u00E4!"
+   },
+   "editThis_backToList": {
+      "message": "Takaisin listaukseen"
+   },
+   "editThis_bugsFeatureRequest": {
+      "message": "Bugit / Ominaisuuspyynn\u00F6t"
+   },
+   "editThis_bugsFeatureRequestIntro": {
+      "message": "L\u00F6ysitk\u00F6 bugin? Onko sinulla idea? Ota meihin yhteytt\u00E4! (Englanniksi :P)"
+   },
+   "editThis_cancel": {
+      "message": "Peruuta"
+   },
+   "editThis_contacts": {
+      "message": "Yhteystiedot"
+   },
+   "editThis_contactsIntro": {
+      "message": "L\u00E4het\u00E4 meille s\u00E4hk\u00F6postia (englanniksi)"
+   },
+   "editThis_cookiesCreated": {
+      "message": "Ev\u00E4steet luotu"
+   },
+   "editThis_cookiesDeleted": {
+      "message": "Ev\u00E4steet poistettu"
+   },
+   "editThis_cookiesExported": {
+      "message": "Ev\u00E4steet viety!"
+   },
+   "editThis_cookiesFlagged": {
+      "message": "Merkityt ev\u00E4steet poistettu"
+   },
+   "editThis_cookiesImported": {
+      "message": "Ev\u00E4steet tuotu!"
+   },
+   "editThis_cookiesModified": {
+      "message": "Ev\u00E4steit\u00E4 muokattu"
+   },
+   "editThis_cookiesProtected": {
+      "message": "Vain luku-tilassa olevat ev\u00E4steet suojattu"
+   },
+   "editThis_cookiesShortened": {
+      "message": "Ev\u00E4steitten vanhenemisaika lyhennetty"
+   },
+   "editThis_day": {
+      "message": "P\u00E4iv\u00E4\u00E4"
+   },
+   "editThis_deleteAll": {
+      "message": "Poista kaikki"
+   },
+   "editThis_description": {
+      "message": "Edit This Cookie on ev\u00E4stemuokkain. Voit lis\u00E4t\u00E4, poistaa, muokata, hakea, suojata ja est\u00E4\u00E4 ev\u00E4steit\u00E4!"
+   },
+   "editThis_domain": {
+      "message": "Domain"
+   },
+   "editThis_donations": {
+      "message": "Lahjoitukset"
+   },
+   "editThis_expiration": {
+      "message": "Vanhentuminen"
+   },
+   "editThis_flagAll": {
+      "message": "Merkitse ja poista kaikki"
+   },
+   "editThis_gospelBookTitle": {
+      "message": "Lent\u00E4v\u00E4n Spagettihirvi\u00F6n Gospel"
+   },
+   "editThis_help": {
+      "message": "Tuki"
+   },
+   "editThis_helpIntro": {
+      "message": "T\u00E4\u00E4ll\u00E4 n\u00E4et selityksi\u00E4 lis\u00E4\u00F6san perustoimintoihin."
+   },
+   "editThis_hostOnly": {
+      "message": "HostOnly"
+   },
+   "editThis_hour": {
+      "message": "Tuntia"
+   },
+   "editThis_httpOnly": {
+      "message": "HttpOnly"
+   },
+   "editThis_iWantDonate": {
+      "description": "I want to donate X euros",
+      "message": "Haluan lahjoittaa"
+   },
+   "editThis_minutes": {
+      "message": "Minuuttia"
+   },
+   "editThis_month": {
+      "message": "Kuukautta"
+   },
+   "editThis_name": {
+      "message": "Arvo"
+   },
+   "editThis_noBlockAdded": {
+      "message": "Ei estettyj\u00E4 ev\u00E4steit\u00E4"
+   },
+   "editThis_noReadOnlyAdded": {
+      "message": "Ei suojattuja ev\u00E4steit\u00E4"
+   },
+   "editThis_noStatsNotice": {
+      "message": "Ei sis\u00E4lt\u00F6\u00E4 (viel\u00E4) :("
+   },
+   "editThis_path": {
+      "message": "Polku"
+   },
+   "editThis_paypalSupportIntro": {
+      "description": "It will read: Support us using PayPal. Move the slider to change the amount",
+      "message": "Kehit\u00E4mme korkealaatuisia avoimen l\u00E4hdekoodin ohjelmistoja, ja jaamme niit\u00E4 ilmaiseksi. \u003Cbr\u003E \u003Cbr\u003E Tue meit\u00E4 k\u00E4ytt\u00E4m\u00E4ll\u00E4 $1ia. Siirr\u00E4 valintapalkkia muuttaaksesi summaa."
+   },
+   "editThis_ppBenefit1": {
+      "message": "Saat kiitosviestin, ja paikan syd\u00E4mest\u00E4ni"
+   },
+   "editThis_ppBenefit2": {
+      "message": "Nimesi lis\u00E4t\u00E4\u00E4n Wall of Fameen"
+   },
+   "editThis_ppBenefit3": {
+      "message": "Saat siistin Edit This Cookie-kiitospostikortin!"
+   },
+   "editThis_ppBenefit4": {
+      "message": "Voit valita mink\u00E4tahansa \u00E4rsytt\u00E4v\u00E4n bugin, joka \u00E4rsytt\u00E4\u00E4 sinua Edit This Cookiessa, ja korjaan sen supernopeasti!"
+   },
+   "editThis_ppBenefit5": {
+      "message": "Voit valita toteutettavan ominaisuuden, ja teen sen todelliseksi! (kunhan et vain pyyd\u00E4 mahdottomia :P )"
+   },
+   "editThis_ppBenefit6": {
+      "message": "Jos tapaamme ikin\u00E4, tarjoan sinulle italialaisen kahvin ja \"Babb\u00E1n\""
+   },
+   "editThis_ppBenefit7": {
+      "message": "Olet eritt\u00E4in antelias! Jos tapaamme ikin\u00E4, tarjoan sinulle pari huurteista (hei, kalja on t\u00E4rke\u00E4\u00E4)"
+   },
+   "editThis_ppBenefit8": {
+      "message": "Voit olla uskonnollinen johtajani, ja jos toivot, voin l\u00E4hett\u00E4\u00E4 sinulle t\u00E4m\u00E4n kirjan:"
+   },
+   "editThis_ppBenefit9": {
+      "message": "Voit olla syy ensimm\u00E4iseen syd\u00E4riini. Sinun tarvitsee vain lahjoittaa nyt!"
+   },
+   "editThis_reloadAfterChanges": {
+      "message": "Lataa sivu uudelleen muutosten tallentamisen j\u00E4lkeen."
+   },
+   "editThis_reset": {
+      "message": "Tyhjenn\u00E4"
+   },
+   "editThis_search": {
+      "message": "Etsi"
+   },
+   "editThis_seconds": {
+      "message": "Sekuntia"
+   },
+   "editThis_secure": {
+      "message": "Suojattu"
+   },
+   "editThis_session": {
+      "message": "Session"
+   },
+   "editThis_skipCacheOnReload": {
+      "message": "Ohita v\u00E4limuisti, kun sivu lataa uudelleen"
+   },
+   "editThis_stats": {
+      "message": "Tilastoja"
+   },
+   "editThis_statsIntro": {
+      "message": "T\u00E4\u00E4ll\u00E4 voit n\u00E4hd\u00E4, miten k\u00E4ytit t\u00E4t\u00E4 lis\u00E4osaa. T\u00E4t\u00E4 dataa ollaan ker\u00E4tty vain hein\u00E4kuusta 2012 saakka."
+   },
+   "editThis_statsSharePolicy": {
+      "message": "Vannomme, ett\u00E4 mit\u00E4\u00E4n henkil\u00F6kohtaista dataa ei jaeta IKIN\u00C4!"
+   },
+   "editThis_statsSince": {
+      "message": "Tilastoja ev\u00E4steist\u00E4 alkaen ajasta $1"
+   },
+   "editThis_storeID": {
+      "message": "StoreID"
+   },
+   "editThis_support": {
+      "message": "Tue meit\u00E4"
+   },
+   "editThis_time": {
+      "message": "Aika"
+   },
+   "editThis_timesUsed": {
+      "message": "Olet k\u00E4ytt\u00E4nyt Edit This Cookieta $1 kertaa."
+   },
+   "editThis_translation": {
+      "message": "K\u00E4\u00E4nn\u00F6ksen suomen kielelle teki Jesse J\u00E4rvi"
+   },
+   "editThis_translationIntro": {
+      "message": " "
+   },
+   "editThis_useRegularExpressions": {
+      "message": "Voit k\u00E4ytt\u00E4\u00E4 tavallisia ilmaisuja"
+   },
+   "editThis_value": {
+      "message": "Arvo"
+   },
+   "editThis_year": {
+      "message": "Vuotta"
+   }
+}

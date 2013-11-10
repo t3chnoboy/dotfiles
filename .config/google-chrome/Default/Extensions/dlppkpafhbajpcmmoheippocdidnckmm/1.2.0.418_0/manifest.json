@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://plus.google.com?utm_source=chrome_ntp_icon&utm_medium=chrome_app&utm_campaign=chrome"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC069j+I61d99mg38MacIGqdcvatfADo67CWVUODCCPaWCLRY/ntctpzatcizplVoCePZw4MHdAStcl51Z/NZ9qfAffKJJ7izYfruUsb+U9ImiDANpNJS8TTfr7wswVeExrddrzGV1DO15ogqrr91TpKpXmMIOI3/6jAZ1REE484wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "5.0.316.0",
+   "name": "__MSG_app_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.0.418"
+}

@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "Lisa"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "T\u00E4psemad Valikud"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "P\u00F5hit\u00F5ed"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "all"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "Muutused"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "Kustuta"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "N\u00E4ita selle Youtube'i video lisamisnuppu."
+   },
+   "desalllightsoff": {
+      "description": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled.",
+      "message": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "N\u00E4itab atmosf\u00E4\u00E4ri valgustus effekti parjasti m\u00E4ngival videol."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 valitud v\u00E4rvi \u00FCmber video:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "V\u00E4rv"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "Kui on seatud madalaks siis on vari terasem, mida suurem number, seda rohkem h\u00E4gusem on"
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Positiivsed v\u00E4\u00E4rtused suurendavad varju suurust, negatiivsed v\u00E4\u00E4rtused v\u00E4hendavad seda."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "V\u00F5ta v\u00E4rv videost"
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Use the atmosphere lighting feature only the following video site:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "Automaatselt tumenda tausta kui kl\u00F5psate m\u00E4ngi nuppu ja vastupidi."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site(s):",
+      "message": "Dim only the following video site(s):"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "Kinnita salas\u00F5na"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "Kinnitamise aeg"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Kinnita ekraanis\u00E4\u00E4stja aeg"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "N\u00E4ita kontekstimen\u00FC\u00FCd et keskenduda objektile."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "Kogu lehek\u00FClg tumeneb, nii et saate vaadata videot, justkui oleksite kinos."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Klotsid"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Liikuvad pilved"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Akvaarium"
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Vihmapiisad"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Kosmos"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "Boonus selles laienduses."
+   },
+   "desenterpassword": {
+      "description": "Enter your password in the box below:",
+      "message": "Enter your password in the box below:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "Automaatselt tumenda taust kui avatakse leht."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when opening the following page(s):",
+      "message": "Automatically dim the background when opening the following page(s):"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "Tavaline kasutamine (tuled kustuvad kui kl\u00F5psate lambi ikooni)."
+   },
+   "deseyetimesaver": {
+      "description": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark.",
+      "message": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "N\u00E4ita Tugevneda m\u00F5ju."
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "N\u00E4ita h\u00E4\u00E4bumise efekti."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "N\u00E4ita k\u00F5iki Flash objekte."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads.",
+      "message": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "N\u00E4ita YouTube Channel baari v\u00F5i nimi."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "N\u00E4ita selle video kirjeldust."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar under YouTube videos.",
+      "message": "Show the like/dislike bar under YouTube videos."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "N\u00E4ita selle video meeldib & ei meeldi nuppe."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "Kui tuli on kustus, n\u00E4ita hiire \u00FCmbrust"
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "Kui tuled on v\u00E4ljas, saad sa valida ala, millele keskenduda."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disables the mouse settings below)",
+      "message": "Normal use (disables the mouse settings below)"
+   },
+   "desmousespotlightt": {
+      "description": "Allows you to click through the darkened screen when the lights are off.",
+      "message": "Allows you to click through the darkened screen when the lights are off."
+   },
+   "desnoflash": {
+      "description": "Don't use this feature.",
+      "message": "Don't use this feature."
+   },
+   "despassword": {
+      "description": "Require a password to be entered before turning the lights back on.",
+      "message": "Require a password to be entered before turning the lights back on."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "N\u00E4ita YouTube'i esitusloendit YouTube'i veebilehel."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "Alati n\u00E4ita h\u00E4maruse taset kui tuled kustuvad."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "\u00C4ra kunagi n\u00E4ita h\u00E4maruse tugevuse riba."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "If this option is enabled, it will show you not the remember page."
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Ekraanis\u00E4\u00E4stja"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "N\u00E4ita Youtube'i jagamisnuppe selle video puhul."
+   },
+   "desshortcutlight": {
+      "description": "Enable the keyboard shortcuts below.",
+      "message": "Enable the keyboard shortcuts below."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "is the diameter of the search lamp."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "N\u00E4ita YouTube'i ettepanekuid."
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "Tuli kustu ajavahemikus:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "kuni"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "N\u00E4ita ja p\u00F6\u00F6ratakse v\u00E4rvi video pealkiri."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "N\u00E4ita selle video vaatamiste arvu."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "Kui saate teha annetuse mistahes summas, ma hindan seda tohutult!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "Kas sulle meeldib p\u00E4ris filmiteater?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Enjoy this extension and share it with others who you think will appreciate it."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "OFF"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "ON"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Friendly Remember..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "Sissejuhatus abi"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "Silmade kaitse on aktiveeritud. et kasutada all olevat lisa, deaktiveeri silmade kaitse valik"
+   },
+   "helpeyeprotection": {
+      "description": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature.",
+      "message": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "apply"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "with flying"
+   },
+   "installadblocker": {
+      "description": "Use with an Adblocker extension.",
+      "message": "Use with an Adblocker extension."
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "Uuendusi kontrollitud"
+   },
+   "left": {
+      "description": "left",
+      "message": "vasak"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Palun sisesta oma salas\u00F5na"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Vale parool, palun proovige uuesti"
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Keera tuled v\u00E4lja"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Sekundid edukalt salvestatud!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - Valikud"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "Parool on edukalt salvestatud"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Aeg edukalt salvestatud!"
+   },
+   "optionwrongimg": {
+      "description": "Invalid image file!",
+      "message": "Invalid image file!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "abi"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "Leht laeb endiselt?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "Tumenda seda lehek\u00FClge"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Jaga"
+   },
+   "recflash": {
+      "description": "Recommended",
+      "message": "Recommended"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Rate"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "Teata veast"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(vt loetelu)"
+   },
+   "right": {
+      "description": "right",
+      "message": "parem"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "Seaded"
+   },
+   "shortcutalllights": {
+      "description": "to toggle the lights on/off for all open tabs.",
+      "message": "to toggle the lights on/off for all open tabs."
+   },
+   "shortcutbright": {
+      "description": "to brighten the screen (decrease opacity).",
+      "message": "to brighten the screen (decrease opacity)."
+   },
+   "shortcutdark": {
+      "description": "to darken the screen (increase opacity).",
+      "message": "to darken the screen (increase opacity)."
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "to enable/disable the eye protection feature."
+   },
+   "shortcutopacity": {
+      "description": "to restore to the set darkness (opacity) setting.",
+      "message": "to restore to the set darkness (opacity) setting."
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "to save this opacity value"
+   },
+   "shortcuttotl": {
+      "description": "to toggle the lights on/off.",
+      "message": "to toggle the lights on/off."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "doesn't show this remember page again when I open the option page."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Skip this, and open now the option page"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "See tarkvara on litsentseeritud CC-GNU GPL. Et vaadata k\u00E4esoleva Litsentsi koopiat, k\u00FClastage"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "Lisamisnupp"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "All open tabs"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Atmosf\u00E4\u00E4ri valgustus"
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "Autoplay"
+   },
+   "titelautowidthyoutube": {
+      "description": "Automatically set the YouTube player to the larger size.",
+      "message": "Automatically set the YouTube player to the larger size."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Blur the rest"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "H\u00E4gusus"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Movie theater mode: it show the 'lights off' layer only on the top of the window."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "V\u00E4rv"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "Kontekstimen\u00FC\u00FC"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "Laadi see uuendus alla!"
+   },
+   "titeldownloadupgrade": {
+      "description": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site.",
+      "message": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "D\u00FCnaamiline taust"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "Lihav\u00F5ttemunad"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "Silmade kaitse"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Tugevneda"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "Tumenda"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "Flash'i tuvastamine"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "Kanal"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "Taustapilt"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "Inforiba"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "Pirn"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "N\u00E4ita v\u00E4hem"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Like Bar"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "Meeldib & ei meeldi nupud"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Automatically set to this resolution:",
+      "message": "Automatically set to this resolution:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "Hiir"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "V\u00E4ljas"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "Sees"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "L\u00E4bipaistmatus"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "Peida lambi t\u00E4his"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "Salas\u00F5naga kaitsmine"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "Esitusloend"
+   },
+   "titelqualityyoutube": {
+      "description": "Automatically set the quality of YouTube videos.",
+      "message": "Automatically set the quality of YouTube videos."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "H\u00E4maruse tase"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Remember page"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Ekraan"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "Jagamisnupud"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "Otseklahv"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "N\u00E4ita rohkem"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "Leviku ulatus"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "Ettepanekud"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Sync"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Sync the extension settings with your other browser."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "Uuenda"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "Video pealkiri"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "Vaatamiste arv"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Anneta"
+   },
+   "top": {
+      "description": "top",
+      "message": "\u00FCleval"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "Aita t\u00F5lkida"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "Versioon"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Keskendu sellele videole"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "Visuaalsed efektid"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "Hoiatus!"
+   },
+   "warningtextambilight": {
+      "description": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead.",
+      "message": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead."
+   }
+}

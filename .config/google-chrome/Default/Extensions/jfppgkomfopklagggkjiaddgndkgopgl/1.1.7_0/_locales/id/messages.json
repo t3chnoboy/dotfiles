@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Selalu tambahkan ke Google+"
+   },
+   "always_add_desc": {
+      "message": "Jika dicentang, fitur terjemahan akan selalu ditambahkan ke Google+, jika tidak, fitur ini hanya akan ditambahkan saat Anda mengeklik tombol ekstensi."
+   },
+   "autosaved": {
+      "message": "Disimpan otomatis"
+   },
+   "background": {
+      "message": "Latar belakang untuk terjemahan:"
+   },
+   "example": {
+      "message": "Contoh"
+   },
+   "extension_desc": {
+      "message": "Terjemahkan aliran Google+ Anda dengan dukungan Google Terjemahan terintegrasi di baris yang sama."
+   },
+   "extension_name": {
+      "message": "Google Terjemahan untuk Google+"
+   },
+   "google_translate": {
+      "message": "Google Terjemahan"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 untuk Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Bahasa:"
+   },
+   "language_desc": {
+      "message": "Konten akan diterjemahkan ke dalam bahasa ini."
+   },
+   "options_saved": {
+      "message": "Opsi disimpan"
+   },
+   "save": {
+      "message": "Simpan"
+   },
+   "translate_header": {
+      "message": "Terjemahan"
+   }
+}

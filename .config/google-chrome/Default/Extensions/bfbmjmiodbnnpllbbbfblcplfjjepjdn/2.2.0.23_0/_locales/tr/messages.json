@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "Ekle"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "Geli\u015Fmi\u015F se\u00E7enekleri"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "Temeller"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "alt"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "De\u011Fi\u015Fiklikler"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "Sil"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "Ekle butonunu g\u00F6ster."
+   },
+   "desalllightsoff": {
+      "description": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled.",
+      "message": "Bu \u00F6zellik a\u00E7\u0131kken ampul butonuna t\u0131klamak b\u00FCt\u00FCn sekmelerde \u0131\u015F\u0131klar\u0131 kapat\u0131p a\u00E7acakt\u0131r."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "Video izleme esnas\u0131nda a\u00E7\u0131nca, atmosfer \u0131\u015F\u0131\u011F\u0131 efekti g\u00F6sterir. "
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "Video Etraf\u0131nda Se\u00E7ti\u011Fim 4 Rengi G\u00F6ster:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "Tek Renk:"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "Daha d\u00FC\u015F\u00FCk bir de\u011Fer se\u00E7ilirse g\u00F6lge keskinle\u015Fecektir. De\u011Fer artt\u0131k\u00E7a bulan\u0131kla\u015Facakt\u0131r."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Pozitif De\u011Ferler G\u00F6lge Boyutunu Art\u0131r\u0131rken, Negatif De\u011Ferler Boyutunu Azaltacakt\u0131r."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "Videoya g\u00F6re renk al"
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Atmosfer ayd\u0131nlatmas\u0131 \u00F6zelli\u011Fini \u015Fu sitede kullan:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "Oynat butonuna bas\u0131ld\u0131\u011F\u0131nda ekran\u0131 otomatik karart\u0131r."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site(s):",
+      "message": "Sadece \u015Fu siteleri karart:"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "\u015Eifreyi Do\u011Frulay\u0131n"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "S\u00FCreyi Do\u011Frula"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Ekran Koruyucu Zaman\u0131n\u0131 Do\u011Frula"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "Bir \u00F6\u011Feye odaklanmak i\u00E7in ba\u011Flam men\u00FCs\u00FCn\u00FC g\u00F6ster."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "Video d\u0131\u015F\u0131nda t\u00FCm sayfa karar\u0131r ve videoyu sinemadaym\u0131\u015F gibi izleyebilirsiniz."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Engeller"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Bulutlar"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Bal\u0131k Tank\u0131"
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Ya\u011Fmur Damlalar\u0131"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Bo\u015Fluk Alan\u0131"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "Bonus \u00D6zellik"
+   },
+   "desenterpassword": {
+      "description": "Enter your password in the box below:",
+      "message": "A\u015Fa\u011F\u0131daki kutucu\u011Fa parolan\u0131z\u0131 girin."
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "Yeni bir sayfa a\u00E7\u0131ld\u0131\u011F\u0131nda otomatik olarak arkaplan\u0131 karart."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when opening the following page(s):",
+      "message": "\u015Eu sayfalar\u0131 a\u00E7arken otomatik olarak ekran\u0131 karart:"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "Normal kullan\u0131m (Lambaya t\u0131klad\u0131\u011F\u0131n\u0131zda sayfa karar\u0131r)."
+   },
+   "deseyetimesaver": {
+      "description": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark.",
+      "message": "Bir sayfada belirle bir s\u00FCre boyunca hi\u00E7bir \u015Fey yap\u0131lmadan beklendi\u011Finde sayfa otomatik olarak kararacakt\u0131r. "
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "Kararma efektini kullan."
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "Karartma efekti kullan."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "T\u00FCm flash nesnelerini g\u00F6ster."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads.",
+      "message": "URL filtresini atlayarak b\u00FCt\u00FCn flash objeleri g\u00F6ster. Bu baz\u0131 videolar\u0131n g\u00F6z\u00FCkmeme sorununu d\u00FCzeltecektir ama ayn\u0131 zamanda reklamlar\u0131 da g\u00F6sterecektir."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "YouTube Kanal \u00E7ubugunu g\u00F6ster."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "Video hakkinda bilgileri g\u00F6ster."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar under YouTube videos.",
+      "message": "YouTube videolar\u0131n\u0131n alt\u0131nda Be\u011Fen/Be\u011Fenme \u00E7ubu\u011Funu g\u00F6ster."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "YouTube\u2019\u00DA begen ve begenme butonlarini g\u00F6ster."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "I\u015F\u0131k kapal\u0131ysa fare imlecinin etraf\u0131n\u0131 ayd\u0131nlat."
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "E\u011Fer \u0131\u015F\u0131klar kapal\u0131ysa, se\u00E7ti\u011Finiz alandaki nesneye odaklanabilirsiniz."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disables the mouse settings below)",
+      "message": "Normal kullan\u0131m(fare se\u00E7eneklerini devre d\u0131\u015F\u0131 b\u0131rak\u0131r)"
+   },
+   "desmousespotlightt": {
+      "description": "Allows you to click through the darkened screen when the lights are off.",
+      "message": "I\u015F\u0131klar kapal\u0131yken, karart\u0131lm\u0131\u015F ekranda t\u0131klamalar yapmana izin verir."
+   },
+   "desnoflash": {
+      "description": "Don't use this feature.",
+      "message": "Bu \u00F6zelli\u011Fi kullanma."
+   },
+   "despassword": {
+      "description": "Require a password to be entered before turning the lights back on.",
+      "message": "I\u015F\u0131klar\u0131 geri a\u00E7madan \u00F6nce  parola girilmesi iste."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "YouTube oynatma listesini g\u00F6ster."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "Ekran karard\u0131\u011F\u0131nda daima s\u00F6n\u00FCkl\u00FCk seviyesi \u00E7ubu\u011Funu g\u00F6ster."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "Lo\u015Fluk Seviyesi Butonunu G\u00F6sterme"
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "Bu \u00F6zellik a\u00E7\u0131ksa, hat\u0131rlatma sayfas\u0131n\u0131 g\u00F6sterir. "
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Ekran Koruyucu:"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "Payla\u015F\u0131m butonlar\u0131n\u0131 g\u00F6ster."
+   },
+   "desshortcutlight": {
+      "description": "Enable the keyboard shortcuts below.",
+      "message": "Klavye k\u0131sayollar\u0131n\u0131 a\u015Fa\u011F\u0131dan aktif edebilirsin."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "arama ampul\u00FCn\u00FCn \u00E7ap\u0131d\u0131r."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "YouTube Sitesindeki \u00D6nerileri G\u00F6ster"
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "\u015Eu zaman aral\u0131\u011F\u0131nda \u0131\u015F\u0131klar\u0131 kapa:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "kadar"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "Video ismini g\u00F6ster ve rengini tersine \u00E7evir."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "Bu video i\u00E7in g\u00F6r\u00FCn\u00FCm\u00FC say\u0131s\u0131n\u0131 g\u00F6sterir."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "Yapabilece\u011Finiz her t\u00FCrl\u00FC miktar ba\u011F\u0131\u015F\u0131, memnuniyetle kar\u015F\u0131lar\u0131m!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "Ger\u00E7ek Bir Sinema Salonu Deneyimine Var M\u0131s\u0131n\u0131z?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Bu uzant\u0131 ho\u015Funuza gittiyse, zevk alabilecek ba\u015Fkalar\u0131 ile de payla\u015F\u0131n."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "KAPALI"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "A\u00C7IK"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Dost\u00E7a Hat\u0131rla..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "TOtL'a Ho\u015Fgeldin Rehberi"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "'G\u00F6z Koruma' aktif. A\u015Fa\u011F\u0131daki \u00F6zelli\u011Fi kullanmak i\u00E7in 'G\u00F6z Koruma' se\u00E7ene\u011Fini kapat\u0131n."
+   },
+   "helpeyeprotection": {
+      "description": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature.",
+      "message": "\"G\u00F6z Koruma\" aktifse \"Oto Oynat\" \u00F6zelli\u011Fi otomatik olarak devre d\u0131\u015F\u0131 b\u0131rak\u0131l\u0131r."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "Uygula"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "u\u00E7arak"
+   },
+   "installadblocker": {
+      "description": "Use with an Adblocker extension.",
+      "message": "Herhangi bir AdBlocker uzant\u0131s\u0131yla kullan."
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "En Son Versiyon G\u00FCncelleme Kontrol\u00FC"
+   },
+   "left": {
+      "description": "left",
+      "message": "sol"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "L\u00FCtfen \u015Eifreyi Giriniz"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Hatal\u0131 \u015Eifre, L\u00FCtfen Tekrar Deneyiniz."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "Bu taray\u0131c\u0131 uzant\u0131s\u0131n\u0131 canl\u0131 tutmam i\u00E7in ba\u011F\u0131\u015F yaparsan\u0131z \u00E7ok memnun olurum. 1$ ya da 100$ olmas\u0131 farketmez, her t\u00FCrl\u00FC makbule ge\u00E7er."
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Saniye ba\u015Far\u0131yla kaydedildi!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - Ayarlar"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "\u015Eifre Ba\u015Far\u0131yla Kaydedildi!"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "S\u00FCre Ba\u015Far\u0131yla Kaydedildi!"
+   },
+   "optionwrongimg": {
+      "description": "Invalid image file!",
+      "message": "Ge\u00E7ersiz resim dosyas\u0131!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "yard\u0131m"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "Hal\u00E2 m\u0131 y\u00FCkleniyor?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "Bu Sayfay\u0131 Karart"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Payla\u015F"
+   },
+   "recflash": {
+      "description": "Recommended",
+      "message": "Tavsiye edilenler."
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Oyla"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "Sorun Bildir"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(Listeyi g\u00F6r)"
+   },
+   "right": {
+      "description": "right",
+      "message": "sa\u011F"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "Ayarlar"
+   },
+   "shortcutalllights": {
+      "description": "to toggle the lights on/off for all open tabs.",
+      "message": "B\u00FCt\u00FCn sekmeler i\u00E7in \u0131\u015F\u0131klar\u0131 a\u00E7/kapa yapmak i\u00E7in"
+   },
+   "shortcutbright": {
+      "description": "to brighten the screen (decrease opacity).",
+      "message": "Ekran\u0131 ayd\u0131nlatmak i\u00E7in (opakl\u0131\u011F\u0131 azalt)"
+   },
+   "shortcutdark": {
+      "description": "to darken the screen (increase opacity).",
+      "message": "Ekran\u0131 karartmak i\u00E7in (opakl\u0131\u011F\u0131 artt\u0131r)"
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "G\u00F6z Korumas\u0131 \u00F6zelli\u011Fini a\u00E7\u0131p/kapamak i\u00E7in"
+   },
+   "shortcutopacity": {
+      "description": "to restore to the set darkness (opacity) setting.",
+      "message": "Siyahl\u0131k (opakl\u0131k) de\u011Ferini geri y\u00FCklemek i\u00E7in."
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "Bulan\u0131kl\u0131k de\u011Ferini kaydetmek i\u00E7in"
+   },
+   "shortcuttotl": {
+      "description": "to toggle the lights on/off.",
+      "message": "I\u015F\u0131klar\u0131 kapay\u0131p a\u00E7mak i\u00E7in."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "Ayarlar sayfas\u0131n\u0131 a\u00E7t\u0131\u011F\u0131mda hat\u0131rlatma penceresini g\u00F6sterme."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Atla ve ayarlar sayfas\u0131n\u0131 a\u00E7"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "Bu yazilim CC-GNU GPL tarafindan lisanslanmistir. Lisansin kopyasini g\u00F6rmek i\u00E7in su sayfayi ziyaret edin"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "Ekle Butonu"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "B\u00FCt\u00FCn sekmeleri a\u00E7"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "\u00C7evre I\u015F\u0131kland\u0131rma"
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "Otomatik Oynat"
+   },
+   "titelautowidthyoutube": {
+      "description": "Automatically set the YouTube player to the larger size.",
+      "message": "Otomatik olarak YouTube oynat\u0131c\u0131s\u0131n\u0131 geni\u015F boyuta ayarla. "
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Gerisini bulan\u0131kla\u015Ft\u0131r"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "Bulan\u0131kl\u0131\u011F\u0131n etki alan\u0131"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Sinema salonu modu: 'I\u015F\u0131klar\u0131 Kapa' katman\u0131n\u0131 sadece pencerenin \u00FCst\u00FCnde g\u00F6sterir."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "Renk"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "Ba\u011Flam Men\u00FCs\u00FC"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "Bu g\u00FCncellemeyi indir!"
+   },
+   "titeldownloadupgrade": {
+      "description": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site.",
+      "message": "Bu g\u00FCncelleme se\u00E7ilen resimlere odaklanma deste\u011Fini i\u00E7erir. Ayn\u0131 zamanda sitedeki resimlerden olu\u015Fan bir galeri g\u00F6sterir."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Hareketli Arkaplan"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "S\u00FCpriz Yumurta"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "G\u00F6z Korumas\u0131"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Ayd\u0131nlatma"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "Karart\u0131y\u0131 Azalt"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "Flash Alg\u0131lama"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "Kanal"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "Arkaplan Resmi"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "Bilgi \u00C7ubu\u011Fu"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "Ampul"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "Daha az g\u00F6ster"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Like Bar"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "Be\u011Fen & Be\u011Fenme Butonu"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Automatically set to this resolution:",
+      "message": "Otomatik olarak \u015Fu \u00E7\u00F6z\u00FCn\u00FCrl\u00FC\u011Fe ayarla:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "Fare"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "Kapal\u0131"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "A\u00E7\u0131k"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "Saydaml\u0131k"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "Lamba simgesini gizle"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "\u015Eifre Korumas\u0131"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "Oynatma Listesi"
+   },
+   "titelqualityyoutube": {
+      "description": "Automatically set the quality of YouTube videos.",
+      "message": "YouTube videolar\u0131n\u0131n kalitelerini ototmatik olarak ayarla."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "S\u00F6n\u00FCkl\u00FCk seviyesi \u00E7ubu\u011Fu"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Sayfay\u0131 hat\u0131rla"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Ekran"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "Payla\u015F\u0131m Butonu"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "K\u0131sayol Tu\u015Fu"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "Daha fazla g\u00F6ster"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "Yar\u0131\u00E7ap Yay\u0131lmas\u0131"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "\u00D6neriler"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Senkronize Et"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Uzant\u0131 se\u00E7eneklerini di\u011Fer bir taray\u0131c\u0131n ile senkronize et."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "G\u00FCncelle\u015Ftirme"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "Video Ad\u0131"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "G\u00F6sterim say\u0131s\u0131"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Ba\u011F\u0131\u015F"
+   },
+   "top": {
+      "description": "top",
+      "message": "\u00FCst"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "\u00C7eviri Yard\u0131m\u0131"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "Versiyon"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Videoya Odaklan"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "G\u00F6rsel Efektler"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "Uyar\u0131!"
+   },
+   "warningtextambilight": {
+      "description": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead.",
+      "message": "E\u011Fer video verilerini sitenin g\u00FCvenlik kurallar\u0131 nedeniyle al\u0131nam\u0131yorsa, onun yerine se\u00E7ilmi\u015F renk g\u00F6sterilecektir."
+   }
+}

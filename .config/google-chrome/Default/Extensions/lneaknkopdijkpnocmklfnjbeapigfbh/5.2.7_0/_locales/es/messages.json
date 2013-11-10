@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Google Maps te permite obtener informaci\u00F3n sobre empresas locales, indicaciones e im\u00E1genes de la calle de sitios de todo el mundo."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Maps"
+   }
+}

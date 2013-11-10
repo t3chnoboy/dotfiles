@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Com a agenda gr\u00E1tis online do Google, \u00E9 f\u00E1cil manter-se atualizado sobre os eventos importantes da sua vida em um s\u00F3 lugar."
+   },
+   "app_name": {
+      "message": "Google Agenda"
+   },
+   "description_extended": {
+      "message": "Organizar sua agenda n\u00E3o precisa ser uma tarefa dif\u00EDcil. Com o Google Agenda, \u00E9 f\u00E1cil informar-se sobre os eventos importantes da vida em um \u00FAnico lugar."
+   },
+   "description_reason_1": {
+      "message": "1. Comunicar a sua programa\u00E7\u00E3o"
+   },
+   "description_reason_2": {
+      "message": "2. Tenha sua agenda sempre \u00E0 m\u00E3o."
+   },
+   "description_reason_3": {
+      "message": "3. Nunca mais se esquecer de um evento"
+   },
+   "description_reason_4": {
+      "message": "4. Enviar convites e acompanhar as confirma\u00E7\u00F5es"
+   },
+   "description_reason_5": {
+      "message": "5. Sincronizar com os aplicativos do seu computador"
+   },
+   "description_reason_6": {
+      "message": "6. Trabalhar off-line"
+   },
+   "description_reason_7": {
+      "message": "7. Tudo isso \u00E9 gr\u00E1tis?"
+   },
+   "description_reason_content_1": {
+      "message": "Deixe seus colegas de trabalho, familiares e amigos verem a sua agenda e ver a programa\u00E7\u00E3o que outros compartilham com voc\u00EA. Quando se sabe quando todo mundo est\u00E1 livre ou ocupado, organizar um programa \u00E9 muito r\u00E1pido."
+   },
+   "description_reason_content_2": {
+      "message": "Com a sincroniza\u00E7\u00E3o de dois sentidos para a agenda original do seu celular ou uma vers\u00E3o m\u00F3vel do Google Agenda que \u00E9 feito para telas pequenas, voc\u00EA tem acesso \u00E0 sua agenda quando estiver longe de sua mesa."
+   },
+   "description_reason_content_3": {
+      "message": "Lembretes personalizados o ajudam a cumprir a agenda. Voc\u00EA pode escolher ser notificado por e-mail ou receber uma mensagem de texto enviada diretamente para seu telefone celular."
+   },
+   "description_reason_content_4": {
+      "message": "Convide outras pessoas para eventos da sua agenda. Os convidados podem responder ao convite para seus eventos por e-mail ou pelo Google Agenda."
+   },
+   "description_reason_content_5": {
+      "message": "Acesse a sua agenda como e quando quiser sincronizando eventos com outros aplicativos, como o Microsoft Outlook, Apple iCal e Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Saiba onde voc\u00EA deve estar mesmo que n\u00E3o tenha acesso \u00E0 Internet. Com acesso offline, voc\u00EA pode ver uma vers\u00E3o para leitura da sua agenda em qualquer lugar onde estiver."
+   },
+   "description_reason_content_7": {
+      "message": "Sim."
+   },
+   "description_reasons": {
+      "message": "7 raz\u00F5es para usar o Google Agenda..."
+   }
+}

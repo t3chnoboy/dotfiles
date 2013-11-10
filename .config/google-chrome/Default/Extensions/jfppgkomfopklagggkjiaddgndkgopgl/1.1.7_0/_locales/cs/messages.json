@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "V\u017Edy p\u0159idat do slu\u017Eby Google+"
+   },
+   "always_add_desc": {
+      "message": "Je-li toto pol\u00ED\u010Dko za\u0161krtnut\u00E9, do slu\u017Eby Google+ se v\u017Edy p\u0159id\u00E1 funkce p\u0159eklada\u010De. V opa\u010Dn\u00E9m p\u0159\u00EDpad\u011B se p\u0159id\u00E1, pouze pokud kliknete na tla\u010D\u00EDtko roz\u0161\u00ED\u0159en\u00ED."
+   },
+   "autosaved": {
+      "message": "Automaticky ulo\u017Eeno"
+   },
+   "background": {
+      "message": "Pozad\u00ED p\u0159ekladu:"
+   },
+   "example": {
+      "message": "P\u0159\u00EDklad"
+   },
+   "extension_desc": {
+      "message": "P\u0159ekl\u00E1d\u00E1n\u00ED streamu Google+ pomoc\u00ED integrovan\u00E9 vlo\u017Een\u00E9 podpory P\u0159eklada\u010De Google"
+   },
+   "extension_name": {
+      "message": "P\u0159eklada\u010D Google pro slu\u017Ebu Google+"
+   },
+   "google_translate": {
+      "message": "P\u0159eklada\u010D Google"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 pro slu\u017Ebu Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Jazyk:"
+   },
+   "language_desc": {
+      "message": "Obsah se p\u0159elo\u017E\u00ED do tohoto jazyka."
+   },
+   "options_saved": {
+      "message": "Mo\u017Enosti ulo\u017Eeny"
+   },
+   "save": {
+      "message": "Ulo\u017Eit"
+   },
+   "translate_header": {
+      "message": "P\u0159eklada\u010D"
+   }
+}

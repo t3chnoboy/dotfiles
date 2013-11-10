@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EHas hecho\u003C/a\u003E +1 en esta p\u00E1gina."
+   },
+   "add_plusone_tooltip": {
+      "message": "Haz +1 en esta p\u00E1gina como {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Opciones b\u00E1sicas"
+   },
+   "browser_usage_warning": {
+      "message": "Si habilitas esta opci\u00F3n, el uso de tu navegador se compartir\u00E1 con Google."
+   },
+   "cannot_plusone_message": {
+      "message": "No se puede hacer +1 en esta p\u00E1gina."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "No se puede hacer +1 en esta p\u00E1gina"
+   },
+   "counts_group_name": {
+      "message": "Recuento"
+   },
+   "error_message": {
+      "message": "Se ha producido un error."
+   },
+   "error_tooltip": {
+      "message": "Se ha producido un error"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Todos los derechos reservados."
+   },
+   "extension_description": {
+      "message": "Haz +1 para compartir cualquier p\u00E1gina web."
+   },
+   "extension_name": {
+      "message": "Bot\u00F3n +1 de Google"
+   },
+   "extension_name_sans_google": {
+      "message": "Bot\u00F3n +1"
+   },
+   "loading": {
+      "message": "Cargando..."
+   },
+   "options_header": {
+      "message": "Opciones"
+   },
+   "options_title": {
+      "message": "Opciones"
+   },
+   "privacy_and_terms": {
+      "message": "Condiciones y privacidad"
+   },
+   "remove_plusone_success": {
+      "message": "Se ha eliminado \u003Ca\u003Etu\u003C/a\u003E +1."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Elimina tu +1 de esta p\u00E1gina"
+   },
+   "send_usage_statistics": {
+      "message": "Enviar autom\u00E1ticamente estad\u00EDsticas de uso an\u00F3nimas a Google"
+   },
+   "show_plusone_counts": {
+      "message": "Mostrar recuento de +1"
+   },
+   "sign_in_message": {
+      "message": "Una vez que hayas iniciado sesi\u00F3n en tu cuenta, podr\u00E1s hacer +1 en esta p\u00E1gina."
+   },
+   "sign_in_tooltip": {
+      "message": "Inicia sesi\u00F3n en tu cuenta para utilizar el bot\u00F3n +1"
+   },
+   "sign_up_message": {
+      "message": "Reg\u00EDstrate para utilizar Google+1."
+   },
+   "sign_up_tooltip": {
+      "message": "Reg\u00EDstrate para utilizar Google+1"
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Naudojant nemokam\u0105 \u201EGoogle\u201C interneto kalendori\u0173 lengva vienoje vietoje steb\u0117ti visus svarbius gyvenimo \u012Fvykius."
+   },
+   "app_name": {
+      "message": "\u201EGoogle\u201C kalendorius"
+   },
+   "description_extended": {
+      "message": "Tvarkara\u0161\u010Dio tvarkymas netur\u0117t\u0173 b\u016Bti na\u0161ta. Naudojant \u201EGoogle\u201C kalendori\u0173 lengva vienoje vietoje steb\u0117ti visus svarbius gyvenimo \u012Fvykius."
+   },
+   "description_reason_1": {
+      "message": "1. Bendrinkite tvarkara\u0161t\u012F"
+   },
+   "description_reason_2": {
+      "message": "2. Gaukite kalendori\u0173 bet kuriuo metu"
+   },
+   "description_reason_3": {
+      "message": "3. Niekada nebepamir\u0161kite \u012Fvyki\u0173"
+   },
+   "description_reason_4": {
+      "message": "4. Si\u0173skite kvietimus ir steb\u0117kite, kas sutiko dalyvauti"
+   },
+   "description_reason_5": {
+      "message": "5. Sinchronizuokite su darbalaukio taikomosiomis programomis"
+   },
+   "description_reason_6": {
+      "message": "6. Darbas neprisijungus"
+   },
+   "description_reason_7": {
+      "message": "7. Visa tai nemokama?"
+   },
+   "description_reason_content_1": {
+      "message": "Leiskite matyti savo kalendori\u0173 kolegoms, \u0161eimos nariams ir draugams ir \u017Ei\u016Br\u0117kite tvarkara\u0161\u010Dius, kuriuos su jumis bendrino kiti. \u017Dinant vis\u0173 u\u017Eimtum\u0105, sudaryti tvarkara\u0161t\u012F yra vieni juokai."
+   },
+   "description_reason_content_2": {
+      "message": "Naudodami dvikrypt\u012F sinchronizavim\u0105 su mobiliojo telefono \u012Ftaisytuoju kalendoriumi arba \u201EGoogle\u201C kalendoriaus versija mobiliesiems \u012Frenginiams, kuri yra pritaikyta ma\u017Eiems ekranams, gal\u0117site pasiekti kalendori\u0173 neb\u016Bdami prie stalo."
+   },
+   "description_reason_content_3": {
+      "message": "Naudodami tinkinamus priminimus nenukrypsite nuo tvarkara\u0161\u010Dio. Galite pasirinkti gauti prane\u0161imus el. pa\u0161tu arba gauti teksto prane\u0161im\u0105 tiesiogiai \u012F mobil\u0173j\u012F telefon\u0105."
+   },
+   "description_reason_content_4": {
+      "message": "Pakvieskite kit\u0173 \u017Emoni\u0173 \u012F kalendoriuje pa\u017Eym\u0117tus renginius. Sve\u010Diai gali prane\u0161ti apie dalyvavim\u0105 el. pa\u0161tu arba per \u201EGoogle\u201C kalendori\u0173."
+   },
+   "description_reason_content_5": {
+      "message": "Pasiekite savo kalendori\u0173, kaip norite ir kada norite, sinchronizuodami \u012Fvykius su kitomis taikomosiomis programomis, pavyzd\u017Eiui, \u201EMicrosoft Outlook\u201C, \u201EApple iCal\u201C ir \u201EMozilla Sunbird\u201C."
+   },
+   "description_reason_content_6": {
+      "message": "\u017Dinokite, kur turite b\u016Bti, net netur\u0117dami interneto prieigos. Nesvarbu, kur esate, naudodami prieig\u0105 neprisijungus, galite \u017Ei\u016Br\u0117ti tik skaityti leid\u017Eiam\u0105 kalendoriaus versij\u0105."
+   },
+   "description_reason_content_7": {
+      "message": "Taip."
+   },
+   "description_reasons": {
+      "message": "7 prie\u017Eastys naudoti \u201EGoogle\u201C kalendori\u0173..."
+   }
+}

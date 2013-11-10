@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "Kunne ikke parse destinationen: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "Annuller"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "Denne kommando viser en menu med kendte v\u00E6rter og beskeder, som v\u00E6rten skal glemme."
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "Glem en kendt SSH-v\u00E6rt."
+   },
+   "cmd_ssh_help": {
+      "message": "Parametrene |username| og |hostname| er p\u00E5kr\u00E6vede, |port| er valgfrit. Hvis porten ikke er angivet, s\u00E6ttes 22 som standard."
+   },
+   "cmd_ssh_title": {
+      "message": "\u00C5bner en ny SSH-session."
+   },
+   "command_complete": {
+      "message": "Kommandoen $1 er afsluttet med afslutningskoden $2. Luk vinduet, n\u00E5r du er f\u00E6rdig.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "Opret forbindelse"
+   },
+   "connect_message": {
+      "message": "Indtast en destination, som der skal oprettes forbindelse til."
+   },
+   "connecting": {
+      "message": "Opretter forbindelse til $1, port $2...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "brugernavn@v\u00E6rtsnavn[:port]"
+   },
+   "known_hosts_empty": {
+      "message": "Ingen kendte v\u00E6rter, intet at glemme."
+   },
+   "known_hosts_prompt": {
+      "message": "V\u00E6lg en v\u00E6rt, der skal glemmes [1 - $1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "Kendte v\u00E6rter:"
+   },
+   "missing_param": {
+      "message": "Manglende parameter: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "OK"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "Der opstod en uventet fejl. Du kan f\u00E5 flere oplysninger i JavaScript-konsollen."
+   },
+   "welcome": {
+      "message": "Velkommen! \u00C5bn en ny SSH-forbindelse med kommandoen \"\u00E5bn\"."
+   },
+   "welcome_tip": {
+      "message": "Tip til professionelle: Du kan gemme denne session som et browserbogm\u00E6rke."
+   }
+}

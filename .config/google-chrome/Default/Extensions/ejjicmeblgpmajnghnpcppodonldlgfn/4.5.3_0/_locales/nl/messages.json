@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Met de gratis online agenda van Google kunt u alle belangrijke gebeurtenissen in uw leven overzichtelijk op \u00E9\u00E9n plaats bijhouden."
+   },
+   "app_name": {
+      "message": "Google Agenda"
+   },
+   "description_extended": {
+      "message": "Het organiseren van uw planning zou geen dagtaak moeten zijn. Met Google Agenda kunt u de belangrijke gebeurtenissen in uw leven overzichtelijk op \u00E9\u00E9n plaats bijhouden."
+   },
+   "description_reason_1": {
+      "message": "1. Deel uw planning met anderen"
+   },
+   "description_reason_2": {
+      "message": "2. Bekijk uw agenda onderweg"
+   },
+   "description_reason_3": {
+      "message": "3. Vergeet nooit meer een afspraak"
+   },
+   "description_reason_4": {
+      "message": "4. Verzend uitnodigingen en houd de reacties bij"
+   },
+   "description_reason_5": {
+      "message": "5. Synchroniseer uw agenda met uw desktopapplicaties"
+   },
+   "description_reason_6": {
+      "message": "6. Werk offline"
+   },
+   "description_reason_7": {
+      "message": "7. Is dit allemaal gratis?"
+   },
+   "description_reason_content_1": {
+      "message": "Geef uw collega's, familie en vrienden inzicht in uw agenda en bekijk planningen die anderen met u hebben gedeeld. Als u eenmaal weet wanneer iedereen beschikbaar of bezet is, is een afspraak zo gemaakt."
+   },
+   "description_reason_content_2": {
+      "message": "Met wederzijdse synchronisatie met de ingebouwde agenda van uw mobiele telefoon of de mobiele versie van Google Agenda die speciaal is ontwikkeld voor mobiele schermen, heeft u ook onderweg toegang tot uw agenda."
+   },
+   "description_reason_content_3": {
+      "message": "Met aanpasbare herinneringen blijft u altijd op schema. U kunt een melding per e-mail ontvangen of een sms naar uw mobiele telefoon laten verzenden."
+   },
+   "description_reason_content_4": {
+      "message": "Nodig anderen uit voor afspraken in uw agenda. Gasten kunnen per e-mail of via Google Agenda op uw uitnodiging reageren."
+   },
+   "description_reason_content_5": {
+      "message": "Bekijk uw agenda waar en wanneer u maar wilt door afspraken te synchroniseren met andere applicaties zoals Microsoft Outlook, Apple iCal en Mozilla Sunbird."
+   },
+   "description_reason_content_6": {
+      "message": "Weet altijd waar u moet zijn, ook als u geen toegang tot internet heeft. Met offline toegang kunt u altijd en overal een alleen-lezenversie van uw agenda bekijken."
+   },
+   "description_reason_content_7": {
+      "message": "Jazeker."
+   },
+   "description_reasons": {
+      "message": "Zeven redenen om Google Agenda te gebruiken..."
+   }
+}

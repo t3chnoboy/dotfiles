@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EU\u003C/a\u003E heeft deze pagina een +1 gegeven."
+   },
+   "add_plusone_tooltip": {
+      "message": "Deze pagina een +1 geven als {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Basisprincipes"
+   },
+   "browser_usage_warning": {
+      "message": "Als u deze optie inschakelt, wordt informatie over uw browsergebruik met Google gedeeld."
+   },
+   "cannot_plusone_message": {
+      "message": "Kan deze pagina geen +1 geven."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Kan deze pagina geen +1 geven"
+   },
+   "counts_group_name": {
+      "message": "Aantal"
+   },
+   "error_message": {
+      "message": "Er is een fout opgetreden."
+   },
+   "error_tooltip": {
+      "message": "Er is een fout opgetreden"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Alle rechten voorbehouden."
+   },
+   "extension_description": {
+      "message": "Overal op internet +1's aan webpagina's geven en webpagina's delen."
+   },
+   "extension_name": {
+      "message": "Google +1-knop"
+   },
+   "extension_name_sans_google": {
+      "message": "+1-knop"
+   },
+   "loading": {
+      "message": "Laden..."
+   },
+   "options_header": {
+      "message": "Opties"
+   },
+   "options_title": {
+      "message": "Opties"
+   },
+   "privacy_and_terms": {
+      "message": "Privacy en voorwaarden"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EUw\u003C/a\u003E +1 is verwijderd."
+   },
+   "remove_plusone_tooltip": {
+      "message": "+1 voor deze pagina verwijderen"
+   },
+   "send_usage_statistics": {
+      "message": "Anonieme gebruiksstatistieken automatisch verzenden naar Google"
+   },
+   "show_plusone_counts": {
+      "message": "Aantal +1's weergeven"
+   },
+   "sign_in_message": {
+      "message": "Zodra u bent aangemeld, kunt u deze pagina een +1 geven."
+   },
+   "sign_in_tooltip": {
+      "message": "Inloggen om Google +1 te gebruiken"
+   },
+   "sign_up_message": {
+      "message": "Registreer u om Google+1 te gebruiken."
+   },
+   "sign_up_tooltip": {
+      "message": "Registreren om Google+1 te gebruiken"
+   }
+}

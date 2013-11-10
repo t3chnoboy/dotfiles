@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * This file is part of the LibreOffice project.
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This file incorporates work covered by the following license notice:
+ *
+ *   Licensed to the Apache Software Foundation (ASF) under one or more
+ *   contributor license agreements. See the NOTICE file distributed
+ *   with this work for additional information regarding copyright
+ *   ownership. The ASF licenses this file to you under the Apache
+ *   License, Version 2.0 (the "License"); you may not use this file
+ *   except in compliance with the License. You may obtain a copy of
+ *   the License at http://www.apache.org/licenses/LICENSE-2.0 .
+ -->
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Addons" oor:package="org.openoffice.Office">
+    <node oor:name="AddonUI">
+        <node oor:name="Images">
+            <node oor:name="opt-image" oor:op="replace">
+                <prop oor:name="URL">
+                    <value>vnd.com.sun.star.comp.SunPresentationMinimizer:execute</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL" oor:type="xs:string">
+                        <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/presentation-minimizer/registry/data/org/openoffice/Office/../../../../../bitmaps/opt_16.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL" oor:type="xs:string">
+                        <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/presentation-minimizer/registry/data/org/openoffice/Office/../../../../../bitmaps/opt_26.png</value>
+                    </prop>
+                    <prop oor:name="ImageSmallHCURL" oor:type="xs:string">
+                        <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/presentation-minimizer/registry/data/org/openoffice/Office/../../../../../bitmaps/opt_16_h.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigHCURL" oor:type="xs:string">
+                        <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/presentation-minimizer/registry/data/org/openoffice/Office/../../../../../bitmaps/opt_26_h.png</value>
+                    </prop>
+                </node>
+            </node>
+        </node>
+        <node oor:name="OfficeMenuBarMerging">
+            <node oor:name="SunPresentationMinimizer" oor:op="replace">
+                <node oor:name="Command1" oor:op="replace">
+                    <prop oor:name="MergePoint">
+                        <value>.uno:ToolsMenu\.uno:AVMediaPlayer</value>
+                    </prop>
+                    <prop oor:name="MergeCommand">
+                        <value>AddAfter</value>
+                    </prop>
+                    <prop oor:name="MergeFallback">
+                        <value>AddPath</value>
+                    </prop>
+                    <prop oor:name="MergeContext">
+                        <value>com.sun.star.presentation.PresentationDocument</value>
+                    </prop>
+                    <node oor:name="MenuItems">
+                        <node oor:name="SunPresentationMinimizerExecute1" oor:op="replace">
+                            <prop oor:name="URL" oor:type="xs:string">
+                                <value>private:separator</value>
+                            </prop>
+                        </node>
+                        <node oor:name="SunPresentationMinimizerExecute2" oor:op="replace">
+                            <prop oor:name="URL" oor:type="xs:string">
+                                <value>vnd.com.sun.star.comp.SunPresentationMinimizer:execute</value>
+                            </prop>
+                            <prop oor:name="Title" oor:type="xs:string">
+                                <value xml:lang="en-US">~Minimize Presentation...</value>
+                            	<value xml:lang="af">~Minimeer voorlegging...</value>
+                            	<value xml:lang="ar">~العرض المصغر...</value>
+                            	<value xml:lang="as">প্ৰদৰ্শন সৰু কৰক (~M)...</value>
+                            	<value xml:lang="ast">~Minimizar Presentación...</value>
+                            	<value xml:lang="be">Мінімізаваць* прэзентацыю...</value>
+                            	<value xml:lang="bg">~Минимизиране на презентацията...</value>
+                            	<value xml:lang="bn">ন্যূনতম বিস্তারে উপস্থাপনা করা হবে... (~M)</value>
+                            	<value xml:lang="br">~Bihanaat ar ginnigadenn...</value>
+                            	<value xml:lang="bs">~Umanji prezentaciju...</value>
+                            	<value xml:lang="ca">~Minimitza la presentació...</value>
+                            	<value xml:lang="ca-XV">~Minimitza la presentació...</value>
+                            	<value xml:lang="cs">Komprimovat prezentaci</value>
+                            	<value xml:lang="cy">~Lleihau&apos;r Cyflwyniad...</value>
+                            	<value xml:lang="da">~Minimer præsentation...</value>
+                            	<value xml:lang="de">Präsentation ~komprimieren...</value>
+                            	<value xml:lang="dz">~Minimize Presentation...</value>
+                            	<value xml:lang="el">~Ελαχιστοποίηση της παρουσίασης...</value>
+                            	<value xml:lang="en-GB">~Minimise Presentation...</value>
+                            	<value xml:lang="en-ZA">~Minimize Presentation...</value>
+                            	<value xml:lang="eo">Minimumigi prezentaĵon...</value>
+                            	<value xml:lang="es">~Minimizar presentación...</value>
+                            	<value xml:lang="et">Esitluse minimeerimine...</value>
+                            	<value xml:lang="eu">~Minimizatu aurkezpena...</value>
+                            	<value xml:lang="fa">~ کمینه کردن ارائه...</value>
+                            	<value xml:lang="fi">Tiedostokoon optimointi...</value>
+                            	<value xml:lang="fr">~Réduire la présentation...</value>
+                            	<value xml:lang="ga">Íosla~ghdaigh Láithreoireacht...</value>
+                            	<value xml:lang="gl">~Minimizar a presentación...</value>
+                            	<value xml:lang="gu">રજૂઆત ને નાની કરો (~M)</value>
+                            	<value xml:lang="he">לקבץ את המצגת...</value>
+                            	<value xml:lang="hi">प्रस्तुति न्यूनतम करें (~M)...</value>
+                            	<value xml:lang="hr">~Smanji prezentaciju...</value>
+                            	<value xml:lang="hu">~Bemutató kis méretűvé alakítása...</value>
+                            	<value xml:lang="id">~Minimalkan Presentasi</value>
+                            	<value xml:lang="is">Smækka ~kynningu...</value>
+                            	<value xml:lang="it">Co~mprimi la presentazione...</value>
+                            	<value xml:lang="ja">プレゼンテーションの軽量化(~M)...</value>
+                            	<value xml:lang="ka">~Minimize Presentation...</value>
+                            	<value xml:lang="km">បង្រួម​ការ​បង្ហាញ​អប្បបរមា...</value>
+                            	<value xml:lang="ko">프리젠테이션 최소화(~M)...</value>
+                            	<value xml:lang="ku">Pêşkêşiyê ~Kêmtirîn Bike...</value>
+                            	<value xml:lang="lt">Glaudinti pateiktį…</value>
+                            	<value xml:lang="lv">~Samazināt prezentāciju...</value>
+                            	<value xml:lang="mk">~Минимизирај ја презентацијата...</value>
+                            	<value xml:lang="ml">~പ്രസന്റേഷന്‍ ചെറുതാക്കുക...</value>
+                            	<value xml:lang="mn">Үзүүлэнг ~доошлуулах...</value>
+                            	<value xml:lang="mr">~सादरीकरण लहान आकारात करा...</value>
+                            	<value xml:lang="nb">~Krymp presentasjon …</value>
+                            	<value xml:lang="ne">~Minimize Presentation...</value>
+                            	<value xml:lang="nl">Presentatie ~verkleinen...</value>
+                            	<value xml:lang="nn">~Krymp presentasjon …</value>
+                            	<value xml:lang="nr">~Minimize Presentation...</value>
+                            	<value xml:lang="nso">~Minimize Presentation...</value>
+                            	<value xml:lang="oc">~Reduire la presentacion...</value>
+                            	<value xml:lang="om">Dhiheessaa Gadeessi...</value>
+                            	<value xml:lang="or">ଉପସ୍ଥାପନାକୁ ଛୋଟକରନ୍ତୁ (~M)...</value>
+                            	<value xml:lang="pa-IN">ਮਿੰਨੀਮਾਈਜ਼ਰ ਪਰਜੈੱਟੇਸ਼ਨਰ(~M)...</value>
+                            	<value xml:lang="pl">~Minimalizuj prezentację...</value>
+                            	<value xml:lang="pt">Co~mpactar apresentação...</value>
+                            	<value xml:lang="pt-BR">Co~mpactar apresentação...</value>
+                            	<value xml:lang="ro">~Minimizează prezentarea...</value>
+                            	<value xml:lang="ru">~Уменьшить презентацию...</value>
+                            	<value xml:lang="rw">~Minimize Presentation...</value>
+                            	<value xml:lang="si">ඉදිරිපත් කිරීම හකුළන්න (~M)</value>
+                            	<value xml:lang="sk">Z~menšiť prezentáciu...</value>
+                            	<value xml:lang="sl">~Stisni predstavitev ...</value>
+                            	<value xml:lang="sr">~Умањи презентацију...</value>
+                            	<value xml:lang="ss">~Minimize Presentation...</value>
+                            	<value xml:lang="st">~Minimize Presentation...</value>
+                            	<value xml:lang="sv">~Minimera presentation...</value>
+                            	<value xml:lang="ta">~வழங்கலைச் சிறிதாக்கு...</value>
+                            	<value xml:lang="te">ప్రజంటేషన్ ను చిన్నదిచేయి...(~M)</value>
+                            	<value xml:lang="tg">~Minimize Presentation...</value>
+                            	<value xml:lang="th">~Minimize Presentation...</value>
+                            	<value xml:lang="tn">~Minimize Presentation...</value>
+                            	<value xml:lang="tr">Sunu~mu Küçült...</value>
+                            	<value xml:lang="ts">~Minimize Presentation...</value>
+                            	<value xml:lang="ug">كۆرسەتمە ھۆججەتنى كىچىكلەت(~M)…</value>
+                            	<value xml:lang="uk">~Зменшити презентацію...</value>
+                            	<value xml:lang="uz">~Namoyishni yigʻish...</value>
+                            	<value xml:lang="ve">~Minimize Presentation...</value>
+                            	<value xml:lang="vi">Th~u nhỏ trình chiếu</value>
+                            	<value xml:lang="xh">~Minimize Presentation...</value>
+                            	<value xml:lang="zh-CN">最小化演示文稿(~M)...</value>
+                            	<value xml:lang="zh-TW">最小化簡報大小(~M)...</value>
+                            	<value xml:lang="zu">~Minimize Presentation...</value>
+                            </prop>
+                            <prop oor:name="Target" oor:type="xs:string">
+                                <value>_self</value>
+                            </prop>
+                            <prop oor:name="Context" oor:type="xs:string">
+                                <value>com.sun.star.presentation.PresentationDocument</value>
+                            </prop>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+    </node>
+</oor:component-data>

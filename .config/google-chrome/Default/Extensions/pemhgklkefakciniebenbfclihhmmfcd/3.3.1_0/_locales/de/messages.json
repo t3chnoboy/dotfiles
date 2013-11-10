@@ -1,0 +1,398 @@
+{
+   "advanced": {
+      "description": "The text of the button to toggle advanced settings.",
+      "message": "Erweitert"
+   },
+   "ago": {
+      "description": "A setence that describes that something happened {placeholder} time ago, e.g. '{20 minutes} ago'.",
+      "message": "Vor $1"
+   },
+   "animations": {
+      "description": "The label for the checkbox to disable/enable animations.",
+      "message": "Animationen"
+   },
+   "badge_color": {
+      "description": "Label for the badge color selector.",
+      "message": "Kennzeichnungsfarbe"
+   },
+   "cancel": {
+      "description": "The text for a generic 'cancel' button.",
+      "message": "Abbrechen"
+   },
+   "check_all": {
+      "description": "The text of the button that initiates a check of all pages.",
+      "message": "Alle \u00FCberpr\u00FCfen"
+   },
+   "check_every": {
+      "description": "The label for the check interval textbox.",
+      "message": "Intervall"
+   },
+   "check_in_progress": {
+      "description": "The message to display while a check is in progress.",
+      "message": "\u00DCberpr\u00FCfe"
+   },
+   "close": {
+      "description": "The text for a generic 'close form' button.",
+      "message": "Schlie\u00DFen"
+   },
+   "custom_mode": {
+      "description": "The label for custom checking mode (selector or regex).",
+      "message": "Benutzerdefiniert"
+   },
+   "day": {
+      "description": "A single day, as a number suffix (e.g. '1 day').",
+      "message": "1 Tag"
+   },
+   "days": {
+      "description": "A plural number of days, as a number suffix (e.g. '7 days').",
+      "message": "$1 Tage"
+   },
+   "description": {
+      "description": "The global description of the extension.",
+      "message": "Bleibt im Hintergrund und \u00FCberwacht Web-Seiten auf \u00C4nderungen."
+   },
+   "diff_corruption": {
+      "description": "Cache corruption error message on the diff page.",
+      "message": "Defekter Cache wurde erkannt und behoben. Letzter Snapshot wurde verworfen. \u00C4nderungen werden mit der n\u00E4chsten Aktualisierung wieder hervorgehoben."
+   },
+   "diff_error": {
+      "description": "A diff failure error message on the diff page.",
+      "message": "Fehler beim Abgleich. Bitte teilen Sie uns dies mit."
+   },
+   "diff_hide_deletions": {
+      "description": "Link to hide deletions on the diff page.",
+      "message": "L\u00F6schungen verstecken"
+   },
+   "diff_original": {
+      "description": "Text of the link to the original page on the diff page.",
+      "message": "Original"
+   },
+   "diff_original_title": {
+      "description": "Tooltip of the link to the original page on the diff page.",
+      "message": "Original-Seite anzeigen"
+   },
+   "diff_progress": {
+      "description": "The message to show while fetching the page to diff.",
+      "message": "Abgleich in Bearbeitung."
+   },
+   "diff_show_deletions": {
+      "description": "Link to show deletions on the diff page.",
+      "message": "L\u00F6schungen anzeigen"
+   },
+   "diff_textize": {
+      "description": "Link to switch the diff page to text-only mode.",
+      "message": "Textmodus"
+   },
+   "diff_title": {
+      "description": "The title of the diff page.",
+      "message": "Page Monitor: \u00C4nderungen anzeigen"
+   },
+   "diff_untextize": {
+      "description": "Link to switch the diff page from text-only mode to normal.",
+      "message": "Normaler Modus"
+   },
+   "disabled": {
+      "description": "Generic label for disabled items.",
+      "message": "deaktiviert"
+   },
+   "enabled": {
+      "description": "Generic label for enabled items.",
+      "message": "aktiviert"
+   },
+   "export": {
+      "description": "The text of the button to export pages into a bookmarks.html.",
+      "message": "Seiten exportieren"
+   },
+   "export_prompt": {
+      "description": "The prompt that appears before the exported pages textbox.",
+      "message": "Kopieren Sie diesen Text in eine Datei und speichern Sie sie als bookmarks.html:"
+   },
+   "feedback": {
+      "description": "The text of the feedback link.",
+      "message": "Feedback"
+   },
+   "hour": {
+      "description": "A single hour, as a number suffix (e.g. '1 hour').",
+      "message": "1 Stunde"
+   },
+   "hours": {
+      "description": "A plural number of hours, as a number suffix (e.g. '7 hours').",
+      "message": "$1 Stunden"
+   },
+   "import": {
+      "description": "The text of the button to import pages from a bookmarks.html.",
+      "message": "Seiten importieren"
+   },
+   "import_button": {
+      "description": "The text for the 'import' button in the import form.",
+      "message": "Importieren"
+   },
+   "import_empty": {
+      "description": "The error message displayed when no pages are found during an import.",
+      "message": "Keine Seiten zum Import gefunden."
+   },
+   "import_error": {
+      "description": "The error message displayed when a page import fails.",
+      "message": "Ein Fehler ist aufgetreten. Der Import ist m\u00F6glicherweise unvollst\u00E4ndig."
+   },
+   "import_prompt": {
+      "description": "The prompt that appears before the bookmarks.html textbox when importing.",
+      "message": "F\u00FCgen Sie den Inhalt Ihrer bookmarks.html hier ein:"
+   },
+   "import_success_multi": {
+      "description": "The message displayed when multiple pages were imported successfully.",
+      "message": "$1 Seiten erfolgreich importiert."
+   },
+   "import_success_single": {
+      "description": "The message displayed when 1 page was imported successfully.",
+      "message": "1 Seite erfolgreich importiert."
+   },
+   "last_check": {
+      "description": "The text of the label that specified when the page was last checked.",
+      "message": "Letzter Check"
+   },
+   "mark_visited": {
+      "description": "The text on the button that marks an updated page as visited.",
+      "message": "Besucht"
+   },
+   "minute": {
+      "description": "A single minute, as a number suffix (e.g. '1 minute').",
+      "message": "1 Minute"
+   },
+   "minutes": {
+      "description": "A plural number of minutes, as a number suffix (e.g. '7 minutes').",
+      "message": "$1 Minuten"
+   },
+   "monitor": {
+      "description": "The text of the button that marks a page for monitoring.",
+      "message": "\u00DCberwachen"
+   },
+   "name": {
+      "description": "The name of the extension.",
+      "message": "Page Monitor"
+   },
+   "never": {
+      "description": "A 'last checked' label for pages that have never been checked.",
+      "message": "Niemals"
+   },
+   "new_sound_failed": {
+      "description": "The error message displayed when the URL specified for a new sound could not be played.",
+      "message": "Chrome konnte die Datei unter der angegebenen URL nicht abspielen."
+   },
+   "new_sound_prompt": {
+      "description": "The prompt that appears when the user tries to add a new sound.",
+      "message": "Bitte geben Sie einen Namen und eine URL f\u00FCr den neuen Ton ein."
+   },
+   "no_changes": {
+      "description": "The popup text when no changes have been found.",
+      "message": "Keine \u00C4nderungen gefunden."
+   },
+   "no_pages_monitored": {
+      "description": "The text that replaces the pages list on the options page when no pages are monitored.",
+      "message": "Keine Seiten werden \u00FCberwacht."
+   },
+   "notifications": {
+      "description": "Label for the desktop notifications checkbox.",
+      "message": "Benachrichtigungen"
+   },
+   "notifications_timeout": {
+      "description": "Label for the desktop notifications timeout textbox.",
+      "message": "Benachrichtigungsdauer"
+   },
+   "ok": {
+      "description": "The text for a generic 'ok' button.",
+      "message": "OK"
+   },
+   "options": {
+      "description": "The text of the options link.",
+      "message": "Optionen"
+   },
+   "options_header": {
+      "description": "The text of the pages list header on the options page.",
+      "message": "\u00DCberwachte Seiten"
+   },
+   "options_title": {
+      "description": "The title of the options page.",
+      "message": "Optionen Seiten-\u00DCberwachung"
+   },
+   "page_monitored": {
+      "description": "This text appears in the popup when the current page is already monitored.",
+      "message": "Wird \u00FCberwacht"
+   },
+   "page_updated_multi": {
+      "description": "Notification title: multiple pages have been updated.",
+      "message": "$1 Seiten aktualisiert"
+   },
+   "page_updated_single": {
+      "description": "Notification title: a single page has been updated.",
+      "message": "Seite aktualisiert"
+   },
+   "pick_button": {
+      "description": "The text on the button that launches the selector GUI.",
+      "message": "Ausw\u00E4hlen"
+   },
+   "regex": {
+      "description": "The label for regex mode.",
+      "message": "RegEx"
+   },
+   "remove_page": {
+      "description": "The text on the button that stops a page from being monitored.",
+      "message": "Entfernen"
+   },
+   "rename_page": {
+      "description": "The text of the button to rename a page.",
+      "message": "Umbenennen"
+   },
+   "second": {
+      "description": "A single second, as a number suffix (e.g. '1 second').",
+      "message": "1 Sekunde"
+   },
+   "seconds": {
+      "description": "A plural number of seconds, as a number suffix (e.g. '7 seconds').",
+      "message": "$1 Sekunden"
+   },
+   "selector": {
+      "description": "The label for selector mode.",
+      "message": "Selektor"
+   },
+   "selector_gui_done": {
+      "description": "The button which accepts the selection and closes the page in the visual selector construction GUI.",
+      "message": "Fertig"
+   },
+   "selector_gui_help": {
+      "description": "The caption of the help button in the visual selector construction GUI.",
+      "message": "Hilfe"
+   },
+   "selector_gui_help_text": {
+      "description": "The help message in the visual selector construction GUI.",
+      "message": "Diese Kontrollen erlauben Ihnen das Seitenelement, welches Sie \u00FCberwachen m\u00F6chten, auszuw\u00E4hlen.\n\nBewegen Sie Ihre Maus und sehen Sie, dass die Elemente, die Sie \u00FCberfahren in blau umrandet werden. Sobald die Umrandung das gew\u00FCnschte Element (oder Teile davon) umfasst, w\u00E4hlen Sie dieses durch klicken aus.\n\nWenn Sie mit Ihrer Auswahl zufrieden sind, klicken Sie einfach auf Fertig, um zu den Optionen zur\u00FCckzukehren.\n\nWenn Ihr ausgew\u00E4hltes Element nur ein Teil des Elements ist, welches Sie \u00FCberwachen m\u00F6chten, k\u00F6nnen Sie auf 'Auswahl erweitern' klicken, um die Auswahl auf das \u00FCbergeordnete Element zu erweitern. Sie k\u00F6nnen diesen Schritt wiederholen, bis Sie mit dem Ergebnis zufrieden sind oder das oberste Element der Seite erreicht haben.\n\nWenn Sie von vorne beginnen und ein neues Element ausw\u00E4hlen m\u00F6chten, klicken Sie auf 'Element ausw\u00E4hlen'."
+   },
+   "selector_gui_parent": {
+      "description": "The button which switches from a selected element to its parent in the visual selector construction GUI.",
+      "message": "Auswahl erweitern"
+   },
+   "selector_gui_pick": {
+      "description": "The 'pick element' button in the visual selector construction GUI.",
+      "message": "Element ausw\u00E4hlen"
+   },
+   "sort": {
+      "description": "The label for the sort order drop-down.",
+      "message": "Seiten sortieren nach"
+   },
+   "sort_date": {
+      "description": "The 'date added' option in the sort order drop-down.",
+      "message": "Hinzugef\u00FCgt"
+   },
+   "sort_interval": {
+      "description": "The 'check interval' option in the sort order drop-down.",
+      "message": "\u00DCberpr\u00FCfungsintervall"
+   },
+   "sort_last_change": {
+      "description": "The 'last changed' option in the sort order drop-down.",
+      "message": "Letzte \u00C4nderung"
+   },
+   "sort_last_check": {
+      "description": "The 'last check' option in the sort order drop-down.",
+      "message": "Letzter Check"
+   },
+   "sort_name": {
+      "description": "The 'name' option in the sort order drop-down.",
+      "message": "Name"
+   },
+   "sort_url": {
+      "description": "The 'URL' option in the sort order drop-down.",
+      "message": "URL"
+   },
+   "sound_alert": {
+      "description": "Label for the sound alert drop-down.",
+      "message": "Tonalarm"
+   },
+   "sound_chime": {
+      "description": "The label of the default chime sound.",
+      "message": "Glocke"
+   },
+   "sound_create": {
+      "description": "The text of the 'create' button in the 'new sound' form.",
+      "message": "Erstellen"
+   },
+   "sound_cuckoo": {
+      "description": "The label of the default cuckoo sound.",
+      "message": "Kuckuck"
+   },
+   "sound_delete": {
+      "description": "The text of the button that deletes the selected sound.",
+      "message": "L\u00F6schen"
+   },
+   "sound_name": {
+      "description": "The label for the sound name in the 'new sound' form.",
+      "message": "Name"
+   },
+   "sound_new": {
+      "description": "The text of the button that opens the 'new sound' form.",
+      "message": "Neu"
+   },
+   "sound_none": {
+      "description": "The value of the no-sound option in the sound alert drop-down.",
+      "message": "Keine"
+   },
+   "sound_play": {
+      "description": "The text of the button that plays the selected sound.",
+      "message": "Abspielen"
+   },
+   "sound_url": {
+      "description": "The label for the sound URL in the 'new sound' form.",
+      "message": "URL (MP3- oder OGG-Datei)"
+   },
+   "stop_monitoring": {
+      "description": "The text on the button that stops a page from being monitored.",
+      "message": "Beenden"
+   },
+   "test_button": {
+      "description": "The text on the button that tests a given regex or selector on a page in advanced mode.",
+      "message": "Testen"
+   },
+   "test_fail": {
+      "description": "The message that appears when a regex or selector test fails to retrieve the page to test.",
+      "message": "Konnte die gew\u00E4hlte Seite nicht abrufen."
+   },
+   "test_matches": {
+      "description": "The message that appears when a regex or selector test matches something.",
+      "message": "Treffer:"
+   },
+   "test_no_matches": {
+      "description": "The message that appears when a regex or selector test does not match anything.",
+      "message": "Keine Treffer."
+   },
+   "test_progress": {
+      "description": "The message that appears while testing a regex or selector.",
+      "message": "Testen..."
+   },
+   "unknown": {
+      "description": "A placeholder for an unknown piece of data.",
+      "message": "Unbekannt"
+   },
+   "until_closed": {
+      "description": "The option describing the notifications remaining active until closed.",
+      "message": "Bis zum schlie\u00DFen"
+   },
+   "untitled": {
+      "description": "Default name for pages that have an empty name, with placeholder for the URL.",
+      "message": "Unbenannt ($1)"
+   },
+   "view_all": {
+      "description": "The text of the button that opens all updated pages in new tabs.",
+      "message": "Alle anzeigen"
+   },
+   "view_all_function": {
+      "description": "The caption of the settings drop-down to select what the 'View All' button in the popup does.",
+      "message": "\"Alle anzeigen\"-Funktion"
+   },
+   "view_diff": {
+      "description": "The text on the button that opens the diff page.",
+      "message": "\u00C4nderungen"
+   },
+   "view_original": {
+      "description": "One of the possible selections for the 'View All function' dropdown. Means that the original page rather than the diff will be opened.",
+      "message": "Original anzeigen"
+   }
+}

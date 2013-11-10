@@ -1,0 +1,344 @@
+{
+   "editThis_": {
+      "message": ""
+   },
+   "editThis_AN_adsDescription": {
+      "message": "Mostrar anuncios discretos en algunas de las p\u00E1ginas que visite"
+   },
+   "editThis_AN_optInDescription": {
+      "message": "Perm\u00EDtenos compartir tus datos de navegaci\u00F3n. Todos ser\u00E1n an\u00F3nimos."
+   },
+   "editThis_Alert_deleteAll": {
+      "message": "Borrar todos los cookies de la web corriente?"
+   },
+   "editThis_Alert_deleteCookie": {
+      "message": "Borrar cookie"
+   },
+   "editThis_Alert_deleteRule": {
+      "message": "Eliminar esta regla"
+   },
+   "editThis_Alert_submitAll": {
+      "message": "Guardar los cambios"
+   },
+   "editThis_Amount": {
+      "message": "Importe"
+   },
+   "editThis_Blocked_Cookies": {
+      "message": "Cookies Bloqueados"
+   },
+   "editThis_Blocked_Def": {
+      "message": "Si quieres eliminar una cookie autom\u00E1ticamente cada vez que se cree, a\u00F1ade un filtro y no te volver\u00E1 a molestar"
+   },
+   "editThis_Charity_Message": {
+      "message": "Ayudar\u00E1s ni\u00F1os en necesidad en todo el mundo, porque el $1% de las ganancias van a"
+   },
+   "editThis_ContextMenu": {
+      "message": "Modifica Cookies"
+   },
+   "editThis_Copied_clipboard": {
+      "message": "Cookies copiadas al portapapeles"
+   },
+   "editThis_Copy_Cookies": {
+      "message": "Exportar cookies"
+   },
+   "editThis_Copy_Cookies_Type": {
+      "message": "Elige un formato de exportaci\u00F3n para las cookies"
+   },
+   "editThis_Details": {
+      "message": "Detalles"
+   },
+   "editThis_Donate": {
+      "message": "Contribuir"
+   },
+   "editThis_Donation_Date": {
+      "message": "Fecha de la donaci\u00F3n"
+   },
+   "editThis_Encode_Cookie_Value": {
+      "message": "Codificar el valor de las cookies (por persistencia \u003Ca href=\"http://curl.haxx.se/rfc/cookie_spec.html\"\u003Ehttp://curl.haxx.se/rfc/cookie_spec.html\u003C/a\u003E) (Recomendado)"
+   },
+   "editThis_Flag_Cookie": {
+      "message": "Filtrar el Cookie"
+   },
+   "editThis_Flag_New_Cookie": {
+      "message": "Filtrar nuevo Cookie"
+   },
+   "editThis_Humanitarian_Program": {
+      "message": "Programa humanitario"
+   },
+   "editThis_Is_ReadOnly": {
+      "message": "Protegido"
+   },
+   "editThis_Max_Date": {
+      "message": "Escoge la edad m\u00E1xima de la cookie"
+   },
+   "editThis_Max_Date_Option": {
+      "message": "Anular la edad m\u00E1xima de cualquier cookie"
+   },
+   "editThis_Money_Raised": {
+      "message": "Dinero recaudado hasta ahora"
+   },
+   "editThis_Options": {
+      "message": "Opciones"
+   },
+   "editThis_Paste_Cookie_Here": {
+      "message": "Pega aqu\u00ED las cookies a importar. Formatos aceptados:"
+   },
+   "editThis_Paste_Cookies": {
+      "message": "Importar cookies"
+   },
+   "editThis_Protected_Cookies": {
+      "message": "Cookies protegidas"
+   },
+   "editThis_Rate_ETC": {
+      "message": "Puntuar Edit This Cookie"
+   },
+   "editThis_Rate_Us_Intro": {
+      "message": "Si te gusta Edit This Cookie, deja una valoraci\u00F3n en la Chrome Web Store"
+   },
+   "editThis_ReadOnly_Def": {
+      "message": "Una cookie protegida es una cookie que no puede ser modificada por ninguna p\u00E1gina web o extensi\u00F3n"
+   },
+   "editThis_Save": {
+      "message": "Guardar"
+   },
+   "editThis_Set_ReadOnly": {
+      "message": "Proteger de cambios"
+   },
+   "editThis_Show_Alerts": {
+      "message": "Pedir siempre confirmaci\u00F3n"
+   },
+   "editThis_Show_Christmas_Icon": {
+      "message": "Mostrar el icono con el sombrero de Santa"
+   },
+   "editThis_Show_ContextMenu": {
+      "message": "Mostrar \"Modificar Cookies\" en el men\u00FA contextual"
+   },
+   "editThis_Show_ContextMenu_helper": {
+      "message": "\u00A1Si est\u00E1 activado podr\u00E1s ocultar el icono en la barra de herramientas haciendo click derecho en \u00E9l!"
+   },
+   "editThis_Show_Domain": {
+      "message": "Muestra el dominio de cada cookie junto a su nombre"
+   },
+   "editThis_Source_Code": {
+      "message": "C\u00F3digo fuente"
+   },
+   "editThis_Source_Code_Intro": {
+      "description": "It will read: Check Edit This Cookie's source code on GitHub",
+      "message": "Encuentra el c\u00F3digo fuente de Edit This Cookie en $1"
+   },
+   "editThis_Use_Custom_Locale": {
+      "message": "Elige otro idioma"
+   },
+   "editThis_addNew": {
+      "message": "Crear cookie"
+   },
+   "editThis_addRule": {
+      "message": "A\u00F1adir esta regla"
+   },
+   "editThis_adsInfoAndSettings": {
+      "message": "informaci\u00F3n y opciones"
+   },
+   "editThis_advertisements": {
+      "message": "Anuncios"
+   },
+   "editThis_amountByHand": {
+      "message": "para introducir la cantidad manualmente haz click aqu\u00ED"
+   },
+   "editThis_backToList": {
+      "message": "Volver a la lista"
+   },
+   "editThis_bugsFeatureRequest": {
+      "message": "Bugs / Peticiones"
+   },
+   "editThis_bugsFeatureRequestIntro": {
+      "message": "\u00BFEncontraste un fallo o tienes una sugerencia? \u00A1D\u00EDnoslo!"
+   },
+   "editThis_cancel": {
+      "message": "Cancelar"
+   },
+   "editThis_contacts": {
+      "message": "Contactos"
+   },
+   "editThis_contactsIntro": {
+      "message": "M\u00E1ndanos un email"
+   },
+   "editThis_cookiesCreated": {
+      "message": "Cookies creadas"
+   },
+   "editThis_cookiesDeleted": {
+      "message": "Cookies borradas"
+   },
+   "editThis_cookiesExported": {
+      "message": "Cookies Exportadas"
+   },
+   "editThis_cookiesFlagged": {
+      "message": "Cookies marcadas eliminadas"
+   },
+   "editThis_cookiesImported": {
+      "message": "Cookies Importadas"
+   },
+   "editThis_cookiesModified": {
+      "message": "Cookies modificadas"
+   },
+   "editThis_cookiesProtected": {
+      "message": "Cookies de solo lectura"
+   },
+   "editThis_cookiesShortened": {
+      "message": "Caducidad de las cookies reducida"
+   },
+   "editThis_day": {
+      "message": "D\u00EDas"
+   },
+   "editThis_deleteAll": {
+      "message": "Elimina todos"
+   },
+   "editThis_description": {
+      "message": "Edit This Cookie es un gestor de cookies. \u00A1Puedes a\u00F1adir, eliminar, editar, buscar, proteger y bloquear cookies!"
+   },
+   "editThis_domain": {
+      "message": "dominio"
+   },
+   "editThis_donations": {
+      "message": "Donaciones"
+   },
+   "editThis_expiration": {
+      "message": "caducidad"
+   },
+   "editThis_flagAll": {
+      "message": "Marcar y eliminar todas"
+   },
+   "editThis_gospelBookTitle": {
+      "message": "Evangelio del Monstruo de Espagueti Volador"
+   },
+   "editThis_help": {
+      "message": "Ayuda"
+   },
+   "editThis_helpIntro": {
+      "message": "Aqu\u00ED encontrar\u00E1s tutoriales para algunas funciones b\u00E1sicas de esta extensi\u00F3n"
+   },
+   "editThis_hostOnly": {
+      "message": "hostOnly"
+   },
+   "editThis_hour": {
+      "message": "Horas"
+   },
+   "editThis_httpOnly": {
+      "message": "httpOnly"
+   },
+   "editThis_iWantDonate": {
+      "description": "I want to donate X euros",
+      "message": "Quiero donar"
+   },
+   "editThis_minutes": {
+      "message": "minutos"
+   },
+   "editThis_month": {
+      "message": "Meses"
+   },
+   "editThis_name": {
+      "message": "nombre"
+   },
+   "editThis_noBlockAdded": {
+      "message": "Ninguna regla de bloqueo a\u00F1adida"
+   },
+   "editThis_noReadOnlyAdded": {
+      "message": "No hay cookies protegidas todav\u00EDa"
+   },
+   "editThis_noStatsNotice": {
+      "message": "Sin datos todav\u00EDa :("
+   },
+   "editThis_path": {
+      "message": "camino"
+   },
+   "editThis_paypalSupportIntro": {
+      "description": "It will read: Support us using PayPal. Move the slider to change the amount",
+      "message": "Hacemos software abierto de alta calidad y lo ofrecemos gratis. \u003Cbr\u003E\u003Cbr\u003E Ay\u00FAdanos con $1. Desliza la barra para cambiar la cantidad"
+   },
+   "editThis_ppBenefit1": {
+      "message": "Obtendr\u00E1s un correo electr\u00F3nico de agradecimiento, y un peque\u00F1o lugar en mi coraz\u00F3n"
+   },
+   "editThis_ppBenefit2": {
+      "message": "Tu nombre se a\u00F1adir\u00E1 al Muro de la Fama"
+   },
+   "editThis_ppBenefit3": {
+      "message": "\u00A1Recibir\u00E1s una fant\u00E1stica postal de agradecimiento de 'Edit This Cookie'!"
+   },
+   "editThis_ppBenefit4": {
+      "message": "\u00A1Puedes decirme cualquier bug que te moleste en 'Edit This Cookie' y lo arreglar\u00E9 super-r\u00E1pido!"
+   },
+   "editThis_ppBenefit5": {
+      "message": "\u00A1Puedes decirme una funci\u00F3n que quieres que implante y lo har\u00E9 realidad! (simplemente no pidas lo imposible :P)"
+   },
+   "editThis_ppBenefit6": {
+      "message": "Si alguna vez nos encontramos te dar\u00E9 un caf\u00E9 italiano y un 'Babb\u00E0'"
+   },
+   "editThis_ppBenefit7": {
+      "message": "\u00A1Eres muy generoso! Si alguna vez nos encontramos te invitar\u00E9 a unas cervezas (hey, la cerveza es importante)"
+   },
+   "editThis_ppBenefit8": {
+      "message": "Ser\u00E1s el nuevo \u00EDdolo de mi religi\u00F3n y, si tu quieres, te enviar\u00E9 el siguiente libro:"
+   },
+   "editThis_ppBenefit9": {
+      "message": "Se la causa de mi primer gran \u00E9xito. \u00A1Solo tienes que donar ahora!"
+   },
+   "editThis_reloadAfterChanges": {
+      "message": "Recargar la p\u00E1gina despu\u00E9s de guardar los cambios"
+   },
+   "editThis_reset": {
+      "message": "Borrar todos"
+   },
+   "editThis_search": {
+      "message": "Buscar"
+   },
+   "editThis_seconds": {
+      "message": "segundos"
+   },
+   "editThis_secure": {
+      "message": "seguro"
+   },
+   "editThis_session": {
+      "message": "sesi\u00F3n"
+   },
+   "editThis_skipCacheOnReload": {
+      "message": "Saltar el cach\u00E9 al recargar la p\u00E1gina"
+   },
+   "editThis_stats": {
+      "message": "Estad\u00EDsticas"
+   },
+   "editThis_statsIntro": {
+      "message": "Aqu\u00ED puedes aprender a usar esta extensi\u00F3n. Esta informaci\u00F3n ha sido recogida desde julio de 2012."
+   },
+   "editThis_statsSharePolicy": {
+      "message": "\u00A1Te garantizamos que no compartiremos datos personales!"
+   },
+   "editThis_statsSince": {
+      "message": "Estad\u00EDsticas de cookies desde: $1"
+   },
+   "editThis_storeID": {
+      "message": "storeID"
+   },
+   "editThis_support": {
+      "message": "Ay\u00FAdanos"
+   },
+   "editThis_time": {
+      "message": "Time"
+   },
+   "editThis_timesUsed": {
+      "message": "Has usado 'Edit This Cookie' $1 veces"
+   },
+   "editThis_translation": {
+      "message": "Traducci\u00F3n"
+   },
+   "editThis_translationIntro": {
+      "message": "Ay\u00FAdanos a traducir esta extensi\u00F3n a tu idioma"
+   },
+   "editThis_useRegularExpressions": {
+      "message": "Puedes usar expresiones habituales"
+   },
+   "editThis_value": {
+      "message": "valor"
+   },
+   "editThis_year": {
+      "message": "A\u00F1os"
+   }
+}

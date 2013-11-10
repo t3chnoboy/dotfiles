@@ -1,0 +1,344 @@
+{
+   "editThis_": {
+      "message": ""
+   },
+   "editThis_AN_adsDescription": {
+      "message": "Visa mindre m\u00E4rkbar reklam p\u00E5 n\u00E5gra av sidorna jag bes\u00F6ker."
+   },
+   "editThis_AN_optInDescription": {
+      "message": "Till\u00E5t oss att dela din webbsida-data. All data \u00E4r anonym."
+   },
+   "editThis_Alert_deleteAll": {
+      "message": "Ta bort alla cookies f\u00F6r den aktuella hemsidan?"
+   },
+   "editThis_Alert_deleteCookie": {
+      "message": "Ta bort cookie"
+   },
+   "editThis_Alert_deleteRule": {
+      "message": "Ta bort den h\u00E4r regeln"
+   },
+   "editThis_Alert_submitAll": {
+      "message": "Spara cookie f\u00F6r\u00E4ndringar"
+   },
+   "editThis_Amount": {
+      "message": "Belopp"
+   },
+   "editThis_Blocked_Cookies": {
+      "message": "Blockerade cookies"
+   },
+   "editThis_Blocked_Def": {
+      "message": "Om du automatiskt vill ta bort en cookie varje g\u00E5ng den \u00E4r skapad, l\u00E4gg till ett filter s\u00E5 kommer den inte att irritera dig l\u00E4ngre."
+   },
+   "editThis_Charity_Message": {
+      "message": "Du kommer hj\u00E4lpa barn i n\u00F6d \u00F6ver hela v\u00E4rlden, f\u00F6r att $1% av int\u00E4kterna g\u00E5r till dem"
+   },
+   "editThis_ContextMenu": {
+      "message": "\u00C4ndra cookies"
+   },
+   "editThis_Copied_clipboard": {
+      "message": "Cookies kopierade till urklippet (clipboard)"
+   },
+   "editThis_Copy_Cookies": {
+      "message": "Exportera cookies"
+   },
+   "editThis_Copy_Cookies_Type": {
+      "message": "V\u00E4lj det f\u00F6redragna formatet att exportera i f\u00F6r cookies"
+   },
+   "editThis_Details": {
+      "message": "Detaljer"
+   },
+   "editThis_Donate": {
+      "message": "Medverka"
+   },
+   "editThis_Donation_Date": {
+      "message": "Donerings Datum"
+   },
+   "editThis_Encode_Cookie_Value": {
+      "message": "Koda av v\u00E4rdet av cookie (enligt \u003Ca href=\"http://curl.haxx.se/rfc/cookie_spec.html\"\u003Ehttp://curl.haxx.se/rfc/cookie_spec.html\u003C/a\u003E) (Rekommenderat)"
+   },
+   "editThis_Flag_Cookie": {
+      "message": "Flagga cookie"
+   },
+   "editThis_Flag_New_Cookie": {
+      "message": "Flagga ny cookie"
+   },
+   "editThis_Humanitarian_Program": {
+      "message": "Humanit\u00E4ra program"
+   },
+   "editThis_Is_ReadOnly": {
+      "message": "Skyddad"
+   },
+   "editThis_Max_Date": {
+      "message": "S\u00E4tt cookie max-\u00E5ldern till"
+   },
+   "editThis_Max_Date_Option": {
+      "message": "\u00D6verskrid maximum \u00E5ldern f\u00F6r vilken cookie som helst"
+   },
+   "editThis_Money_Raised": {
+      "message": "Pengar hittills"
+   },
+   "editThis_Options": {
+      "message": "Alternativ"
+   },
+   "editThis_Paste_Cookie_Here": {
+      "message": "Klistra in cookies h\u00E4r f\u00F6r att importera dem. Accepterade format:"
+   },
+   "editThis_Paste_Cookies": {
+      "message": "Importera Cookies"
+   },
+   "editThis_Protected_Cookies": {
+      "message": "Skyddade Cookies"
+   },
+   "editThis_Rate_ETC": {
+      "message": "Betygs\u00E4tt Edit This Cookie"
+   },
+   "editThis_Rate_Us_Intro": {
+      "message": "Om du tycker om Edit This Cookie, l\u00E4mna ett betyg p\u00E5 Chrome Web Store"
+   },
+   "editThis_ReadOnly_Def": {
+      "message": "En skyddad cookie \u00E4r en cookie som inte kan bli modifierad av n\u00E5gon webbsida eller till\u00E4gg."
+   },
+   "editThis_Save": {
+      "message": "Spara"
+   },
+   "editThis_Set_ReadOnly": {
+      "message": "S\u00E4tt som skrivskyddat"
+   },
+   "editThis_Show_Alerts": {
+      "message": "Fr\u00E5ga alltid efter bekr\u00E4ftelse"
+   },
+   "editThis_Show_Christmas_Icon": {
+      "message": "Visa tomtens hatt-ikon"
+   },
+   "editThis_Show_ContextMenu": {
+      "message": "Visa \"\u00C4ndra Cookies\" i kontextmenyn"
+   },
+   "editThis_Show_ContextMenu_helper": {
+      "message": "Om den \u00E4r aktiverad kommer du kunna g\u00F6mma ikonen i verktygsf\u00E4ltet genom att h\u00F6ger-klicka p\u00E5 den!"
+   },
+   "editThis_Show_Domain": {
+      "message": "Visa dom\u00E4nen n\u00E4ra cookies namn"
+   },
+   "editThis_Source_Code": {
+      "message": "K\u00E4llkod"
+   },
+   "editThis_Source_Code_Intro": {
+      "description": "It will read: Check Edit This Cookie's source code on GitHub",
+      "message": "\u00C4ndra Edit This Cookies k\u00E4llkod p\u00E5 $1"
+   },
+   "editThis_Use_Custom_Locale": {
+      "message": "V\u00E4lj ett annat spr\u00E5k"
+   },
+   "editThis_addNew": {
+      "message": "L\u00E4gg till en ny cookie"
+   },
+   "editThis_addRule": {
+      "message": "L\u00E4gg till den h\u00E4r uppgiften regeln"
+   },
+   "editThis_adsInfoAndSettings": {
+      "message": "Information och inst\u00E4llningar"
+   },
+   "editThis_advertisements": {
+      "message": "Annonser"
+   },
+   "editThis_amountByHand": {
+      "message": "f\u00F6r att l\u00E4gga till beloppet sj\u00E4lv, klicka h\u00E4r"
+   },
+   "editThis_backToList": {
+      "message": "Tillbaka till listan"
+   },
+   "editThis_bugsFeatureRequest": {
+      "message": "Buggar / Funktions Beg\u00E4ran"
+   },
+   "editThis_bugsFeatureRequestIntro": {
+      "message": "Har du hittat en bugg eller har du ett f\u00F6rslag? Ber\u00E4tta det f\u00F6r oss!"
+   },
+   "editThis_cancel": {
+      "message": "Avbryt"
+   },
+   "editThis_contacts": {
+      "message": "Kontakter"
+   },
+   "editThis_contactsIntro": {
+      "message": "Skicka ett mail till oss"
+   },
+   "editThis_cookiesCreated": {
+      "message": "Cookies Skapade"
+   },
+   "editThis_cookiesDeleted": {
+      "message": "Cookies borttagna"
+   },
+   "editThis_cookiesExported": {
+      "message": "Cookies exporterade"
+   },
+   "editThis_cookiesFlagged": {
+      "message": "Flagga Borttagna Cookies"
+   },
+   "editThis_cookiesImported": {
+      "message": "Cookies Importerade"
+   },
+   "editThis_cookiesModified": {
+      "message": "Modifierade Cookies"
+   },
+   "editThis_cookiesProtected": {
+      "message": "Skyddade Skrivskyddade Cookies"
+   },
+   "editThis_cookiesShortened": {
+      "message": "Cookies utg\u00E5ngsdatum \u00E4r f\u00F6rkortat"
+   },
+   "editThis_day": {
+      "message": "Dagar"
+   },
+   "editThis_deleteAll": {
+      "message": "Ta bort alla"
+   },
+   "editThis_description": {
+      "message": "Edit This Cookie \u00E4r en cookie hanterare. Du kan l\u00E4gga till, ta bort, \u00E4ndra, s\u00F6ka, skydda och blocka cookies!"
+   },
+   "editThis_domain": {
+      "message": "Dom\u00E4n"
+   },
+   "editThis_donations": {
+      "message": "Dontationer"
+   },
+   "editThis_expiration": {
+      "message": "Utg\u00E5ngsdatum"
+   },
+   "editThis_flagAll": {
+      "message": "Flagga och ta bort alla"
+   },
+   "editThis_gospelBookTitle": {
+      "message": "Evangeliet om det flygande Spaghetti Monstret"
+   },
+   "editThis_help": {
+      "message": "Hj\u00E4lp"
+   },
+   "editThis_helpIntro": {
+      "message": "H\u00E4r hittar du f\u00F6rklaringar till n\u00E5gra grundfunktioner av det h\u00E4r till\u00E4gget"
+   },
+   "editThis_hostOnly": {
+      "message": "V\u00E4rdEndast"
+   },
+   "editThis_hour": {
+      "message": "Timmar"
+   },
+   "editThis_httpOnly": {
+      "message": "HttpEndast"
+   },
+   "editThis_iWantDonate": {
+      "description": "I want to donate X euros",
+      "message": "Jag vill donera"
+   },
+   "editThis_minutes": {
+      "message": "Mintuer"
+   },
+   "editThis_month": {
+      "message": "M\u00E5nader"
+   },
+   "editThis_name": {
+      "message": "Namn"
+   },
+   "editThis_noBlockAdded": {
+      "message": "Inga blockerings-\u00E4ndringar tillagda"
+   },
+   "editThis_noReadOnlyAdded": {
+      "message": "Inga cookies kan bli skyddade \u00E4n"
+   },
+   "editThis_noStatsNotice": {
+      "message": "Ingen data \u00E4n :("
+   },
+   "editThis_path": {
+      "message": "S\u00F6kv\u00E4g"
+   },
+   "editThis_paypalSupportIntro": {
+      "description": "It will read: Support us using PayPal. Move the slider to change the amount",
+      "message": "Vi utvecklar h\u00F6gkvalit\u00E9 \u00F6ppen k\u00E4llkods programvara och vi ger iv\u00E4g det gratis. \u003Cbr\u003E\u003Cbr\u003E Underh\u00E5ll oss med $1. Flytta slidern f\u00F6r att \u00E4ndra m\u00E4ngden"
+   },
+   "editThis_ppBenefit1": {
+      "message": "Du kommer f\u00E5 ett tack s\u00E5 mycket mail, och en liten plats i mitt hj\u00E4rta"
+   },
+   "editThis_ppBenefit2": {
+      "message": "Ditt namn kommer l\u00E4ggas till i Wall of Fame"
+   },
+   "editThis_ppBenefit3": {
+      "message": "Du kommer f\u00E5 en h\u00E4ftig 'Edit This Cookie' Thank You postcard!"
+   },
+   "editThis_ppBenefit4": {
+      "message": "Du kan s\u00E4ga vilken bugg som helst, som irriterar dig i Edit This Cookie, s\u00E5 kommer jag att fixa det super snabbt!"
+   },
+   "editThis_ppBenefit5": {
+      "message": "Du kan namnge n\u00E5got du vill ha inlagt och jag ser till att det h\u00E4nder! (fr\u00E5ga bara inte om n\u00E5got om\u00F6jligt :P )"
+   },
+   "editThis_ppBenefit6": {
+      "message": "Om vi n\u00E5gonsin m\u00F6ts s\u00E5 ger jag dig Italiskt kaffe och en 'Babb\u00E0'"
+   },
+   "editThis_ppBenefit7": {
+      "message": "Du \u00E4r v\u00E4ldigt gener\u00F6s! Om vi n\u00E5gonsin m\u00F6ts, s\u00E5 ger jag dig n\u00E5gra \u00F6l (h\u00F6rru, \u00F6l \u00E4r viktigt)"
+   },
+   "editThis_ppBenefit8": {
+      "message": "Du kommer vara den nya huvudpersonen av min religion, och, om du vill, s\u00E5 skickar jag dig den f\u00F6ljande boken:"
+   },
+   "editThis_ppBenefit9": {
+      "message": "Var orsaken till min f\u00F6rsta hj\u00E4rtattack. Allt du beh\u00F6ver g\u00F6ra \u00E4r att donera nu!"
+   },
+   "editThis_reloadAfterChanges": {
+      "message": "Ladda om sidan efter att du har accepterat \u00E4ndringarna"
+   },
+   "editThis_reset": {
+      "message": "\u00C5terst\u00E4ll"
+   },
+   "editThis_search": {
+      "message": "S\u00F6k"
+   },
+   "editThis_seconds": {
+      "message": "Sekunder"
+   },
+   "editThis_secure": {
+      "message": "S\u00E4ker"
+   },
+   "editThis_session": {
+      "message": "Session"
+   },
+   "editThis_skipCacheOnReload": {
+      "message": "Hoppa \u00F6ver cache n\u00E4r sidan laddar om"
+   },
+   "editThis_stats": {
+      "message": "Statistik"
+   },
+   "editThis_statsIntro": {
+      "message": "H\u00E4r kan du f\u00E5 reda p\u00E5 hur du anv\u00E4nt det h\u00E4r till\u00E4gget. Denna data har endast blivit insamlat sedan Juli 2012."
+   },
+   "editThis_statsSharePolicy": {
+      "message": "Vi garanterar att vi aldrig kommer dela med oss utav din privata data, n\u00E5gonsin!"
+   },
+   "editThis_statsSince": {
+      "message": "Cookie statistik sedan: $1"
+   },
+   "editThis_storeID": {
+      "message": "Aff\u00E4rID"
+   },
+   "editThis_support": {
+      "message": "Underh\u00E5ll oss"
+   },
+   "editThis_time": {
+      "message": "Tid"
+   },
+   "editThis_timesUsed": {
+      "message": "Du anv\u00E4nde 'Edit This Cookie' $1 times"
+   },
+   "editThis_translation": {
+      "message": "\u00D6vers\u00E4ttning"
+   },
+   "editThis_translationIntro": {
+      "message": "Hj\u00E4lp oss att \u00F6vers\u00E4tta till\u00E4gget till ditt egna spr\u00E5k"
+   },
+   "editThis_useRegularExpressions": {
+      "message": "Du kan anv\u00E4nda regelbundna uttryck"
+   },
+   "editThis_value": {
+      "message": "V\u00E4rde"
+   },
+   "editThis_year": {
+      "message": "\u00C5ren"
+   }
+}

@@ -1,0 +1,224 @@
+<html>
+<head>
+  <title>User-Agent switcher configuration</title>
+  <link rel="stylesheet" type="text/css" href="spoofer.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <script src="spoofer.js"></script>
+  <script src="jquery.js"></script>
+  <script src="options.js"></script>
+</head>
+<body>
+<table id="outer">
+  <tr>
+    <td width="1%">
+      <table id="menu" class="menu">
+        <tr>
+          <td>
+            <table class="logo">
+              <tr>
+                <td rowspan="2">
+                  <img width="48" height="48" src="spoofer-128.png" border="0">
+                </td>
+              </tr>
+              <tr>
+                <td class="logo">
+                  User-Agent Switcher<br>for Chrome
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="menuitem" id="menu_ua">
+            Custom User-Agents
+          </td>
+        </tr>
+        <tr>
+          <td class="menuitem" id="menu_spoof">
+            Permanent Spoof list
+          </td>
+        </tr>
+        <tr>
+          <td class="menuitem" id="menu_import">
+            Import Settings
+          </td>
+        </tr>
+        <tr>
+          <td class="menuitem" id="menu_other">
+            Other Settings
+          </td>
+        </tr>
+        <tr>
+          <td class="menuitem" id="menu_about">
+            About
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      &nbsp;&nbsp;
+    </td>
+    <td>
+      <!--
+      <table id="status_table">
+        <tr>
+          <td>
+            <span id="status"></span>
+            <br>
+          </td>
+        </tr>
+      </table>
+      <br>-->
+      <table id="custom_ua_table" class="menu_controlled">
+        <tr>
+          <td colspan="2">
+            <div class="subheader">Custom User-Agent List</div><br><br>
+            <div id="ua_tablecontainer" class="tablecontainer">
+              <table id="ua_add_table" class="list_table">
+              </table>
+              <table id="ua_list_table" class="list_table">
+              </table>
+            </div>
+            <br>
+          </td>
+        </tr>
+      </table>
+      <table id="other_settings_table" class="menu_controlled">
+        <tr>
+          <td colspan="2" class="tablecontainer">
+            <div class="subheader">Other Settings</div><br>
+            <table class="other_options">
+              <tr>
+                <td rowspan="2" align="right">
+                  <input type="checkbox" value="1" name="permanent_override" id="permanent_override">
+                </td>
+                <td class="bold">
+                  Permanent spoofs always override any user-agent selection in the toolbar.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  By default, any user-agent you select in Chrome's toolbar takes precedence
+                  over any permanent spoofs you have set up.  By selecting this option,
+                  your permanent spoofs always take precedence over any selection in the toolbar.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="right">
+                  <input type="checkbox" value="1" name="builtin" id="builtin">
+                </td>
+                <td class="bold">                  
+                  Use and auto-update the User-Agent switcher's built-in spoofing list.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                   Automatically switch user-agent and vendor strings for sites in the User-Agent spoofer's known incompatibility list.
+                   Also attempt to auto-update the list from spoofer-extension.appspot.com once per day.<br><br>
+                   If this box is unchecked, the extension will not attempt to update its pre-set spoof ("known offender") list and will not
+                   spoof any sites you don't specify yourself.<br><br>
+                </td>
+              </tr>
+              <tr>
+                <td rowspan="2" align="right">
+                  <input type="button" id="resetter" value="Reset">
+                </td>
+                <td class="bold">
+                  Reset "known" user-agent strings.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Resets the list of "known" user-agent strings, in case some were deleted that you want to get back.
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table id="import_table" class="menu_controlled">
+        <tr>
+          <td colspan="2" class="tablecontainer">
+            <div class="subheader">Import Settings</div><br>
+            <table class="other_options">
+              <tr>
+                <td>
+                  <b>Import from file:</b> Import user-agent strings from a local XML file.<br>
+                  The format of this file must be consistent with the XML format posted on <a target="_new" href="http://techpatterns.com/forums/about304.html">http://techpatterns.com/forums/about304.html</a>.<br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="file" name="import_file" id="local_file_import">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div id="import_result"></div>
+                </td>
+              </tr>
+              <!--
+              <tr>
+                <td>
+                  Import user-agent strings from a comma-separated value file at URL:
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="file" id="importer" onChange="menuItemChange()">
+                </td>
+              </tr>
+              -->
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table id="about_table" class="menu_controlled">
+        <tr>
+          <td colspan="2" class="tablecontainer">
+            <div class="subheader">About</div><br>
+            <table>
+               <tr>
+                 <td>
+                  The User-Agent Switcher for Chrome is a Chrome extension that
+                  allows you to quickly and easily modify Chrome's user-agent
+                  while browsing.  It also allows you to set up permanent
+                  user-agent switching behavior so that Chrome will always use
+                  a different user-agent string for certain sites.
+                  <br><br>
+                  This extension is built and maintained by <a target="_new" href="https://plus.google.com/105199364823220402760">Glenn Wilson</a>.  You can send bugs & feature requests there.
+                  <br><br>
+                  Thanks to jeffd on the Tech Patterns forums for building a huge user-agent string list for the community to use.
+                  <br><br>
+                  More information about this extension is available at
+                  <a href="http://spoofer-extension.appspot.com/">spoofer-extension.appspot.com</a>
+                  <br><br>
+                  All references to other browsers are the trademarks and property of their respective owners.<br>
+                 </td>
+               </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table id="permanent_spoof_table" class="menu_controlled">
+        <tr>
+          <td colspan="2">
+            <div class="subheader">Permanent Spoof List</div><br><br>
+            <div id="tablecontainer" class="tablecontainer">
+              <table id="list_table" class="list_table">
+              </table>
+            </div>
+            <br>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

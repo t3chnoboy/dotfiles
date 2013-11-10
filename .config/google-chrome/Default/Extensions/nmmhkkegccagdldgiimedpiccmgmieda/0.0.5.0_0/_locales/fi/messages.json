@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google Wallet digituotteille"
+   },
+   "app_name": {
+      "message": "Google Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "Sovellus ei ole t\u00E4ll\u00E4 hetkell\u00E4 k\u00E4ytett\u00E4viss\u00E4."
+   },
+   "craw_connect_to_network": {
+      "message": "Muodosta verkkoyhteys."
+   },
+   "iap_unavailable": {
+      "message": "Sovelluksen sis\u00E4iset maksut eiv\u00E4t ole t\u00E4ll\u00E4 hetkell\u00E4 k\u00E4ytett\u00E4viss\u00E4."
+   },
+   "please_sign_in": {
+      "message": "Kirjaudu sis\u00E4\u00E4n Chromeen."
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "app_copyright": {
+      "message": "Copyright 2011. Google Inc. \u0421\u0432\u0430 \u043F\u0440\u0430\u0432\u0430 \u0437\u0430\u0434\u0440\u0436\u0430\u043D\u0430."
+   },
+   "app_description": {
+      "message": "\u0414\u0435\u043B\u0438\u0442\u0435 \u043F\u0440\u0430\u0432\u0435 \u0441\u0442\u0432\u0430\u0440\u0438 \u0441\u0430 \u043F\u0440\u0430\u0432\u0438\u043C \u0459\u0443\u0434\u0438\u043C\u0430."
+   },
+   "app_name": {
+      "message": "Google+"
+   },
+   "share_intent_title": {
+      "message": "\u0414\u0435\u043B\u0438 \u043D\u0430 Google+"
+   }
+}

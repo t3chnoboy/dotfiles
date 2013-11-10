@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EDu\u003C/a\u003E gav denne side +1."
+   },
+   "add_plusone_tooltip": {
+      "message": "Giv denne side +1 som {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Grundl\u00E6ggende valgmuligheder"
+   },
+   "browser_usage_warning": {
+      "message": "Hvis du aktiverer denne valgmulighed, deles din brug af browseren med Google."
+   },
+   "cannot_plusone_message": {
+      "message": "Du kan ikke give denne side +1."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "Du kan ikke give denne side +1"
+   },
+   "counts_group_name": {
+      "message": "Opt\u00E6lling"
+   },
+   "error_message": {
+      "message": "Der opstod en fejl."
+   },
+   "error_tooltip": {
+      "message": "Der opstod en fejl"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Alle rettigheder forbeholdes."
+   },
+   "extension_description": {
+      "message": "Giv en webside +1, og del den med andre, uanset hvor du er p\u00E5 nettet."
+   },
+   "extension_name": {
+      "message": "Google+1 knap"
+   },
+   "extension_name_sans_google": {
+      "message": "+1 knap"
+   },
+   "loading": {
+      "message": "Indl\u00E6ser..."
+   },
+   "options_header": {
+      "message": "Valgmuligheder"
+   },
+   "options_title": {
+      "message": "Valgmuligheder"
+   },
+   "privacy_and_terms": {
+      "message": "Beskyttelse af personlige oplysninger og vilk\u00E5r"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EDit\u003C/a\u003E +1 er blevet fjernet."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Fjern +1 fra denne side"
+   },
+   "send_usage_statistics": {
+      "message": "Send automatisk anonym brugsstatistik til Google"
+   },
+   "show_plusone_counts": {
+      "message": "Vis opt\u00E6lling af +1"
+   },
+   "sign_in_message": {
+      "message": "N\u00E5r du er logget ind, kan du give denne side +1."
+   },
+   "sign_in_tooltip": {
+      "message": "Log ind for at bruge Google +1"
+   },
+   "sign_up_message": {
+      "message": "Tilmeld dig for at bruge Google+1."
+   },
+   "sign_up_tooltip": {
+      "message": "Tilmeld dig for at bruge Google+1"
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "app_description": {
+      "message": "Googlen ilmaisen verkkokalenterin avulla voit ker\u00E4t\u00E4 kaikki t\u00E4rke\u00E4t aikataulut yhteen paikkaan."
+   },
+   "app_name": {
+      "message": "Google-kalenteri"
+   },
+   "description_extended": {
+      "message": "Aikataulun suunnittelemisen ei tulisi olla hankalaa. Google-kalenterin avulla voit ker\u00E4t\u00E4 kaikki t\u00E4rke\u00E4t aikataulut yhteen paikkaan."
+   },
+   "description_reason_1": {
+      "message": "1. Jaa aikataulusi"
+   },
+   "description_reason_2": {
+      "message": "2. Kalenteri mukana menossa"
+   },
+   "description_reason_3": {
+      "message": "3. Et en\u00E4\u00E4 koskaan unohda sovittuja tapaamisia"
+   },
+   "description_reason_4": {
+      "message": "4. L\u00E4het\u00E4 kutsuja ja seuraa vastauksia"
+   },
+   "description_reason_5": {
+      "message": "5. Synkronoi p\u00F6yt\u00E4konesovelluksien kanssa"
+   },
+   "description_reason_6": {
+      "message": "6. Ty\u00F6skentele offline-tilassa"
+   },
+   "description_reason_7": {
+      "message": "7. Onko t\u00E4m\u00E4 kaikki ilmaista?"
+   },
+   "description_reason_content_1": {
+      "message": "Anna ty\u00F6kavereidesi, perheesi ja yst\u00E4viesi tarkastella kalenteriasi ja katsele aikatauluja, joita muut ovat kanssasi jakaneet. Kun tied\u00E4t, milloin kaikilla on vapaa-aikaa, voitte helposti suunnitella yhteisi\u00E4 tapaamisia."
+   },
+   "description_reason_content_2": {
+      "message": "Synkronoimalla matkapuhelimesi oman kalenterin tai Google-kalenterin pienelle ruudulle suunnitellun mobiiliversion voit k\u00E4ytt\u00E4\u00E4 kalenteriasi miss\u00E4 ikin\u00E4 liikutkin."
+   },
+   "description_reason_content_3": {
+      "message": "Muokattavat muistutukset auttavat sinua pysym\u00E4\u00E4n aikataulussa. Voit valita muistutukset s\u00E4hk\u00F6postitse tai tekstiviestitse suoraan puhelimeesi."
+   },
+   "description_reason_content_4": {
+      "message": "Kutsu muita k\u00E4ytt\u00E4ji\u00E4 osallistumaan kalenterisi tapahtumiin. Vieraat voivat vastata kutsuun joko s\u00E4hk\u00F6postitse tai Google-kalenterin kautta."
+   },
+   "description_reason_content_5": {
+      "message": "K\u00E4yt\u00E4 kalenteriasi miten ja milloin haluat synkronoimalla tapahtumat muiden sovelluksien kuten Microsoft Outlookin, Apple iCalin ja Mozilla Sunbirdin avulla."
+   },
+   "description_reason_content_6": {
+      "message": "Tied\u00E4t minne menn\u00E4, vaikka internetyhteytt\u00E4 ei olisi k\u00E4ytett\u00E4viss\u00E4. Voit tarkastella kalenterisi vain luku -versiota offline-tilassa miss\u00E4 tahansa liikutkin."
+   },
+   "description_reason_content_7": {
+      "message": "Kyll\u00E4."
+   },
+   "description_reasons": {
+      "message": "7 syyt\u00E4 k\u00E4ytt\u00E4\u00E4 Google-kalenteria..."
+   }
+}

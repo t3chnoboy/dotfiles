@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "Une erreur s'est produite."
+   },
+   "error_tooltip": {
+      "message": "Une erreur s'est produite"
+   },
+   "extension_copyright": {
+      "message": "Copyright Google\u00A0Inc.\u00A02011. Tous droits r\u00E9serv\u00E9s."
+   },
+   "extension_description": {
+      "message": "Affichez les notifications d'activit\u00E9 Google+ lorsque vous \u00EAtes connect\u00E9, quel que soit le site Web que vous consultez."
+   },
+   "extension_name": {
+      "message": "Notifications Google+"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "Notifications $1+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "Activer les notifications de pages Google+"
+   },
+   "follow_promo_feature_1": {
+      "message": "Lorsque vous consultez un site associ\u00E9 \u00E0 une page Google+, un curseur s'affiche sur le c\u00F4t\u00E9 de la fen\u00EAtre du navigateur. Passez la souris sur le curseur pour le d\u00E9velopper et ajouter facilement la page \u00E0 vos cercles."
+   },
+   "follow_promo_feature_2": {
+      "message": "Le bouton de notification de votre navigateur comporte un signe \"+\" pour indiquer que vous consultez un site associ\u00E9 \u00E0 une page Google+. Si vous cliquez sur le bouton, vos notifications s'affichent, comme auparavant. D\u00E9sormais, des informations sur la page Google+ associ\u00E9e sont \u00E9galement propos\u00E9es et vous permettent de suivre la page rapidement."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "Optimisez votre flux Google+ en suivant les pages qui vous int\u00E9ressent\u00A0:"
+   },
+   "follow_promo_following_description": {
+      "message": "Lorsqu'une page Google+ figure dans vos cercles, toutes les publications de cette page s'affichent dans votre flux."
+   },
+   "follow_promo_header": {
+      "message": "D\u00E9couvrez des pages Google+ lorsque vous naviguez sur le Web"
+   },
+   "join_google_plus_message": {
+      "message": "Rejoignez Google+ pour afficher les notifications."
+   },
+   "join_google_plus_tooltip": {
+      "message": "Rejoindre Google+ pour afficher les notifications"
+   },
+   "loading": {
+      "message": "Chargement en cours..."
+   },
+   "many_new_notifications": {
+      "message": "Vous avez $1\u00A0nouvelles notifications",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "Nouveau\u00A0!"
+   },
+   "no_new_notifications": {
+      "message": "Vous n'avez aucune nouvelle notification"
+   },
+   "not_now": {
+      "message": "Pas maintenant"
+   },
+   "one_new_notification": {
+      "message": "Vous avez une\u00A0nouvelle notification"
+   },
+   "options_header": {
+      "message": "Options"
+   },
+   "options_title": {
+      "message": "Options"
+   },
+   "privacy_and_terms": {
+      "message": "Confidentialit\u00E9 et conditions d'utilisation"
+   },
+   "promo_link": {
+      "message": "En savoir plus &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003ENouveau\u00A0!\u003C/span\u003ED\u00E9couvrez des pages Google+ lorsque vous naviguez sur le Web"
+   },
+   "retry_now": {
+      "message": "R\u00E9essayer maintenant"
+   },
+   "retrying_in": {
+      "message": "Autre tentative dans $1\u00A0s",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "Envoyer automatiquement des statistiques anonymes sur l'utilisation \u00E0 Google"
+   },
+   "sign_in_message": {
+      "message": "Connectez-vous pour afficher les notifications."
+   },
+   "sign_in_tooltip": {
+      "message": "Se connecter pour afficher les notifications"
+   },
+   "use_plus_follow_header": {
+      "message": "M'informer sur les personnes et sur les pages Google+ associ\u00E9s aux sites que je consulte (n\u00E9cessite des autorisations suppl\u00E9mentaires)"
+   },
+   "use_plus_follow_note": {
+      "message": "Les URL des sites que vous consultez nous seront envoy\u00E9es afin d'identifier les profils et les pages Google+ associ\u00E9s."
+   },
+   "yada_yada": {
+      "message": "Les informations suivantes sont importantes, veuillez les lire avec attention\u00A0:"
+   }
+}

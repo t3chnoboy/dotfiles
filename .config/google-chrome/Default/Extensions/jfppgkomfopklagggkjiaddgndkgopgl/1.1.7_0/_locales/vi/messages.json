@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Lu\u00F4n th\u00EAm v\u00E0o Google+"
+   },
+   "always_add_desc": {
+      "message": "Khi \u0111\u01B0\u1EE3c ch\u1ECDn, s\u1EBD lu\u00F4n th\u00EAm t\u00EDnh n\u0103ng d\u1ECBch v\u00E0o Google+, n\u1EBFu kh\u00F4ng t\u00EDnh n\u0103ng n\u00E0y s\u1EBD ch\u1EC9 \u0111\u01B0\u1EE3c th\u00EAm khi b\u1EA1n nh\u1EA5p v\u00E0o n\u00FAt ti\u1EC7n \u00EDch m\u1EDF r\u1ED9ng."
+   },
+   "autosaved": {
+      "message": "\u0110\u01B0\u1EE3c l\u01B0u t\u1EF1 \u0111\u1ED9ng:"
+   },
+   "background": {
+      "message": "N\u1EC1n cho b\u1EA3n d\u1ECBch:"
+   },
+   "example": {
+      "message": "V\u00ED d\u1EE5"
+   },
+   "extension_desc": {
+      "message": "D\u1ECBch lu\u1ED3ng Google+ c\u1EE7a b\u1EA1n s\u1EED d\u1EE5ng h\u1ED7 tr\u1EE3 \u0111\u01B0\u1EE3c t\u00EDch h\u1EE3p, n\u1ED9i tuy\u1EBFn c\u1EE7a Google D\u1ECBch."
+   },
+   "extension_name": {
+      "message": "Google D\u1ECBch d\u00E0nh cho Google+"
+   },
+   "google_translate": {
+      "message": "Google D\u1ECBch"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 d\u00E0nh cho Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Ng\u00F4n ng\u1EEF:"
+   },
+   "language_desc": {
+      "message": "N\u1ED9i dung s\u1EBD \u0111\u01B0\u1EE3c d\u1ECBch sang ng\u00F4n ng\u1EEF n\u00E0y."
+   },
+   "options_saved": {
+      "message": "T\u00F9y ch\u1ECDn \u0111\u00E3 \u0111\u01B0\u1EE3c l\u01B0u"
+   },
+   "save": {
+      "message": "L\u01B0u"
+   },
+   "translate_header": {
+      "message": "D\u1ECBch"
+   }
+}

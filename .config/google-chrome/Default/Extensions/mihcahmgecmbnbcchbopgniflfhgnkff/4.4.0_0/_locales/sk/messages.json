@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "Zobraz\u00ED po\u010Det nepre\u010D\u00EDtan\u00FDch spr\u00E1v v prie\u010Dinku doru\u010Denej po\u0161ty v slu\u017Ebe Gmail. Kliknut\u00EDm na tla\u010Didlo prie\u010Dinok doru\u010Denej po\u0161ty otvor\u00EDte."
+   },
+   "gmailcheck_exception": {
+      "message": "v\u00FDnimka: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Kontrola po\u0161ty Google"
+   },
+   "gmailcheck_node_error": {
+      "message": "Chyba: informa\u010Dn\u00FD kan\u00E1l bol na\u010D\u00EDtan\u00FD, nena\u0161iel sa v\u0161ak \u017Eiadny uzol &lt;fullcount&gt;."
+   }
+}

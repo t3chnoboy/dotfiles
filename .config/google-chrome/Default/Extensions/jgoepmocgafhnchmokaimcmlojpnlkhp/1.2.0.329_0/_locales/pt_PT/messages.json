@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EAdicionou\u003C/a\u003E +1 a esta p\u00E1gina."
+   },
+   "add_plusone_tooltip": {
+      "message": "Adicionar +1 a esta p\u00E1gina como {{user}}"
+   },
+   "basics_page_title": {
+      "message": "No\u00E7\u00F5es B\u00E1sicas"
+   },
+   "browser_usage_warning": {
+      "message": "Ao ativar esta op\u00E7\u00E3o ir\u00E1 partilhar a utiliza\u00E7\u00E3o do navegador com o Google."
+   },
+   "cannot_plusone_message": {
+      "message": "N\u00E3o pode adicionar +1 a esta p\u00E1gina."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "N\u00E3o pode adicionar +1 a esta p\u00E1gina"
+   },
+   "counts_group_name": {
+      "message": "Contagens"
+   },
+   "error_message": {
+      "message": "Ocorreu um erro."
+   },
+   "error_tooltip": {
+      "message": "Ocorreu um erro"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Todos os Direitos Reservados."
+   },
+   "extension_description": {
+      "message": "Onde quer que esteja na internet, marque a p\u00E1gina com +1 para a partilhar."
+   },
+   "extension_name": {
+      "message": "Bot\u00E3o do Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "Bot\u00E3o +1"
+   },
+   "loading": {
+      "message": "A carregar..."
+   },
+   "options_header": {
+      "message": "Op\u00E7\u00F5es"
+   },
+   "options_title": {
+      "message": "Op\u00E7\u00F5es"
+   },
+   "privacy_and_terms": {
+      "message": "Privacidade e Termos"
+   },
+   "remove_plusone_success": {
+      "message": "\u003Ca\u003EO\u003C/a\u003E +1 foi removido."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Remover +1 desta p\u00E1gina"
+   },
+   "send_usage_statistics": {
+      "message": "Enviar automaticamente estat\u00EDsticas de utiliza\u00E7\u00E3o an\u00F3nimas para o Google"
+   },
+   "show_plusone_counts": {
+      "message": "Mostrar Contagens do +1."
+   },
+   "sign_in_message": {
+      "message": "Assim que tiver sess\u00E3o iniciada, poder\u00E1 adicionar +1 a esta p\u00E1gina."
+   },
+   "sign_in_tooltip": {
+      "message": "Iniciar sess\u00E3o para utilizar o Google +1"
+   },
+   "sign_up_message": {
+      "message": "Inscreva-se para utilizar o Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "Inscreva-se para utilizar o Google +1"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Google Wallet cho h\u00E0ng h\u00F3a k\u1EF9 thu\u1EADt s\u1ED1"
+   },
+   "app_name": {
+      "message": "Google Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "\u1EE8ng d\u1EE5ng hi\u1EC7n kh\u00F4ng kh\u1EA3 d\u1EE5ng."
+   },
+   "craw_connect_to_network": {
+      "message": "Vui l\u00F2ng k\u1EBFt n\u1ED1i v\u1EDBi m\u1EA1ng."
+   },
+   "iap_unavailable": {
+      "message": "Thanh to\u00E1n trong \u1EE9ng d\u1EE5ng hi\u1EC7n kh\u00F4ng kh\u1EA3 d\u1EE5ng."
+   },
+   "please_sign_in": {
+      "message": "Vui l\u00F2ng \u0111\u0103ng nh\u1EADp v\u00E0o Chrome."
+   }
+}

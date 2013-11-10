@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "App description.",
+      "message": "Vind lokale bedrijfsgegevens, routebeschrijvingen en beelden op straatniveau van over de hele wereld met Google Maps."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Maps"
+   }
+}

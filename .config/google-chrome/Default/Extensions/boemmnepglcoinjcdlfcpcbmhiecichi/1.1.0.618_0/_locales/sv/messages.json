@@ -1,0 +1,116 @@
+{
+   "error_message": {
+      "message": "Ett fel har intr\u00E4ffat."
+   },
+   "error_tooltip": {
+      "message": "Ett fel har intr\u00E4ffat"
+   },
+   "extension_copyright": {
+      "message": "Upphovsr\u00E4tt 2011 Google Inc. Med ensamr\u00E4tt."
+   },
+   "extension_description": {
+      "message": "Visa meddelanden om Google+-aktiviteter n\u00E4r du \u00E4r inloggad oavsett var du befinner dig p\u00E5 webben."
+   },
+   "extension_name": {
+      "message": "Meddelanden i Google+"
+   },
+   "extension_name_with_embedded_google_logo": {
+      "message": "Meddelanden om $1+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "follow_promo_activate": {
+      "message": "Aktivera meddelanden om sidor p\u00E5 Google+"
+   },
+   "follow_promo_feature_1": {
+      "message": "N\u00E4r du bes\u00F6ker en webbplats kopplad till en sida p\u00E5 Google+ visas ett skjutreglage p\u00E5 ena sidan av webbl\u00E4sarf\u00F6nstret. Expandera reglaget genom att f\u00F6ra pekaren \u00F6ver det och l\u00E4gg enkelt till sidan i dina cirklar."
+   },
+   "follow_promo_feature_2": {
+      "message": "Ett + visas p\u00E5 meddelandeknappen i webbl\u00E4saren n\u00E4r du bes\u00F6ker en webbplats som \u00E4r kopplad till en sida p\u00E5 Google+. N\u00E4r du klickar p\u00E5 knappen visas meddelanden precis som f\u00F6rut, men nu visas dessutom information om den relaterade sidan p\u00E5 Google+ och du f\u00E5r ett snabbt s\u00E4tt att b\u00F6rja f\u00F6lja den."
+   },
+   "follow_promo_feature_list_intro": {
+      "message": "G\u00F6r ditt fl\u00F6de p\u00E5 Google+ \u00E4nnu b\u00E4ttre genom att f\u00F6lja de sidor p\u00E5 Google+ som intresserar dig:"
+   },
+   "follow_promo_following_description": {
+      "message": "N\u00E4rhelst en sida p\u00E5 Google+ finns i dina cirklar visas alla inl\u00E4gg fr\u00E5n den sidan i ditt fl\u00F6de."
+   },
+   "follow_promo_header": {
+      "message": "Uppt\u00E4ck sidor p\u00E5 Google+ n\u00E4r du surfar p\u00E5 webben"
+   },
+   "join_google_plus_message": {
+      "message": "G\u00E5 med i Google+ om du vill visa meddelanden."
+   },
+   "join_google_plus_tooltip": {
+      "message": "G\u00E5 med i Google+ om du vill visa meddelanden"
+   },
+   "loading": {
+      "message": "L\u00E4ser in ..."
+   },
+   "many_new_notifications": {
+      "message": "Du har $1 nya meddelanden",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "new": {
+      "message": "Nytt!"
+   },
+   "no_new_notifications": {
+      "message": "Du har inga nya meddelanden"
+   },
+   "not_now": {
+      "message": "Inte nu"
+   },
+   "one_new_notification": {
+      "message": "Du har ett nytt meddelande"
+   },
+   "options_header": {
+      "message": "Alternativ"
+   },
+   "options_title": {
+      "message": "Alternativ"
+   },
+   "privacy_and_terms": {
+      "message": "Sekretess och villkor"
+   },
+   "promo_link": {
+      "message": "L\u00E4s mer &raquo;"
+   },
+   "promo_message": {
+      "message": "\u003Cspan style=\"color:red\"\u003ENytt!\u003C/span\u003E Uppt\u00E4ck sidor p\u00E5 Google+ n\u00E4r du surfar p\u00E5 webben"
+   },
+   "retry_now": {
+      "message": "F\u00F6rs\u00F6k igen nu."
+   },
+   "retrying_in": {
+      "message": "F\u00F6rs\u00F6ker igen om $1 sekunder.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "send_usage_statistics": {
+      "message": "Skicka anonym anv\u00E4ndarstatistik till Google automatiskt"
+   },
+   "sign_in_message": {
+      "message": "Logga in om du vill visa meddelanden."
+   },
+   "sign_in_tooltip": {
+      "message": "Logga in om du vill visa meddelanden"
+   },
+   "use_plus_follow_header": {
+      "message": "Meddela mig om personer och sidor p\u00E5 Google+ med koppling till de webbplatser jag bes\u00F6ker (Kr\u00E4ver ytterligare beh\u00F6righet)"
+   },
+   "use_plus_follow_note": {
+      "message": "Webbadresserna till de webbplatser som du bes\u00F6ker skickas till Google, s\u00E5 att de profiler och sidor p\u00E5 Google+ som \u00E4r l\u00E4nkade till webbadresserna kan identifieras."
+   },
+   "yada_yada": {
+      "message": "Det h\u00E4r inte \u00E4r det gamla vanliga snacket!"
+   }
+}

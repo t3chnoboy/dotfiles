@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "Portfel Google na produkty cyfrowe"
+   },
+   "app_name": {
+      "message": "Google Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "Aplikacja jest obecnie niedost\u0119pna."
+   },
+   "craw_connect_to_network": {
+      "message": "Po\u0142\u0105cz si\u0119 z sieci\u0105."
+   },
+   "iap_unavailable": {
+      "message": "P\u0142atno\u015Bci w ramach aplikacji s\u0105 teraz niedost\u0119pne."
+   },
+   "please_sign_in": {
+      "message": "Zaloguj si\u0119 w Chrome."
+   }
+}

@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Afegeix-ho sempre a Google+"
+   },
+   "always_add_desc": {
+      "message": "Si aquesta opci\u00F3 est\u00E0 seleccionada, sempre s'afegir\u00E0 la funci\u00F3 de traducci\u00F3 a Google+; si no ho est\u00E0, nom\u00E9s s'afegir\u00E0 quan feu clic al bot\u00F3 de l'extensi\u00F3."
+   },
+   "autosaved": {
+      "message": "Desat autom\u00E0ticament"
+   },
+   "background": {
+      "message": "Fons per a la traducci\u00F3:"
+   },
+   "example": {
+      "message": "Exemple"
+   },
+   "extension_desc": {
+      "message": "Tradu\u00EFu el vostre tauler d'activitat de Google+ mitjan\u00E7ant l'assist\u00E8ncia integrada i en l\u00EDnia de Traductor de Google."
+   },
+   "extension_name": {
+      "message": "Traductor de Google per a Google+"
+   },
+   "google_translate": {
+      "message": "Traductor de Google"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 per a Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Idioma:"
+   },
+   "language_desc": {
+      "message": "El contingut es traduir\u00E0 a aquest idioma."
+   },
+   "options_saved": {
+      "message": "Opcions desades"
+   },
+   "save": {
+      "message": "Desa"
+   },
+   "translate_header": {
+      "message": "Tradueix"
+   }
+}

@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "Hedef ayr\u0131\u015Ft\u0131r\u0131lam\u0131yor: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "\u0130ptal"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "Bu komut bilinen ana makinelerin bulundu\u011Fu bir men\u00FCy\u00FC g\u00F6r\u00FCnt\u00FCler ve unutulacak ana makinenin belirtilmesini ister."
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "Bilinen bir ssh ana makinesini unut."
+   },
+   "cmd_ssh_help": {
+      "message": "|kullaniciadi| ve |anabilgisayaradi| parametreleri gereklidir. |baglantinoktasi| iste\u011Fe ba\u011Fl\u0131d\u0131r. Ba\u011Flant\u0131 noktas\u0131 belirtilmezse varsay\u0131lan olarak 22 kullan\u0131l\u0131r."
+   },
+   "cmd_ssh_title": {
+      "message": "Yeni SSH oturumu a\u00E7ar."
+   },
+   "command_complete": {
+      "message": "$1 komutu $2 \u00E7\u0131k\u0131\u015F koduyla tamamland\u0131. Bu pencereyi istedi\u011Finiz zaman kapatabilirsiniz.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "Ba\u011Flan"
+   },
+   "connect_message": {
+      "message": "L\u00FCtfen ba\u011Flan\u0131lacak hedefi girin."
+   },
+   "connecting": {
+      "message": "$1, ba\u011Flant\u0131 noktas\u0131 $2 adresine ba\u011Flan\u0131l\u0131yor...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "kullaniciadi@anamakineadi[:baglantinoktasi]"
+   },
+   "known_hosts_empty": {
+      "message": "Hi\u00E7bir ana makine bilinmiyor, unutulacak bir \u015Fey yok."
+   },
+   "known_hosts_prompt": {
+      "message": "L\u00FCtfen unutulacak ana makineyi se\u00E7in [1-$1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "Bilinen ana makineler:"
+   },
+   "missing_param": {
+      "message": "Eksik parametre: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "Tamam"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "Beklenmeyen bir hata olu\u015Ftu, l\u00FCtfen daha fazla ayr\u0131nt\u0131 i\u00E7in JavaScript konsolunu kontrol edin."
+   },
+   "welcome": {
+      "message": "Ho\u015F geldiniz! 'open' komutuyla yeni bir ssh ba\u011Flant\u0131s\u0131 a\u00E7\u0131n."
+   },
+   "welcome_tip": {
+      "message": "Uzmandan \u0130pucu: Bu oturumu bir taray\u0131c\u0131 yer i\u015Fareti olarak kaydedebilirsiniz."
+   }
+}

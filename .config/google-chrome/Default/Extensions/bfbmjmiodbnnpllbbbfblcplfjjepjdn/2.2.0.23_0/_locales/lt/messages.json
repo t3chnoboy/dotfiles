@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "Prid\u0117ti"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "Papildomos Parinktys"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "Pagrindiniai Nustatymai"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "apa\u010Dia"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "Pasikeitim\u0173 s\u0105ra\u0161as"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "I\u0161trinti"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "Rodyti Youtube Prid\u0117jimo mygtuk\u0105."
+   },
+   "desalllightsoff": {
+      "description": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled.",
+      "message": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "\u012Ejungti Ambilight re\u017Eim\u0105 ant rodomo grotuvo."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 pasirinktin\u0117s spalvos, kurios bus rodomas aplink grotuv\u0105:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "Vientisa spalva:"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "Kuo didesn\u012F skai\u010Di\u0173 nustatysite, tuo labiau \u0161e\u0161\u0117l\u012F suliesite."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Teigiami skai\u010Diai padidins \u0161e\u0161\u0117l\u012F, neigiami- suma\u017Eins."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "Paimti spalv\u0105 i\u0161 klipo."
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "\u0160ie puslapiai palaiko Atmosphere lightning funkcij\u0105:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "Automati\u0161kai pritemdyti fon\u0105 kai paspaud\u017Eiamas Play mygtukas."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site(s):",
+      "message": "Dim only the following video site(s):"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "Patvirtinkite slapta\u017Eod\u012F"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "Patvirtinti laik\u0105"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Patvirtinti ekrano u\u017Esklandos laik\u0105"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "Rodyti meniu, kad susikoncentruotum\u0117t \u012F element\u0105."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "Visas puslapis l\u0117tai pask\u0119s tamsoj, kad patogiau \u017Ei\u016Br\u0117tum\u0117te vaizdo klip\u0105 ir jaustum\u0117t\u0117s lyg kino sal\u0117j."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "Kalad\u0117l\u0117s"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Judantys debesys"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Akvariumas"
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Lietaus la\u0161eliai"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Kosmosas"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "Staigmena \u0161iame pl\u0117tinyje."
+   },
+   "desenterpassword": {
+      "description": "Enter your password in the box below:",
+      "message": "Enter your password in the box below:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "Automati\u0161kai pritemdyti fon\u0105, kai atidaromas puslapis."
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when opening the following page(s):",
+      "message": "Automatically dim the background when opening the following page(s):"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "Numatytasis naudojimas (\u0161viesos i\u0161jungiamos kai paspaud\u017Eiate ant Lemput\u0117s piktogramos)"
+   },
+   "deseyetimesaver": {
+      "description": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark.",
+      "message": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "Rodyti i\u0161nykimo efekt\u0105."
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "Rodyti i\u0161nykimo efekt\u0105."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "Rodyti visus Flash papildinius."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads.",
+      "message": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "Rodyti Youtube logotip\u0105 ar kanalo pavadinim\u0105."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "Rodyti klipo apra\u0161ym\u0105 ir pana\u0161i\u0105 informacij\u0105."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar under YouTube videos.",
+      "message": "Show the like/dislike bar under YouTube videos."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "\u0160iam klipui rodyti Youtube Patinka ir Nepatinka mygtukus."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "Kai \u0161viesa i\u0161jungta, ap\u0161viesti tik pel\u0117s \u017Eymekl\u012F."
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "Kai \u0161viesa i\u0161jungta gal\u0117site pasirinkti zon\u0105, kuri bus fokusuojama."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disables the mouse settings below)",
+      "message": "Normal use (disables the mouse settings below)"
+   },
+   "desmousespotlightt": {
+      "description": "Allows you to click through the darkened screen when the lights are off.",
+      "message": "Allows you to click through the darkened screen when the lights are off."
+   },
+   "desnoflash": {
+      "description": "Don't use this feature.",
+      "message": "Don't use this feature."
+   },
+   "despassword": {
+      "description": "Require a password to be entered before turning the lights back on.",
+      "message": "Require a password to be entered before turning the lights back on."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "Rodyti Youtube grojara\u0161t\u012F, kai esate Youtube svetain\u0117je."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "Visada rodyti blankumo lygio indikatori\u0173, kai \u0161viesos prigesinamos."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "Niekada nerodyti blankumo lygio juostos."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "Jei \u0161i funkcija \u012Fgalinta ji nerodys prisiminimo puslapio"
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Ekrano u\u017Esklanda:"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "Rodyti Youtube Dalinimosi mygtukus."
+   },
+   "desshortcutlight": {
+      "description": "Enable the keyboard shortcuts below.",
+      "message": "Enable the keyboard shortcuts below."
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "Ie\u0161kojimo eil\u0117s diametras"
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "Youtube svetain\u0117je rodyti Si\u016Blomus Klipus."
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "\u0160viesas automati\u0161kai pritemdyti tarp:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "iki"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "Rodyti klipo pavadinim\u0105 ir pakeisti pavadinimo spalvas Atvirk\u0161tin\u0117mis (negatyviomis)."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "Rodyti per\u017Ei\u016Br\u0173 skai\u010Di\u0173."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "Jei nor\u0117tum\u0117te paaukoti pinig\u0173 tolimesniems darbams (suma nesvarbi), b\u016B\u010Diau labai d\u0117kingas!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "Ar jums patinka kino sal\u0117s atmosfera?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "M\u0117gaukit\u0117s \u0161iuo pl\u0117tiniu ir pasidalykit juo su draugais, kuriem jis taip pat patikt\u0173."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "I\u0161jungta"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "\u012Ejungta"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Draugi\u0161kai primename..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "\"Turn of the Lights\" Prad\u017Eios Gidas"
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "Aki\u0173 apsauga \u012Fjungta. Nor\u0117dami naudoti \u0161i\u0105 parinkt\u012F, pirmiausia, i\u0161junkite aki\u0173 apsaugos funkcij\u0105."
+   },
+   "helpeyeprotection": {
+      "description": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature.",
+      "message": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "Pritaikyti"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "su skridimu"
+   },
+   "installadblocker": {
+      "description": "Use with an Adblocker extension.",
+      "message": "Use with an Adblocker extension."
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "Paskutin\u0117 versija tikrinta:"
+   },
+   "left": {
+      "description": "left",
+      "message": "kair\u0117"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Pra\u0161ome \u012Fvesti slapta\u017Eod\u012F"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Neteisingas slapta\u017Eodis! bandykite dar kart\u0105."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "A\u0161 b\u016B\u010Diau labai d\u0117kingas jei pad\u0117tum\u0117t i\u0161laikyti \u0161\u012F projekt\u0105 gyv\u0105. Paremkite bet kokia suma, kokia galite. I\u0161 anksto d\u0117koju u\u017E j\u016Bs\u0173 param\u0105."
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Sekund\u0117s s\u0117kmingai i\u0161saugotos!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Turn Off the Lights - Pagrindin\u0117s Funkcijos"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "Slapta\u017Eodis s\u0117kmingai i\u0161saugotas!"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Laikas s\u0117kmingai i\u0161saugotas!"
+   },
+   "optionwrongimg": {
+      "description": "Invalid image file!",
+      "message": "Invalid image file!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Turn Off the Lights"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "pagalba"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "Puslapis dar kraunamas?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "Pritemdyti \u0161\u012F puslap\u012F"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Dalintis"
+   },
+   "recflash": {
+      "description": "Recommended",
+      "message": "Recommended"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Vertinti"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "Prane\u0161ti apie klaid\u0105 (angl\u0173 kalba)"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(rodyti piln\u0105 s\u0105ra\u0161\u0105)"
+   },
+   "right": {
+      "description": "right",
+      "message": "de\u0161in\u0117"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "Nustatymai"
+   },
+   "shortcutalllights": {
+      "description": "to toggle the lights on/off for all open tabs.",
+      "message": "to toggle the lights on/off for all open tabs."
+   },
+   "shortcutbright": {
+      "description": "to brighten the screen (decrease opacity).",
+      "message": "to brighten the screen (decrease opacity)."
+   },
+   "shortcutdark": {
+      "description": "to darken the screen (increase opacity).",
+      "message": "to darken the screen (increase opacity)."
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "\u012Fgalinti/i\u0161jungti aki\u0173 apsaugos funkcij\u0105."
+   },
+   "shortcutopacity": {
+      "description": "to restore to the set darkness (opacity) setting.",
+      "message": "to restore to the set darkness (opacity) setting."
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "kad i\u0161saugotum\u0117te pasirinkt\u0105 ry\u0161kumo lyg\u012F"
+   },
+   "shortcuttotl": {
+      "description": "to toggle the lights on/off.",
+      "message": "to toggle the lights on/off."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "Neberodyti \u0161io puslapio, kai atidarau parinktis."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Atidaryti parink\u010Di\u0173 puslap\u012F"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "\u0160i programin\u0117 \u012Franga yra apsaugota CC-GNU GPL licencija. Nor\u0117dami per\u017Ei\u016Br\u0117ti \u0161ios licencijos kopij\u0105 apsilankykite:"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "Prid\u0117ti mygtukas"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "Visi atidaryti skirtukai"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Atmosferos ap\u0161vietimas"
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "Automati\u0161kas paleidimas"
+   },
+   "titelautowidthyoutube": {
+      "description": "Automatically set the YouTube player to the larger size.",
+      "message": "Automatically set the YouTube player to the larger size."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "Sulieti likus\u012F vaizd\u0105"
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "Spalv\u0173 suliejimo spindulys"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Kino teatro re\u017Eimas: \u0160viesos i\u0161jungiamos tik ant pagrindinio aktyvaus lango."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "Spalva"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "Kontekstinis meniu"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "Atsisi\u0173skite \u0161\u012F patobulinim\u0105!"
+   },
+   "titeldownloadupgrade": {
+      "description": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site.",
+      "message": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Judantis fonas"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "Velyk\u0173 Kiau\u0161iniai"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "Aki\u0173 Apsauga"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Pasirodyti"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "I\u0161nykti"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "Flash aptikimas"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "Kanalas"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "Fono paveiksl\u0117lis"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "Informacijos juosta"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "Lemput\u0117"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "Rodyti ma\u017Eiau"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Bal\u0173 juosta (Like Bar)"
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "Patiko ir Nepatiko mygtukai"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Automatically set to this resolution:",
+      "message": "Automatically set to this resolution:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "Pel\u0117s \u017Eymeklis"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "I\u0161jungta"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "\u012Ejungta"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "Permatomumas"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "Sl\u0117pti Lemput\u0117s piktogram\u0105"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "Slapta\u017Eod\u017Eio apsauga"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "Grojara\u0161tis"
+   },
+   "titelqualityyoutube": {
+      "description": "Automatically set the quality of YouTube videos.",
+      "message": "Automatically set the quality of YouTube videos."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "Blankumo Lygio juosta"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "Priminim\u0173 puslapis"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Ekranas"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "Pasidalinimo mygtukai (Facebook, Twitter, Google Plus ir t.t.)"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "Trumposios klavi\u0161\u0173 kombinacijos"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "Rodyti daugiau"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "Paplitimo spindulys"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "Patarimai"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Sinchronizacija"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Sinchronizuokit \u0161io papildinio nustatymus su kitu kompouteriu."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "Atsinaujinkite"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "Klipo pavadinimas"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "Per\u017Ei\u016Br\u0173 skai\u010Dius"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Paaukoti"
+   },
+   "top": {
+      "description": "top",
+      "message": "vir\u0161us"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "Pad\u0117kite i\u0161versti"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "Versija"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Sufokusuoti \u0161\u012F video"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "Vaizdo Efektai"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "D\u0117mesio!"
+   },
+   "warningtextambilight": {
+      "description": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead.",
+      "message": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead."
+   }
+}

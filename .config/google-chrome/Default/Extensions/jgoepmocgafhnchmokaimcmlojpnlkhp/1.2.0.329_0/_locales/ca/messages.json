@@ -1,0 +1,77 @@
+{
+   "add_plusone_success": {
+      "message": "\u003Ca\u003EHeu fet +1\u003C/a\u003E en aquesta p\u00E0gina."
+   },
+   "add_plusone_tooltip": {
+      "message": "Feu +1 en aquesta p\u00E0gina com a {{user}}"
+   },
+   "basics_page_title": {
+      "message": "Conceptes b\u00E0sics"
+   },
+   "browser_usage_warning": {
+      "message": "Si activeu aquesta opci\u00F3 es compartir\u00E0 amb Google l'\u00FAs que feu del navegador."
+   },
+   "cannot_plusone_message": {
+      "message": "No es pot fer +1 en aquesta p\u00E0gina."
+   },
+   "cannot_plusone_tooltip": {
+      "message": "No es pot fer +1 en aquesta p\u00E0gina"
+   },
+   "counts_group_name": {
+      "message": "Recomptes"
+   },
+   "error_message": {
+      "message": "S'ha produ\u00EFt un error."
+   },
+   "error_tooltip": {
+      "message": "S'ha produ\u00EFt un error"
+   },
+   "extension_copyright": {
+      "message": "Copyright 2011 Google Inc. Tots els drets reservats."
+   },
+   "extension_description": {
+      "message": "Feu +1 i compartiu una p\u00E0gina web, sigueu on sigueu del web."
+   },
+   "extension_name": {
+      "message": "Bot\u00F3 de Google +1"
+   },
+   "extension_name_sans_google": {
+      "message": "Bot\u00F3 +1"
+   },
+   "loading": {
+      "message": "S'est\u00E0 carregant..."
+   },
+   "options_header": {
+      "message": "Opcions"
+   },
+   "options_title": {
+      "message": "Opcions"
+   },
+   "privacy_and_terms": {
+      "message": "Privadesa i condicions"
+   },
+   "remove_plusone_success": {
+      "message": "S'ha eliminat el \u003Ca\u003Evostre\u003C/a\u003E +1."
+   },
+   "remove_plusone_tooltip": {
+      "message": "Elimina el +1 d'aquesta p\u00E0gina"
+   },
+   "send_usage_statistics": {
+      "message": "Envia autom\u00E0ticament les estad\u00EDstiques d'\u00FAs  an\u00F2nimes a Google"
+   },
+   "show_plusone_counts": {
+      "message": "Mostra els recomptes de +1"
+   },
+   "sign_in_message": {
+      "message": "Quan h\u00E0giu iniciat la sessi\u00F3, podreu fer +1 en aquesta p\u00E0gina."
+   },
+   "sign_in_tooltip": {
+      "message": "Inicieu la sessi\u00F3 per fer servir Google+1"
+   },
+   "sign_up_message": {
+      "message": "Inscriviu-vos per fer servir Google +1."
+   },
+   "sign_up_tooltip": {
+      "message": "Inscriviu-vos per fer servir Google +1"
+   }
+}

@@ -1,0 +1,638 @@
+{
+   "addbutton": {
+      "description": "Add",
+      "message": "Adaug\u0103"
+   },
+   "advancedoptions": {
+      "description": "Advanced Options",
+      "message": "Op\u0163iuni avansate"
+   },
+   "basicsettings": {
+      "description": "Basics",
+      "message": "Elemente de baz\u0103"
+   },
+   "bottom": {
+      "description": "bottom",
+      "message": "jos"
+   },
+   "changelog": {
+      "description": "changelog link",
+      "message": "Istoricul modific\u0103rilor"
+   },
+   "deletebutton": {
+      "description": "Delete",
+      "message": "\u015Eterge"
+   },
+   "desaddvideobutton": {
+      "description": "Show the add button from this YouTube video.",
+      "message": "Afi\u0219eaz\u0103 butonul de ad\u0103ugare de la acest video YouTube."
+   },
+   "desalllightsoff": {
+      "description": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled.",
+      "message": "Ap\u0103s\u00E2nd pe butonul lantern\u0103 va comuta luminile aprinse/stinse pentru toate filele c\u00E2nd aceast\u0103 op\u0163iune este activ\u0103."
+   },
+   "desambilight": {
+      "description": "Show you the atmosphere lighting effect of the current playing video.",
+      "message": "\u00CE\u0163i arat\u0103 efectul lumin\u0103rii spa\u0163iului \u00EEnconjur\u0103tor la videoclipul curent."
+   },
+   "desambilight4color": {
+      "description": "4 choosen colors around the video:",
+      "message": "4 culori alese \u00EEn jurul videoclipului:"
+   },
+   "desambilightfixcolor": {
+      "description": "A solid color:",
+      "message": "Culoare solid\u0103:"
+   },
+   "desambilightrangeblurradius": {
+      "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be.",
+      "message": "Dac\u0103 este setat\u0103 la o valoare mic\u0103, umbra va fi ascu\u021Bit\u0103, cu c\u00E2t va fi mai mare valoarea, cu at\u00E2t va fi mai difuz\u0103."
+   },
+   "desambilightrangespreadradius": {
+      "description": "Positive values increase the size of the shadow, negative values decrease the size.",
+      "message": "Valorile pozitive m\u0103resc dimensiunea umbrei, valorile negative mic\u0219oreaz\u0103 dimensiunea umbrei."
+   },
+   "desambilightvarcolor": {
+      "description": "Take the color from the video.",
+      "message": "Preia culoarea de la clipul video."
+   },
+   "desatmosphereonly": {
+      "description": "Use the atmosphere lighting feature only the following video site:",
+      "message": "Folose\u015Fte op\u0163iunea de iluminare a atmosferei numai pentru urm\u0103torul site:"
+   },
+   "desautoplay": {
+      "description": "Automatically dim the background when you click the play button and versus.",
+      "message": "\u00CEntunec\u0103 fundalul automat c\u00E2nd ape\u0219i butonul play, \u0219i invers."
+   },
+   "desautoplayonly": {
+      "description": "Dim only the following video site(s):",
+      "message": "\u00CEntunec\u0103 numai urm\u0103toarele site-uri:"
+   },
+   "desconfirmpassword": {
+      "description": "Confirm password",
+      "message": "Confirm\u0103 parola"
+   },
+   "desconfirmtime": {
+      "description": "Confirm time",
+      "message": "Confirm\u0103 timpul"
+   },
+   "desconfirmtimesaver": {
+      "description": "Confirm Screen Saver Time",
+      "message": "Confirm\u0103 timpul de Protec\u021Bie Ecran"
+   },
+   "descontextmenus": {
+      "description": "Show the context menu to focus an item.",
+      "message": "Arat\u0103 meniul contextual pentru un anumit element."
+   },
+   "description": {
+      "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+      "message": "\u00CEntreaga pagin\u0103 se va \u00EEntuneca, astfel vei putea urm\u0103ri videoclipul ca la cinema."
+   },
+   "desdynamicblocks": {
+      "description": "Blocks",
+      "message": "C\u0103r\u0103mizi"
+   },
+   "desdynamiccloud": {
+      "description": "Moving Clouds",
+      "message": "Nori mi\u0219c\u0103tori"
+   },
+   "desdynamicfishtank": {
+      "description": "Fish Tank",
+      "message": "Acvariu"
+   },
+   "desdynamicraindrops": {
+      "description": "Raindrops",
+      "message": "Stropi de ploaie"
+   },
+   "desdynamicspace": {
+      "description": "Space Universe",
+      "message": "Spa\u021Biu - Univers"
+   },
+   "deseastereggs": {
+      "description": "A bonus in this extension.",
+      "message": "Un bonus \u00EEn aceast\u0103 extensie."
+   },
+   "desenterpassword": {
+      "description": "Enter your password in the box below:",
+      "message": "Introduce parola \u00EEn c\u0103su\u0163a de mai jos:"
+   },
+   "deseyea": {
+      "description": "Automatically dim the background when opening a page.",
+      "message": "\u00CEntunec\u0103 automat fundalul c\u00E2nd se deschide o nou\u0103 pagin\u0103"
+   },
+   "deseyealist": {
+      "description": "Automatically dim the background when opening the following page(s):",
+      "message": "\u00CEntunec\u0103 automat fundalul c\u00E2nd se deschide o nou\u0103 pagin\u0103/pagini:"
+   },
+   "deseyen": {
+      "description": "Normal use (lights go out when you click on the lamp icon).",
+      "message": "Utilizare normal\u0103 (lumina se stinge c\u00E2nd ape\u0219i pe lamp\u0103)."
+   },
+   "deseyetimesaver": {
+      "description": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark.",
+      "message": "C\u00E2nd o pagin\u0103 este inactiv\u0103 (nicio mi\u015Fcare a mouse-ului sau ap\u0103sare a tastaturii) pentru timpul specificat mai jos, pagina se va \u00EEntuneca automat."
+   },
+   "desfadein": {
+      "description": "Show the fade in effect.",
+      "message": "Arat\u0103 efectul de intrare."
+   },
+   "desfadeout": {
+      "description": "Show the fade out effect.",
+      "message": "Arat\u0103 efectul de ie\u0219ire."
+   },
+   "desflash": {
+      "description": "Show all Flash objects.",
+      "message": "Arat\u0103 toate obiectele Flash."
+   },
+   "deshardflash": {
+      "description": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads.",
+      "message": "Arat\u0103 toate obiectele Flash, s\u0103rind peste filtrul URL. Aceasta va corecta problemele care exist\u0103 cu anumite video-uri ascunse, dar va ar\u0103ta \u015Fi reclamele."
+   },
+   "deshead": {
+      "description": "Show the YouTube Channel bar or the name.",
+      "message": "Arat\u0103 bara cu canalul YouTube sau numele."
+   },
+   "desinfobar": {
+      "description": "Show the description information about the video.",
+      "message": "Arat\u0103 descrierea videoclipului."
+   },
+   "deslikebar": {
+      "description": "Show the like/dislike bar under YouTube videos.",
+      "message": "Afi\u0219eaz\u0103 butoanele \u00EEmi place/nu-mi place sub video-urile YouTube."
+   },
+   "deslikebutton": {
+      "description": "Show the like & dislike buttons of YouTube for this video.",
+      "message": "Arat\u0103 butoanele \u00CEmi place & Nu-mi place ale YouTube pentru acest video."
+   },
+   "desmousespotlighta": {
+      "description": "If the light is off, show a spotlight around the mouse cursor.",
+      "message": "Dac\u0103 lumina este stins\u0103, afi\u015Feaz\u0103 un punct luminos \u00EEn jurul mouse-ului."
+   },
+   "desmousespotlightc": {
+      "description": "If the light is off, you can select an area to focus a item.",
+      "message": "Dac\u0103 lumina este stins\u0103, pute\u021Bi selecta o zon\u0103 pentru a eviden\u021Bia un obiect."
+   },
+   "desmousespotlighto": {
+      "description": "Normal use (disables the mouse settings below)",
+      "message": "Pentru uz normal (dezactiveaz\u0103 set\u0103rile mouse-ului mai jos)"
+   },
+   "desmousespotlightt": {
+      "description": "Allows you to click through the darkened screen when the lights are off.",
+      "message": "Permite s\u0103 dai click \u00EEn ecranul umbrit c\u00E2nd luminile sunt oprite."
+   },
+   "desnoflash": {
+      "description": "Don't use this feature.",
+      "message": "Nu folosi aceast\u0103 op\u0163iune."
+   },
+   "despassword": {
+      "description": "Require a password to be entered before turning the lights back on.",
+      "message": "Este necesar\u0103 introducerea unei parole \u00EEnainte de a aprinde luminile."
+   },
+   "desplaylist": {
+      "description": "Show the YouTube playlist on the YouTube website.",
+      "message": "Afi\u0219eaz\u0103 lista de redare YouTube de pe site-ul YouTube."
+   },
+   "desreadera": {
+      "description": "Always show the dimness level bar when the lights go out.",
+      "message": "Arat\u0103 \u00EEntotdeauna bara de \u00EEntunecare c\u00E2nd luminile se sting."
+   },
+   "desreadern": {
+      "description": "Never show the dimness level bar.",
+      "message": "Nu afi\u0219a niciodat\u0103 bara de \u00EEntunecare."
+   },
+   "desrememberpage": {
+      "description": "If this option is enabled, it will show you not the remember page.",
+      "message": "Dac\u0103 aceast\u0103 op\u0163iune este activat\u0103, \u00EE\u0163i va ar\u0103ta s\u0103 nu re\u0163ii pagina ca favorit."
+   },
+   "dessaver": {
+      "description": "Screen Saver:",
+      "message": "Protec\u021Bie Ecran:"
+   },
+   "dessharebutton": {
+      "description": "Show the share buttons of YouTube for this video.",
+      "message": "Arat\u0103 butoanele de distribuire pe YouTube."
+   },
+   "desshortcutlight": {
+      "description": "Enable the keyboard shortcuts below.",
+      "message": "Activeaz\u0103 ma jos scurt\u0103turile pentru tastatur\u0103:"
+   },
+   "desspotlightradius": {
+      "description": "is the diameter of the search lamp.",
+      "message": "este diametrul lanternei pentru c\u0103utare."
+   },
+   "dessuggestions": {
+      "description": "Show the suggestions of the YouTube website.",
+      "message": "Arat\u0103 sugestiile de pe site-ul YouTube."
+   },
+   "destime": {
+      "description": "Lights off between the following times:",
+      "message": "Luminile stinse \u00EEntre aceste valori ale timpului:"
+   },
+   "desuntil": {
+      "description": "until",
+      "message": "p\u00E2n\u0103"
+   },
+   "desvideoheadline": {
+      "description": "Show and invert the color of the video title.",
+      "message": "Arat\u0103 \u015Fi inverseaz\u0103 culoarea titlului video."
+   },
+   "desviewcount": {
+      "description": "Show the number of view for this video.",
+      "message": "Arat\u0103 num\u0103rul de vizualiz\u0103ri pentru acest videoclip."
+   },
+   "donatepromotext": {
+      "description": "If you can make a donation of any amount, I'd appreciate it immensely!",
+      "message": "Dac\u0103 pute\u0163i face o donatie de orice sum\u0103, a\u015F aprecia foarte mult!"
+   },
+   "eastereggsquestion": {
+      "description": "Do you like a real movie theater?",
+      "message": "I\u021Bi place un cinematograf real?"
+   },
+   "enjoyshare": {
+      "description": "Enjoy this extension and share it with others who you think will appreciate it.",
+      "message": "Bucur\u0103-te de aceast\u0103 extensie \u015Fi distribuie pentru cei care cred c\u0103 ar aprecia asta."
+   },
+   "eyedivoff": {
+      "description": "OFF",
+      "message": "Dezactivat"
+   },
+   "eyedivon": {
+      "description": "ON",
+      "message": "Activat"
+   },
+   "friendlyremember": {
+      "description": "Friendly Remember...",
+      "message": "Friendly Remember..."
+   },
+   "guide": {
+      "description": "TOtL Welcome Guide",
+      "message": "Ghidul de bun venit TOtL "
+   },
+   "helpautoplay": {
+      "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.",
+      "message": "\"Protec\u0163ia ochi\" este activat\u0103. Ca s\u0103 folose\u015Fti aceast\u0103 op\u0163iune, dezactiveaz\u0103 op\u0163iunea \"protec\u0163ie ochi\"."
+   },
+   "helpeyeprotection": {
+      "description": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature.",
+      "message": "Activarea \"Protec\u0163ie pentru ochi\" va dezactiva automat op\u0163iunea \"Auto play\"."
+   },
+   "hoveroptionapply": {
+      "description": "apply",
+      "message": "Aplic\u0103"
+   },
+   "hoveroptiondyn5": {
+      "description": "with flying",
+      "message": "zbur\u00E2nd"
+   },
+   "installadblocker": {
+      "description": "Use with an Adblocker extension.",
+      "message": "Utilizeaz\u0103 cu extensia Adblocker."
+   },
+   "lastchecked": {
+      "description": "Latest version checked on",
+      "message": "Ultima versiune verificat\u0103 la"
+   },
+   "left": {
+      "description": "left",
+      "message": "st\u00E2nga"
+   },
+   "lockentername": {
+      "description": "Please enter your password",
+      "message": "Te rug\u0103m s\u0103 introduci parola"
+   },
+   "lockwrongpassword": {
+      "description": "Wrong password, please try again.",
+      "message": "Parol\u0103 incorect\u0103, te rug\u0103m s\u0103 \u00EEncerci din nou."
+   },
+   "longdonatetext": {
+      "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!",
+      "message": "A\u015F aprecia mult dac\u0103 ai putea s\u0103 donezi pentru a \u0163ine \u00EEn via\u0163\u0103 aceast\u0103 extensie de browser pentru al\u0163i noi utilizatori. Chiar dac\u0103 e $1 sau $100, suportul t\u0103u este apreciat!"
+   },
+   "name": {
+      "description": "Turn Off the Lights",
+      "message": "Stinge lumina"
+   },
+   "optionecosaversaved": {
+      "description": "Seconds is saved successfully!",
+      "message": "Secundele au fost salvate cu succes!"
+   },
+   "optionpagetitle": {
+      "description": "Option page title",
+      "message": "Stinge lumina - Op\u021Biuni"
+   },
+   "optionpasswordsaved": {
+      "description": "Password is saved successfully!",
+      "message": "Parola a fost salvat\u0103 cu succes!"
+   },
+   "optiontimesaved": {
+      "description": "Time is saved successfully!",
+      "message": "Intervalul de timp a fost salvat cu succes!"
+   },
+   "optionwrongimg": {
+      "description": "Invalid image file!",
+      "message": "Fi\u015Fier imagine invalid!"
+   },
+   "pageatitle": {
+      "description": "Turn Off the Lights",
+      "message": "Stinge luminile"
+   },
+   "pagehelp": {
+      "description": "help",
+      "message": "ajutor"
+   },
+   "pagestillloading": {
+      "description": "The page is still loading?",
+      "message": "Aceast\u0103 pagin\u0103 \u00EEnc\u0103 se \u00EEncarc\u0103?"
+   },
+   "pagetitle": {
+      "description": "Darken this page",
+      "message": "\u00CEntunec\u0103 aceast\u0103 pagin\u0103"
+   },
+   "productshare": {
+      "description": "Share",
+      "message": "Distribuie"
+   },
+   "recflash": {
+      "description": "Recommended",
+      "message": "Recomandat"
+   },
+   "rememberrate": {
+      "description": "Rate",
+      "message": "Rat\u0103"
+   },
+   "reportbug": {
+      "description": "Report an Issue",
+      "message": "Raporteaz\u0103 o problem\u0103"
+   },
+   "reportlist": {
+      "description": "See the full issue list",
+      "message": "(vezi lista)"
+   },
+   "right": {
+      "description": "right",
+      "message": "dreapta"
+   },
+   "settings": {
+      "description": "Settings",
+      "message": "Set\u0103ri"
+   },
+   "shortcutalllights": {
+      "description": "to toggle the lights on/off for all open tabs.",
+      "message": "comutarea luminilor aprinse/\u00EEnchise pentru toate filele."
+   },
+   "shortcutbright": {
+      "description": "to brighten the screen (decrease opacity).",
+      "message": "pentru a lumina ecranul (scade opacitatea)."
+   },
+   "shortcutdark": {
+      "description": "to darken the screen (increase opacity).",
+      "message": "pentru a \u00EEntuneci ecranul (m\u0103re\u015Fte opacitatea)."
+   },
+   "shortcuteyeprotection": {
+      "description": "to enable/disable the eye protection feature.",
+      "message": "Activare/dezactivare op\u0163iunea \"protec\u0163ie ochi\"."
+   },
+   "shortcutopacity": {
+      "description": "to restore to the set darkness (opacity) setting.",
+      "message": "pentru a restabili set\u0103rile valorilor originale pentru umbrire (opacitate)."
+   },
+   "shortcutsavingopacity": {
+      "description": "to save this opacity value",
+      "message": "Salveaz\u0103 valorii opacit\u0103\u0163ii actuale."
+   },
+   "shortcuttotl": {
+      "description": "to toggle the lights on/off.",
+      "message": "comutarea luminilor aprinse/stinse pentru toate filele."
+   },
+   "showremember": {
+      "description": "doesn't show this remember page again when I open the option page.",
+      "message": "nu mai ar\u0103ta aceast\u0103 pagin\u0103 c\u00E2nd se deschide pagina set\u0103rilor."
+   },
+   "skipremember": {
+      "description": "Skip this, and open now the option page",
+      "message": "Sari peste asta \u015Fi deschide pagina set\u0103rilor"
+   },
+   "textfoot": {
+      "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit",
+      "message": "Acest program se afl\u0103 sub licen\u021B\u0103 CC-GNU GPL. Pentru a vedea o copie a acestei licente, vizita\u021Bi"
+   },
+   "titeladdvideobutton": {
+      "description": "Add Button",
+      "message": "Butonul de ad\u0103ugare"
+   },
+   "titelalllightsoff": {
+      "description": "All open tabs",
+      "message": "Toate filele deschise"
+   },
+   "titelambilight": {
+      "description": "Atmosphere Lighting",
+      "message": "Luminarea spa\u0163iului \u00EEnconjur\u0103tor"
+   },
+   "titelautoplay": {
+      "description": "Autoplay",
+      "message": "Porne\u0219te automat"
+   },
+   "titelautowidthyoutube": {
+      "description": "Automatically set the YouTube player to the larger size.",
+      "message": "Seteaz\u0103 automat player-ul Youtube la cea mai mare m\u0103rime."
+   },
+   "titelblur": {
+      "description": "Blur the rest",
+      "message": "\u00CEntunec\u0103 restul."
+   },
+   "titelblurradius": {
+      "description": "The blur radius",
+      "message": "Raza de umbrire"
+   },
+   "titelcinemaontop": {
+      "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window.",
+      "message": "Modul cinema: \u00EE\u0163i arat\u0103 \"stinge luminile\" numai \u00EEn partea de sus a ferestrei."
+   },
+   "titelcolor": {
+      "description": "Color",
+      "message": "Culoare"
+   },
+   "titelcontextmenus": {
+      "description": "Context Menu",
+      "message": "Meniu contextual"
+   },
+   "titeldownloadbutton": {
+      "description": "Download this Upgrade!",
+      "message": "Descarc\u0103 acest Upgrade!"
+   },
+   "titeldownloadupgrade": {
+      "description": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site.",
+      "message": "Acest upgrade adaug\u0103 suport pentru imaginile selectate, \u015Fi va ar\u0103ta o galerie de imagini din cadrul site-ului."
+   },
+   "titeldynamic": {
+      "description": "Dynamic Background",
+      "message": "Fundal dinamic"
+   },
+   "titeleastereggs": {
+      "description": "Easter Eggs",
+      "message": "Ou\u0103le de Pa\u015Fti"
+   },
+   "titeleye": {
+      "description": "Eye Protection",
+      "message": "Protec\u021Bie ochi"
+   },
+   "titelfadein": {
+      "description": "Fade In",
+      "message": "Intrare"
+   },
+   "titelfadeout": {
+      "description": "Fade Out",
+      "message": "Ie\u0219ire"
+   },
+   "titelflash": {
+      "description": "Flash Detection",
+      "message": "Detectare Flash"
+   },
+   "titelhead": {
+      "description": "Channel",
+      "message": "Canal"
+   },
+   "titelimage": {
+      "description": "Background Image",
+      "message": "Imagine de fundal"
+   },
+   "titelinfobar": {
+      "description": "Infobar",
+      "message": "Bara de informa\u021Bii"
+   },
+   "titellamp": {
+      "description": "Bulb",
+      "message": "Bec"
+   },
+   "titellessmore": {
+      "description": "Show less",
+      "message": "Arat\u0103 mai pu\u021Bin"
+   },
+   "titellikebar": {
+      "description": "Like Bar",
+      "message": "Bara \"\u00CEmi place\""
+   },
+   "titellikebutton": {
+      "description": "Like & Dislike Buttons",
+      "message": "Butoanele \u00CEmi place & Nu-mi place"
+   },
+   "titelmaxqualityyoutube": {
+      "description": "Automatically set to this resolution:",
+      "message": "Rezolu\u0163ia setat\u0103 automat la:"
+   },
+   "titelmouse": {
+      "description": "Mouse",
+      "message": "Mouse"
+   },
+   "titeloff": {
+      "description": "Off",
+      "message": "Inactiv"
+   },
+   "titelon": {
+      "description": "On",
+      "message": "Activ"
+   },
+   "titelopacity": {
+      "description": "Opacity",
+      "message": "Opacitate"
+   },
+   "titelpageaction": {
+      "description": "hide pageaction icon",
+      "message": "Ascunde pictograma"
+   },
+   "titelpassword": {
+      "description": "Password Protection",
+      "message": "Protejeaz\u0103 cu parol\u0103"
+   },
+   "titelplaylist": {
+      "description": "Playlist",
+      "message": "Lista de redare"
+   },
+   "titelqualityyoutube": {
+      "description": "Automatically set the quality of YouTube videos.",
+      "message": "Seteaz\u0103 automat calitatea video-urilor de pe Youtube."
+   },
+   "titelreader": {
+      "description": "Dimness Level Bar",
+      "message": "Bara nivel intunecare"
+   },
+   "titelrememberpage": {
+      "description": "Remember page",
+      "message": "\u0162ine minte pagina"
+   },
+   "titelscreen": {
+      "description": "Screen",
+      "message": "Ecran"
+   },
+   "titelsharebutton": {
+      "description": "Share Buttons",
+      "message": "Butoane de distribuire"
+   },
+   "titelshortcutlight": {
+      "description": "Shortcut Key",
+      "message": "Scurt\u0103tura"
+   },
+   "titelshowmore": {
+      "description": "Show more",
+      "message": "Arat\u0103 mai mult"
+   },
+   "titelspreadradius": {
+      "description": "The spread radius",
+      "message": "Raza de r\u0103sp\u00E2ndire"
+   },
+   "titelsuggestions": {
+      "description": "Suggestions",
+      "message": "Sugestii"
+   },
+   "titelsync": {
+      "description": "Sync",
+      "message": "Sincronizeaz\u0103"
+   },
+   "titelsyncbrowser": {
+      "description": "Sync the extension settings with your other browser.",
+      "message": "Sincronizeaz\u0103 set\u0103rile extensiei cu un alt browser."
+   },
+   "titelupgrade": {
+      "description": "Upgrade",
+      "message": "Upgrade"
+   },
+   "titelvideoheadline": {
+      "description": "Video Title",
+      "message": "Nume clip"
+   },
+   "titelviewcount": {
+      "description": "Number of Views",
+      "message": "Num\u0103r de vizualiz\u0103ri"
+   },
+   "titledonatebutton": {
+      "description": "Donate",
+      "message": "Doneaz\u0103"
+   },
+   "top": {
+      "description": "top",
+      "message": "sus"
+   },
+   "translateme": {
+      "description": "Help Translate",
+      "message": "Ajut\u0103 la traducere"
+   },
+   "version": {
+      "description": "Version number text",
+      "message": "Versiune"
+   },
+   "videotitle": {
+      "description": "Focus this video",
+      "message": "Focalizeaza acest videoclip"
+   },
+   "visualeffects": {
+      "description": "Visual Effects",
+      "message": "Efecte vizuale"
+   },
+   "warning": {
+      "description": "Warning!",
+      "message": "Aten\u021Bie!"
+   },
+   "warningtextambilight": {
+      "description": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead.",
+      "message": "Dac\u0103 nu po\u0163i vedea video-ul din cauza regulilor site-ului accesat, atunci \u00EE\u0163i va ap\u0103rea culoarea original\u0103."
+   }
+}

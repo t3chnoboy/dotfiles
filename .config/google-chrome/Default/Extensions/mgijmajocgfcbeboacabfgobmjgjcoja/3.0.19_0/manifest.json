@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": false
+   },
+   "browser_action": {
+      "default_icon": "static/icon19.png",
+      "default_popup": "page_action.html",
+      "default_title": "Google Dictionary"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "content_css_min.css" ],
+      "js": [ "content_js_min.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://clients5.google.com; object-src 'self'",
+   "description": "View definitions easily as you browse the web.",
+   "icons": {
+      "128": "static/icon128.png",
+      "16": "static/icon16.png",
+      "32": "static/icon32.png",
+      "48": "static/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCuLnDgxFluQcqbOGrRJ2N7gYRj2DlTTnXa02Ho6IZNKm+Qv8cePlrsn/06irXeEPyikjoo9vokhsv54vV4Wb73x0a5K7s9pY2tuXnBzvik4Jru4KZozebnJTyYDAcjiyPc/ATrzlfQxlZiXIHBVj5KITnaFlR2SuxYkRVebPjUfwIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Dictionary (by Google)",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "https://clients5.google.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.19"
+}

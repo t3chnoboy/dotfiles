@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "A description of the application.",
+      "message": "\u5C06\u60A8\u6240\u6709\u7684\u60F3\u6CD5\u548C\u7ECF\u9A8C\u4FDD\u5B58\u5728 Evernote \u4E2D\uFF0C\u7136\u540E\u901A\u8FC7\u4EFB\u4E00\u53F0\u7535\u8111\u548C\u624B\u673A\u5373\u53EF\u8BBF\u95EE\u3002"
+   },
+   "extensionName": {
+      "description": "The name of the application.",
+      "message": "Evernote Web"
+   }
+}

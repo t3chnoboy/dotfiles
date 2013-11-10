@@ -1,0 +1,164 @@
+@mixin navbar-text-link {
+    color: #999;
+    padding-left: 13px;
+    padding-top: 14px;
+    display: inline-block;
+    height: 32px;
+    margin-left: 15px;
+    padding-right: 13px;
+}
+
+@mixin navbar-text-link-hover {
+    background: #333;
+    color: #AAA;
+    text-decoration: none;
+}
+
+/*Top bar*/
+.postman-navbar {
+    border-top: solid 1px #777;
+    border-bottom: solid 1px #111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $navbar_height;
+    width: 100%;
+    z-index: 100;
+
+    box-shadow: 0px 3px 5px 0px #CCC;
+
+    background: #444444; /* Old browsers */
+    background: -moz-linear-gradient(top,  #444444 0%, #333232 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(100%,#333232)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #444444 0%,#333232 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #444444 0%,#333232 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #444444 0%,#333232 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #444444 0%,#333232 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#333232',GradientType=0 ); /* IE6-9 */
+}
+
+#logo {
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: 10px;
+    float: left;
+}
+
+.navbar-main-navigation {
+    display: none;
+    float: left;
+    margin-left: -28px;
+    height: 47px;
+
+    li {
+        list-style: none;
+        float: left;
+    }
+
+    a {
+        @include navbar-text-link;
+    }
+
+    a:hover {
+        @include navbar-text-link-hover;
+    }
+
+}
+
+/*Preferences*/
+.preferences {
+    float: right;
+
+    a.icon {
+        font-size: 11px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 9px;
+        display: inline-block;
+        height: 32px;
+        padding-top: 14px;
+    }
+
+    img {
+        height: 20px;
+        vertical-align: middle;
+    }
+
+    a.icon:hover {
+        text-decoration: none;
+    }
+
+    #google-drive-status {
+        display: none;
+
+        img {
+            height: 23px !important;
+            opacity: 0.6 !important;
+        }
+
+        img:hover {
+            opacity: 1 !important;
+        }
+    }
+
+    #donate-link {
+        display: inline-block;
+        @include navbar-text-link;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+
+    #donate-link:hover {
+        @include navbar-text-link-hover;
+    }
+
+    .donate-popover-link {
+        background: #333;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        text-align: center;
+        vertical-align: center;
+        padding: 5px;
+    }
+
+    .donate-popover-link:hover {
+        background: #111 !important;
+        text-decoration: none !important;
+    }
+}
+
+.supporter {
+    border-bottom: solid thin #efefef;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.supporter a:hover {
+    background: white !important;
+}
+
+.supporter:first {
+    border-bottom: none;
+}
+
+.supporter-image {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 100px;
+}
+
+.supporter-image-mashape img {
+    width: 100px;
+    height: 28px;
+}
+
+.supporter-tag {
+    float: left;
+    font-size: 11px;
+    margin-top: 5px;
+    font-weight: normal;
+    line-height: 1.2em !important;
+    width: 125px;
+}

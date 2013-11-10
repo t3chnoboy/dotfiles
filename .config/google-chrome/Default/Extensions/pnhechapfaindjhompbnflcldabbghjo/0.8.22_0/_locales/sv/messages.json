@@ -1,0 +1,99 @@
+{
+   "bad_destination": {
+      "message": "Det g\u00E5r inte att analysera destinationen: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "before_unload": {
+      "message": "Closing this tab will disconnect this session."
+   },
+   "cancel_button_label": {
+      "message": "Avbryt"
+   },
+   "cmd_ssh_forget_host_help": {
+      "message": "Kommandot visar v\u00E4rdar som vi k\u00E4nner till i en meny och fr\u00E5gar vilken v\u00E4rd som ska gl\u00F6mmas bort."
+   },
+   "cmd_ssh_forget_host_title": {
+      "message": "Gl\u00F6m en k\u00E4nd ssh-v\u00E4rd."
+   },
+   "cmd_ssh_help": {
+      "message": "Parametrarna |username| och |hostname| \u00E4r obligatoriska, |port| \u00E4r valfri. Om du inte anger en port blir den automatiskt 22."
+   },
+   "cmd_ssh_title": {
+      "message": "\u00D6ppnar en ny SSH-session."
+   },
+   "command_complete": {
+      "message": "Kommandot $1 har slutf\u00F6rts med slutkoden $2. Du kan st\u00E4nga det h\u00E4r f\u00F6nstret.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "connect_button_label": {
+      "message": "Anslut"
+   },
+   "connect_message": {
+      "message": "Ange en destination som du vill ansluta till."
+   },
+   "connecting": {
+      "message": "Ansluter till $1, port $2 ...",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "destination_pattern": {
+      "message": "anv\u00E4ndarnamn@v\u00E4rdnamn[:port]"
+   },
+   "known_hosts_empty": {
+      "message": "Det finns inga k\u00E4nda v\u00E4rdar. Ingen information att gl\u00F6mma."
+   },
+   "known_hosts_prompt": {
+      "message": "V\u00E4lj en v\u00E4rd som ska gl\u00F6mmas [1\u2013$1]:",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "known_hosts_title": {
+      "message": "K\u00E4nda v\u00E4rdar:"
+   },
+   "missing_param": {
+      "message": "Parametern $1 saknas",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "ok_button_label": {
+      "message": "OK"
+   },
+   "plugin_loading": {
+      "message": "Loading NaCl plugin..."
+   },
+   "plugin_loading_complete": {
+      "message": " done."
+   },
+   "unexpected_error": {
+      "message": "Ett ov\u00E4ntat fel uppstod. Du hittar mer information i JavaScript-konsolen."
+   },
+   "welcome": {
+      "message": "V\u00E4lkommen! \u00D6ppna en ny ssh-anslutning med kommandot \"\u00F6ppna\"."
+   },
+   "welcome_tip": {
+      "message": "Tips! Du kan spara sessionen som ett bokm\u00E4rke i webbl\u00E4saren."
+   }
+}

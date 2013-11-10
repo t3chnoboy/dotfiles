@@ -1,0 +1,23 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "script.js" ],
+      "matches": [ "*://www.4chan.org/", "*://boards.4chan.org/*", "*://sys.4chan.org/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Customizable rice and themes for 4chan and 4chan X.",
+   "homepage_url": "http://seaweedchan.github.io/OneeChan/",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCspb93PztuB3TEPEy/Oi2iAfME2jQtrupYXkPXzgmTjFQ0w61dsCQsPKVooCC9HLACeFU4El4sbkrIxrHQg2SXFUtm+e0kLYmYiQSkm1zKDC2HDj330IvmvqbpEmPBiGNskn8abiLxXKKba/3gtf1J+XjMUzVf6lUQEXYPBPigywIDAQAB",
+   "manifest_version": 2,
+   "maximum_chrome_version": "29",
+   "minimum_chrome_version": "26",
+   "name": "OneeChan",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.0.18"
+}

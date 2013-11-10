@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "Zawsze dodawaj do Google+"
+   },
+   "always_add_desc": {
+      "message": "Po zaznaczeniu tej opcji funkcja t\u0142umaczenia b\u0119dzie zawsze dodawana do Google+. W przeciwnym razie b\u0119dzie ona dost\u0119pna dopiero po klikni\u0119ciu przycisku rozszerzenia."
+   },
+   "autosaved": {
+      "message": "Zapisano automatycznie"
+   },
+   "background": {
+      "message": "T\u0142o t\u0142umaczenia:"
+   },
+   "example": {
+      "message": "Przyk\u0142ad"
+   },
+   "extension_desc": {
+      "message": "Przet\u0142umacz sw\u00F3j strumie\u0144 w Google+ za pomoc\u0105 zintegrowanego T\u0142umacza Google."
+   },
+   "extension_name": {
+      "message": "T\u0142umacz Google dla Google+"
+   },
+   "google_translate": {
+      "message": "T\u0142umacz Google"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 dla Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "J\u0119zyk:"
+   },
+   "language_desc": {
+      "message": "Tre\u015Bci b\u0119d\u0105 t\u0142umaczone na ten j\u0119zyk."
+   },
+   "options_saved": {
+      "message": "Zapisano opcje"
+   },
+   "save": {
+      "message": "Zapisz"
+   },
+   "translate_header": {
+      "message": "T\u0142umacz"
+   }
+}

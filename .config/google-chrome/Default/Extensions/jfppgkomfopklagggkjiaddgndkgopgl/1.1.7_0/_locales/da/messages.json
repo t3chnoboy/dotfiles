@@ -1,0 +1,49 @@
+{
+   "always_add": {
+      "message": "F\u00F8j altid til Google+"
+   },
+   "always_add_desc": {
+      "message": "N\u00E5r dette er markeret, tilf\u00F8jes overs\u00E6ttelsesfunktionen altid til Google+, ellers tilf\u00F8jes den kun, n\u00E5r du klikker p\u00E5 knappen for udvidelsen."
+   },
+   "autosaved": {
+      "message": "Gemt automatisk"
+   },
+   "background": {
+      "message": "Baggrund til overs\u00E6ttelsen:"
+   },
+   "example": {
+      "message": "Eksempel"
+   },
+   "extension_desc": {
+      "message": "Overs\u00E6t din str\u00F8m i Google+ ved hj\u00E6lp af integreret, indlejret underst\u00F8ttelse af Google Overs\u00E6t."
+   },
+   "extension_name": {
+      "message": "Google Overs\u00E6t til Google+"
+   },
+   "google_translate": {
+      "message": "Google Overs\u00E6t"
+   },
+   "gt_img_for_gplus": {
+      "message": "$1 til Google+",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "language": {
+      "message": "Sprog:"
+   },
+   "language_desc": {
+      "message": "Indholdet vil blive oversat til dette sprog."
+   },
+   "options_saved": {
+      "message": "Indstillingerne er gemt"
+   },
+   "save": {
+      "message": "Gem"
+   },
+   "translate_header": {
+      "message": "Overs\u00E6t"
+   }
+}

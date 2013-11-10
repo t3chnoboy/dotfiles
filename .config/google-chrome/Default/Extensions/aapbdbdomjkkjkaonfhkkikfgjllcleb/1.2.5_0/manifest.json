@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "injection.js", "main_compiled.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon19.png",
+      "default_title": "Google Translate\n\nLeft-click to translate this page!\nRight-click for options."
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://translate.google.com; object-src 'self'",
+   "description": "This extension translates entire webpages into a language of your choice with one click. By the Google Translate team.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfHy1M+jghaHyaVAILzx/c/Dy+RXtcaP9/5pC7EY8JlNEI/G4DIIng9IzlrH8UWStpMWMyGUsdyusn2PkYFrqfVzhc2azVF3PX9D0KHG3FLN3mNoz1YTBHvO5QSXJf292qW0tTYuoGqeTfXtF9odLdg20Xd0YrLmtS4TQkpSYGDwIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Translate",
+   "options_page": "options.html",
+   "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.5"
+}

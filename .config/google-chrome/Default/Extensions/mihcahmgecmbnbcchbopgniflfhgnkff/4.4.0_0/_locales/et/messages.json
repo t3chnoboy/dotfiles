@@ -1,0 +1,19 @@
+{
+   "gmailcheck_description": {
+      "message": "Kuvab Google Maili postkastis olevate lugemata s\u00F5numite arvu. V\u00F5ite kl\u00F5psata ka nupul ja avada postkasti."
+   },
+   "gmailcheck_exception": {
+      "message": "erand: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "gmailcheck_name": {
+      "message": "Google'i meilikontrollija"
+   },
+   "gmailcheck_node_error": {
+      "message": "Viga: voog vastuv\u00F5etud, kuid \u00FChtki &lt;fullcount&gt; s\u00F5lme ei leitud"
+   }
+}

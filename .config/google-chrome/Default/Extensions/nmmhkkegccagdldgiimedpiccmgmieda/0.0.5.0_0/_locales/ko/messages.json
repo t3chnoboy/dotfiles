@@ -1,0 +1,20 @@
+{
+   "app_description": {
+      "message": "\uB514\uC9C0\uD138 \uCF58\uD150\uCE20\uC6A9 Google \uC9C0\uAC11"
+   },
+   "app_name": {
+      "message": "Google Wallet"
+   },
+   "craw_app_unavailable": {
+      "message": "\uD604\uC7AC \uC571\uC744 \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+   },
+   "craw_connect_to_network": {
+      "message": "\uB124\uD2B8\uC6CC\uD06C\uC5D0 \uC5F0\uACB0\uD558\uC138\uC694."
+   },
+   "iap_unavailable": {
+      "message": "\uD604\uC7AC \uC778\uC571 \uACB0\uC81C\uB97C \uC0AC\uC6A9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+   },
+   "please_sign_in": {
+      "message": "Chrome\uC5D0 \uB85C\uADF8\uC778\uD558\uC138\uC694."
+   }
+}
