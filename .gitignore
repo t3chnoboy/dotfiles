@@ -19,3 +19,4 @@
 .config/configstore/update-notifier-generator-sails.yml
 .config/configstore/update-notifier-generator-webapp.yml
 .config/configstore/update-notifier-yo.yml
+.private
