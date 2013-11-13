@@ -13,3 +13,6 @@ set fish_plugins  bundler emoji-clocksa  gi  localhost  node  percol  plenv  pye
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
+
+# Private config
+. ~/.dotfiles/.private.fish

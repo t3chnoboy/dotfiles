@@ -11,3 +11,5 @@
 .config/ibus/
 .config/nautilus/
 .config/signond/
+.private
+.private.fish
