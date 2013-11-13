@@ -20,3 +20,4 @@
 .config/configstore/update-notifier-generator-webapp.yml
 .config/configstore/update-notifier-yo.yml
 .private
+.private.fish

@@ -19,3 +19,5 @@ set fish_plugins autojump  brew  bundler  django  emoji-clock  fry  localhost  n
 
 . /usr/local/lib/python2.7/site-packages/powerline/bindings/fish/powerline.fish
 
+# Private stuff
+. ~/.dotfiles/.private.fish
