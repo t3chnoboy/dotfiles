@@ -63,4 +63,4 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 #Z
 . `brew --prefix`/etc/profile.d/z.sh
 
-source ~/.dotfiles/.private
+. ~/.dotfiles/.private
