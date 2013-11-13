@@ -7,3 +7,7 @@
 .config/chrome/
 .config/google-chrome/
 .config/dconf/
+.config/configstore/
+.config/ibus/
+.config/nautilus/
+.config/signond/
