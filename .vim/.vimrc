@@ -42,7 +42,7 @@ endif
 
 " ================ Color Scheme =====================
 
-colorscheme anotherdark
+colorscheme anotherdark2
 
 " ================ Powerline ====================
 
