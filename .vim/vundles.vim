@@ -46,6 +46,7 @@ Bundle "claco/jasmine.vim"
 Bundle "jamescarr/snipmate-nodejs"
 Bundle "marijnh/tern_for_vim"
 Bundle "jelera/vim-javascript-syntax"
+Bundle "briancollins/vim-jst"
 
 " Git related...
 Bundle "mattn/gist-vim"
