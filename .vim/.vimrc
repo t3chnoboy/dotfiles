@@ -44,6 +44,10 @@ endif
 
 colorscheme anotherdark2
 
+" cursorline
+hi CursorLine   cterm=NONE ctermbg=235
+set cursorline
+
 " ================ Powerline ====================
 
 " set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
