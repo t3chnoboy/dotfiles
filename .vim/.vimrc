@@ -67,6 +67,10 @@ map <C-n> :NERDTreeToggle<CR>
 
 "open new line without entering insert mode
 nmap <Enter> o<Esc>
+"fast switching between tabs
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>
 
 " ================ Turn Off Swap Files ==============
 
