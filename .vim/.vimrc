@@ -76,6 +76,10 @@ map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr>
 
+"semicolon to colon
+map ; :
+noremap ;; ;
+
 " ================ Turn Off Swap Files ==============
 
 "set noswapfile
