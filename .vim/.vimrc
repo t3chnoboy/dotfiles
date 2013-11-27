@@ -80,6 +80,10 @@ map gd :bd<cr>
 map ; :
 noremap ;; ;
 
+"magic :)
+:nnoremap / /\v
+:cnoremap %s/ %s/\v
+
 " ================ Turn Off Swap Files ==============
 
 "set noswapfile
