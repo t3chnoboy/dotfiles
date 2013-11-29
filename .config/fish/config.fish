@@ -25,3 +25,7 @@ set fish_plugins autojump brew bundler django emoji-clock fry localhost node per
 alias :q=exit
 alias :wq=exit
 alias :e=vim
+alias gs="git st"
+alias gc="git commit"
+alias gl="git lg"
+alias ga="git add"
