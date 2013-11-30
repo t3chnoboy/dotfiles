@@ -20,6 +20,8 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+let ruby_operators = 1
+let ruby_space_errors = 1
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
