@@ -11,7 +11,7 @@ set showcmd                     "Show incomplete cmds down the bottom
 "set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
 set encoding=utf-8              "Set default encoding to UTF-8
-
+set shell=/bin/bash
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
