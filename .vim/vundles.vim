@@ -84,7 +84,6 @@ Bundle "tpope/vim-surround.git"
 Bundle "sjl/gundo.vim"
 Bundle "vim-scripts/AutoTag.git"
 Bundle "mileszs/ack.vim"
-Bundle "benmills/vimux"
 "Bundle "jistr/vim-nerdtree-tabs.git"
 Bundle "mattn/webapi-vim.git"
 "Bundle "tomtom/tlib_vim.git"
@@ -93,6 +92,9 @@ Bundle "mattn/webapi-vim.git"
 "Bundle "xsunsmile/showmarks.git"
 "Bundle "nathanaelkane/vim-indent-guides"
 
+" TMUX
+Bundle "benmills/vimux"
+Bundle 'christoomey/vim-tmux-navigator'
 " Text objects
 "Bundle "kana/vim-textobj-function"
 "Bundle "kana/vim-textobj-user"
