@@ -46,7 +46,7 @@ plugins=(git git-flow rails battery bundler capistrano nyan cloudapp coffee cake
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/heroku/bin
+export PATH=$HOME/.rbenv/bin:$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/heroku/bin
 
 
 #powerline
