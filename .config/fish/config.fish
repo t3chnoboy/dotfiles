@@ -8,7 +8,7 @@ set fish_theme bobthefish
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
 # Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
 # Example format: set fish_plugins autojump bundler
-set fish_plugins autojump brew bundler django emoji-clock fry localhost node percol php plenv pyenv python rails rake rbenv sublime z
+set fish_plugins autojump brew bundler node rails rake rbenv z
 # Path to your custom folder (default path is $FISH/custom)
 #set fish_custom $HOME/dotfiles/oh-my-fish
 
@@ -16,7 +16,7 @@ set fish_plugins autojump brew bundler django emoji-clock fry localhost node per
 . $fish_path/oh-my-fish.fish
 
 # Powerline
-. /usr/local/lib/python2.7/site-packages/powerline/bindings/fish/powerline.fish
+# . /usr/local/lib/python2.7/site-packages/powerline/bindings/fish/powerline.fish
 
 # Private stuff
 . ~/.dotfiles/.private.fish

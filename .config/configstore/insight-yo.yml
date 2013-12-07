@@ -1,2 +1,5 @@
 clientId: 1232505753565
 optOut: false
+queue: 
+  "1386314865981 /angular:directive/chart": "/angular:directive/chart"
+  "1386317410052 /angular:service/Neurone": "/angular:service/Neurone"
