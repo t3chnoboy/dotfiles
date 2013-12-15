@@ -9954,6 +9954,8 @@
 	<false/>
 	<key>HideActivityIndicator</key>
 	<false/>
+	<key>HideMenuBarInFullscreen</key>
+	<true/>
 	<key>HideScrollbar</key>
 	<true/>
 	<key>HideTab</key>
@@ -10029,11 +10031,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>390 198 445 270 0 0 1440 878 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>295 213 924 485 0 0 1440 878 </string>
+	<string>516 327 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame SUUpdateAlertFrame</key>
-	<string>432 403 575 392 0 0 1440 900 </string>
+	<string>432 404 575 392 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>279 236 906 562 0 0 1440 900 </string>
+	<string>162 167 914 508 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>630 253 810 551 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_350E4DEF-E1BF-4DD5-91A7-FE2DF49E827F</key>
@@ -10594,6 +10596,8 @@
 			<string>PragmataProForPowerline 15</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
+			<key>Prevent Opening in a Tab</key>
+			<false/>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
@@ -15182,9 +15186,9 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2013-11-13T11:18:01Z</date>
+	<date>2013-12-15T14:55:39Z</date>
 	<key>SUSkippedVersion</key>
-	<string>1.0.0.20131106-nightly</string>
+	<string>1.0.0.20131215-nightly</string>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Show Toolbelt</key>
