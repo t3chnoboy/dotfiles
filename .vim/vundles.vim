@@ -73,7 +73,6 @@ Bundle "ervandew/supertab"
 " Bundle "align"
 
 " General vim improvements
-Bundle "MarcWeber/vim-addon-mw-utils.git"
 Bundle "kien/ctrlp.vim"
 Bundle "majutsushi/tagbar.git"
 Bundle "scrooloose/nerdtree.git"
@@ -95,6 +94,8 @@ Bundle "mattn/webapi-vim.git"
 " TMUX
 Bundle "benmills/vimux"
 Bundle 'christoomey/vim-tmux-navigator'
+" Bundle "jpalardy/vim-slime"
+
 " Text objects
 "Bundle "kana/vim-textobj-function"
 "Bundle "kana/vim-textobj-user"
