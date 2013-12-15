@@ -86,6 +86,9 @@ noremap ;; ;
 :nnoremap / /\v
 :cnoremap %s/ %s/\v
 
+" toggle paste mode
+map <F10> :set paste!<Bar>set paste?<CR>
+
 " ================ Turn Off Swap Files ==============
 
 "set noswapfile
