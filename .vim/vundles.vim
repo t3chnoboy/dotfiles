@@ -26,6 +26,7 @@ Bundle "tpope/vim-rvm.git"
 Bundle "vim-ruby/vim-ruby.git"
 "Bundle "astashov/vim-ruby-debugger"
 Bundle "tpope/vim-bundler"
+Bundle "jgdavey/vim-turbux"
 
 
 " Html, Xml, Css, Markdown, javascript...
