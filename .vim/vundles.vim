@@ -18,6 +18,18 @@ Bundle "gmarik/vundle"
 
 " All your bundles here
 
+" Javascript/Coffeescript
+Bundle "pangloss/vim-javascript"
+Bundle "itspriddle/vim-jquery.git"
+Bundle "kchmck/vim-coffee-script"
+Bundle "moll/vim-node"
+Bundle "othree/javascript-libraries-syntax.vim"
+Bundle "jelera/vim-javascript-syntax"
+Bundle "marijnh/tern_for_vim"
+Bundle "ahayman/vim-nodejs-complete"
+Bundle "jamescarr/snipmate-nodejs"
+Bundle "claco/jasmine.vim"
+
 " Ruby, Rails, Rake...
 Bundle "ecomba/vim-ruby-refactoring"
 Bundle "tpope/vim-rails.git"
@@ -29,31 +41,21 @@ Bundle "tpope/vim-bundler"
 Bundle "jgdavey/vim-turbux"
 
 
-" Html, Xml, Css, Markdown, javascript...
+" Html, Xml, Css, Markdown
 Bundle "groenewege/vim-less.git"
-Bundle "pangloss/vim-javascript"
-Bundle "itspriddle/vim-jquery.git"
-Bundle "kchmck/vim-coffee-script"
 Bundle "mattn/emmet-vim"
 Bundle "tpope/vim-haml"
 " Bundle "ap/vim-css-color"
 Bundle "tpope/vim-markdown"
 Bundle "digitaltoad/vim-jade"
-Bundle "moll/vim-node"
 Bundle "wavded/vim-stylus"
-Bundle "othree/javascript-libraries-syntax.vim"
-Bundle "claco/jasmine.vim"
-" Bundle "ahayman/vim-nodejs-complete"
-Bundle "jamescarr/snipmate-nodejs"
-Bundle "marijnh/tern_for_vim"
-Bundle "jelera/vim-javascript-syntax"
 Bundle "briancollins/vim-jst"
 
 " Git related...
 Bundle "mattn/gist-vim"
 Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-git"
-"Bundle "gregsexton/gitv"
+Bundle "gregsexton/gitv"
 Bundle "airblade/vim-gitgutter"
 
 " General text editing improvements...
