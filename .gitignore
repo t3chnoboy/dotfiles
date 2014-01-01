@@ -6,3 +6,4 @@
 .config/configstore/*
 .private
 .private.fish
+.npmrc
