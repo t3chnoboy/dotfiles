@@ -36,20 +36,20 @@ Bundle "tpope/vim-rails.git"
 Bundle "tpope/vim-rake.git"
 Bundle "tpope/vim-rvm.git"
 Bundle "vim-ruby/vim-ruby.git"
-"Bundle "astashov/vim-ruby-debugger"
 Bundle "tpope/vim-bundler"
 Bundle "jgdavey/vim-turbux"
+" Bundle "astashov/vim-ruby-debugger"
 
 
 " Html, Xml, Css, Markdown
 Bundle "groenewege/vim-less.git"
 Bundle "mattn/emmet-vim"
 Bundle "tpope/vim-haml"
-" Bundle "ap/vim-css-color"
 Bundle "tpope/vim-markdown"
 Bundle "digitaltoad/vim-jade"
 Bundle "wavded/vim-stylus"
 Bundle "briancollins/vim-jst"
+" Bundle "ap/vim-css-color"
 
 " Git related...
 Bundle "mattn/gist-vim"
@@ -58,41 +58,48 @@ Bundle "tpope/vim-git"
 Bundle "gregsexton/gitv"
 Bundle "airblade/vim-gitgutter"
 
+" autocompletion, snippets
+Bundle "ervandew/supertab"
+Bundle "garbas/vim-snipmate.git"
+Bundle "honza/vim-snippets"
+" Bundle "Shougo/neocomplcache.git"
+" Bundle "Valloric/YouCompleteMe"
+
 " General text editing improvements...
 Bundle "Raimondi/delimitMate"
-" Bundle "Shougo/neocomplcache.git"
-Bundle "garbas/vim-snipmate.git"
 Bundle "godlygeek/tabular"
-Bundle "honza/vim-snippets"
-Bundle "Lokaltog/vim-easymotion"
 Bundle "tpope/vim-commentary"
-"Bundle "terryma/vim-multiple-cursors"
 Bundle "scrooloose/nerdcommenter"
-" Bundle "Valloric/YouCompleteMe"
-"Bundle "tomtom/tcomment_vim.git"
-"Bundle "vim-scripts/camelcasemotion.git"
-"Bundle "vim-scripts/matchit.zip.git"
-Bundle "ervandew/supertab"
+Bundle "tpope/vim-surround.git"
+Bundle "vim-scripts/AutoTag.git"
+" Bundle "tomtom/tcomment_vim.git"
+" Bundle "vim-scripts/matchit.zip.git"
 " Bundle "align"
+" Bundle "terryma/vim-multiple-cursors"
+
+" motions
+Bundle "justinmk/vim-sneak"
+Bundle "Lokaltog/vim-easymotion"
+" Bundle "vim-scripts/camelcasemotion.git"
 
 " General vim improvements
-Bundle "kien/ctrlp.vim"
-Bundle "majutsushi/tagbar.git"
-Bundle "scrooloose/nerdtree.git"
 Bundle "scrooloose/syntastic.git"
 Bundle "tpope/vim-endwise.git"
 Bundle "tpope/vim-repeat.git"
-Bundle "tpope/vim-surround.git"
 Bundle "sjl/gundo.vim"
-Bundle "vim-scripts/AutoTag.git"
-Bundle "mileszs/ack.vim"
-"Bundle "jistr/vim-nerdtree-tabs.git"
 Bundle "mattn/webapi-vim.git"
-"Bundle "tomtom/tlib_vim.git"
-"Bundle "tpope/vim-ragtag"
-"Bundle "tpope/vim-unimpaired"
-"Bundle "xsunsmile/showmarks.git"
-"Bundle "nathanaelkane/vim-indent-guides"
+" Bundle "jistr/vim-nerdtree-tabs.git"
+" Bundle "tomtom/tlib_vim.git"
+" Bundle "tpope/vim-ragtag"
+" Bundle "tpope/vim-unimpaired"
+" Bundle "xsunsmile/showmarks.git"
+" Bundle "nathanaelkane/vim-indent-guides"
+
+" File system/Project navigation/Search
+Bundle "kien/ctrlp.vim"
+Bundle "majutsushi/tagbar.git"
+Bundle "scrooloose/nerdtree.git"
+Bundle "mileszs/ack.vim"
 
 " TMUX
 Bundle "benmills/vimux"
@@ -100,21 +107,21 @@ Bundle 'christoomey/vim-tmux-navigator'
 " Bundle "jpalardy/vim-slime"
 
 " Text objects
-"Bundle "kana/vim-textobj-function"
-"Bundle "kana/vim-textobj-user"
-"Bundle "nelstrom/vim-textobj-rubyblock"
-"Bundle "thinca/vim-textobj-function-javascript"
-"Bundle "vim-scripts/argtextobj.vim"
+" Bundle "kana/vim-textobj-function"
+" Bundle "kana/vim-textobj-user"
+" Bundle "nelstrom/vim-textobj-rubyblock"
+" Bundle "thinca/vim-textobj-function-javascript"
+" Bundle "vim-scripts/argtextobj.vim"
 
 " Cosmetics, color scheme, Powerline...
 Bundle "bling/vim-airline.git"
-"Bundle "vim-scripts/TagHighlight.git"
-Bundle "altercation/vim-colors-solarized"
 Bundle "ScrollColors"
+" Bundle "vim-scripts/TagHighlight.git"
+" Bundle "altercation/vim-colors-solarized"
 
-"SuperTab dependencies
+" SuperTab dependencies
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 
-"Filetype plugin indent on is required by vundle
+" Filetype plugin indent on is required by vundle
 filetype plugin indent on
