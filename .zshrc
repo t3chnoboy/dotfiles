@@ -41,7 +41,7 @@ ZSH=$HOME/.oh-my-zsh
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow rails battery bundler capistrano nyan cloudapp coffee cake command-not-found compleat copydir copyfile cp dircycle gitignore lol postgres rails4 rake rbenv redis-cli rsync ruby sublime terminalapp thor themes tmuxinator vi-mode vundle z brew colored-man colorize heroku emoji-clock gem node osx python web-search git-extras npm screen tmux pip autojump bower)
+plugins=(git git-flow rails battery bundler capistrano nyan cloudapp coffee cake command-not-found compleat copydir copyfile cp dircycle gitignore lol postgres rake rbenv redis-cli rsync ruby sublime terminalapp thor themes tmuxinator vi-mode vundle z brew colored-man colorize heroku emoji-clock gem node osx python web-search git-extras npm screen tmux pip autojump bower)
 
 source $ZSH/oh-my-zsh.sh
 
