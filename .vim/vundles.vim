@@ -100,6 +100,8 @@ Bundle "kien/ctrlp.vim"
 Bundle "majutsushi/tagbar.git"
 Bundle "scrooloose/nerdtree.git"
 Bundle "mileszs/ack.vim"
+Bundle "rking/ag.vim"
+" Bundle "tpope/vim-vinegar"
 
 " TMUX
 Bundle "benmills/vimux"
