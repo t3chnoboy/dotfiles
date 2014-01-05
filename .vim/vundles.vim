@@ -40,6 +40,14 @@ Bundle "tpope/vim-bundler"
 Bundle "jgdavey/vim-turbux"
 " Bundle "astashov/vim-ruby-debugger"
 
+" λ
+Bundle "vim-scripts/Superior-Haskell-Interaction-Mode-SHIM"
+Bundle "Twinside/vim-haskellConceal"
+" Bundle "lukerandall/haskellmode-vim"
+Bundle "eagletmt/ghcmod-vim"
+Bundle "dag/vim2hs"
+Bundle "eagletmt/neco-ghc"
+Bundle "Shougo/vimproc.vim"
 
 " Html, Xml, Css, Markdown
 Bundle "groenewege/vim-less.git"
@@ -109,10 +117,11 @@ Bundle 'christoomey/vim-tmux-navigator'
 " Bundle "jpalardy/vim-slime"
 
 " Text objects
+Bundle "kana/vim-textobj-user"
+Bundle "kana/vim-textobj-indent"
+Bundle "nelstrom/vim-textobj-rubyblock"
+Bundle "thinca/vim-textobj-function-javascript"
 " Bundle "kana/vim-textobj-function"
-" Bundle "kana/vim-textobj-user"
-" Bundle "nelstrom/vim-textobj-rubyblock"
-" Bundle "thinca/vim-textobj-function-javascript"
 " Bundle "vim-scripts/argtextobj.vim"
 
 " Cosmetics, color scheme, Powerline...
