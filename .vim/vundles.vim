@@ -42,12 +42,15 @@ Bundle "jgdavey/vim-turbux"
 
 " λ
 Bundle "vim-scripts/Superior-Haskell-Interaction-Mode-SHIM"
-Bundle "Twinside/vim-haskellConceal"
+Bundle "t3chnoboy/vim-haskellConceal"
 " Bundle "lukerandall/haskellmode-vim"
 Bundle "eagletmt/ghcmod-vim"
 Bundle "dag/vim2hs"
 Bundle "eagletmt/neco-ghc"
 Bundle "Shougo/vimproc.vim"
+
+" ><)))*>
+Bundle "dag/vim-fish"
 
 " Html, Xml, Css, Markdown
 Bundle "groenewege/vim-less.git"
