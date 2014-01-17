@@ -18,6 +18,11 @@ set shell=/bin/bash
 " http://items.sjbach.com/319/configuring-vim-right
 set hidden
 
+" Enable mouse use in all modes
+set mouse=a
+set ttyfast
+set ttymouse=xterm2
+
 "turn on syntax highlighting
 syntax on
 let ruby_operators = 1
