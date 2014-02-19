@@ -7,3 +7,4 @@
 .private
 .private.fish
 .npmrc
+.config/hub
