@@ -34,6 +34,10 @@ nmap rq :call VimuxCloseRunner()<CR>
 " send current line to tmux
 nmap rr "vyy :call VimuxSendText(@v)<CR>
 
+"remap R to default r action
+"thanks to Yuri Kaliada https://github.com/FUT
+map R :execute "normal cl" . nr2char(getchar())<cr>
+
 " =====================TURBUX======================"
 let g:turbux_runner  = 'vimux'
 let g:no_turbux_mappings = 1
