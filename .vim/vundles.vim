@@ -26,7 +26,7 @@ Bundle "moll/vim-node"
 Bundle "othree/javascript-libraries-syntax.vim"
 Bundle "jelera/vim-javascript-syntax"
 Bundle "marijnh/tern_for_vim"
-Bundle "ahayman/vim-nodejs-complete"
+Bundle "myhere/vim-nodejs-complete"
 Bundle "jamescarr/snipmate-nodejs"
 Bundle "claco/jasmine.vim"
 
