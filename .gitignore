@@ -8,3 +8,4 @@
 .private.fish
 .npmrc
 .config/hub
+.bowerrc
