@@ -15,6 +15,7 @@ My setup
 * Editor: [Vim](http://www.vim.org)
 * Terminal multiplexor: [tmux](http://tmux.sourceforge.net)
 * Package manager: [Homebrew](http://brew.sh)
+* Color schemes: Day: [Spring](https://github.com/t3chnoboy/spring-iTerm) Night: [Thayer Bright](https://github.com/t3chnoboy/thayer-bright-iTerm)
 
 Tips and tricks
 ========
@@ -35,22 +36,23 @@ Install [Menu and dockless](http://myownapp.com/manuals/mad_manual/)
 Screenshots
 ========
 
-###Typical seesion
+###Night
 ![image](http://i.imgur.com/pFYFq4I.png)
 
-
-##Code editing
-
-###Ruby
 ![image](http://i.imgur.com/7tjTXEf.png)
 
-
-###Coffeescript
 ![image](http://i.imgur.com/W8WbyQY.png)
 
-
-###Jade, Full Screen
 ![image](http://i.imgur.com/Du1lWZR.png)
+
+###Day
+![image](http://i.imgur.com/ARIDNnF.png)
+
+![image](http://i.imgur.com/1InShq3.png)
+
+![image](http://i.imgur.com/F5MHKqt.png)
+
+![image](http://i.imgur.com/dH7S4pl.png)
 
 Scripts used in demonstration
 ========
