@@ -51,9 +51,9 @@ endif
 
 colorscheme anotherdark2
 
-" cursorline
-hi CursorLine   cterm=NONE ctermbg=235
-set cursorline
+if filereadable(expand("~/.vim/dayAndNight.vim"))
+  source ~/.vim/dayAndNight.vim
+endif
 
 " ================ Powerline ====================
 
