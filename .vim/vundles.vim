@@ -118,6 +118,7 @@ Bundle "rking/ag.vim"
 Bundle "benmills/vimux"
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'tpope/vim-dispatch'
+Bundle 'edkolev/tmuxline.vim'
 " Bundle "jpalardy/vim-slime"
 
 " Text objects
