@@ -38,8 +38,12 @@ nmap rr "vyy :call VimuxSendText(@v)<CR>
 "thanks to Yuri Kaliada https://github.com/FUT
 map R :execute "normal cl" . nr2char(getchar())<cr>
 
+" Run tests
+map rt :call VimuxRunCommand('npm test')<CR>
+map rT :call VimuxRunCommand('npm test')<CR>
+
 " =====================TURBUX======================"
-let g:turbux_runner  = 'vimux'
-let g:no_turbux_mappings = 1
-map rt <Plug>SendTestToTmux
-map rT <Plug>SendFocusedTestToTmux
+" let g:turbux_runner  = 'vimux'
+" let g:no_turbux_mappings = 1
+" map rt <Plug>SendTestToTmux
+" map rT <Plug>SendFocusedTestToTmux
