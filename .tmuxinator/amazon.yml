@@ -1,0 +1,12 @@
+# ~/.tmuxinator/amazon.yml
+
+name: amazon
+root: ~/Developer/Projects/Node/amazon/
+
+windows:
+  - editor: vim src/index.coffee
+  - console:
+      layout: 6b8c,178x48,0,0[178x35,0,0,3,178x12,0,36,4]
+      panes:
+        - #empty
+        - gulp

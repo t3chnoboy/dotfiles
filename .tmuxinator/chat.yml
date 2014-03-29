@@ -1,0 +1,14 @@
+# ~/.tmuxinator/chat.yml
+
+name: chat
+root: ~/Developer/Projects/koa/Chat/
+
+windows:
+  - front-end: vim .
+  - back-end: vim src/
+  - server:
+      layout: 4704,178x48,0,0[178x35,0,0,4,178x12,0,36{88x12,0,36,5,89x12,89,36,6}]
+      panes:
+        - #empty
+        - gulp
+        - redis-server

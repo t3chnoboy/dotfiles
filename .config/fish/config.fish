@@ -15,6 +15,9 @@ set fish_plugins autojump brew node rails rbenv z tmux extract gi
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
 
+#editor
+set -x EDITOR vim
+
 # Powerline
 # . /usr/local/lib/python2.7/site-packages/powerline/bindings/fish/powerline.fish
 
