@@ -62,6 +62,10 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 #Z
 . `brew --prefix`/etc/profile.d/z.sh
 
+#K
+source ~/.oh-my-zsh/k.sh
+
+#private stuff
 . ~/.dotfiles/.private
 
 #Powerline theme
