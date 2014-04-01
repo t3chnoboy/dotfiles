@@ -76,3 +76,6 @@ eval "$(rbenv init -)"
 
 #TMUX powerline
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
+
+# added by travis gem
+[ -f /Users/macuser/.travis/travis.sh ] && source /Users/macuser/.travis/travis.sh
