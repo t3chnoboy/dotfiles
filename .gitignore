@@ -12,3 +12,4 @@
 .config/ranger/bookmarks
 .ghc/x86_64-darwin-7.6.3/
 .ghc/x86_64-darwin-7.8.1/
+.ghc/ghci_history
