@@ -142,5 +142,8 @@ Bundle "ScrollColors"
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 
+" Misc
+Bundle "tpope/vim-heroku"
+
 " Filetype plugin indent on is required by vundle
 filetype plugin indent on
