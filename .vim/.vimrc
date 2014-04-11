@@ -18,6 +18,11 @@ set shell=/bin/bash
 " http://items.sjbach.com/319/configuring-vim-right
 set hidden
 
+" Enable mouse use in all modes
+set mouse=a
+set ttyfast
+set ttymouse=xterm2
+
 "turn on syntax highlighting
 syntax on
 let ruby_operators = 1
@@ -46,9 +51,9 @@ endif
 
 colorscheme anotherdark2
 
-" cursorline
-hi CursorLine   cterm=NONE ctermbg=235
-set cursorline
+if filereadable(expand("~/.vim/dayAndNight.vim"))
+  source ~/.vim/dayAndNight.vim
+endif
 
 " ================ Powerline ====================
 
@@ -85,6 +90,9 @@ noremap ;; ;
 "magic :)
 :nnoremap / /\v
 :cnoremap %s/ %s/\v
+
+" toggle paste mode
+map <F10> :set paste!<Bar>set paste?<CR>
 
 " ================ Turn Off Swap Files ==============
 

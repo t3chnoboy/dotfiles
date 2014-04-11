@@ -11,3 +11,4 @@ watchtower.vim
 mustache.vim
 backups
 bundle
+backups/
