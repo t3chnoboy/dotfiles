@@ -8,7 +8,7 @@ set fish_theme bobthefish
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
 # Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
 # Example format: set fish_plugins autojump bundler
-set fish_plugins autojump brew node rails rbenv z tmux extract gi
+set fish_plugins brew node rails rbenv z tmux extract
 # Path to your custom folder (default path is $FISH/custom)
 #set fish_custom $HOME/dotfiles/oh-my-fish
 
@@ -17,9 +17,6 @@ set fish_plugins autojump brew node rails rbenv z tmux extract gi
 
 #editor
 set -x EDITOR vim
-
-# Powerline
-# . /usr/local/lib/python2.7/site-packages/powerline/bindings/fish/powerline.fish
 
 # Private stuff
 . ~/.dotfiles/.private.fish
@@ -35,4 +32,3 @@ alias ga="git add"
 alias gd="git diff"
 alias gp="git push"
 alias node="node --harmony"
-alias hcoffee="~/Developer/Projects/JavaScript/coffee-script-harmony/bin/coffee"
