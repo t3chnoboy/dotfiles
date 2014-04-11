@@ -2,7 +2,7 @@
 	name = Dmitry Mazuro
 	email = dmitry.mazuro@icloud.com
 [core]
-	excludesfile = /Users/dmitry/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = vim
 [diff]
       tool = vimdiff
