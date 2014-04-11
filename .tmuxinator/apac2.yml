@@ -1,0 +1,12 @@
+# ~/.tmuxinator/apac2.yml
+
+name: apac2
+root: ~/Developer/Projects/Node/apac2/
+
+windows:
+  - editor: vim lib/index.js
+  - console:
+      layout: 6b8c,178x48,0,0[178x35,0,0,3,178x12,0,36,4]
+      panes:
+        - #empty
+        - #empty
