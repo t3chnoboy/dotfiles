@@ -5,7 +5,8 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+# ZSH_THEME="powerline"
+
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -40,15 +41,13 @@ ZSH_THEME="agnoster"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow rails3 battery brew colored-man colorize github heroku ruby sublime emoji-clock gem node rvm osx python web-search git-extras npm screen tmux pip autojump )
+plugins=(git git-flow rails battery bundler capistrano nyan cloudapp coffee cake command-not-found compleat copydir copyfile cp dircycle gitignore lol postgres rake rbenv redis-cli rsync ruby sublime terminalapp thor themes tmuxinator vi-mode vundle z brew colored-man colorize heroku emoji-clock gem node osx python web-search git-extras npm screen tmux pip autojump bower)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/heroku/bin:/usr/local/mysql/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Users/macuser/.rvm/bin
+export PATH=$HOME/.rbenv/bin:$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/heroku/bin
 
-#RVM
-source ~/.rvm/scripts/rvm
 
 #powerline
 . /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
@@ -62,3 +61,18 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 
 #Z
 . `brew --prefix`/etc/profile.d/z.sh
+
+#K
+source ~/.oh-my-zsh/k.sh
+
+#private stuff
+. ~/.dotfiles/.private
+
+#Powerline theme
+# source ~/.zsh/zsh-prompt-powerline/1.zsh
+
+#RBENV
+eval "$(rbenv init -)"
+
+#TMUX powerline
+PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
