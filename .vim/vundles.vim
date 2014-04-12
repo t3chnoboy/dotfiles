@@ -14,136 +14,136 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle (required)
-Bundle "gmarik/vundle"
+Bundle 'gmarik/vundle'
 
 " All your bundles here
 
 " Javascript/Coffeescript
-Bundle "pangloss/vim-javascript"
-Bundle "kchmck/vim-coffee-script"
-Bundle "moll/vim-node"
-Bundle "burnettk/vim-angular"
-Bundle "rsludge/vim-sails"
-" Bundle "marijnh/tern_for_vim"
-" Bundle "othree/javascript-libraries-syntax.vim"
-" Bundle "jelera/vim-javascript-syntax"
-" Bundle "myhere/vim-nodejs-complete"
-" Bundle "jamescarr/snipmate-nodejs"
-" Bundle "claco/jasmine.vim"
-" Bundle "itspriddle/vim-jquery.git"
+Plugin 'pangloss/vim-javascript'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'moll/vim-node'
+Bundle 'burnettk/vim-angular'
+Bundle 'rsludge/vim-sails'
+" Bundle 'marijnh/tern_for_vim'
+" Bundle 'othree/javascript-libraries-syntax.vim'
+" Bundle 'jelera/vim-javascript-syntax'
+" Bundle 'myhere/vim-nodejs-complete'
+" Bundle 'jamescarr/snipmate-nodejs'
+" Bundle 'claco/jasmine.vim'
+" Bundle 'itspriddle/vim-jquery.git'
 
 " Ruby, Rails, Rake...
-Bundle "ecomba/vim-ruby-refactoring"
-Bundle "tpope/vim-rails.git"
-Bundle "tpope/vim-rake.git"
-Bundle "vim-ruby/vim-ruby.git"
-Bundle "tpope/vim-bundler"
-Bundle "jgdavey/vim-turbux"
-" Bundle "tpope/vim-rvm.git"
-" Bundle "astashov/vim-ruby-debugger"
+Plugin 'ecomba/vim-ruby-refactoring'
+Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-rake.git'
+Plugin 'vim-ruby/vim-ruby.git'
+Plugin 'tpope/vim-bundler'
+Plugin 'jgdavey/vim-turbux'
+" Plugin 'tpope/vim-rvm.git'
+" Plugin 'astashov/vim-ruby-debugger'
 
 " λ
-Bundle "vim-scripts/Superior-Haskell-Interaction-Mode-SHIM"
-Bundle "t3chnoboy/vim-haskellConceal"
-Bundle "eagletmt/ghcmod-vim"
-Bundle "dag/vim2hs"
-Bundle "eagletmt/neco-ghc"
-Bundle "Shougo/vimproc.vim"
-" Bundle "lukerandall/haskellmode-vim"
+Plugin 'vim-scripts/Superior-Haskell-Interaction-Mode-SHIM'
+Plugin 't3chnoboy/vim-haskellConceal'
+Plugin 'eagletmt/ghcmod-vim'
+Plugin 'dag/vim2hs'
+Plugin 'eagletmt/neco-ghc'
+Plugin 'Shougo/vimproc.vim'
+" Plugin 'lukerandall/haskellmode-vim'
 
 " ><)))*>
-Bundle "dag/vim-fish"
+Plugin 'dag/vim-fish'
 
 " Html, Xml, Css, Markdown
-Bundle "groenewege/vim-less.git"
-Bundle "mattn/emmet-vim"
-Bundle "tpope/vim-haml"
-Bundle "tpope/vim-markdown"
-Bundle "digitaltoad/vim-jade"
-Bundle "wavded/vim-stylus"
-Bundle "briancollins/vim-jst"
-" Bundle "ap/vim-css-color"
+Plugin 'groenewege/vim-less.git'
+Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-haml'
+Plugin 'tpope/vim-markdown'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'wavded/vim-stylus'
+Plugin 'briancollins/vim-jst'
+" Plugin 'ap/vim-css-color'
 
 " Git related...
-Bundle "mattn/gist-vim"
-Bundle "tpope/vim-fugitive"
-Bundle "tpope/vim-git"
-Bundle "gregsexton/gitv"
-Bundle "airblade/vim-gitgutter"
+Plugin 'mattn/gist-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-git'
+Plugin 'gregsexton/gitv'
+Plugin 'airblade/vim-gitgutter'
 
 " autocompletion, snippets
-Bundle "ervandew/supertab"
-Bundle "SirVer/ultisnips"
-Bundle "honza/vim-snippets"
-" Bundle "Valloric/YouCompleteMe"
-" Bundle "garbas/vim-snipmate.git"
-" Bundle "Shougo/neocomplcache.git"
+Plugin 'ervandew/supertab'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+" Plugin 'Valloric/YouCompleteMe'
+" Plugin 'garbas/vim-snipmate.git'
+" Plugin 'Shougo/neocomplcache.git'
 
 " General text editing improvements...
-Bundle "Raimondi/delimitMate"
-Bundle "godlygeek/tabular"
-Bundle "tpope/vim-commentary"
-Bundle "tpope/vim-surround.git"
-Bundle "vim-scripts/AutoTag.git"
-" Bundle "scrooloose/nerdcommenter"
-" Bundle "tomtom/tcomment_vim.git"
-" Bundle "vim-scripts/matchit.zip.git"
-" Bundle "align"
-" Bundle "terryma/vim-multiple-cursors"
+Plugin 'Raimondi/delimitMate'
+Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-surround.git'
+Plugin 'vim-scripts/AutoTag.git'
+" Plugin 'scrooloose/nerdcommenter'
+" Plugin 'tomtom/tcomment_vim.git'
+" Plugin 'vim-scripts/matchit.zip.git'
+" Plugin 'align'
+" Plugin 'terryma/vim-multiple-cursors'
 
 " motions
-Bundle "justinmk/vim-sneak"
-Bundle "Lokaltog/vim-easymotion"
-" Bundle "vim-scripts/camelcasemotion.git"
+Plugin 'justinmk/vim-sneak'
+Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'vim-scripts/camelcasemotion.git'
 
 " General vim improvements
-Bundle "scrooloose/syntastic.git"
-Bundle "tpope/vim-endwise.git"
-Bundle "tpope/vim-repeat.git"
-Bundle "sjl/gundo.vim"
-Bundle "mattn/webapi-vim.git"
-" Bundle "jistr/vim-nerdtree-tabs.git"
-" Bundle "tomtom/tlib_vim.git"
-" Bundle "tpope/vim-ragtag"
-" Bundle "tpope/vim-unimpaired"
-" Bundle "xsunsmile/showmarks.git"
-" Bundle "nathanaelkane/vim-indent-guides"
+Plugin 'scrooloose/syntastic.git'
+Plugin 'tpope/vim-endwise.git'
+Plugin 'tpope/vim-repeat.git'
+Plugin 'sjl/gundo.vim'
+Plugin 'mattn/webapi-vim.git'
+" Plugin 'jistr/vim-nerdtree-tabs.git'
+" Plugin 'tomtom/tlib_vim.git'
+" Plugin 'tpope/vim-ragtag'
+" Plugin 'tpope/vim-unimpaired'
+" Plugin 'xsunsmile/showmarks.git'
+" Plugin 'nathanaelkane/vim-indent-guides'
 
 " File system/Project navigation/Search
-Bundle "kien/ctrlp.vim"
-Bundle "majutsushi/tagbar.git"
-Bundle "scrooloose/nerdtree.git"
-Bundle "rking/ag.vim"
-" Bundle "mileszs/ack.vim"
-" Bundle "tpope/vim-vinegar"
+Plugin 'kien/ctrlp.vim'
+Plugin 'majutsushi/tagbar.git'
+Plugin 'scrooloose/nerdtree.git'
+Plugin 'rking/ag.vim'
+" Plugin 'mileszs/ack.vim'
+" Plugin 'tpope/vim-vinegar'
 
 " TMUX
-Bundle "benmills/vimux"
+Plugin 'benmills/vimux'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'tpope/vim-dispatch'
 Bundle 'edkolev/tmuxline.vim'
-" Bundle "jpalardy/vim-slime"
+" Plugin 'jpalardy/vim-slime'
 
 " Text objects
-Bundle "kana/vim-textobj-user"
-Bundle "kana/vim-textobj-indent"
-Bundle "nelstrom/vim-textobj-rubyblock"
-Bundle "thinca/vim-textobj-function-javascript"
-" Bundle "kana/vim-textobj-function"
-" Bundle "vim-scripts/argtextobj.vim"
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-indent'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'thinca/vim-textobj-function-javascript'
+" Plugin 'kana/vim-textobj-function'
+" Plugin 'vim-scripts/argtextobj.vim'
 
 " Cosmetics, color scheme, Powerline...
-Bundle "bling/vim-airline.git"
-Bundle "ScrollColors"
-" Bundle "vim-scripts/TagHighlight.git"
-" Bundle "altercation/vim-colors-solarized"
+Plugin 'bling/vim-airline.git'
+Plugin 'ScrollColors'
+" Plugin 'vim-scripts/TagHighlight.git'
+" Plugin 'altercation/vim-colors-solarized'
 
 " SuperTab dependencies
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
 
 " Misc
-Bundle "tpope/vim-heroku"
+Plugin 'tpope/vim-heroku'
 
 " Filetype plugin indent on is required by vundle
 filetype plugin indent on
