@@ -32,7 +32,7 @@ let ruby_space_errors = 1
 " That means all \x commands turn into ,x
 " The mapleader has to be set before vundle starts loading all
 " the plugins.
-let mapleader=","
+" let mapleader=","
 
 " ================ Search =====================
 set hlsearch    " highlight matches
@@ -73,11 +73,9 @@ cno jj <c-c>
 "for visual mode
 vno v <esc>
 
-"NERDTree
-map <C-n> :NERDTreeToggle<CR>
-
 "open new line without entering insert mode
 nmap <Enter> o<Esc>
+
 "fast switching between tabs
 map gn :bn<cr>
 map gp :bp<cr>
@@ -153,6 +151,3 @@ set wildignore+=*.png,*.jpg,*.gif
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
-
-" ================ Ruby ========================
-autocmd FileType ruby compiler ruby
