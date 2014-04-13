@@ -6,4 +6,4 @@ map <buffer> rT :call VimuxRunCommand('cabal test')<CR>
 setlocal omnifunc=necoghc#omnifunc
 
 " Insert type signature
-map <buffer> gt :call ghcmod#command#type_insert(0)<CR>
+map <buffer> <leader>t :call ghcmod#command#type_insert(0)<CR>
