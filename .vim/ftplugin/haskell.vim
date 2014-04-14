@@ -1,5 +1,5 @@
 " Run Tests
-map <buffer> rt :call VimuxRunCommand('cabal test')<CR>
+map <buffer> rt :call VimuxRunCommand('runhaskell -isrc -itest test/Spec.hs')<CR>
 map <buffer> rT :call VimuxRunCommand('cabal test')<CR>
 
 " Completion
