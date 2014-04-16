@@ -28,11 +28,11 @@ syntax on
 let ruby_operators = 1
 let ruby_space_errors = 1
 
-" Change leader to a comma because the backslash is too far away
-" That means all \x commands turn into ,x
+" Change leader to <space> because the backslash is too far away
+" That means all \x commands turn into <space>x
 " The mapleader has to be set before vundle starts loading all
 " the plugins.
-" let mapleader=","
+let mapleader=" "
 
 " ================ Search =====================
 set hlsearch    " highlight matches
@@ -77,9 +77,10 @@ vno v <esc>
 nmap <Enter> o<Esc>
 
 "fast switching between tabs
-map gn :bn<cr>
-map gp :bp<cr>
-map gd :bd<cr>
+map <leader><leader> :bn<cr>
+"" Shift space is mapped to '_' in iTerm
+map __ :bp<cr>
+map <leader>d :bd<cr>
 
 "semicolon to colon
 map ; :
@@ -90,7 +91,7 @@ noremap ;; ;
 :cnoremap %s/ %s/\v
 
 " toggle paste mode
-map <F10> :set paste!<Bar>set paste?<CR>
+map <leader>P :set paste!<Bar>set paste?<CR>
 
 " ================ Turn Off Swap Files ==============
 
@@ -141,6 +142,7 @@ set wildignore+=*sass-cache*
 set wildignore+=*DS_Store*
 set wildignore+=vendor/rails/**
 set wildignore+=vendor/cache/**
+set wildignore+=node_modules/**
 set wildignore+=*.gem
 set wildignore+=log/**
 set wildignore+=tmp/**

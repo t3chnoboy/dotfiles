@@ -92,8 +92,8 @@ Plugin 'vim-scripts/AutoTag.git'
 " Plugin 'terryma/vim-multiple-cursors'
 
 " motions
-Plugin 'justinmk/vim-sneak'
-Plugin 'Lokaltog/vim-easymotion'
+" Plugin 'justinmk/vim-sneak'
+" Plugin 'Lokaltog/vim-easymotion'
 " Plugin 'vim-scripts/camelcasemotion.git'
 
 " General vim improvements
