@@ -71,6 +71,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 Plugin 'gregsexton/gitv'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'junegunn/vim-github-dashboard'
 
 " autocompletion, snippets
 Plugin 'ervandew/supertab'
