@@ -79,3 +79,4 @@ PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -
 
 # added by travis gem
 [ -f /Users/macuser/.travis/travis.sh ] && source /Users/macuser/.travis/travis.sh
+source ~/.fzf.zsh
