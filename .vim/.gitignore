@@ -11,3 +11,5 @@ watchtower.vim
 mustache.vim
 backups
 bundle
+plugged/
+autoload/

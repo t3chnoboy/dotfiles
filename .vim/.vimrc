@@ -28,8 +28,6 @@ syntax on
 
 " Change leader to <space> because the backslash is too far away
 " That means all \x commands turn into <space>x
-" The mapleader has to be set before vundle starts loading all
-" the plugins.
 let mapleader=" "
 
 " ================ Search =====================
@@ -38,11 +36,11 @@ set incsearch   " incremental searching
 set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
 
-" =============== Vundle Initialization ===============
-" This loads all the plugins specified in ~/.vim/vundle.vim
-" Use Vundle plugin to manage all other plugins
-if filereadable(expand("~/.vim/vundles.vim"))
-  source ~/.vim/vundles.vim
+" =============== Plugins Initialization ===============
+" This loads all the plugins specified in ~/.vim/plugins.vim
+" Use vim-plug plugin to manage all other plugins
+if filereadable(expand("~/.vim/plugins.vim"))
+  source ~/.vim/plugins.vim
 endif
 
 " ================ Color Scheme =====================
