@@ -10471,6 +10471,8 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DisableToolbar</key>
+	<true/>
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
@@ -10625,7 +10627,7 @@
 	<key>NSColorPanelMode</key>
 	<string>6</string>
 	<key>NSFontPanelAttributes</key>
-	<string>1, 0</string>
+	<string>1, 10</string>
 	<key>NSFontPanelPreviewHeight</key>
 	<real>0.0</real>
 	<key>NSNavLastRootDirectory</key>
@@ -10669,13 +10671,13 @@
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>948 307 214 286 0 0 1440 900 </string>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>390 198 445 270 0 0 1440 878 </string>
+	<string>853 220 459 270 0 0 1440 900 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>192 279 924 485 0 0 1440 878 </string>
+	<string>335 272 924 485 0 0 1440 878 </string>
 	<key>NSWindow Frame SUUpdateAlertFrame</key>
-	<string>385 383 575 392 0 0 1440 878 </string>
+	<string>432 383 575 392 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 878 </string>
+	<string>155 94 650 477 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>630 253 810 551 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_350E4DEF-E1BF-4DD5-91A7-FE2DF49E827F</key>
@@ -13117,9 +13119,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-04-01T18:17:37Z</date>
-	<key>SUSkippedVersion</key>
-	<string>1.0.0.20140401-nightly</string>
+	<date>2014-06-06T17:06:36Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Show Toolbelt</key>
@@ -15513,7 +15513,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>unknown</string>
+	<string>1.0.0.20140606-nightly</string>
 	<key>mad_DefaultHotKeysApplied</key>
 	<true/>
 	<key>mad_ToggleFloatingWindowKeyCode</key>
