@@ -61,7 +61,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 " Plug 'Valloric/YouCompleteMe'
 " Plug 'garbas/vim-snipmate'
-" Plug 'Shougo/neocomplcache'
+" Plug 'Shougo/neocomplete.vim'
 
 " General text editing improvements...
 Plug 'Raimondi/delimitMate'
