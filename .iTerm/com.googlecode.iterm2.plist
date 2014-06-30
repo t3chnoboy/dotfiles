@@ -10673,11 +10673,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>853 220 459 270 0 0 1440 900 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>335 272 924 485 0 0 1440 878 </string>
+	<string>253 336 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlertFrame</key>
-	<string>432 383 575 392 0 0 1440 878 </string>
+	<string>432 382 575 392 0 0 1440 878 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>99 294 592 584 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>155 94 650 477 0 0 1440 878 </string>
+	<string>0 0 1440 900 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>630 253 810 551 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_350E4DEF-E1BF-4DD5-91A7-FE2DF49E827F</key>
@@ -11664,7 +11666,7 @@
 			<key>Automatically Log</key>
 			<false/>
 			<key>BM Growl</key>
-			<true/>
+			<false/>
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -12073,13 +12075,13 @@
 			<key>Normal Font</key>
 			<string>PragmataProForPowerline 15</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prevent Opening in a Tab</key>
 			<false/>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
@@ -13055,6 +13057,10 @@
 			<string>/Users/macuser</string>
 		</dict>
 	</array>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -13115,11 +13121,13 @@
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>http://iterm2.com/appcasts/nightly.xml</string>
+	<string>http://iterm2.com/appcasts/testing.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-06-06T17:06:36Z</date>
+	<date>2014-06-26T19:49:27Z</date>
+	<key>SUSkippedVersion</key>
+	<string>1.0.0.20140619-nightly</string>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Show Toolbelt</key>
@@ -13150,6 +13158,8 @@
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1402826240</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -15513,7 +15523,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20140606-nightly</string>
+	<string>1.0.0.git.00cf8b6b8e</string>
 	<key>mad_DefaultHotKeysApplied</key>
 	<true/>
 	<key>mad_ToggleFloatingWindowKeyCode</key>
