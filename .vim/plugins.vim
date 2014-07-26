@@ -33,6 +33,15 @@ Plug 'dag/vim2hs', {'for': 'haskell'}
 Plug 'eagletmt/neco-ghc', {'for': 'haskell'}
 " Plug 'vim-scripts/Superior-Haskell-Interaction-Mode-SHIM', {'for': 'haskell'}
 " Plug 'lukerandall/haskellmode-vim', {'for': 'haskell'}
+Plug 'elixir-lang/vim-elixir'
+
+" ((((λ))))
+Plug 'guns/vim-clojure-static'
+Plug 'guns/vim-clojure-highlight'
+Plug 'guns/vim-sexp'
+Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-leiningen'
+Plug 'tpope/vim-sexp-mappings-for-regular-people'
 
 " ><)))*>
 Plug 'dag/vim-fish', {'for': 'fish'}
