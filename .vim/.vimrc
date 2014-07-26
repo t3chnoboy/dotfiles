@@ -77,12 +77,11 @@ map <leader>d :bd<cr>
 map ; :
 noremap ;; ;
 
-"magic :)
-:nnoremap / /\v
-:cnoremap %s/ %s/\v
-
 " toggle paste mode
 map <leader>P :set paste!<Bar>set paste?<CR>
+
+"save
+nnoremap <Leader>w :w<CR>
 
 " ================ Turn Off Swap Files ==============
 
