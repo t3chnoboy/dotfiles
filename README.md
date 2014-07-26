@@ -36,6 +36,9 @@ Install [Menu and dockless](http://myownapp.com/manuals/mad_manual/)
 Screenshots
 ========
 
+###Minimal
+![image](http://i.imgur.com/ILBbj1p.png)
+
 ###Night
 ![image](http://i.imgur.com/pFYFq4I.png)
 
