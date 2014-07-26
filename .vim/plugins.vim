@@ -53,6 +53,7 @@ Plug 'tpope/vim-haml', {'for': 'haml'}
 Plug 'tpope/vim-markdown', {'for': 'markdown'}
 Plug 'digitaltoad/vim-jade', {'for': 'jade'}
 Plug 'wavded/vim-stylus', {'for': 'stylus'}
+Plug 'slim-template/vim-slim'
 " Plug 'briancollins/vim-jst'
 " Plug 'ap/vim-css-color'
 
@@ -95,6 +96,9 @@ Plug 'AndrewRadev/splitjoin.vim'
 " General vim improvements
 Plug 'scrooloose/syntastic'
 Plug 'sjl/gundo.vim'
+Plug 'tpope/vim-projectionist'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'junegunn/vim-oblique'
 " Plug 'jistr/vim-nerdtree-tabs'
 " Plug 'tpope/vim-ragtag'
 " Plug 'tpope/vim-unimpaired'
@@ -137,5 +141,8 @@ Plug 'mattn/webapi-vim'
 
 " Misc
 Plug 'tpope/vim-heroku', {'on': 'Heroku'}
+Plug 'Shougo/vimshell.vim'
+Plug 'thinca/vim-ref'
+
 
 call plug#end()
