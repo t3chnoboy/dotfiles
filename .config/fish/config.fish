@@ -2,7 +2,8 @@
 set fish_path $HOME/.oh-my-fish
 
 # Theme
-set fish_theme bobthefish
+# set fish_theme l
+set fish_theme greenfish
 # set fish_theme agnoster
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
