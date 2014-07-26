@@ -6,6 +6,8 @@
 	editor = vim
 [diff]
       tool = vimdiff
+[merge]
+      tool = vimdiff
 [difftool "vimdiff"]
       cmd = vim -f -d \"$LOCAL\" \"$REMOTE\"
 [push]
