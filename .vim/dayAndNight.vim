@@ -7,4 +7,8 @@ elseif $THEME == "night"
   let g:airline#extensions#tmuxline#enabled = 0
   hi CursorLine   cterm=NONE ctermbg=235
   set cursorline
+elseif $THEME == "minimal"
+  colorscheme satori2
+  let g:airline_theme='murmur'
+  set cursorline
 endif
