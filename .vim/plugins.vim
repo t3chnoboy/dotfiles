@@ -33,27 +33,27 @@ Plug 'dag/vim2hs', {'for': 'haskell'}
 Plug 'eagletmt/neco-ghc', {'for': 'haskell'}
 " Plug 'vim-scripts/Superior-Haskell-Interaction-Mode-SHIM', {'for': 'haskell'}
 " Plug 'lukerandall/haskellmode-vim', {'for': 'haskell'}
-Plug 'elixir-lang/vim-elixir'
+Plug 'elixir-lang/vim-elixir', {'for': 'elixir'}
 
 " ((((λ))))
-Plug 'guns/vim-clojure-static'
-Plug 'guns/vim-clojure-highlight'
-Plug 'guns/vim-sexp'
-Plug 'tpope/vim-fireplace'
-Plug 'tpope/vim-leiningen'
-Plug 'tpope/vim-sexp-mappings-for-regular-people'
+Plug 'guns/vim-clojure-static', {'for': 'clojure'}
+Plug 'guns/vim-clojure-highlight', {'for': 'clojure'}
+Plug 'guns/vim-sexp', {'for': 'clojure'}
+Plug 'tpope/vim-fireplace', {'for': 'clojure'}
+Plug 'tpope/vim-leiningen', {'for': 'clojure'}
+Plug 'tpope/vim-sexp-mappings-for-regular-people', {'for': 'clojure'}
 
 " ><)))*>
 Plug 'dag/vim-fish', {'for': 'fish'}
 
 " Html, Xml, Css, Markdown
 Plug 'groenewege/vim-less', {'for': 'less'}
-Plug 'mattn/emmet-vim', {'for': ['html', 'css']}
+" Plug 'mattn/emmet-vim', {'for': ['html', 'css']}
 Plug 'tpope/vim-haml', {'for': 'haml'}
 Plug 'tpope/vim-markdown', {'for': 'markdown'}
 Plug 'digitaltoad/vim-jade', {'for': 'jade'}
 Plug 'wavded/vim-stylus', {'for': 'stylus'}
-Plug 'slim-template/vim-slim'
+Plug 'slim-template/vim-slim', {'for': 'slim'}
 " Plug 'briancollins/vim-jst'
 " Plug 'ap/vim-css-color'
 
