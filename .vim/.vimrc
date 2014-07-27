@@ -29,6 +29,7 @@ syntax on
 " Change leader to <space> because the backslash is too far away
 " That means all \x commands turn into <space>x
 let mapleader=" "
+let maplocalleader=" "
 
 " ================ Search =====================
 set hlsearch    " highlight matches
