@@ -10625,6 +10625,8 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSColorPanelMode</key>
+	<string>6</string>
+	<key>NSColorPickerSlidersDefaults</key>
 	<string>1</string>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
@@ -10669,17 +10671,17 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>1058 85 214 286 0 0 1440 900 </string>
+	<string>1058 84 217 286 0 0 1440 877 </string>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>650 294 459 270 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>516 341 924 485 0 0 1440 900 </string>
+	<string>568 314 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlertFrame</key>
 	<string>432 382 575 392 0 0 1440 878 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 294 592 584 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 877 </string>
+	<string>0 0 1440 900 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>630 253 810 551 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_350E4DEF-E1BF-4DD5-91A7-FE2DF49E827F</key>
@@ -13283,6 +13285,8 @@
 			<integer>80</integer>
 			<key>Command</key>
 			<string>/usr/local/bin/fish</string>
+			<key>Cursor Boost</key>
+			<real>0.0</real>
 			<key>Cursor Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -13295,13 +13299,13 @@
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.17208729619565222</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.91000000000000003</real>
+				<real>0.14970121105992573</real>
 				<key>Red Component</key>
-				<real>0.65000000000000002</real>
+				<real>0.047984578377969572</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -13812,6 +13816,17 @@
 			</array>
 			<key>Sync Title</key>
 			<false/>
+			<key>Tab Color</key>
+			<dict>
+				<key>Blue Component</key>
+				<real>0.23896762728691101</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
+				<key>Green Component</key>
+				<real>0.19190521538257599</real>
+				<key>Red Component</key>
+				<real>0.082891680300235748</real>
+			</dict>
 			<key>Tags</key>
 			<array/>
 			<key>Terminal Type</key>
@@ -13826,6 +13841,8 @@
 			<false/>
 			<key>Use Bright Bold</key>
 			<false/>
+			<key>Use Cursor Guide</key>
+			<false/>
 			<key>Use HFS Plus Mapping</key>
 			<false/>
 			<key>Use Italic Font</key>
@@ -13833,7 +13850,7 @@
 			<key>Use Non-ASCII Font</key>
 			<true/>
 			<key>Use Tab Color</key>
-			<false/>
+			<true/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
