@@ -16,6 +16,7 @@ Plug 'mxw/vim-jsx'
 " Plug 'claco/jasmine.vim'
 " Plug 'itspriddle/vim-jquery'
 
+
 " Ruby, Rails, Rake...
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-rake'
@@ -26,6 +27,7 @@ Plug 'jgdavey/vim-turbux', {'for': 'ruby'}
 " Plug 'tpope/vim-rvm'
 " Plug 'astashov/vim-ruby-debugger'
 
+
 " λ
 Plug 't3chnoboy/vim-haskellConceal', {'for': 'haskell'}
 Plug 'eagletmt/ghcmod-vim', {'for': 'haskell'}
@@ -35,6 +37,7 @@ Plug 'eagletmt/neco-ghc', {'for': 'haskell'}
 " Plug 'lukerandall/haskellmode-vim', {'for': 'haskell'}
 Plug 'elixir-lang/vim-elixir', {'for': 'elixir'}
 
+
 " ((((λ))))
 Plug 'guns/vim-clojure-static', {'for': 'clojure'}
 Plug 'guns/vim-clojure-highlight', {'for': 'clojure'}
@@ -43,8 +46,10 @@ Plug 'tpope/vim-fireplace', {'for': 'clojure'}
 Plug 'tpope/vim-leiningen', {'for': 'clojure'}
 Plug 'tpope/vim-sexp-mappings-for-regular-people', {'for': 'clojure'}
 
+
 " ><)))*>
 Plug 'dag/vim-fish', {'for': 'fish'}
+
 
 " Html, Xml, Css, Markdown
 Plug 'groenewege/vim-less', {'for': 'less'}
@@ -57,6 +62,7 @@ Plug 'slim-template/vim-slim', {'for': 'slim'}
 " Plug 'briancollins/vim-jst'
 " Plug 'ap/vim-css-color'
 
+
 " Git related...
 Plug 'mattn/gist-vim'
 Plug 'tpope/vim-fugitive'
@@ -65,6 +71,7 @@ Plug 'gregsexton/gitv'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
 
+
 " autocompletion, snippets
 Plug 'ervandew/supertab'
 Plug 'SirVer/ultisnips'
@@ -72,6 +79,7 @@ Plug 'honza/vim-snippets'
 " Plug 'Valloric/YouCompleteMe'
 " Plug 'garbas/vim-snipmate'
 " Plug 'Shougo/neocomplete.vim'
+
 
 " General text editing improvements...
 Plug 'Raimondi/delimitMate'
@@ -88,10 +96,12 @@ Plug 'AndrewRadev/splitjoin.vim'
 " Plug 'align'
 " Plug 'terryma/vim-multiple-cursors'
 
+
 " motions
 " Plug 'justinmk/vim-sneak'
 " Plug 'Lokaltog/vim-easymotion'
 " Plug 'vim-scripts/camelcasemotion'
+
 
 " General vim improvements
 Plug 'scrooloose/syntastic'
@@ -105,6 +115,7 @@ Plug 'junegunn/vim-oblique'
 " Plug 'xsunsmile/showmarks'
 " Plug 'nathanaelkane/vim-indent-guides'
 
+
 " File system/Project navigation/Search
 Plug 'kien/ctrlp.vim'
 Plug 'majutsushi/tagbar'
@@ -113,12 +124,14 @@ Plug 'rking/ag.vim', {'on': 'Ag'}
 " Plug 'mileszs/ack.vim'
 " Plug 'tpope/vim-vinegar'
 
+
 " TMUX
 Plug 'benmills/vimux'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'edkolev/tmuxline.vim'
 Plug 'tpope/vim-dispatch'
 " Plug 'jpalardy/vim-slime'
+
 
 " Text objects
 Plug 'kana/vim-textobj-user'
@@ -128,21 +141,26 @@ Plug 'thinca/vim-textobj-function-javascript', {'for': 'javascript'}
 " Plug 'kana/vim-textobj-function'
 " Plug 'vim-scripts/argtextobj.vim'
 
+
 " Cosmetics, color scheme, Powerline...
 Plug 'bling/vim-airline'
 Plug 'ScrollColors', {'on': 'COLORSCROLL' }
 " Plug 'vim-scripts/TagHighlight'
 
-" SuperTab dependencies
+
+" Dependencies
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'Shougo/vimproc.vim'
 Plug 'mattn/webapi-vim'
+Plug 'junegunn/vim-pseudocl'
+
 
 " Misc
 Plug 'tpope/vim-heroku', {'on': 'Heroku'}
 Plug 'Shougo/vimshell.vim'
 Plug 'thinca/vim-ref'
+Plug 'vim-scripts/TwitVim'
 
 
 call plug#end()
