@@ -1,14 +1,14 @@
 call plug#begin('~/.vim/plugged')
 
 " Javascript/Coffeescript
-Plug 'pangloss/vim-javascript'
-Plug 'kchmck/vim-coffee-script'
-Plug 'moll/vim-node'
-Plug 'burnettk/vim-angular'
-Plug 'rsludge/vim-sails'
-Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'matthewsimo/angular-vim-snippets'
-Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'coffeescript'] }
+Plug 'kchmck/vim-coffee-script', { 'for': ['javascript', 'coffeescript'] }
+Plug 'moll/vim-node', { 'for': ['javascript', 'coffeescript'] }
+Plug 'burnettk/vim-angular', { 'for': ['javascript', 'coffeescript'] }
+Plug 'rsludge/vim-sails', { 'for': ['javascript', 'coffeescript'] }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'coffeescript'] }
+Plug 'matthewsimo/angular-vim-snippets', { 'for': ['javascript', 'coffeescript'] }
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'coffeescript'] }
 " Plug 'marijnh/tern_for_vim'
 " Plug 'jelera/vim-javascript-syntax'
 " Plug 'myhere/vim-nodejs-complete'
@@ -18,10 +18,10 @@ Plug 'mxw/vim-jsx'
 
 
 " Ruby, Rails, Rake...
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-rake'
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-rails', {'for': 'ruby'}
+Plug 'tpope/vim-rake', {'for': 'ruby'}
+Plug 'vim-ruby/vim-ruby', {'for': 'ruby'}
+Plug 'tpope/vim-bundler', {'for': 'ruby'}
 Plug 'jgdavey/vim-turbux', {'for': 'ruby'}
 " Plug 'ecomba/vim-ruby-refactoring'
 " Plug 'tpope/vim-rvm'
