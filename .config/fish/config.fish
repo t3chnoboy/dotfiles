@@ -14,13 +14,13 @@ set fish_plugins brew node rails z tmux extract
 #set fish_custom $HOME/dotfiles/oh-my-fish
 
 # Load oh-my-fish configuration.
-. $fish_path/oh-my-fish.fish
+source $fish_path/oh-my-fish.fish
 
 #editor
 set -x EDITOR vim
 
 # Private stuff
-. ~/.dotfiles/.private.fish
+source ~/.dotfiles/.private.fish
 
 # Aliases
 alias :q=exit
