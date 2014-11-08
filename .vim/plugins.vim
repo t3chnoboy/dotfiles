@@ -36,6 +36,7 @@ Plug 'eagletmt/neco-ghc', {'for': 'haskell'}
 " Plug 'vim-scripts/Superior-Haskell-Interaction-Mode-SHIM', {'for': 'haskell'}
 " Plug 'lukerandall/haskellmode-vim', {'for': 'haskell'}
 Plug 'elixir-lang/vim-elixir', {'for': 'elixir'}
+Plug 'jimenezrick/vimerl', {'for': 'erlang'}
 
 
 " ((((λ))))
