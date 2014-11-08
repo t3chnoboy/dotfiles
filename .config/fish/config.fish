@@ -22,6 +22,9 @@ set -x EDITOR vim
 # Private stuff
 source ~/.dotfiles/.private.fish
 
+#chruby
+source /usr/local/share/chruby/chruby.fish
+
 # Aliases
 alias :q=exit
 alias :wq=exit
