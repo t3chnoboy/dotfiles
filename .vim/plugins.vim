@@ -84,7 +84,7 @@ Plug 'honza/vim-snippets'
 
 " General text editing improvements...
 Plug 'Raimondi/delimitMate'
-Plug 'godlygeek/tabular'
+Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-endwise'
