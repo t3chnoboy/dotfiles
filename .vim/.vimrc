@@ -12,6 +12,8 @@ set showcmd                     "Show incomplete cmds down the bottom
 set autoread                    "Reload files changed outside vim
 set encoding=utf-8              "Set default encoding to UTF-8
 set shell=/bin/bash
+set conceallevel=1
+
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
@@ -52,6 +54,8 @@ if filereadable(expand("~/.vim/dayAndNight.vim"))
   source ~/.vim/dayAndNight.vim
 endif
 
+hi clear Conceal
+hi Conceal cterm=NONE ctermbg=NONE ctermfg=DarkGreen
 " ================ Powerline ====================
 
 set laststatus=2 " Always display the statusline in all windows
