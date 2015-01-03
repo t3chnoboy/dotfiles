@@ -29,7 +29,7 @@ Plug 'jgdavey/vim-turbux', {'for': 'ruby'}
 
 
 " λ
-Plug 't3chnoboy/vim-haskellConceal', {'for': 'haskell'}
+Plug 'enomsg/vim-haskellConcealPlus', {'for': 'haskell'}
 Plug 'eagletmt/ghcmod-vim', {'for': 'haskell'}
 Plug 'dag/vim2hs', {'for': 'haskell'}
 Plug 'eagletmt/neco-ghc', {'for': 'haskell'}
