@@ -25,6 +25,9 @@ set mouse=a
 set ttyfast
 set ttymouse=xterm2
 
+" Default copy goes to system clipboard"
+set clipboard=unnamed
+
 "turn on syntax highlighting
 syntax on
 
