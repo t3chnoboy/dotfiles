@@ -2,9 +2,12 @@
 set fish_path $HOME/.oh-my-fish
 
 # Theme
-# set fish_theme l
-set fish_theme greenfish
-# set fish_theme agnoster
+if test $TERM = eterm-color
+  # set fish_theme l
+  set fish_theme edan
+else
+  set fish_theme greenfish
+end
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
 # Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
