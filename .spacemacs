@@ -10,10 +10,11 @@
  ;; Paths must have a trailing slash (ie. `~/.mycontribs/')
  dotspacemacs-configuration-layer-path '()
  ;; List of configuration layers to load.
- dotspacemacs-configuration-layers '(haskell
+ dotspacemacs-configuration-layers '(my-config
+                                     haskell
                                      erlang-elixir
                                      javascript
-                                     latex
+                                     auctex
                                      ess
                                      html
                                      ruby
@@ -22,6 +23,7 @@
                                      fasd
                                      org-repo-todo
                                      restclient
+                                     colors
                                      themes-megapack)
  ;; A list of packages and/or extensions that will not be install and loaded.
  dotspacemacs-excluded-packages '()
@@ -36,8 +38,17 @@
  ;; then the banner is chosen randomly among the available banners, if
  ;; the value is nil then no banner is displayed.
  dotspacemacs-startup-banner 'random
- ;; Default theme applied at startup
- dotspacemacs-default-theme 'solarized-light
+ ;; List of themes, the first of the list is loaded when spacemacs starts.
+ ;; Press <SPC> T n to cycle to the next theme in the list (works great
+ ;; with 2 themes variants, one dark and one light)
+ dotspacemacs-themes '(molokai solarized-light)
+ ;; Default font. The powerline-offset allows to quickly tweak the mode-line
+ ;; size to make separators look not too crappy.
+ dotspacemacs-default-font '("PragmataPro for Powerline"
+                             :size 15
+                             :weight normal
+                             :width normal
+                             :powerline-scale 1.1)
  ;; The leader key
  dotspacemacs-leader-key "SPC"
  ;; Major mode leader key is a shortcut key which is the equivalent of
@@ -52,7 +63,7 @@
  ;; the commands bound to the current keystrokes.
  dotspacemacs-guide-key-delay 0.4
  ;; If non nil the frame is fullscreen when Emacs starts up (Emacs 24.4+ only).
- dotspacemacs-fullscreen-at-startup nil
+ dotspacemacs-fullscreen-at-startup t
  ;; If non nil the frame is maximized when Emacs starts up (Emacs 24.4+ only).
  ;; Takes effect only if `dotspacemacs-fullscreen-at-startup' is nil.
  dotspacemacs-maximized-at-startup nil
@@ -70,11 +81,8 @@
  ;; overrides the default behavior of Emacs which recenters the point when
  ;; it reaches the top or bottom of the screen
  dotspacemacs-smooth-scrolling t
- ;; If non nil pressing 'jk' in insert state, ido or helm will activate the
- ;; evil leader.
- dotspacemacs-feature-toggle-leader-on-jk nil
  ;; If non-nil smartparens-strict-mode will be enabled in programming modes.
- dotspacemacs-smartparens-strict-mode nil
+ dotspacemacs-smartparens-strict-mode t
  ;; If non nil advises quit functions to keep server open when quitting.
  dotspacemacs-persistent-server nil
  ;; The default package repository used if no explicit repository has been
@@ -89,13 +97,20 @@
 (defun dotspacemacs/init ()
   "User initialization for Spacemacs. This function is called at the very
  startup."
- (setq spacemacs-erlang-elixir-use-edts t)
- (setq-default git-enable-github-support t)
+  (setq-default spacemacs-erlang-elixir-use-edts t
+                evil-escape-delay 0.2
+                evil-escape-key-sequence "fj"
+                git-enable-github-support t
+                undo-tree-auto-save-history t
+                org-agenda-files '("~/Documents/org")
+                ;; evil-lisp-state-major-modes '(emacs-lisp-mode clojure-mode)
+                )
   )
 
 (defun dotspacemacs/config ()
   "This is were you can ultimately override default Spacemacs configuration.
 This function is called at the very end of Spacemacs initialization."
+  (setq powerline-default-separator nil)
 )
 
 ;; Custom variables
@@ -188,4 +203,11 @@ This function is called at the very end of Spacemacs initialization."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:background nil)))))
+ '(default ((t (:background nil))))
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "deep sky blue"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "maroon2"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "SeaGreen1"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "PaleVioletRed1"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "cyan1"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "VioletRed1"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "lime green")))))
