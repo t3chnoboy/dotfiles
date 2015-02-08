@@ -203,7 +203,6 @@ This function is called at the very end of Spacemacs initialization."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:background nil))))
  '(rainbow-delimiters-depth-1-face ((t (:foreground "deep sky blue"))))
  '(rainbow-delimiters-depth-2-face ((t (:foreground "maroon2"))))
  '(rainbow-delimiters-depth-3-face ((t (:foreground "SeaGreen1"))))
