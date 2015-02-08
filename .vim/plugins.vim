@@ -163,6 +163,7 @@ Plug 'tpope/vim-heroku', {'on': 'Heroku'}
 Plug 'Shougo/vimshell.vim'
 Plug 'thinca/vim-ref'
 Plug 'vim-scripts/TwitVim'
+Plug 'ryanss/vim-hackernews', {'on': 'HackerNews'}
 
 
 call plug#end()
