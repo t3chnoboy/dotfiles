@@ -10,14 +10,20 @@
  ;; Paths must have a trailing slash (ie. `~/.mycontribs/')
  dotspacemacs-configuration-layer-path '()
  ;; List of configuration layers to load.
- dotspacemacs-configuration-layers '(my-config
+ dotspacemacs-configuration-layers '(t3chnoboy
+                                     osx
+                                     vim-empty-lines
+                                     c-c++
                                      haskell
                                      erlang-elixir
                                      javascript
+                                     scala
                                      auctex
                                      ess
                                      html
                                      ruby
+                                     finance
+                                     markdown
                                      clojure
                                      git
                                      fasd
@@ -41,7 +47,8 @@
  ;; List of themes, the first of the list is loaded when spacemacs starts.
  ;; Press <SPC> T n to cycle to the next theme in the list (works great
  ;; with 2 themes variants, one dark and one light)
- dotspacemacs-themes '(molokai solarized-light)
+ dotspacemacs-themes '(molokai
+                       solarized-light)
  ;; Default font. The powerline-offset allows to quickly tweak the mode-line
  ;; size to make separators look not too crappy.
  dotspacemacs-default-font '("PragmataPro for Powerline"
@@ -62,6 +69,8 @@
  ;; Guide-key delay in seconds. The Guide-key is the popup buffer listing
  ;; the commands bound to the current keystrokes.
  dotspacemacs-guide-key-delay 0.4
+ ;; Enable micro-state for helm buffer when pressing on TAB."
+ dotspacemacs-helm-micro-state t
  ;; If non nil the frame is fullscreen when Emacs starts up (Emacs 24.4+ only).
  dotspacemacs-fullscreen-at-startup t
  ;; If non nil the frame is maximized when Emacs starts up (Emacs 24.4+ only).
@@ -103,6 +112,7 @@
                 git-enable-github-support t
                 undo-tree-auto-save-history t
                 org-agenda-files '("~/Documents/org")
+                ;; colors-enable-nyan-cat-progress-bar t
                 ;; evil-lisp-state-major-modes '(emacs-lisp-mode clojure-mode)
                 )
   )
@@ -111,6 +121,9 @@
   "This is were you can ultimately override default Spacemacs configuration.
 This function is called at the very end of Spacemacs initialization."
   (setq powerline-default-separator nil)
+  (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
+  (define-key evil-normal-state-map "-" 'evil-numbers/dec-at-pt)
+  (fancy-battery-mode)
 )
 
 ;; Custom variables
@@ -143,6 +156,11 @@ This function is called at the very end of Spacemacs initialization."
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
  '(cursor-color "#808080")
+ '(custom-enabled-themes (quote (sanityinc-solarized-dark)))
+ '(custom-safe-themes
+   (quote
+    ("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" default)))
+ '(edts-man-root "/Users/macuser/.emacs.d/edts/doc/17.4")
  '(fci-rule-color "#383838")
  '(foreground-color "#808080")
  '(global-linum-mode nil)
@@ -169,6 +187,9 @@ This function is called at the very end of Spacemacs initialization."
    (quote
     ("#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3")))
  '(if (version< emacs-version "24.4"))
+ '(js2-basic-offset 2)
+ '(js2-highlight-level 3)
+ '(js2-strict-missing-semi-warning nil)
  '(linum-format " %5i ")
  '(magit-diff-use-overlays nil)
  '(paradox-github-token t)
@@ -203,6 +224,7 @@ This function is called at the very end of Spacemacs initialization."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:family "PragmataPro for Powerline" :foundry "nil" :slant normal :weight normal :height 150 :width normal))))
  '(rainbow-delimiters-depth-1-face ((t (:foreground "deep sky blue"))))
  '(rainbow-delimiters-depth-2-face ((t (:foreground "maroon2"))))
  '(rainbow-delimiters-depth-3-face ((t (:foreground "SeaGreen1"))))
