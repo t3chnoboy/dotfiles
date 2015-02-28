@@ -1,14 +1,14 @@
 call plug#begin('~/.vim/plugged')
 
 " Javascript/Coffeescript
-Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'coffeescript'] }
-Plug 'kchmck/vim-coffee-script', { 'for': ['javascript', 'coffeescript'] }
-Plug 'moll/vim-node', { 'for': ['javascript', 'coffeescript'] }
-Plug 'burnettk/vim-angular', { 'for': ['javascript', 'coffeescript'] }
-Plug 'rsludge/vim-sails', { 'for': ['javascript', 'coffeescript'] }
-Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'coffeescript'] }
-Plug 'matthewsimo/angular-vim-snippets', { 'for': ['javascript', 'coffeescript'] }
-Plug 'mxw/vim-jsx', { 'for': ['javascript', 'coffeescript'] }
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'coffeescript', 'coffee'] }
+Plug 'kchmck/vim-coffee-script', { 'for': ['javascript', 'coffeescript', 'coffee'] }
+Plug 'moll/vim-node', { 'for': ['javascript', 'coffeescript', 'coffee'] }
+Plug 'burnettk/vim-angular', { 'for': ['javascript', 'coffeescript', 'coffee'] }
+Plug 'rsludge/vim-sails', { 'for': ['javascript', 'coffeescript', 'coffee'] }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': ['javascript', 'coffeescript', 'coffee'] }
+Plug 'matthewsimo/angular-vim-snippets', { 'for': ['javascript', 'coffeescript', 'coffee'] }
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'coffeescript', 'coffee'] }
 " Plug 'marijnh/tern_for_vim'
 " Plug 'jelera/vim-javascript-syntax'
 " Plug 'myhere/vim-nodejs-complete'
