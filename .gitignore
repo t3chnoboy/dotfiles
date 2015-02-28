@@ -14,4 +14,4 @@
 .ghc/ghci_history
 .config/fish/generated_completions/
 .htoprc
-.config/git/gitk
+.config/git
