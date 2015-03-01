@@ -11,11 +11,9 @@ Just clone and make necessary symlinks.
 My setup
 ========
 * Terminal emulator: [iTerm2](https://github.com/gnachman/iTerm2)
-* Shell: [ridiculous fish](https://github.com/fish-shell/fish-shell)
-* Editor: [Vim](http://www.vim.org)
-* Terminal multiplexor: [tmux](http://tmux.sourceforge.net)
-* Package manager: [Homebrew](http://brew.sh)
-* Color schemes: Day: [Spring](https://github.com/t3chnoboy/spring-iTerm) Night: [Thayer Bright](https://github.com/t3chnoboy/thayer-bright-iTerm)
+* Shell: [fish](https://github.com/fish-shell/fish-shell)
+* Editor: [Emacs](https://github.com/syl20bnr/spacemacs)
+* Color schemes: [Day](https://github.com/t3chnoboy/spring-iTerm), [Night](https://github.com/t3chnoboy/thayer-bright-iTerm)
 
 Tips and tricks
 ========
