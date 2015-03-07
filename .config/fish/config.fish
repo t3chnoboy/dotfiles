@@ -9,10 +9,13 @@ else
   set fish_theme greenfish
 end
 
+# disable auto loading Ruby versions on directory change
+set -x CHRUBY_AUTO_ENABLED false
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
 # Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
 # Example format: set fish_plugins autojump bundler
-set fish_plugins brew node z tmux extract
+set fish_plugins brew node z tmux extract theme chruby
 # Path to your custom folder (default path is $FISH/custom)
 #set fish_custom $HOME/dotfiles/oh-my-fish
 
@@ -24,7 +27,6 @@ set -x EDITOR vim
 
 # Private stuff
 source ~/.dotfiles/.private.fish
-
 
 # Aliases
 alias :q=exit
