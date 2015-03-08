@@ -30,6 +30,7 @@
                                        org-repo-todo
                                        restclient
                                        colors
+                                       org-repo-todo
                                        evil-snipe
                                        themes-megapack)
    ;; A list of packages and/or extensions that will not be install and loaded.
@@ -123,11 +124,18 @@ before layers configuration."
                 evil-escape-delay 0.2
                 evil-escape-key-sequence "fj"
                 git-enable-github-support t
-                undo-tree-auto-save-history t
+                ruby-enable-ruby-on-rails-support t
+                setq-default git-magit-status-fullscreen t
                 org-agenda-files '("~/Documents/org")
                 ;; colors-enable-nyan-cat-progress-bar t
                 ;; evil-lisp-state-major-modes '(emacs-lisp-mode clojure-mode)
                 )
+  ;; Persistent undo
+  (setq undo-tree-auto-save-history t
+        undo-tree-history-directory-alist
+        `(("." . ,(concat spacemacs-cache-directory "undo"))))
+  (unless (file-exists-p (concat spacemacs-cache-directory "undo"))
+    (make-directory (concat spacemacs-cache-directory "undo")))
   )
 
 (defun dotspacemacs/config ()
