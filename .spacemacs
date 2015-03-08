@@ -125,7 +125,7 @@ before layers configuration."
                 evil-escape-key-sequence "fj"
                 git-enable-github-support t
                 ruby-enable-ruby-on-rails-support t
-                setq-default git-magit-status-fullscreen t
+                git-magit-status-fullscreen t
                 org-agenda-files '("~/Documents/org")
                 ;; colors-enable-nyan-cat-progress-bar t
                 ;; evil-lisp-state-major-modes '(emacs-lisp-mode clojure-mode)
