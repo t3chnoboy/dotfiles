@@ -3,8 +3,7 @@ set fish_path $HOME/.oh-my-fish
 
 # Theme
 if test $TERM = eterm-color
-  # set fish_theme l
-  set fish_theme edan
+  set fish_theme l
 else
   set fish_theme greenfish
 end
