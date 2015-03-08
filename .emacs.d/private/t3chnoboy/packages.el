@@ -9,7 +9,6 @@
     jade-mode
     speed-type
     helm-itunes
-    slim-mode
     ;; squiggly-clojure
     )
   "List of all packages to install and/or initialize. Built-in packages
