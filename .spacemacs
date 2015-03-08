@@ -29,12 +29,13 @@
                                        fasd
                                        org-repo-todo
                                        restclient
-                                       colors
+                                       (colors :variables
+                                               colors-enable-nyan-cat-progress-bar t)
                                        org-repo-todo
                                        evil-snipe
                                        themes-megapack)
    ;; A list of packages and/or extensions that will not be install and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages '(magit-gh-pulls)
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
    ;; are declared in a layer which is not a member of
    ;; the list `dotspacemacs-configuration-layers'
@@ -89,7 +90,7 @@ before layers configuration."
    dotspacemacs-loading-progress-bar t
    ;; If non nil the frame is fullscreen when Emacs starts up.
    ;; (Emacs 24.4+ only)
-   dotspacemacs-fullscreen-at-startup nil
+   dotspacemacs-fullscreen-at-startup t
    ;; If non nil `spacemacs/toggle-fullscreen' will not use native fullscreen.
    ;; Use to disable fullscreen animations in OSX."
    dotspacemacs-fullscreen-use-non-native nil
@@ -125,6 +126,7 @@ before layers configuration."
                 evil-escape-key-sequence "fj"
                 git-enable-github-support t
                 ruby-enable-ruby-on-rails-support t
+                ruby-version-manager 'rbenv
                 git-magit-status-fullscreen t
                 org-agenda-files '("~/Documents/org")
                 ;; colors-enable-nyan-cat-progress-bar t
@@ -146,6 +148,7 @@ layers configuration."
   (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map "-" 'evil-numbers/dec-at-pt)
   (fancy-battery-mode)
+  (spacemacs/toggle-nyan-cat-progress-bar)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
