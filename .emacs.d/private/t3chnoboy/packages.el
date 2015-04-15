@@ -1,15 +1,19 @@
 (defvar t3chnoboy-packages
   '(
-    skewer-mode
-    know-your-http-well
-    hackernews
-    clojure-cheatsheet
-    dockerfile-mode
-    sx
-    jade-mode
-    speed-type
-    helm-itunes
-    ;; squiggly-clojure
+    ;; skewer-mode
+    ;; know-your-http-well
+    ;; hackernews
+    ;; clojure-cheatsheet
+    ;; dockerfile-mode
+    ;; sx
+    ;; jade-mode
+    ;; speed-type
+    ;; helm-itunes
+    ;; flycheck-clojure
+    ;; org-jira
+    ;; sass-mode
+    ;; xkcd
+    ;; clojure-snippets
     )
   "List of all packages to install and/or initialize. Built-in packages
 which require an initialization must be listed explicitly in the list.")

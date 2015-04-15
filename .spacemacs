@@ -12,9 +12,19 @@
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers '(t3chnoboy
                                        osx
+                                       (auto-completion :variables
+                                                        auto-completion-enable-company-help-tooltip t)
+                                       org
+                                       syntax-checking
+                                       shell-scripts
                                        vim-empty-lines
+                                       evil-commentary
+                                       better-defaults
+                                       ERC
                                        c-c++
+                                       xkcd
                                        haskell
+                                       editorconfig
                                        erlang-elixir
                                        javascript
                                        scala
@@ -25,9 +35,11 @@
                                        finance
                                        markdown
                                        clojure
-                                       git
-                                       fasd
                                        org-repo-todo
+                                       (git :variables
+                                            git-magit-status-fullscreen t
+                                            git-enable-github-support t
+                                            git-gutter-use-fringe t)
                                        restclient
                                        (colors :variables
                                                colors-enable-nyan-cat-progress-bar t)
@@ -35,7 +47,7 @@
                                        evil-snipe
                                        themes-megapack)
    ;; A list of packages and/or extensions that will not be install and loaded.
-   dotspacemacs-excluded-packages '(magit-gh-pulls)
+   dotspacemacs-excluded-packages '()
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
    ;; are declared in a layer which is not a member of
    ;; the list `dotspacemacs-configuration-layers'
@@ -48,11 +60,23 @@ before layers configuration."
   ;; This setq-default sexp is an exhaustive list of all the supported
   ;; spacemacs settings.
   (setq-default
-   ;; Specify the startup banner. If the value is an integer then the
-   ;; banner with the corresponding index is used, if the value is `random'
-   ;; then the banner is chosen randomly among the available banners, if
-   ;; the value is nil then no banner is displayed.
-   dotspacemacs-startup-banner 'random
+   ;; Either `vim' or `emacs'. Evil is always enabled but if the variable
+   ;; is `emacs' then the `holy-mode' is enabled at startup.
+   dotspacemacs-editing-style 'vim
+   ;; If non nil output loading progess in `*Messages*' buffer.
+   dotspacemacs-verbose-loading nil
+   ;; Specify the startup banner. Default value is `official', it displays
+   ;; the official spacemacs logo. An integer value is the index of text
+   ;; banner, `random' chooses a random text banner in `core/banners'
+   ;; directory. A string value must be a path to a .PNG file.
+   ;; If the value is nil then no banner is displayed.
+   ;; dotspacemacs-startup-banner 'official
+   dotspacemacs-startup-banner 'official
+   ;; t if you always want to see the changelog at startup
+   dotspacemacs-always-show-changelog t
+   ;; List of items to show in the startup buffer. If nil it is disabled.
+   ;; Possible values are: `recents' `bookmarks' `projects'."
+   dotspacemacs-startup-lists '(recents projects)
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
@@ -124,15 +148,14 @@ before layers configuration."
   (setq-default spacemacs-erlang-elixir-use-edts t
                 evil-escape-delay 0.2
                 evil-escape-key-sequence "fj"
-                git-enable-github-support t
                 ruby-enable-ruby-on-rails-support t
                 ruby-version-manager 'rbenv
-                git-magit-status-fullscreen t
                 org-agenda-files '("~/Documents/org")
                 ;; colors-enable-nyan-cat-progress-bar t
                 ;; evil-lisp-state-major-modes '(emacs-lisp-mode clojure-mode)
                 )
   ;; Persistent undo
+  (setq undo-tree-auto-save-history t)
   (setq undo-tree-auto-save-history t
         undo-tree-history-directory-alist
         `(("." . ,(concat spacemacs-cache-directory "undo"))))
@@ -145,10 +168,11 @@ before layers configuration."
  This function is called at the very end of Spacemacs initialization after
 layers configuration."
   (setq powerline-default-separator nil)
+  (setq neo-show-hidden-files nil)
   (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map "-" 'evil-numbers/dec-at-pt)
   (fancy-battery-mode)
-  (spacemacs/toggle-nyan-cat-progress-bar)
+  ;; (spacemacs/toggle-nyan-cat-progress-bar)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -160,7 +184,7 @@ layers configuration."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ac-ispell-requires 4)
+ '(ac-ispell-requires 4 t)
  '(ahs-case-fold-search nil)
  '(ahs-default-range (quote ahs-range-whole-buffer))
  '(ahs-idle-interval 0.25)
@@ -172,6 +196,10 @@ layers configuration."
    [unspecified "#282a2e" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#81a2be" "#e0e0e0"])
  '(background-color "#1c1c1c")
  '(background-mode dark)
+ '(ccm-ignored-commands
+   (quote
+    (mouse-drag-region mouse-set-point widget-button-click scroll-bar-toolkit-scroll evil-mouse-drag-region)))
+ '(ccm-recenter-at-end-of-file t)
  '(compilation-message-face (quote default))
  '(cua-global-mark-cursor-color "#2aa198")
  '(cua-normal-cursor-color "#657b83")
@@ -181,7 +209,7 @@ layers configuration."
  '(custom-enabled-themes (quote (sanityinc-solarized-dark)))
  '(custom-safe-themes
    (quote
-    ("4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" default)))
+    ("08851585c86abcf44bb1232bced2ae13bc9f6323aeda71adfa3791d6e7fea2b6" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" default)))
  '(edts-man-root "/Users/macuser/.emacs.d/edts/doc/17.4")
  '(fci-rule-color "#383838")
  '(foreground-color "#808080")
@@ -214,6 +242,8 @@ layers configuration."
  '(js2-strict-missing-semi-warning nil)
  '(linum-format " %5i ")
  '(magit-diff-use-overlays nil)
+ '(magit-use-overlays nil)
+ '(org-export-backends (quote (ascii html icalendar latex md)))
  '(paradox-github-token t)
  '(ring-bell-function (quote ignore) t)
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
@@ -247,6 +277,8 @@ layers configuration."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "PragmataPro for Powerline" :foundry "nil" :slant normal :weight normal :height 150 :width normal))))
+ '(company-tooltip-common ((t (:inherit company-tooltip :weight bold :underline nil))))
+ '(company-tooltip-common-selection ((t (:inherit company-tooltip-selection :weight bold :underline nil))))
  '(rainbow-delimiters-depth-1-face ((t (:foreground "deep sky blue"))))
  '(rainbow-delimiters-depth-2-face ((t (:foreground "maroon2"))))
  '(rainbow-delimiters-depth-3-face ((t (:foreground "SeaGreen1"))))
