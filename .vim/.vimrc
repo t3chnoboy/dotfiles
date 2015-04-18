@@ -14,6 +14,11 @@ set encoding=utf-8              "Set default encoding to UTF-8
 set shell=/bin/bash
 set conceallevel=1
 
+set nonumber
+set noshowcmd
+set laststatus=0
+
+
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
@@ -51,17 +56,13 @@ endif
 
 " ================ Color Scheme =====================
 
-colorscheme anotherdark2
-
-if filereadable(expand("~/.vim/dayAndNight.vim"))
-  source ~/.vim/dayAndNight.vim
-endif
+colorscheme adrian
+set nocursorline
 
 hi clear Conceal
 hi Conceal cterm=NONE ctermbg=NONE ctermfg=DarkGreen
 " ================ Powerline ====================
 
-set laststatus=2 " Always display the statusline in all windows
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
 " ================ Key Mappings =====================

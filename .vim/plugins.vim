@@ -145,7 +145,7 @@ Plug 'thinca/vim-textobj-function-javascript', {'for': 'javascript'}
 
 
 " Cosmetics, color scheme, Powerline...
-Plug 'bling/vim-airline'
+" Plug 'bling/vim-airline'
 Plug 'ScrollColors', {'on': 'COLORSCROLL' }
 " Plug 'vim-scripts/TagHighlight'
 
