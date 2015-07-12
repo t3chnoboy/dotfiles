@@ -6,7 +6,7 @@
   "Configuration Layers declaration."
   (setq-default
    ;; List of additional paths where to look for configuration layers.
-   ;; Paths must have a trailing slash (ie. `~/.mycontribs/')
+   ;; Paths must have a trailing slash (ie. `~/.mycontribs')
    dotspacemacs-configuration-layer-path '("~/.dotfiles/.emacs.d/private/")
    ;; List of configuration layers to load. If it is the symbol `all' instead
    ;; of a list then all discovered layers will be installed.
@@ -14,13 +14,13 @@
                                        osx
                                        (auto-completion :variables
                                                         auto-completion-enable-company-help-tooltip t)
+                                       emacs-lisp
                                        org
                                        syntax-checking
                                        shell-scripts
                                        vim-empty-lines
                                        evil-commentary
                                        better-defaults
-                                       ERC
                                        c-c++
                                        xkcd
                                        haskell
@@ -28,22 +28,27 @@
                                        erlang-elixir
                                        javascript
                                        scala
+                                       (shell :variables
+                                              shell-default-term-shell "/usr/local/bin/fish")
+                                       games
+                                       emoji
                                        auctex
                                        ess
                                        html
                                        ruby
+                                       ruby-on-rails
                                        finance
+                                       prodigy
                                        markdown
                                        clojure
-                                       org-repo-todo
                                        (git :variables
                                             git-magit-status-fullscreen t
                                             git-enable-github-support t
                                             git-gutter-use-fringe t)
                                        restclient
+                                       colors
                                        (colors :variables
                                                colors-enable-nyan-cat-progress-bar t)
-                                       org-repo-todo
                                        evil-snipe
                                        themes-megapack)
    ;; A list of packages and/or extensions that will not be install and loaded.
@@ -81,6 +86,13 @@ before layers configuration."
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(molokai
+                         tronesque
+                         zonokai-blue
+                         twilight-bright
+                         fogus
+                         underwater
+                         apropospriate-light
+                         gotham
                          flatui
                          hemisu-light
                          hc-zenburn
@@ -91,10 +103,9 @@ before layers configuration."
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
    dotspacemacs-default-font '("PragmataPro for Powerline"
-                               :size 15
+                               :size 14
                                :weight normal
-                               :width normal
-                               :powerline-scale 1.1)
+                               :width normal)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; Major mode leader key is a shortcut key which is the equivalent of
@@ -148,7 +159,6 @@ before layers configuration."
   (setq-default spacemacs-erlang-elixir-use-edts t
                 evil-escape-delay 0.2
                 evil-escape-key-sequence "fj"
-                ruby-enable-ruby-on-rails-support t
                 ruby-version-manager 'rbenv
                 org-agenda-files '("~/Documents/org")
                 ;; colors-enable-nyan-cat-progress-bar t
@@ -172,7 +182,7 @@ layers configuration."
   (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map "-" 'evil-numbers/dec-at-pt)
   (fancy-battery-mode)
-  ;; (spacemacs/toggle-nyan-cat-progress-bar)
+
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
