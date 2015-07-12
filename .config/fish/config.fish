@@ -25,6 +25,8 @@ Plugin "tmux"
 Plugin "extract"
 Plugin "theme"
 Plugin "rbenv"
+Plugin "grc"
+# Plugin "emacs"
 
 #editor
 set -x EDITOR vim
