@@ -1,25 +1,35 @@
 # Path to your oh-my-fish.
 set fish_path $HOME/.oh-my-fish
 
-# Theme
-if test $TERM = eterm-color
-  set fish_theme l
-else
-  set fish_theme greenfish
-end
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
-# Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
-# Example format: set fish_plugins autojump bundler
-set fish_plugins brew node z tmux extract theme rbenv
 # Path to your custom folder (default path is $FISH/custom)
 #set fish_custom $HOME/dotfiles/oh-my-fish
 
 # Load oh-my-fish configuration.
 source $fish_path/oh-my-fish.fish
 
+# Theme
+if test $TERM = eterm-color
+  Theme "l"
+else
+  # Theme "greenfish"
+  Theme 'cbjohnson'
+end
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
+# Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
+# Example format: set fish_plugins autojump bundler
+Plugin "brew"
+Plugin "node"
+Plugin "z"
+Plugin "tmux"
+Plugin "extract"
+Plugin "theme"
+Plugin "rbenv"
+
 #editor
 set -x EDITOR vim
+
+set -g __fish_git_prompt_char_dirtystate '+'
 
 # Private stuff
 source ~/.dotfiles/.private.fish
