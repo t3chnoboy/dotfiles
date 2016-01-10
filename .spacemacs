@@ -32,8 +32,10 @@ values."
                                        xkcd
                                        haskell
                                        editorconfig
-                                       erlang-elixir
+                                       erlang
+                                       elixir
                                        javascript
+                                       react
                                        scala
                                        (shell :variables
                                               shell-default-term-shell "/usr/local/bin/fish")
@@ -58,7 +60,11 @@ values."
                                        colors
                                        (colors :variables
                                                colors-enable-nyan-cat-progress-bar nil)
-                                       evil-snipe
+                                       ;; evil-snipe
+                                       vim-powerline
+                                       evil-cleverparens
+                                       yaml
+                                       selectric
                                        themes-megapack)
 
    ;; List of additional packages that will be installed without being
@@ -220,9 +226,7 @@ values."
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
-  (setq-default spacemacs-erlang-elixir-use-edts t
-                evil-escape-delay 0.2
-                evil-escape-key-sequence "fj"
+  (setq-default
                 ruby-version-manager 'rbenv
                 org-agenda-files '("~/Documents/org")
                 ;; colors-enable-nyan-cat-progress-bar t
