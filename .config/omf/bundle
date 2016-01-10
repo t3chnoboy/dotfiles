@@ -1,0 +1,11 @@
+packag osx
+package battery
+package brew
+package extract
+package hub
+package rbenv
+package ssh-term-helper
+package weather
+package z
+theme cbjohnson
+theme default
