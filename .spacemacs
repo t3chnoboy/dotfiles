@@ -252,8 +252,7 @@ layers configuration. You are free to put any user code."
   (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map "-" 'evil-numbers/dec-at-pt)
   (fancy-battery-mode)
-  ;; JSX in `web-mode`
-  (add-to-list 'auto-mode-alist '("\\.jsx" . web-mode))
+  (setq flycheck-scalastyle-jar "~/Developer/bin/scalastyle_2.11-0.6.0.jar")
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
