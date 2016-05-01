@@ -15,3 +15,4 @@
 .config/fish/generated_completions/
 .htoprc
 .config/git
+.config/omf/weather/
