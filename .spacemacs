@@ -58,15 +58,18 @@ values."
                                             git-magit-status-fullscreen t
                                             git-enable-github-support t
                                             git-gutter-use-fringe t)
+                                       github
                                        restclient
                                        colors
-                                       (colors :variables
-                                               colors-enable-nyan-cat-progress-bar nil)
-                                       ;; evil-snipe
                                        vim-powerline
                                        evil-cleverparens
                                        yaml
                                        selectric
+                                       terraform
+                                       vagrant
+                                       nginx
+                                       dockerfile
+                                       extra-langs
                                        themes-megapack)
 
    ;; List of additional packages that will be installed without being
