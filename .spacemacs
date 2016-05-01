@@ -45,7 +45,9 @@ values."
                                        ess
                                        html
                                        tmux
-                                       ruby
+                                       (ruby :variables
+                                             ruby-version-manager 'rbenv
+                                             ruby-test-runner 'rspec)
                                        ruby-on-rails
                                        finance
                                        prodigy
@@ -227,12 +229,9 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
   (setq-default
-                ruby-version-manager 'rbenv
-                org-agenda-files '("~/Documents/org")
-                ;; colors-enable-nyan-cat-progress-bar t
-                ;; evil-lisp-state-major-modes '(emacs-lisp-mode clojure-mode)
-                )
+                org-agenda-files '("~/Documents/org"))
   ;; Persistent undo
+
   (setq undo-tree-auto-save-history t)
   (setq undo-tree-auto-save-history t
         undo-tree-history-directory-alist
