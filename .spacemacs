@@ -30,7 +30,8 @@ values."
                                        better-defaults
                                        c-c++
                                        xkcd
-                                       haskell
+                                       (haskell :variables
+                                                haskell-enable-ghci-ng-support t)
                                        editorconfig
                                        erlang
                                        elixir
