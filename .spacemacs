@@ -273,7 +273,7 @@ layers configuration. You are free to put any user code."
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(ansi-term-color-vector
-   [unspecified "#282a2e" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#81a2be" "#e0e0e0"])
+   [unspecified "#282a2e" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#81a2be" "#e0e0e0"] t)
  '(background-color "#1c1c1c")
  '(background-mode dark)
  '(ccm-ignored-commands
@@ -291,7 +291,7 @@ layers configuration. You are free to put any user code."
    (quote
     ("08851585c86abcf44bb1232bced2ae13bc9f6323aeda71adfa3791d6e7fea2b6" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" default)))
  '(edts-man-root "/Users/macuser/.emacs.d/edts/doc/17.4")
- '(fci-rule-color "#383838")
+ '(fci-rule-color "#383838" t)
  '(foreground-color "#808080")
  '(global-linum-mode nil)
  '(highlight-changes-colors ("#FD5FF0" "#AE81FF"))
@@ -320,6 +320,7 @@ layers configuration. You are free to put any user code."
  '(js2-basic-offset 2)
  '(js2-highlight-level 3)
  '(js2-strict-missing-semi-warning nil)
+ '(js2-strict-trailing-comma-warning nil)
  '(linum-format " %5i ")
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
