@@ -1,5 +1,6 @@
-(defvar t3chnoboy-packages
+(defconst t3chnoboy-packages
   '(
+    ;; osx-clipboard
     ;; skewer-mode
     ;; know-your-http-well
     ;; hackernews
@@ -15,18 +16,37 @@
     ;; xkcd
     ;; clojure-snippets
     )
-  "List of all packages to install and/or initialize. Built-in packages
-which require an initialization must be listed explicitly in the list.")
+  "The list of Lisp packages required by the t3chnoboy layer.
 
-(defvar t3chnoboy-excluded-packages '()
-  "List of packages to exclude.")
+Each entry is either:
 
-;; For each package, define a function t3chnoboy/init-<package-my-config>
-;;
-;; (defun t3chnoboy/init-my-package ()
-;;   "Initialize my package"
-;;   )
-;;
-;; Often the body of an initialize function uses `use-package'
-;; For more info on `use-package', see readme:
-;; https://github.com/jwiegley/use-package
+1. A symbol, which is interpreted as a package to be installed, or
+
+2. A list of the form (PACKAGE KEYS...), where PACKAGE is the
+    name of the package to be installed or loaded, and KEYS are
+    any number of keyword-value-pairs.
+
+    The following keys are accepted:
+
+    - :excluded (t or nil): Prevent the package from being loaded
+      if value is non-nil
+
+    - :location: Specify a custom installation location.
+      The following values are legal:
+
+      - The symbol `elpa' (default) means PACKAGE will be
+        installed using the Emacs package manager.
+
+      - The symbol `local' directs Spacemacs to load the file at
+        `./local/PACKAGE/PACKAGE.el'
+
+      - A list beginning with the symbol `recipe' is a melpa
+        recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
+
+;; (defun t3chnoboy/init-osx-clipboard ()
+;;        (use-package osx-clipboard
+;;          :config
+;;          (progn
+;;            (osx-clipboard-mode +1)
+;;                  (diminish 'osx-clipboard-mode))))
+;;; packages.el ends here

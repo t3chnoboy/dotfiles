@@ -17,6 +17,7 @@ values."
    ;; List of configuration layers to load. If it is the symbol `all' instead
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers '(t3chnoboy
+                                       prodigy-config
                                        osx
                                        (auto-completion :variables
                                                         auto-completion-enable-company-help-tooltip t)
@@ -35,11 +36,13 @@ values."
                                        editorconfig
                                        erlang
                                        elixir
-                                       javascript
+                                       (javascript :variables
+                                                   javascript-disable-tern-port-files nil)
                                        react
                                        scala
-                                       (shell :variables
-                                              shell-default-term-shell "/usr/local/bin/fish")
+                                       shell
+                                       ;; (shell :variables
+                                       ;;        shell-default-term-shell "/usr/local/bin/fish")
                                        games
                                        emoji
                                        auctex

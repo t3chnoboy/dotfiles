@@ -10625,15 +10625,19 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSColorPanelMode</key>
-	<string>6</string>
+	<string>13370000</string>
 	<key>NSColorPickerSlidersDefaults</key>
 	<string>1</string>
 	<key>NSFontPanelAttributes</key>
-	<string>1, 0</string>
+	<string>1, 4</string>
 	<key>NSFontPanelPreviewHeight</key>
 	<real>0.0</real>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Developer/Projects/ColorSchemes/minimal</string>
+	<string>~/Downloads</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 448}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 488}</string>
 	<key>NSNavPanelExpandedStateForSaveMode</key>
 	<true/>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -10641,6 +10645,8 @@
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
+	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
@@ -10653,7 +10659,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -10670,18 +10676,27 @@
 		<key>TB Size Mode</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>1058 84 217 286 0 0 1440 877 </string>
+	<string>1058 74 273 296 0 0 1440 900 </string>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>650 294 459 270 0 0 1440 877 </string>
+	<string>800 464 459 136 0 0 1440 900 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>568 314 924 485 0 0 1440 877 </string>
+	<string>419 426 606 456 0 0 1440 900 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>520 579 400 129 0 0 1440 900 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>410 382 620 392 0 0 1440 900 </string>
 	<key>NSWindow Frame SUUpdateAlertFrame</key>
-	<string>432 382 575 392 0 0 1440 878 </string>
+	<string>432 382 575 392 0 0 1440 900 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
-	<string>99 294 592 584 0 0 1440 878 </string>
+	<string>204 235 592 584 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1440 900 0 0 1440 900 </string>
+	<string>0 521 570 379 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>630 253 810 551 0 0 1440 878 </string>
 	<key>NeverWarnAboutShortLivedSessions_350E4DEF-E1BF-4DD5-91A7-FE2DF49E827F</key>
@@ -13814,6 +13829,8 @@
 					<string>\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
 				</dict>
 			</array>
+			<key>Space</key>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tab Color</key>
@@ -13856,15 +13873,41 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>0</integer>
+			<integer>12</integer>
 			<key>Working Directory</key>
 			<string>/Users/macuser</string>
 		</dict>
 	</array>
+	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
+	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>0</integer>
+	<key>NoSyncInstallationId</key>
+	<string>8A5B3D8E-B8B7-4898-9841-1EFEBBE62556</string>
+	<key>NoSyncLastTipTime</key>
+	<real>475006791.88199502</real>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>465489847.03131098</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0002</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -13924,14 +13967,16 @@
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>http://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml?shard=19</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-07-26T11:55:30Z</date>
+	<date>2016-06-09T15:35:56Z</date>
 	<key>SUSkippedVersion</key>
-	<string>1.0.0.20140629</string>
+	<string>3.0.0</string>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Show Toolbelt</key>
@@ -13963,7 +14008,7 @@
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1402826240</real>
+	<real>1447167488</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
 	<key>UseBorder</key>
@@ -16327,7 +16372,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.git.00cf8b6b8e</string>
+	<string>2.9.20160523</string>
 	<key>mad_DefaultHotKeysApplied</key>
 	<true/>
 	<key>mad_ToggleFloatingWindowKeyCode</key>
