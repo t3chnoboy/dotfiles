@@ -4,6 +4,7 @@ package brew
 package config
 package extract
 package rbenv
+package shark
 package ssh-term-helper
 package weather
 package z
