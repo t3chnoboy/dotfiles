@@ -17,10 +17,10 @@ values."
    ;; List of configuration layers to load. If it is the symbol `all' instead
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers '(t3chnoboy
-                                       prodigy-config
+                                       ;; prodigy-config
                                        osx
                                        (auto-completion :variables
-                                                        auto-completion-enable-company-help-tooltip t)
+                                                        auto-completion-enable-help-tooltip t)
                                        emacs-lisp
                                        org
                                        syntax-checking
@@ -29,7 +29,7 @@ values."
                                        version-control
                                        evil-commentary
                                        better-defaults
-                                       c-c++
+                                       ;; c-c++
                                        xkcd
                                        (haskell :variables
                                                 haskell-enable-ghci-ng-support t)
@@ -45,16 +45,16 @@ values."
                                        ;;        shell-default-term-shell "/usr/local/bin/fish")
                                        games
                                        emoji
-                                       auctex
-                                       ess
+                                       ;; auctex
+                                       ;; ess
                                        html
                                        tmux
                                        (ruby :variables
                                              ruby-version-manager 'rbenv
                                              ruby-test-runner 'rspec)
                                        ruby-on-rails
-                                       finance
-                                       prodigy
+                                       ;; finance
+                                       ;; prodigy
                                        markdown
                                        clojure
                                        sql
@@ -68,7 +68,6 @@ values."
                                        vim-powerline
                                        evil-cleverparens
                                        yaml
-                                       selectric
                                        terraform
                                        vagrant
                                        nginx
@@ -174,7 +173,7 @@ values."
    dotspacemacs-helm-position 'bottom
    ;; If non nil the paste micro-state is enabled. When enabled pressing `p`
    ;; several times cycle between the kill ring content. (default nil)
-   dotspacemacs-enable-paste-micro-state nil
+   dotspacemacs-enable-paste-micro-state t
    ;; Which-key delay in seconds. The which-key buffer is the popup listing
    ;; the commands bound to the current keystroke sequence. (default 0.4)
    dotspacemacs-which-key-delay 0.4
@@ -213,7 +212,7 @@ values."
    dotspacemacs-smooth-scrolling t
    ;; If non-nil smartparens-strict-mode will be enabled in programming modes.
    ;; (default nil)
-   dotspacemacs-smartparens-strict-mode nil
+   dotspacemacs-smartparens-strict-mode t
    ;; Select a scope to highlight delimiters. Possible values are `any',
    ;; `current', `all' or `nil'. Default is `all' (highlight any scope and
    ;; emphasis the current one). (default 'all)
@@ -256,7 +255,26 @@ layers configuration. You are free to put any user code."
   (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map "-" 'evil-numbers/dec-at-pt)
   (fancy-battery-mode)
-  (setq flycheck-scalastyle-jar "~/Developer/bin/scalastyle_2.11-0.6.0.jar")
+  (setq-default
+   ;; js2-mode
+   js2-basic-offset 2
+   js2-highlight-level 3
+   js2-strict-missing-semi-warning nil
+   js2-strict-trailing-comma-warning nil
+   ;; web-mode
+   css-indent-offset 2
+   web-mode-markup-indent-offset 2
+   web-mode-css-indent-offset 2
+   web-mode-code-indent-offset 2
+   web-mode-attr-indent-offset 2)
+
+  (with-eval-after-load 'web-mode
+    (add-to-list 'web-mode-indentation-params '("lineup-args" . nil))
+    (add-to-list 'web-mode-indentation-params '("lineup-concats" . nil))
+      (add-to-list 'web-mode-indentation-params '("lineup-calls" . nil)))
+  ;; (spacemacs/toggle-automatic-symbol-highlight-on)
+  (add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
@@ -320,10 +338,6 @@ layers configuration. You are free to put any user code."
    (quote
     ("#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3")))
  '(if (version< emacs-version "24.4"))
- '(js2-basic-offset 2)
- '(js2-highlight-level 3)
- '(js2-strict-missing-semi-warning nil)
- '(js2-strict-trailing-comma-warning nil)
  '(linum-format " %5i ")
  '(magit-diff-use-overlays nil)
  '(magit-use-overlays nil)
