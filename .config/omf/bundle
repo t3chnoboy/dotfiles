@@ -1,5 +1,4 @@
 packag osx
-package battery
 package brew
 package config
 package extract
