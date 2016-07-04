@@ -19,6 +19,7 @@ values."
    dotspacemacs-configuration-layers '(t3chnoboy
                                        ;; prodigy-config
                                        osx
+                                       helm
                                        (auto-completion :variables
                                                         auto-completion-return-key-behavior 'complete
                                                         auto-completion-enable-snippets-in-popup t
@@ -216,7 +217,7 @@ values."
    dotspacemacs-smooth-scrolling t
    ;; If non-nil smartparens-strict-mode will be enabled in programming modes.
    ;; (default nil)
-   dotspacemacs-smartparens-strict-mode t
+   dotspacemacs-smartparens-strict-mode nil
    ;; Select a scope to highlight delimiters. Possible values are `any',
    ;; `current', `all' or `nil'. Default is `all' (highlight any scope and
    ;; emphasis the current one). (default 'all)
@@ -240,6 +241,7 @@ It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
   (setq-default
                 org-agenda-files '("~/Documents/org"))
+  (add-hook 'react-mode-hook 'emmet-mode)
   ;; Persistent undo
 
   (setq undo-tree-auto-save-history t)
@@ -254,6 +256,7 @@ user code."
   "Configuration function for user code.
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
+  (setq vc-follow-symlinks t)
   (setq powerline-default-separator nil)
   (setq neo-show-hidden-files nil)
   (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
