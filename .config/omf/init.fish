@@ -6,7 +6,7 @@
 # end
 
 #editor
-set -x EDITOR vim
+set -x EDITOR emacs
 
 set -g __fish_git_prompt_char_dirtystate '+'
 
