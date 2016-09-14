@@ -3,14 +3,14 @@
 	email = dmitry.mazuro@icloud.com
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = vim
+	editor = emacs --no-window-system
 	pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -R
 [diff]
-      tool = vimdiff
+			tool = vimdiff
 [merge]
-      tool = vimdiff
+			tool = vimdiff
 [difftool "vimdiff"]
-      cmd = vim -f -d \"$LOCAL\" \"$REMOTE\"
+			cmd = vim -f -d \"$LOCAL\" \"$REMOTE\"
 [push]
 	default = simple
 [color]
@@ -20,3 +20,5 @@
 	st = status -sb
 [github]
 	user = t3chnoboy
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"
