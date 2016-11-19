@@ -7,6 +7,3 @@ export TERM=xterm-color
 #sets up proper alias commands when called
 alias ls='ls -G'
 alias ll='ls -hl'
-
-#powerline
-. /usr/local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh

@@ -1,2 +1,0 @@
-# === EDITOR ===
-Pry.editor = 'vim'
