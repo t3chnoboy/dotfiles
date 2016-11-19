@@ -1,6 +1,7 @@
 [user]
 	name = Dmitry Mazuro
 	email = dmitry.mazuro@icloud.com
+	signingkey = 3DA5429C146DD21E
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = emacs --no-window-system
@@ -22,3 +23,5 @@
 	user = t3chnoboy
 [url "git@github.com:"]
 	insteadOf = "https://github.com/"
+[commit]
+	gpgsign = true
