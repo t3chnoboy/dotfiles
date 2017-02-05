@@ -13,10 +13,10 @@ values."
    dotspacemacs-distribution 'spacemacs
    ;; List of additional paths where to look for configuration layers.
    ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
-   dotspacemacs-configuration-layer-path '("~/.dotfiles/.emacs.d/private/")
+   ;; dotspacemacs-configuration-layer-path '("~/.dotfiles/.emacs.d/private/")
    ;; List of configuration layers to load. If it is the symbol `all' instead
    ;; of a list then all discovered layers will be installed.
-   dotspacemacs-configuration-layers '(t3chnoboy
+   dotspacemacs-configuration-layers '(;;t3chnoboy
                                        ;; prodigy-config
                                        ;; evil-snipe
                                        osx
@@ -28,7 +28,7 @@ values."
                                                         auto-completion-enable-sort-by-usage t
                                                         auto-completion-tab-key-behavior 'cycle)
                                        emacs-lisp
-                                       org
+                                       ;; org
                                        syntax-checking
                                        shell-scripts
                                        ;; vim-empty-lines
@@ -36,8 +36,9 @@ values."
                                        evil-commentary
                                        better-defaults
                                        ;; c-c++
-                                       xkcd
+                                       ;; xkcd
                                        (haskell :variables
+                                                haskell-process-type 'stack-ghci
                                                 haskell-enable-ghci-ng-support t)
                                        erlang
                                        elixir
@@ -45,13 +46,13 @@ values."
                                                    javascript-disable-tern-port-files nil)
                                        react
                                        (scala :variables
-                                              scala-auto-start-ensime t)
-                                       shell
-                                       ;; (shell :variables
-                                       ;;        shell-default-term-shell "/usr/local/bin/fish")
-                                       games
-                                       emoji
-                                       latex
+                                              scala-auto-start-ensime nil)
+                                       ;; shell
+                                       (shell :variables
+                                              shell-default-term-shell "/usr/local/bin/fish")
+                                       ;; games
+                                       ;; emoji
+                                       ;; latex
                                        ;; ess
                                        html
                                        tmux
@@ -74,9 +75,9 @@ values."
                                        vim-powerline
                                        evil-cleverparens
                                        yaml
-                                       terraform
+                                       ;; terraform
                                        ;; vagrant
-                                       nginx
+                                       ;; nginx
                                        extra-langs
                                        themes-megapack)
 
@@ -318,7 +319,7 @@ values."
   "Initialization function for user code.
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
-  (add-hook 'react-mode-hook 'emmet-mode)
+  ;; (add-hook 'react-mode-hook 'emmet-mode)
   (setq-default org-agenda-files '("~/Documents/org"))
   ;; Persistent undo
   (setq undo-tree-auto-save-history t)
@@ -327,6 +328,9 @@ user code."
         `(("." . ,(concat spacemacs-cache-directory "undo"))))
   (unless (file-exists-p (concat spacemacs-cache-directory "undo"))
     (make-directory (concat spacemacs-cache-directory "undo")))
+
+  (push '("melpa-stable" . "stable.melpa.org/packages/") configuration-layer--elpa-archives)
+  (push '(ensime . "melpa-stable") package-pinned-packages)
   )
 
 (defun dotspacemacs/user-config ()
@@ -334,7 +338,7 @@ user code."
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
 
-
+  (require 'ensime)
   (setq magit-repository-directories '("~/Developer/"))
   (global-git-commit-mode t)
 
@@ -357,14 +361,17 @@ layers configuration. You are free to put any user code."
    web-mode-code-indent-offset 2
    web-mode-attr-indent-offset 2)
 
+  (setq
+   ensime-startup-notification nil
+   ensime-startup-snapshot-notification nil
+   )
+
   (with-eval-after-load 'web-mode
     (add-to-list 'web-mode-indentation-params '("lineup-args" . nil))
     (add-to-list 'web-mode-indentation-params '("lineup-concats" . nil))
       (add-to-list 'web-mode-indentation-params '("lineup-calls" . nil)))
   ;; (spacemacs/toggle-automatic-symbol-highlight-on)
   (add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
-
-  (setq ensime-startup-snapshot-notification nil)
 
   (setq evil-visual-state-cursor 'box); █
   (setq evil-insert-state-cursor 'bar); ⎸
@@ -384,13 +391,17 @@ layers configuration. You are free to put any user code."
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
-
+(defun dotspacemacs/emacs-custom-settings ()
+  "Emacs custom settings.
+This is an auto-generated function, do not modify its content directly, use
+Emacs customize menu instead.
+This function is called at the very end of Spacemacs initialization."
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ac-ispell-requires 4 t)
+ '(ac-ispell-requires 4)
  '(ahs-case-fold-search nil t)
  '(ahs-default-range (quote ahs-range-whole-buffer) t)
  '(ahs-idle-interval 0.25 t)
@@ -398,8 +409,6 @@ layers configuration. You are free to put any user code."
  '(ahs-inhibit-face-list nil t)
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(ansi-term-color-vector
-   [unspecified "#282a2e" "#cc6666" "#b5bd68" "#f0c674" "#81a2be" "#b294bb" "#81a2be" "#e0e0e0"] t)
  '(background-color "#1c1c1c")
  '(background-mode dark)
  '(ccm-ignored-commands
@@ -412,11 +421,11 @@ layers configuration. You are free to put any user code."
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
  '(cursor-color "#808080")
- '(custom-enabled-themes (quote (sanityinc-solarized-dark)))
  '(custom-safe-themes
    (quote
-    ("08851585c86abcf44bb1232bced2ae13bc9f6323aeda71adfa3791d6e7fea2b6" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" default)))
+    ("b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" default)))
  '(edts-man-root "/Users/macuser/.emacs.d/edts/doc/17.4")
+ '(evil-want-Y-yank-to-eol t)
  '(fci-rule-color "#383838" t)
  '(foreground-color "#808080")
  '(global-linum-mode nil)
@@ -449,7 +458,7 @@ layers configuration. You are free to put any user code."
  '(org-export-backends (quote (ascii html icalendar latex md)))
  '(package-selected-packages
    (quote
-    (restclient-helm ob-restclient company-restclient know-your-http-well sourcerer-theme auctex-latexmk company-auctex auctex insert-shebang hide-comnt ob-elixir helm-purpose window-purpose minitest pug-mode vi-tilde-fringe pbcopy mmt osx-dictionary skewer-mode simple-httpd dumb-jump hcl-mode smooth-scrolling shm ruby-end rake powerline pcre2el page-break-lines f org-repo-todo alert log4e gntp markdown-mode leuven-theme json-snatcher json-reformat js2-mode parent-mode projectile request haml-mode gitignore-mode fringe-helper git-gutter+ git-gutter gh marshal logito pcache ht flycheck flx magit magit-popup git-commit with-editor iedit smartparens anzu sbt-mode scala-mode dockerfile-mode web-completion-data dash-functional tern pos-tip ghc haskell-mode hydra inflections edn multiple-cursors paredit s peg eval-sexp-fu highlight cider spinner queue clojure-mode inf-ruby buffer-move bracketed-paste yasnippet packed company dash elixir-mode pkg-info epl helm avy helm-core async auto-complete popup zonokai-theme zenburn-theme zen-and-art-theme yaml-mode xterm-color xkcd ws-butler wolfram-mode window-numbering which-key web-mode web-beautify volatile-highlights vagrant-tramp vagrant uuidgen use-package underwater-theme ujelly-theme typit twilight-theme twilight-bright-theme twilight-anti-bright-theme tronesque-theme toxi-theme toc-org thrift terraform-mode tao-theme tangotango-theme tango-plus-theme tango-2-theme tagedit sunny-day-theme sublime-themes subatomic256-theme subatomic-theme stekene-theme stan-mode sql-indent spacemacs-theme spaceline spacegray-theme soothe-theme solarized-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme smeargle slim-mode shell-pop seti-theme scss-mode scad-mode sass-mode rvm ruby-tools ruby-test-mode rubocop rspec-mode robe reverse-theme reveal-in-osx-finder restclient restart-emacs rbenv rainbow-mode rainbow-identifiers rainbow-delimiters railscasts-theme quelpa qml-mode purple-haze-theme projectile-rails professional-theme popwin planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme persp-mode pastels-on-dark-theme paradox pacmacs osx-trash orgit organic-green-theme org-projectile org-present org-pomodoro org-plus-contrib org-download org-bullets open-junk-file omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme ob-http noflet noctilux-theme niflheim-theme nginx-mode neotree naquadah-theme mwim mustang-theme multi-term move-text monokai-theme monochrome-theme molokai-theme moe-theme mmm-mode minimal-theme matlab-mode material-theme markdown-toc majapahit-theme magit-gitflow magit-gh-pulls macrostep lush-theme lorem-ipsum livid-mode linum-relative link-hint light-soap-theme less-css-mode launchctl julia-mode json-mode js2-refactor js-doc jbeans-theme jazz-theme jade-mode ir-black-theme intero inkpot-theme info+ indent-guide ido-vertical-mode hungry-delete htmlize hlint-refactor hl-todo hindent highlight-parentheses highlight-numbers highlight-indentation heroku-theme hemisu-theme help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-hoogle helm-gitignore helm-flx helm-descbinds helm-css-scss helm-company helm-c-yasnippet helm-ag hc-zenburn-theme haskell-snippets gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme google-translate golden-ratio gnuplot github-search github-clone github-browse-file gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ gist gh-md gandalf-theme flycheck-pos-tip flycheck-mix flycheck-haskell flx-ido flatui-theme flatland-theme fish-mode firebelly-theme fill-column-indicator feature-mode farmhouse-theme fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-tutor evil-terminal-cursor-changer evil-surround evil-snipe evil-search-highlight-persist evil-numbers evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-commentary evil-cleverparens evil-args evil-anzu espresso-theme eshell-z eshell-prompt-extras esh-help erlang ensime emoji-cheat-sheet-plus emmet-mode elisp-slime-nav dracula-theme django-theme diff-hl define-word darktooth-theme darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme company-web company-tern company-statistics company-shell company-quickhelp company-ghci company-ghc company-emoji company-cabal column-enforce-mode colorsarenice-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized color-identifiers-mode coffee-mode cmm-mode clues-theme clojure-snippets clj-refactor clean-aindent-mode cider-eval-sexp-fu chruby cherry-blossom-theme busybee-theme bundler bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme auto-yasnippet auto-highlight-symbol auto-compile arduino-mode apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes alchemist aggressive-indent afternoon-theme adaptive-wrap ace-window ace-link ace-jump-helm-line ac-ispell 2048-game)))
+    (rake powerline pcre2el markdown-mode skewer-mode simple-httpd json-snatcher json-reformat js2-mode parent-mode window-purpose imenu-list projectile request haml-mode gitignore-mode fringe-helper git-gutter+ git-gutter gh marshal logito pcache ht flycheck flx magit magit-popup git-commit with-editor iedit smartparens anzu evil goto-chg undo-tree sbt-mode scala-mode f diminish autothemer web-completion-data dash-functional tern restclient know-your-http-well pos-tip ghc haskell-mode hydra inflections edn multiple-cursors paredit s peg eval-sexp-fu highlight cider seq spinner queue clojure-mode inf-ruby bind-map bind-key yasnippet packed company dash elixir-mode pkg-info epl helm avy helm-core async auto-complete popup fuzzy flycheck-credo zonokai-theme zenburn-theme zen-and-art-theme yaml-mode xterm-color ws-butler wolfram-mode winum which-key web-mode web-beautify volatile-highlights vi-tilde-fringe uuidgen use-package unfill underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme tronesque-theme toxi-theme toc-org thrift tao-theme tangotango-theme tango-plus-theme tango-2-theme tagedit sunny-day-theme sublime-themes subatomic256-theme subatomic-theme stan-mode sql-indent spaceline spacegray-theme soothe-theme solarized-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme smeargle slim-mode shell-pop seti-theme scss-mode scad-mode sass-mode rvm ruby-tools ruby-test-mode rubocop rspec-mode robe reverse-theme reveal-in-osx-finder restclient-helm restart-emacs rbenv rainbow-mode rainbow-identifiers rainbow-delimiters railscasts-theme qml-mode purple-haze-theme pug-mode projectile-rails professional-theme popwin planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme persp-mode pbcopy pastels-on-dark-theme paradox osx-trash osx-dictionary orgit organic-green-theme org-plus-contrib org-bullets open-junk-file omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme ob-restclient ob-http ob-elixir noflet noctilux-theme niflheim-theme neotree naquadah-theme mwim mustang-theme multi-term move-text monokai-theme monochrome-theme molokai-theme moe-theme mmm-mode minitest minimal-theme matlab-mode material-theme markdown-toc majapahit-theme magit-gitflow magit-gh-pulls madhat2r-theme macrostep lush-theme lorem-ipsum livid-mode linum-relative link-hint light-soap-theme less-css-mode launchctl julia-mode json-mode js2-refactor js-doc jbeans-theme jazz-theme ir-black-theme intero insert-shebang inkpot-theme info+ indent-guide hungry-delete hlint-refactor hl-todo hindent highlight-parentheses highlight-numbers highlight-indentation hide-comnt heroku-theme hemisu-theme help-fns+ helm-themes helm-swoop helm-purpose helm-projectile helm-mode-manager helm-make helm-hoogle helm-gitignore helm-flx helm-descbinds helm-css-scss helm-company helm-c-yasnippet helm-ag hc-zenburn-theme haskell-snippets gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme google-translate golden-ratio github-search github-clone github-browse-file gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ gist gh-md gandalf-theme flycheck-pos-tip flycheck-mix flycheck-haskell flx-ido flatui-theme flatland-theme fish-mode firebelly-theme fill-column-indicator feature-mode farmhouse-theme fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-tutor evil-terminal-cursor-changer evil-surround evil-search-highlight-persist evil-numbers evil-mc evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-commentary evil-cleverparens evil-args evil-anzu espresso-theme eshell-z eshell-prompt-extras esh-help erlang ensime emmet-mode elisp-slime-nav dumb-jump dracula-theme django-theme diff-hl darktooth-theme darkokai-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme company-web company-tern company-statistics company-shell company-restclient company-quickhelp company-ghci company-ghc company-cabal column-enforce-mode color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized color-identifiers-mode coffee-mode cmm-mode clues-theme clojure-snippets clj-refactor clean-aindent-mode cider-eval-sexp-fu chruby cherry-blossom-theme busybee-theme bundler bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme auto-yasnippet auto-highlight-symbol auto-compile arduino-mode apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes alchemist aggressive-indent afternoon-theme adaptive-wrap ace-window ace-link ace-jump-helm-line ac-ispell)))
  '(paradox-github-token t)
  '(ring-bell-function (quote ignore))
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
@@ -482,4 +491,5 @@ layers configuration. You are free to put any user code."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:background nil)))))
+ )
+)
