@@ -16,3 +16,4 @@
 .htoprc
 .config/git
 .config/omf/weather/
+.tmuxinator/bonsai.yml
