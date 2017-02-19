@@ -86,7 +86,8 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages then consider to create a layer, you can also put the
    ;; configuration in `dotspacemacs/config'.
-   dotspacemacs-additional-packages '(evil-terminal-cursor-changer)
+   dotspacemacs-additional-packages '(all-the-icons
+                                      evil-terminal-cursor-changer)
    ;; A list of packages and/or extensions that will not be install and loaded.
    ;; dotspacemacs-excluded-packages '(pbcopy)
    ;; dotspacemacs-excluded-packages '(pbcopy evil-unimpaired)
@@ -338,12 +339,15 @@ user code."
  This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
 
+
   (require 'ensime)
   (setq magit-repository-directories '("~/Developer/"))
   (global-git-commit-mode t)
 
   (setq vc-follow-symlinks t)
   ;; (setq powerline-default-separator nil)
+  (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+  ;; (setq neo-theme 'icons)
   (setq neo-show-hidden-files nil)
   (define-key evil-normal-state-map "+" 'evil-numbers/inc-at-pt)
   (define-key evil-normal-state-map "-" 'evil-numbers/dec-at-pt)
