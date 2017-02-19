@@ -72,7 +72,7 @@ values."
                                        github
                                        restclient
                                        colors
-                                       vim-powerline
+                                       ;; vim-powerline
                                        evil-cleverparens
                                        yaml
                                        ;; terraform
@@ -391,7 +391,73 @@ layers configuration. You are free to put any user code."
 
   (unless (display-graphic-p (selected-frame))
     (set-face-background 'default "unspecified-bg" (selected-frame)))
-  )
+
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;STATUSLINE CI;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+  (require 'magithub-ci)
+
+  (spacemacs/set-leader-keys "oci" 'magithub-ci-visit)
+
+  (defvar ci-last-status nil
+    "Last ci status")
+
+  (defface ci-status-failure-face '((t :inherit error))
+    "Face for critical battery status"
+    :group 'ci-status)
+
+  (defface ci-status-success-face '((t :inherit success))
+    "Face for charging battery status."
+    :group 'ci-status)
+
+  (defface ci-status-pending-face '((t :inherit warning))
+    "Face for charging battery status."
+    :group 'ci-status)
+
+  (defun ci-status-face (ci-status)
+    "Returns face for ci status"
+    (pcase ci-status
+      ('success 'ci-status-success-face)
+      ('pending 'ci-status-pending-face)
+      ('failure 'ci-status-failure-face)
+      ('error   'ci-status-failure-face)
+      (_        'bold)))
+
+  (defun ci-status-message (ci-status)
+    "Returns face for ci status"
+    (pcase ci-status
+      ('success "✔")
+      ('pending "●")
+      ('failure "✖")
+      ('error   "✖")
+      (_        "-")))
+
+  (defun ci-status-applicable (ci-status)
+    (member ci-status '(success pending error failure)))
+
+  (defun ci-status-update ()
+    "Update ci-status"
+    (when (and (magithub-ci-enabled-p)
+               (magithub-usable-p)))
+    (let* ((checks (magithub-ci-status))
+           (status (if (consp checks) (plist-get (car checks) :status) checks)))
+      (setq ci-last-status
+            (if (ci-status-applicable status) status nil))))
+
+  (spaceline-define-segment ci-status
+    "Displays current commit ci status"
+    (when ci-last-status
+      (let* ((status-message (ci-status-message ci-last-status))
+             (status-face (ci-status-face ci-last-status)))
+        (propertize
+         (concat "ci:" status-message) 'face status-face))))
+
+  (spaceline-spacemacs-theme 'ci-status)
+
+  (run-with-timer 0 30 'ci-status-update)
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+)
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
