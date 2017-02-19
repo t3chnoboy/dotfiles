@@ -321,6 +321,11 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
   ;; (add-hook 'react-mode-hook 'emmet-mode)
+  (setq cider-cljs-lein-repl
+        "(do (require 'figwheel-sidecar.repl-api)
+           (figwheel-sidecar.repl-api/start-figwheel!)
+           (figwheel-sidecar.repl-api/cljs-repl))")
+
   (setq-default org-agenda-files '("~/Documents/org"))
   ;; Persistent undo
   (setq undo-tree-auto-save-history t)
