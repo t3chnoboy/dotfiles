@@ -1,11 +1,13 @@
 (defconst t3chnoboy-packages
   '(
-    ;; osx-clipboard
+    kubernetes
+    kubernetes-evil
+    thrift
+    jsonnet-mode
     ;; skewer-mode
     ;; know-your-http-well
     ;; hackernews
     ;; clojure-cheatsheet
-    ;; dockerfile-mode
     ;; sx
     ;; jade-mode
     ;; speed-type
@@ -43,10 +45,35 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
+(defun t3chnoboy/init-kubernetes ()
+  (use-package kubernetes
+    :defer t
+    ;; Autoload for 'kubernetes-overview is defined in "kubernetes-overview.el".
+    :after kubernetes-overview
+    :init
+    (spacemacs/set-leader-keys "aK" 'kubernetes-overview)
+    )
+  )
+
+(defun t3chnoboy/init-kubernetes-evil ()
+  (use-package kubernetes-evil
+    :defer t
+    :after kubernetes
+    )
+  )
+
+(defun t3chnoboy/init-thrift ()
+  (use-package thrift :defer t))
+
+(defun t3chnoboy/init-jsonnet-mode ()
+  (use-package jsonnet-mode :defer t))
+
+
 ;; (defun t3chnoboy/init-osx-clipboard ()
 ;;        (use-package osx-clipboard
 ;;          :config
 ;;          (progn
 ;;            (osx-clipboard-mode +1)
 ;;                  (diminish 'osx-clipboard-mode))))
+
 ;;; packages.el ends here
