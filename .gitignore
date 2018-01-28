@@ -17,3 +17,9 @@
 .config/git
 .config/omf/weather/
 .tmuxinator/bonsai.yml
+.config/fish/functions/
+.config/karabiner/assets/
+.config/fish/fishd.00254bcc0be8
+.config/fish/fishd.9801a7a0ee67
+.config/fish/conf.d/
+.config/fish/completions/
