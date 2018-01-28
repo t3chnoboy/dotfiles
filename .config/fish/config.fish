@@ -1,5 +1,5 @@
 #editor
-set -x EDITOR emacs
+set -x EDITOR emacsclient
 
 # set -g __fish_git_prompt_char_dirtystate '+'
 
@@ -7,9 +7,10 @@ set -x EDITOR emacs
 source ~/.dotfiles/.private.fish
 
 # Aliases
+alias emacs="emacsclient -nw"
 alias :q=exit
 alias :wq=exit
-alias :e=vim
+alias :e=emacsclient
 alias gs="git st"
 alias gc="git commit -m"
 alias gl="git lg"
@@ -23,3 +24,6 @@ alias gpu="git pull"
 alias rm!="rm -rf"
 alias v="vim ."
 alias l="ls -f"
+
+# GPG
+set -x GPG_TTY (tty)
