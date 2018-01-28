@@ -1,11 +1,11 @@
 [user]
 	name = Dmitry Mazuro
 	email = dmitry.mazuro@icloud.com
-	signingkey = 3DA5429C146DD21E
+	signingkey = BBA8D11E
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = emacs --no-window-system
-	pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -R
+	pager = diff-so-fancy | less --tabs=1,5 -RFX
 [diff]
 			tool = vimdiff
 [merge]
