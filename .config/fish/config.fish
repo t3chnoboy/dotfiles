@@ -1,11 +1,25 @@
-# Path to Oh My Fish install.
-set -q XDG_DATA_HOME
-  and set -gx OMF_PATH "$XDG_DATA_HOME/omf"
-  or set -gx OMF_PATH "$HOME/.local/share/omf"
+#editor
+set -x EDITOR emacs
 
+# set -g __fish_git_prompt_char_dirtystate '+'
+
+# Private stuff
 source ~/.dotfiles/.private.fish
-# Customize Oh My Fish configuration path.
-set -gx OMF_CONFIG "/Users/dmitrymazuro/.config/omf"
 
-# Load oh-my-fish configuration.
-source $OMF_PATH/init.fish
+# Aliases
+alias :q=exit
+alias :wq=exit
+alias :e=vim
+alias gs="git st"
+alias gc="git commit -m"
+alias gl="git lg"
+alias ga="git add"
+alias gd="git diff"
+alias gp="git push"
+alias gcm="git checkout master"
+alias gst="git stash"
+alias gcb="git checkout -b"
+alias gpu="git pull"
+alias rm!="rm -rf"
+alias v="vim ."
+alias l="ls -f"
