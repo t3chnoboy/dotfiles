@@ -45,22 +45,33 @@ Each entry is either:
       - A list beginning with the symbol `recipe' is a melpa
         recipe.  See: https://github.com/milkypostman/melpa#recipe-format")
 
+;; (defun t3chnoboy/init-kubernetes ()
+;;   (use-package kubernetes
+;;     :defer t
+;;     ;; Autoload for 'kubernetes-overview is defined in "kubernetes-overview.el".
+;;     :after kubernetes-overview
+;;     :init
+;;     (spacemacs/set-leader-keys "aK" 'kubernetes-overview)
+;;     )
+;;   )
+
+;; (defun t3chnoboy/init-kubernetes-evil ()
+;;   (use-package kubernetes-evil
+;;     :defer t
+;;     :after kubernetes
+;;     )
+;;   )
+
 (defun t3chnoboy/init-kubernetes ()
   (use-package kubernetes
     :defer t
     ;; Autoload for 'kubernetes-overview is defined in "kubernetes-overview.el".
-    :after kubernetes-overview
-    :init
-    (spacemacs/set-leader-keys "aK" 'kubernetes-overview)
-    )
-  )
+    ;; Add an autoload for the whole 'kubernetes package when kubernetes-overview is called.
+    :commands (kubernetes-overview)
+    :init (spacemacs/set-leader-keys "aK" 'kubernetes-overview)))
 
 (defun t3chnoboy/init-kubernetes-evil ()
-  (use-package kubernetes-evil
-    :defer t
-    :after kubernetes
-    )
-  )
+  (use-package kubernetes-evil :after kubernetes-overview))
 
 (defun t3chnoboy/init-thrift ()
   (use-package thrift :defer t))
