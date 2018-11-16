@@ -27,3 +27,6 @@ alias l="ls -f"
 
 # GPG
 set -x GPG_TTY (tty)
+
+alias kubenv="eval (minikube docker-env)"
+status --is-interactive; and source (rbenv init -|psub)
