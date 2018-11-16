@@ -29,7 +29,7 @@ This function should only modify configuration layer settings."
    ;; If non-nil layers with lazy install support are lazy installed.
    ;; List of additional paths where to look for configuration layers.
    ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
-   dotspacemacs-configuration-layer-path '()
+   dotspacemacs-configuration-layer-path '("~/.dotfiles/.emacs.d/private/")
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
@@ -48,7 +48,8 @@ This function should only modify configuration layer settings."
      ;; org
      ;; spell-checking
      syntax-checking
-     version-control
+     (version-control :variables
+                      version-control-diff-tool 'git-gutter)
      csv
      t3chnoboy ;; k8s, thrift
      python
@@ -91,8 +92,10 @@ This function should only modify configuration layer settings."
      (go :variables go-tab-width 2)
      tmux
      (ruby :variables
-           ;; ruby-version-manager 'rbenv
-           ruby-test-runner 'rspec)
+           ruby-version-manager 'rbenv
+           ruby-enable-enh-ruby-mode t
+           ;; ruby-test-runner 'rspec
+           )
      ruby-on-rails
      ;; finance
      ;; prodigy
@@ -101,8 +104,7 @@ This function should only modify configuration layer settings."
      sql
      (git :variables
           git-magit-status-fullscreen t
-          git-enable-github-support t
-          git-gutter-use-fringe t)
+          )
      github
      restclient
      colors
@@ -525,12 +527,13 @@ configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
 
-  (setq undo-tree-auto-save-history t)
-  (setq undo-tree-auto-save-history t
-        undo-tree-history-directory-alist
-        `(("." . ,(concat spacemacs-cache-directory "undo"))))
-  (unless (file-exists-p (concat spacemacs-cache-directory "undo"))
-    (make-directory (concat spacemacs-cache-directory "undo")))
+  ;; (setq neo-vc-integration '(char face))
+  ;; (setq undo-tree-auto-save-history t)
+  ;; (setq undo-tree-auto-save-history t
+  ;;       undo-tree-history-directory-alist
+  ;;       `(("." . ,(concat spacemacs-cache-directory "undo"))))
+  ;; (unless (file-exists-p (concat spacemacs-cache-directory "undo"))
+  ;;   (make-directory (concat spacemacs-cache-directory "undo")))
 
   (setq cider-cljs-lein-repl
         "(do (require 'figwheel-sidecar.repl-api)
@@ -549,6 +552,8 @@ before packages are loaded."
   (global-git-commit-mode t)
 
   (setq vc-follow-symlinks t)
+
+  (setq js-indent-level 2)
 
   (setq powerline-default-separator nil)
   ;; (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
@@ -578,7 +583,6 @@ before packages are loaded."
     (add-to-list 'web-mode-indentation-params '("lineup-concats" . nil))
     (add-to-list 'web-mode-indentation-params '("lineup-calls" . nil)))
   ;; (spacemacs/toggle-automatic-symbol-highlight-on)
-  (add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
   (custom-theme-set-faces
    'majapahit-dark
    '(font-lock-comment-face ((t (:foreground "#DFAF8F")))))
