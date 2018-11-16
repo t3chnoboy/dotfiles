@@ -29,7 +29,7 @@ This function should only modify configuration layer settings."
    ;; If non-nil layers with lazy install support are lazy installed.
    ;; List of additional paths where to look for configuration layers.
    ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
-   dotspacemacs-configuration-layer-path '()
+   dotspacemacs-configuration-layer-path '("~/.dotfiles/.emacs.d/private/")
 
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
@@ -54,10 +54,9 @@ This function should only modify configuration layer settings."
      python
      ;; prodigy-config
      ;; evil-snipe
-     purescript
+     ;; purescript
      typescript
      java
-     kotlin
      parinfer
      ;; osx
      ;;                                        (auto-completion :variables
@@ -544,7 +543,9 @@ before packages are loaded."
   (setq require-final-newline t
         mode-require-final-newline t)
 
-  (setq magit-repository-directories '("~/Developer/"))
+  (setq magit-repository-directories
+        '(("~/.dotfiles" . 0)
+          ("~/Developer" . 3)))
 
   (global-git-commit-mode t)
 
@@ -578,7 +579,7 @@ before packages are loaded."
     (add-to-list 'web-mode-indentation-params '("lineup-concats" . nil))
     (add-to-list 'web-mode-indentation-params '("lineup-calls" . nil)))
   ;; (spacemacs/toggle-automatic-symbol-highlight-on)
-  (add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
+  (add-to-list 'auto-mode-alist '("\\.js\\'" . rjsx-mode))
   (custom-theme-set-faces
    'majapahit-dark
    '(font-lock-comment-face ((t (:foreground "#DFAF8F")))))
