@@ -1,5 +1,5 @@
 #editor
-set -x EDITOR emacsclient
+set -x EDITOR emacs
 
 # set -g __fish_git_prompt_char_dirtystate '+'
 
@@ -7,7 +7,7 @@ set -x EDITOR emacsclient
 source ~/.dotfiles/.private.fish
 
 # Aliases
-alias emacs="emacsclient -nw"
+alias emacs="emacs -nw"
 alias :q=exit
 alias :wq=exit
 alias :e=emacsclient
@@ -24,6 +24,13 @@ alias gpu="git pull"
 alias rm!="rm -rf"
 alias v="vim ."
 alias l="ls -f"
+alias k=kubectl
+alias getpod="kubectl get --no-headers=true pods -o custom-columns=:metadata.name | fzf"
+alias copypod="kubectl get --no-headers=true pods -o custom-columns=:metadata.name | fzf | pbcopy"
+alias gitsha="git rev-parse HEAD"
+alias watchpods="watch kubectl get pods"
 
 # GPG
 set -x GPG_TTY (tty)
+
+set fish_greeting
