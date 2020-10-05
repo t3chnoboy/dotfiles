@@ -25,3 +25,9 @@
 	insteadOf = "https://github.com/"
 [commit]
 	gpgsign = true
+[magithub]
+	online = false
+[magithub "status"]
+	includeStatusHeader = false
+	includePullRequestsSection = false
+	includeIssuesSection = false
