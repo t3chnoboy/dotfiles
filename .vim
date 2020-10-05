@@ -1,1 +1,0 @@
-/Users/dzmitrymazura/.vim
