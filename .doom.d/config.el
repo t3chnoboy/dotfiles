@@ -66,6 +66,9 @@
   (setq evil-normal-state-cursor 'hbar); _
   )
 
+(custom-set-faces!
+  '(flycheck-error  :foreground "red" :weight bold))
+
 (map! :leader
       :desc    "Previous buffer"     "TAB"   #'previous-buffer
       :desc    "Project search"      "/"     #'+default/search-project
