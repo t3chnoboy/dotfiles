@@ -1,13 +1,6 @@
 # This tmux statusbar config was created by tmuxline.vim
 # on Sun, 16 Mar 2014
 
-# /Users/dzmitrymazura/.tmuxline:12: invalid option: status-right-attr
-# /Users/dzmitrymazura/.tmuxline:15: invalid option: status-attr
-# /Users/dzmitrymazura/.tmuxline:17: invalid option: status-left-attr
-# /Users/dzmitrymazura/.tmuxline:19: invalid option: window-status-attr
-# /Users/dzmitrymazura/.tmuxline:21: invalid option: window-status-activity-attr
-
-
 set -g status-style bg='colour234'
 set -g message-command-style fg='colour231'
 set -g status-justify 'left'
