@@ -67,7 +67,7 @@
   )
 
 (custom-set-faces!
-  '(flycheck-error  :foreground "red" :weight bold))
+  '(flycheck-error  :foreground "red" :underline (:color "red") :weight bold))
 
 (map! :leader
       :desc    "Previous buffer"     "TAB"   #'previous-buffer
