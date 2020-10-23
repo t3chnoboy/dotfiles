@@ -52,6 +52,8 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+(setq confirm-kill-emacs nil)
+
 (global-subword-mode 1)
 
 (after! evil-snipe
@@ -69,10 +71,16 @@
 (custom-set-faces!
   '(flycheck-error  :foreground "red" :underline (:color "red") :weight bold))
 
+;; (use-package! tmux-pane
+;;   :init (tmux-pane-mode))
+
 (map! :leader
       :desc    "Previous buffer"     "TAB"   #'previous-buffer
       :desc    "Project search"      "/"     #'+default/search-project
       :desc    "Toggle file tree"    "f t"   #'neotree-toggle
       :desc    "Command search"      "SPC"   #'counsel-M-x
       :desc    "Switch buffer"       "b b"   #'+ivy/switch-buffer
+      :desc    "Open in browser"     "g l l" #'browse-at-remote
+      :desc    "Git blame"           "g b"   #'magit-blame
+      :desc    "Switch git branch"   "g B"   #'magit-checkout
       )
