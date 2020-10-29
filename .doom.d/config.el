@@ -74,8 +74,26 @@
 ;; (use-package! tmux-pane
 ;;   :init (tmux-pane-mode))
 
+(defun spacemacs/alternate-buffer (&optional window)
+  "Switch back and forth between current and last buffer in the
+current window."
+  (interactive)
+  (let ((current-buffer (window-buffer window))
+        (buffer-predicate
+         (frame-parameter (window-frame window) 'buffer-predicate)))
+    ;; switch to first buffer previously shown in this window that matches
+    ;; frame-parameter `buffer-predicate'
+    (switch-to-buffer
+     (or (cl-find-if (lambda (buffer)
+                       (and (not (eq buffer current-buffer))
+                            (or (null buffer-predicate)
+                                (funcall buffer-predicate buffer))))
+                     (mapcar #'car (window-prev-buffers window)))
+         ;; `other-buffer' honors `buffer-predicate' so no need to filter
+         (other-buffer current-buffer t)))))
+
 (map! :leader
-      :desc    "Previous buffer"     "TAB"   #'previous-buffer
+      :desc    "Previous buffer"     "TAB"   #'spacemacs/alternate-buffer
       :desc    "Project search"      "/"     #'+default/search-project
       :desc    "Toggle file tree"    "f t"   #'neotree-toggle
       :desc    "Command search"      "SPC"   #'counsel-M-x
