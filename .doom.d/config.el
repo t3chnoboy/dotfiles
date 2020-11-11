@@ -102,3 +102,12 @@ current window."
       :desc    "Git blame"           "g b"   #'magit-blame
       :desc    "Switch git branch"   "g B"   #'magit-checkout
       )
+
+(setq typescript-indent-level              2
+      typescript-expr-indent-offset        2
+      web-mode-code-indent-offset          2
+      web-mode-markup-indent-offset        2
+      )
+
+(custom-set-variables
+ '(git-gutter:modified-sign "~"))
