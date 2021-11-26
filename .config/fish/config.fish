@@ -6,8 +6,12 @@ set -x EDITOR emacs
 # Private stuff
 source ~/.dotfiles/.private.fish
 
+fish_add_path /opt/homebrew/bin
+fish_add_path /Users/dmazuro/.emacs.d/bin
+
+
 # Aliases
-alias emacs="emacs -nw"
+# alias emacs="emacs -nw"
 alias :q=exit
 alias :wq=exit
 alias :e=emacsclient
@@ -59,3 +63,5 @@ set fish_cursor_visual      block
 if type -q fizzygit
     fizzygit
 end
+
+
