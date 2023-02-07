@@ -50,3 +50,5 @@
 ;(unpin! t)
 
 ;; (package! tmux-pane)
+(package! protobuf-mode)
+;; (package! deadgrep)

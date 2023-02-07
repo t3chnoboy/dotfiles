@@ -112,5 +112,9 @@ current window."
       )
 (setq +format-with-lsp nil)
 
+(add-hook 'go-mode-hook #'format-all-mode)
+
 (custom-set-variables
  '(git-gutter:modified-sign "~"))
+
+(after! restclient (require 'gnutls))
