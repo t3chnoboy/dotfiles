@@ -27,3 +27,4 @@
 .vim
 .spacevim
 .config/iterm2/AppSupport/*
+.doom.d/modules/private/
